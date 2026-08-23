@@ -2,62 +2,101 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Quiz CCNA - Module</title>
+  <title>Quiz CCNA · CCNA Révisions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="icon" href="../img/routeur.png" type="image/png">
-  <!-- Bootstrap & Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://ccna-revision.fr/css/quiz.css">
-  <script src="https://ccna-revision.fr/script/quiz.js" defer></script>
-
+  <meta name="description" content="Quiz interactif de révision Cisco : correction immédiate, suivi du score et rejeu des questions ratées.">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#1657c7">
+  <link rel="icon" href="/img/routeur.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    window.__ROOT__ = "/";
+    (function(){ try { var t = localStorage.getItem("ccna-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch(e){} })();
+  </script>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
-    <div class="container">
-      <a class="navbar-brand" href="https://ccna-revision.fr/">📘 CCNA Révisions</a>
-    </div>
-  </nav>
+  <div id="nav-slot"></div>
 
-  <!-- Quiz Section -->
-  <div class="container">
-    <div id="quiz-section">
-      <div class="quiz-card card p-4">
-        <h2 class="text-center mb-4" id="quiz-title">Quiz</h2>
-        <div id="question-box">
-          <p class="fw-bold fs-5" id="question-text"></p>
-          <img id="question-image" class="img-fluid my-3 d-none rounded shadow-sm d-block mx-auto" alt="Illustration de la question">
-          <div id="choices" class="d-grid gap-2 mt-3"></div>
+  <main class="container page">
+    <div class="quiz-wrap">
+
+      <div id="loader" class="loader">
+        <div class="spinner"></div>
+        <p>Chargement des questions…</p>
+      </div>
+
+      <div id="error-box" class="card" style="display:none;text-align:center">
+        <h1 id="error-title" style="font-size:1.3rem">Erreur de chargement</h1>
+        <p id="error-msg" style="color:var(--text-muted)">Impossible de charger les questions.</p>
+        <div style="display:flex;gap:10px;justify-content:center;margin-top:8px">
+          <button class="btn btn--primary" onclick="location.reload()">Réessayer</button>
+          <a class="btn btn--ghost" href="/index.html">Accueil</a>
+        </div>
+      </div>
+
+      <section id="quiz" style="display:none">
+        <div class="quiz-head">
+          <nav class="breadcrumb" style="margin-bottom:12px" aria-label="Fil d’Ariane">
+            <a href="/index.html">Accueil</a> <span class="sep"></span>
+            <a id="bc-course" href="#">Parcours</a> <span class="sep"></span>
+            <span id="bc-module">Quiz</span>
+          </nav>
+          <div class="quiz-head__bar">
+            <h1 class="quiz-head__title" id="quiz-title">Quiz</h1>
+            <span class="quiz-head__count" id="quiz-count">Question 1</span>
+          </div>
+          <div class="quiz-progress"><div class="quiz-progress__fill" id="quiz-fill"></div></div>
         </div>
 
-        <!-- ✅ Correction : Feedback à gauche, bouton à droite -->
-        <div id="result-box" class="mt-4 d-none">
-          <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
-            <p id="feedback" class="fs-5 m-0"></p>
-            <button class="btn btn-primary ms-auto" onclick="nextQuestion()">Question suivante</button>
+        <div class="quiz-stats">
+          <div class="qstat qstat--ok"><b id="stat-ok">0</b><span>Réussies</span></div>
+          <div class="qstat qstat--ko"><b id="stat-ko">0</b><span>Ratées</span></div>
+          <div class="qstat"><b id="stat-left">0</b><span>Restantes</span></div>
+        </div>
+
+        <article class="qcard fade-in" id="qcard">
+          <span class="qtag" id="q-tag"></span>
+          <p class="qtext" id="q-text"></p>
+          <p class="qhint" id="q-multi" style="display:none"></p>
+          <img id="q-image" class="qimg" style="display:none" alt="Illustration de la question">
+          <div class="choices" id="q-choices"></div>
+
+          <div id="q-validate" style="display:none;margin-top:18px">
+            <button class="btn btn--primary" id="btn-validate">Valider ma réponse</button>
+          </div>
+
+          <div class="qfeedback" id="q-feedback" style="display:none">
+            <p class="qfeedback__txt" id="feedback-txt"></p>
+            <button class="btn btn--primary" id="btn-next">Suivant <span class="kbd">Espace</span></button>
+          </div>
+        </article>
+      </section>
+
+      <section id="recap" style="display:none">
+        <div class="recap__score fade-in">
+          <div class="ring" id="score-ring"><span class="ring__val" id="ring-val">0<small>%</small></span></div>
+          <p class="recap__msg" id="recap-msg"></p>
+          <p class="recap__sub" id="recap-sub"></p>
+          <div class="recap__actions">
+            <button class="btn btn--primary" id="btn-restart">Recommencer</button>
+            <button class="btn btn--ghost" id="btn-retry-wrong" style="display:none">Rejouer les erreurs</button>
+            <a class="btn btn--subtle" id="btn-back" href="/index.html">Retour au parcours</a>
           </div>
         </div>
+        <div class="mistakes" id="mistakes"></div>
+      </section>
 
-        <div class="text-end mt-4">
-          <small id="progress" class="text-muted">Question 1</small>
-        </div>
-      </div>
     </div>
+  </main>
 
-    <!-- Recap -->
-    <div id="recap-box" class="card shadow p-4 mt-5 d-none">
-      <h3 class="mb-3">📊 Résultats du quiz</h3>
-      <p id="score-text" class="fs-5 fw-semibold"></p>
-      <div id="mistake-list"></div>
+  <div id="footer-slot"></div>
 
-      <!-- Nouveaux boutons -->
-      <div class="d-flex justify-content-between mt-4">
-        <button class="btn btn-secondary" onclick="restartQuiz()">Recommencer</button>
-        <a class="btn btn-secondary" href="https://ccna-revision.fr/">Retour à l'accueil</a>
-      </div>
-    </div>
-  </div>
+  <script src="/js/curriculum.js"></script>
+  <script src="/js/icons.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/script/quiz.js"></script>
 </body>
 </html>

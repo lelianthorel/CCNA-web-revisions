@@ -1,186 +1,263 @@
-const params = new URLSearchParams(window.location.search);
-const ccna = params.get('ccna');
-const module = params.get('module');
+/* ==========================================================================
+   Moteur de quiz — feedback immédiat, stats live, raccourcis clavier,
+   sauvegarde du score, rejeu des questions ratées.
+   ========================================================================== */
+(function () {
+  mountChrome();
 
-document.getElementById("quiz-title").innerHTML = `Quiz ${ccna.toUpperCase()} - ${module}`;
+  const params = new URLSearchParams(location.search);
+  const ccna = params.get("ccna");
+  const moduleId = params.get("module");
 
-let questions = [];
-let current = 0;
-let total = 0;
-let score = 0;
-let wrongAnswers = [];
-let selectedIndices = [];
+  const meta = (window.CURRICULUM[ccna]?.modules || []).find(m => m.id === moduleId);
+  const courseMeta = window.CURRICULUM[ccna];
+  const label = courseMeta ? courseMeta.label : (ccna || "").toUpperCase();
+  const moduleName = meta ? meta.name : moduleId;
 
-const questionText = document.getElementById("question-text");
-const questionImage = document.getElementById("question-image");
-const choicesBox = document.getElementById("choices");
-const resultBox = document.getElementById("result-box");
-const feedback = document.getElementById("feedback");
-const progress = document.getElementById("progress");
-const recapBox = document.getElementById("recap-box");
-const scoreText = document.getElementById("score-text");
-const mistakeList = document.getElementById("mistake-list");
-const quizSection = document.getElementById("quiz-section");
+  // Éléments
+  const $ = id => document.getElementById(id);
+  const loader = $("loader"), errorBox = $("error-box"), quizEl = $("quiz"), recapEl = $("recap");
+  const qText = $("q-text"), qTag = $("q-tag"), qMulti = $("q-multi"), qImage = $("q-image"), choicesBox = $("q-choices");
+  const validateWrap = $("q-validate"), btnValidate = $("btn-validate");
+  const feedbackBox = $("q-feedback"), feedbackTxt = $("feedback-txt"), btnNext = $("btn-next");
+  const fill = $("quiz-fill"), countEl = $("quiz-count");
+  const statOk = $("stat-ok"), statKo = $("stat-ko"), statLeft = $("stat-left");
 
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
+  const LETTERS = "ABCDEFGHIJ";
+
+  // État
+  let all = [];        // toutes les questions (jeu complet mélangé)
+  let questions = [];  // jeu de travail courant
+  let current = 0, score = 0;
+  let wrong = [];      // { q, given, correct }
+  let selected = [];
+  let answered = false;
+
+  // Titre / fil d'ariane
+  $("quiz-title").textContent = `${label} · ${moduleName}`;
+  document.title = `Quiz ${label} — ${moduleName} · CCNA Révisions`;
+  const bcCourse = $("bc-course");
+  if (bcCourse && courseMeta) { bcCourse.textContent = label; bcCourse.href = `/${ccna}/`; }
+  $("bc-module").textContent = moduleName;
+  $("btn-back").href = courseMeta ? `/${ccna}/` : "/index.html";
+  $("btn-next").innerHTML = `Suivant <span class="kbd">Espace</span>`;
+
+  // ---------- Chargement ----------
+  fetch(`/data/${ccna}/${moduleId}.json`)
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      all = data.filter(q => q && q.choices && q.answers);
+      if (!all.length) throw new Error("vide");
+      startQuiz(all.slice());
+    })
+    .catch(() => {
+      loader.style.display = "none";
+      errorBox.style.display = "";
+    });
+
+  function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; }
+    return a;
   }
-}
 
-fetch(`https://ccna-revision.fr/data/${ccna}/${module}.json`)
-  .then(res => res.json())
-  .then(data => {
-    questions = data;
-    shuffleArray(questions);
-    total = questions.length;
+  function startQuiz(set) {
+    questions = shuffle(set.slice());
+    current = 0; score = 0; wrong = [];
+    loader.style.display = "none";
+    errorBox.style.display = "none";
+    recapEl.style.display = "none";
+    quizEl.style.display = "";
+    updateStats();
     loadQuestion();
-  })
-  .catch(() => {
-    document.getElementById("quiz-title").textContent = "Erreur de chargement";
-    questionText.textContent = "Impossible de charger les questions. Veuillez réessayer.";
-    const retryButton = document.createElement("button");
-    retryButton.textContent = "Réessayer";
-    retryButton.className = "btn btn-warning";
-    retryButton.onclick = () => location.reload();
-    questionText.appendChild(retryButton);
-  });
-
-function loadQuestion() {
-  const q = questions[current];
-  selectedIndices = [];
-  questionText.innerHTML = q.question;
-  choicesBox.innerHTML = "";
-  resultBox.classList.add("d-none");
-
-  // Affichage conditionnel de l'image
-  console.log(q);
-  if (q.image) {
-    questionImage.src = q.image;
-    questionImage.classList.remove("d-none");
-  } else {
-    questionImage.src = "";
-    questionImage.classList.add("d-none");
   }
 
-  q.choices.forEach((choice, index) => {
-    const btn = document.createElement("button");
-    btn.className = "btn btn-outline-secondary choice-btn";
-    btn.innerHTML = choice;
-    btn.dataset.index = index;
-    btn.onclick = () => toggleSelect(btn);
-    choicesBox.appendChild(btn);
-  });
+  function updateStats() {
+    statOk.textContent = score;
+    statKo.textContent = wrong.length;
+    statLeft.textContent = questions.length - current;
+  }
 
-  progress.textContent = `Question ${current + 1} sur ${total}`;
-}
+  function loadQuestion() {
+    const q = questions[current];
+    selected = [];
+    answered = false;
+    const multi = q.answers.length > 1;
 
-function toggleSelect(button) {
-  const index = parseInt(button.dataset.index);
-  const correctCount = questions[current].answers.length;
+    qTag.innerHTML = `${icon("book")} ${moduleName} · ${label}`;
+    qText.innerHTML = q.question;
 
-  if (correctCount === 1) {
-    selectedIndices = [index];
-    checkAnswer();
-  } else {
-    if (selectedIndices.includes(index)) {
-      selectedIndices = selectedIndices.filter(i => i !== index);
-      button.classList.remove("active");
+    if (multi) {
+      qMulti.style.display = "";
+      qMulti.innerHTML = `${icon("target")} Plusieurs bonnes réponses — choisis-en ${q.answers.length}, puis valide.`;
     } else {
-      selectedIndices.push(index);
-      button.classList.add("active");
+      qMulti.style.display = "none";
     }
 
-    if (selectedIndices.length === correctCount) {
-      checkAnswer();
+    if (q.image) { qImage.src = q.image; qImage.style.display = ""; qImage.alt = "Illustration : " + (q.question || "").replace(/<[^>]*>/g, "").slice(0, 80); }
+    else { qImage.style.display = "none"; qImage.removeAttribute("src"); }
+
+    choicesBox.innerHTML = "";
+    q.choices.forEach((choice, index) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "choice";
+      btn.dataset.index = index;
+      btn.innerHTML = `<span class="choice__mark"><span class="mk-letter">${LETTERS[index] || (index + 1)}</span><span class="mk-check">${icon("check")}</span></span><span class="choice__label">${choice}</span>`;
+      btn.addEventListener("click", () => onChoice(index));
+      choicesBox.appendChild(btn);
+    });
+
+    // Bouton valider seulement pour le multi
+    validateWrap.style.display = multi ? "" : "none";
+    btnValidate.disabled = true;
+    feedbackBox.style.display = "none";
+    feedbackBox.className = "qfeedback";
+
+    // Progression
+    countEl.textContent = `Question ${current + 1} / ${questions.length}`;
+    fill.style.width = (current / questions.length * 100) + "%";
+    updateStats();
+
+    // refocus card pour l'accessibilité
+    $("qcard").classList.remove("fade-in"); void $("qcard").offsetWidth; $("qcard").classList.add("fade-in");
+  }
+
+  function onChoice(index) {
+    if (answered) return;
+    const q = questions[current];
+    const multi = q.answers.length > 1;
+    const btn = choicesBox.querySelector(`[data-index="${index}"]`);
+
+    if (!multi) {
+      selected = [index];
+      check();
+    } else {
+      if (selected.includes(index)) { selected = selected.filter(i => i !== index); btn.classList.remove("is-selected"); }
+      else { selected.push(index); btn.classList.add("is-selected"); }
+      btnValidate.disabled = selected.length === 0;
     }
   }
-}
 
-function checkAnswer() {
-  const correctAnswers = questions[current].answers.sort();
-  const userAnswers = [...selectedIndices].sort();
+  btnValidate.addEventListener("click", () => { if (!answered && selected.length) check(); });
 
-  const allButtons = document.querySelectorAll(".choice-btn");
+  function check() {
+    answered = true;
+    const q = questions[current];
+    const correct = [...q.answers].sort((a, b) => a - b);
+    const user = [...selected].sort((a, b) => a - b);
 
-  allButtons.forEach(btn => {
-    btn.disabled = true;
-    const idx = parseInt(btn.dataset.index);
-    if (correctAnswers.includes(idx)) btn.classList.add("correct");
-    if (userAnswers.includes(idx) && !correctAnswers.includes(idx)) btn.classList.add("wrong");
+    choicesBox.querySelectorAll(".choice").forEach(btn => {
+      btn.disabled = true;
+      const idx = +btn.dataset.index;
+      btn.classList.remove("is-selected");
+      if (correct.includes(idx)) btn.classList.add("correct");
+      else if (user.includes(idx)) btn.classList.add("wrong");
+    });
+
+    validateWrap.style.display = "none";
+
+    const ok = JSON.stringify(correct) === JSON.stringify(user);
+    if (ok) {
+      score++;
+      feedbackBox.className = "qfeedback ok";
+      feedbackTxt.innerHTML = `${icon("check")} Bonne réponse !`;
+    } else {
+      feedbackBox.className = "qfeedback ko";
+      feedbackTxt.innerHTML = `${icon("x")} Mauvaise réponse`;
+      wrong.push({
+        question: q.question,
+        image: q.image || null,
+        choices: q.choices,
+        answers: q.answers,
+        given: user.map(i => q.choices[i]).join(" · ") || "(aucune)",
+        correct: correct.map(i => q.choices[i]).join(" · ")
+      });
+    }
+    feedbackBox.style.display = "";
+    updateStats();
+    btnNext.focus();
+  }
+
+  btnNext.addEventListener("click", next);
+  function next() {
+    if (!answered) return;
+    current++;
+    if (current < questions.length) loadQuestion();
+    else showRecap();
+  }
+
+  // ---------- Récapitulatif ----------
+  function showRecap() {
+    quizEl.style.display = "none";
+    recapEl.style.display = "";
+    fill.style.width = "100%";
+
+    const total = questions.length;
+    const pct = total ? Math.round(score / total * 100) : 0;
+
+    // Sauvegarde du meilleur score (uniquement sur un tour complet du module)
+    if (total === all.length) saveModuleResult(ccna, moduleId, score, total);
+
+    const ring = $("score-ring");
+    const color = pct >= 80 ? "var(--success)" : pct >= 50 ? "var(--primary)" : "var(--danger)";
+    ring.style.setProperty("--ring-color", color);
+    $("ring-val").innerHTML = `${pct}<small>%</small>`;
+    requestAnimationFrame(() => ring.style.setProperty("--p", pct));
+
+    let msg, sub;
+    if (pct >= 90) { msg = "Excellent"; sub = "Tu maîtrises ce module."; }
+    else if (pct >= 70) { msg = "Bien joué"; sub = "Encore un petit effort sur les erreurs."; }
+    else if (pct >= 50) { msg = "Continue comme ça"; sub = "Revois les questions ratées pour progresser."; }
+    else { msg = "À retravailler"; sub = "Rejoue les erreurs pour t’améliorer."; }
+    $("recap-msg").textContent = msg;
+    $("recap-sub").textContent = `${score} bonne${score > 1 ? "s" : ""} réponse${score > 1 ? "s" : ""} sur ${total}. ${sub}`;
+
+    // Liste des erreurs
+    const mistakesEl = $("mistakes");
+    if (wrong.length) {
+      mistakesEl.innerHTML =
+        `<h2>${icon("x")} Questions à revoir (${wrong.length})</h2>` +
+        wrong.map(w => `
+          <div class="mistake">
+            <p class="mistake__q">${w.question}</p>
+            <div class="mistake__line"><b>Ta réponse :</b> <span class="mistake__given">${w.given}</span></div>
+            <div class="mistake__line"><b>Bonne réponse :</b> <span class="mistake__correct">${w.correct}</span></div>
+          </div>`).join("");
+      $("btn-retry-wrong").style.display = "";
+    } else {
+      mistakesEl.innerHTML = `<div class="empty-good">${icon("check")} Aucune erreur sur ce quiz.</div>`;
+      $("btn-retry-wrong").style.display = "none";
+    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  $("btn-restart").addEventListener("click", () => startQuiz(all.slice()));
+  $("btn-retry-wrong").addEventListener("click", () => {
+    const set = wrong.map(w => ({ question: w.question, choices: w.choices, answers: w.answers, image: w.image }));
+    if (set.length) { toast("Révision des " + set.length + " question(s) ratée(s)"); startQuiz(set); }
   });
 
-  const isCorrect = JSON.stringify(correctAnswers) === JSON.stringify(userAnswers);
+  // ---------- Raccourcis clavier ----------
+  document.addEventListener("keydown", e => {
+    if (recapEl.style.display !== "none" || quizEl.style.display === "none") return;
+    const tag = (e.target.tagName || "").toLowerCase();
+    if (tag === "input" || tag === "textarea") return;
 
-  if (isCorrect) {
-    feedback.textContent = "✅ Bonne réponse !";
-    feedback.className = "text-success";
-    score++;
-  } else {
-    feedback.textContent = "❌ Mauvaise réponse.";
-    feedback.className = "text-danger";
-    const givenLabels = userAnswers.map(i => questions[current].choices[i]);
-    const correctLabels = correctAnswers.map(i => questions[current].choices[i]);
-    wrongAnswers.push({
-      question: questions[current].question,
-      given: givenLabels.join(', '),
-      correct: correctLabels.join(', ')
-    });
-  }
+    // Suivant : Espace / Entrée quand la réponse est validée
+    if (answered && (e.code === "Space" || e.key === "Enter")) { e.preventDefault(); next(); return; }
+    if (answered) return;
 
-  resultBox.classList.remove("d-none");
-}
+    const q = questions[current];
+    const multi = q.answers.length > 1;
 
-function nextQuestion() {
-  current++;
-  if (current < total) {
-    loadQuestion();
-  } else {
-    showRecap();
-  }
-}
+    // Valider (multi) avec Entrée
+    if (multi && e.key === "Enter" && selected.length) { e.preventDefault(); check(); return; }
 
-function showRecap() {
-  quizSection.classList.add("d-none");
-  recapBox.classList.remove("d-none");
-  scoreText.textContent = `Tu as eu ${score} bonne${score > 1 ? 's' : ''} sur ${total}.`;
-
-  if (wrongAnswers.length > 0) {
-    const list = document.createElement("ul");
-    list.className = "list-group mt-3";
-
-    wrongAnswers.forEach(item => {
-      const li = document.createElement("li");
-      li.className = "list-group-item";
-      li.innerHTML = `
-        <strong>Question :</strong> ${item.question}<br>
-        <span class="text-danger"><strong>Ta réponse :</strong> ${item.given}</span><br>
-        <span class="text-success"><strong>Bonne réponse :</strong> ${item.correct}</span>
-      `;
-      list.appendChild(li);
-    });
-
-    mistakeList.innerHTML = `<h5 class="mt-4">❌ Questions ratées :</h5>`;
-    mistakeList.appendChild(list);
-  } else {
-    mistakeList.innerHTML = `<p class="text-success mt-3">Aucune erreur ! 🎉</p>`;
-  }
-}
-
-function restartQuiz() {
-  current = 0;
-  score = 0;
-  wrongAnswers = [];
-  shuffleArray(questions);
-  loadQuestion();
-  recapBox.classList.add("d-none");
-  quizSection.classList.remove("d-none");
-}
-
-document.addEventListener("keydown", function (e) {
-  if ((e.code === "Space" || e.key === " ") && !resultBox.classList.contains("d-none")) {
-    e.preventDefault();
-    nextQuestion();
-  }
-});
+    // Sélection par lettre (A, B, …) ou chiffre (1, 2, …)
+    let idx = -1;
+    const up = e.key.toUpperCase();
+    if (LETTERS.includes(up) && up.charCodeAt(0) - 65 < q.choices.length) idx = up.charCodeAt(0) - 65;
+    else if (/^[1-9]$/.test(e.key) && +e.key <= q.choices.length) idx = +e.key - 1;
+    if (idx >= 0) { e.preventDefault(); onChoice(idx); }
+  });
+})();

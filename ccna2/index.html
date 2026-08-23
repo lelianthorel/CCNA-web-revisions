@@ -1,107 +1,215 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <title>CCNA2 – Modules</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="../img/routeur.png" type="image/png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://ccna-revision.fr/css/ccna2.css">
+  <meta charset="UTF-8">
+  <title>CCNA 2 — Commutation, routage et sans-fil · Quiz par module | CCNA Révisions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Révise le CCNA 2 (Commutation, routage et sans-fil) : 6 modules de quiz interactifs, 414 questions corrigées gratuites. VLAN, routage inter-VLAN, réseaux redondants, sécurité de couche 2 et WLAN.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#1657c7">
+  <link rel="canonical" href="https://ccna-revision.fr/ccna2/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CCNA Révisions">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="CCNA 2 — Commutation, routage et sans-fil · Quiz par module | CCNA Révisions">
+  <meta property="og:description" content="Révise le CCNA 2 (Commutation, routage et sans-fil) : 6 modules de quiz interactifs, 414 questions corrigées gratuites. VLAN, routage inter-VLAN, réseaux redondants, sécurité de couche 2 et WLAN.">
+  <meta property="og:url" content="https://ccna-revision.fr/ccna2/">
+  <meta property="og:image" content="https://ccna-revision.fr/img/routeur.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CCNA 2 — Commutation, routage et sans-fil · Quiz par module | CCNA Révisions">
+  <meta name="twitter:description" content="Révise le CCNA 2 (Commutation, routage et sans-fil) : 6 modules de quiz interactifs, 414 questions corrigées gratuites. VLAN, routage inter-VLAN, réseaux redondants, sécurité de couche 2 et WLAN.">
+  <link rel="icon" href="/img/routeur.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    window.__ROOT__ = "/";
+    (function(){ try { var t = localStorage.getItem("ccna-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch(e){} })();
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://ccna-revision.fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "CCNA 2",
+      "item": "https://ccna-revision.fr/ccna2/"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "CCNA 2 — Commutation, routage et sans-fil",
+  "description": "VLAN, routage inter-VLAN, réseaux redondants, sécurité de couche 2 et WLAN.",
+  "url": "https://ccna-revision.fr/ccna2/",
+  "inLanguage": "fr",
+  "isAccessibleForFree": true,
+  "provider": {
+    "@type": "Organization",
+    "name": "CCNA Révisions",
+    "url": "https://ccna-revision.fr/"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT497M"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Modules CCNA 2",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Modules 1 & 4 — Concepts de commutation, VLAN et routage inter-VLAN",
+      "url": "https://ccna-revision.fr/quiz/?ccna=ccna2&module=module1"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Modules 5 & 6 — Réseaux redondants",
+      "url": "https://ccna-revision.fr/quiz/?ccna=ccna2&module=module2"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Modules 7 & 9 — Réseaux disponibles et fiables",
+      "url": "https://ccna-revision.fr/quiz/?ccna=ccna2&module=module3"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Modules 10 & 13 — Sécurité de couche 2 et réseau sans fil (WLAN)",
+      "url": "https://ccna-revision.fr/quiz/?ccna=ccna2&module=module4"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Modules 14 & 16 — Concepts de routage et configuration",
+      "url": "https://ccna-revision.fr/quiz/?ccna=ccna2&module=module5"
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "Examen final — Examen final du cours CCNA 2",
+      "url": "https://ccna-revision.fr/quiz/?ccna=ccna2&module=module6"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
-    <div class="container">
-      <a class="navbar-brand" href="../index.html">CCNA Révisions</a>
+  <div id="nav-slot"></div>
+
+  <main class="container page">
+    <header class="page-head">
+      <nav class="breadcrumb" aria-label="Fil d’Ariane">
+        <a href="/index.html">Accueil</a> <span class="sep"></span> <span>CCNA 2</span>
+      </nav>
+      <span class="eyebrow">CCNA 2</span>
+      <h1>Commutation, routage et sans-fil</h1>
+      <p>VLAN, routage inter-VLAN, réseaux redondants, sécurité de couche 2 et WLAN.</p>
+      <p class="track__stat" id="course-stat">6 modules · 414 questions</p>
+    </header>
+
+    <div class="toolbar" id="search-wrap">
+      <label class="search">
+        <span id="search-ic"></span>
+        <input type="search" id="module-search" placeholder="Rechercher un module…" aria-label="Rechercher un module">
+      </label>
     </div>
-  </nav>
 
-  <!-- Modules -->
-  <div class="container mt-5">
-    <h2 class="text-center section-title">📘 Modules de <span class="text-success">CCNA 2</span></h2>
-    <div class="row g-4">
-
-      <!-- Module 1 -->
-      <div class="col-md-4">
-        <a href="https://ccna-revision.fr/quiz/?ccna=ccna2&module=module1" class="text-decoration-none">
-          <div class="card module-card p-3 shadow-sm h-100">
-            <div class="card-body text-center">
-              <i class="bi bi-signpost-split-fill icon-module mb-2"></i>
-              <h5 class="card-title">Module 1 & 4</h5>
-              <p class="card-text">Examen des Concepts de Commutation, des VLAN et du Routage Inter-VLAN</p>
-            </div>
+    <section class="grid grid--3" id="modules" style="margin-top:22px" aria-label="Modules CCNA 2">
+        <a class="module" href="/quiz/?ccna=ccna2&amp;module=module1" data-module="module1">
+          <div class="module__top">
+            <span class="module__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6.01 18H6M10.01 18H10M15 10V6a2 2 0 0 1 2-2h2M18 4l-2 2M18 4l2 2"/></svg></span>
+            <h3>Modules 1 &amp; 4</h3>
+          </div>
+          <p class="module__desc">Concepts de commutation, VLAN et routage inter-VLAN</p>
+          <div class="module__foot">
+            <span class="chip" data-chip>44 questions</span>
+            <span class="track__go" style="font-size:.85rem">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
           </div>
         </a>
-      </div>
-
-      <!-- Module 2 -->
-      <div class="col-md-4">
-        <a href="https://ccna-revision.fr/quiz/?ccna=ccna2&module=module2" class="text-decoration-none">
-          <div class="card module-card p-3 shadow-sm h-100">
-            <div class="card-body text-center">
-              <i class="bi bi-arrows-move icon-module mb-2"></i>
-              <h5 class="card-title">Module 5 & 6</h5>
-              <p class="card-text">Examen de Réseaux Redondants</p>
-            </div>
+        <a class="module" href="/quiz/?ccna=ccna2&amp;module=module2" data-module="module2">
+          <div class="module__top">
+            <span class="module__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2.1 21 6l-4 3.9M7 21.9 3 18l4-3.9M21 6H9a6 6 0 0 0-6 6M3 18h12a6 6 0 0 0 6-6"/></svg></span>
+            <h3>Modules 5 &amp; 6</h3>
+          </div>
+          <p class="module__desc">Réseaux redondants</p>
+          <div class="module__foot">
+            <span class="chip" data-chip>38 questions</span>
+            <span class="track__go" style="font-size:.85rem">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
           </div>
         </a>
-      </div>
-
-      <!-- Module 3 -->
-      <div class="col-md-4">
-        <a href="https://ccna-revision.fr/quiz/?ccna=ccna2&module=module3" class="text-decoration-none">
-          <div class="card module-card p-3 shadow-sm h-100">
-            <div class="card-body text-center">
-              <i class="bi bi-cloud-arrow-down-fill icon-module mb-2"></i>
-              <h5 class="card-title">Module 7 & 9</h5>
-              <p class="card-text">Examen des réseaux disponibles et fiables</p>
-            </div>
+        <a class="module" href="/quiz/?ccna=ccna2&amp;module=module3" data-module="module3">
+          <div class="module__top">
+            <span class="module__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <h3>Modules 7 &amp; 9</h3>
+          </div>
+          <p class="module__desc">Réseaux disponibles et fiables</p>
+          <div class="module__foot">
+            <span class="chip" data-chip>39 questions</span>
+            <span class="track__go" style="font-size:.85rem">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
           </div>
         </a>
-      </div>
-
-      <!-- Module 4 -->
-      <div class="col-md-4">
-        <a href="https://ccna-revision.fr/quiz/?ccna=ccna2&module=module4" class="text-decoration-none">
-          <div class="card module-card p-3 shadow-sm h-100">
-            <div class="card-body text-center">
-              <i class="bi bi-globe icon-module mb-2"></i>
-              <h5 class="card-title">Module 10 & 13</h5>
-              <p class="card-text">Examen de sécurité de couche 2 et de réseau sans fil (WLAN)</p>
-            </div>
+        <a class="module" href="/quiz/?ccna=ccna2&amp;module=module4" data-module="module4">
+          <div class="module__top">
+            <span class="module__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14 0M8.5 16.1a6 6 0 0 1 7 0M2 8.82a15 15 0 0 1 20 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg></span>
+            <h3>Modules 10 &amp; 13</h3>
+          </div>
+          <p class="module__desc">Sécurité de couche 2 et réseau sans fil (WLAN)</p>
+          <div class="module__foot">
+            <span class="chip" data-chip>64 questions</span>
+            <span class="track__go" style="font-size:.85rem">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
           </div>
         </a>
-      </div>
-
-      <!-- Module 5 -->
-      <div class="col-md-4">
-        <a href="https://ccna-revision.fr/quiz/?ccna=ccna2&module=module5" class="text-decoration-none">
-          <div class="card module-card p-3 shadow-sm h-100">
-            <div class="card-body text-center">
-              <i class="bi bi-shield-shaded icon-module mb-2"></i>
-              <h5 class="card-title">Module 14 & 16</h5>
-              <p class="card-text">Concepts de Routage et Examen de Configuration</p>
-            </div>
+        <a class="module" href="/quiz/?ccna=ccna2&amp;module=module5" data-module="module5">
+          <div class="module__top">
+            <span class="module__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M6 16V9a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v0"/></svg></span>
+            <h3>Modules 14 &amp; 16</h3>
+          </div>
+          <p class="module__desc">Concepts de routage et configuration</p>
+          <div class="module__foot">
+            <span class="chip" data-chip>56 questions</span>
+            <span class="track__go" style="font-size:.85rem">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
           </div>
         </a>
-      </div>
-
-      <!-- Module 6 -->
-      <div class="col-md-4">
-        <a href="https://ccna-revision.fr/quiz/?ccna=ccna2&module=module6" class="text-decoration-none">
-          <div class="card module-card p-3 shadow-sm h-100">
-            <div class="card-body text-center">
-              <i class="bi bi-shield-shaded icon-module mb-2"></i>
-              <h5 class="card-title">Examen Final</h5>
-              <p class="card-text">Examen final du cours</p>
-            </div>
+        <a class="module" href="/quiz/?ccna=ccna2&amp;module=module6" data-module="module6">
+          <div class="module__top">
+            <span class="module__badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg></span>
+            <h3>Examen final</h3>
+          </div>
+          <p class="module__desc">Examen final du cours CCNA 2</p>
+          <div class="module__foot">
+            <span class="chip" data-chip>173 questions</span>
+            <span class="track__go" style="font-size:.85rem">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></span>
           </div>
         </a>
-      </div>
+    </section>
+  </main>
 
-    </div>
-  </div>
+  <div id="footer-slot"></div>
 
+  <script src="/js/curriculum.js"></script>
+  <script src="/js/icons.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/course.js"></script>
 </body>
 </html>

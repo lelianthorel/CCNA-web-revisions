@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /quiz/
+
+Sitemap: https://ccna-revision.fr/sitemap.xml

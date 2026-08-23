@@ -2,89 +2,208 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Quiz & Révisions CCNA 1 & 2 – Cours, Exercices, Réponses</title>
+  <title>CCNA Révisions – Quiz interactifs gratuits pour réviser Cisco CCNA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Site gratuit pour réviser le CCNA 1 et CCNA 2. Quiz interactifs, exercices corrigés, fiches pratiques, réponses officielles Cisco. Préparez votre certification réseau efficacement.">
-  <meta name="keywords" content="CCNA, Cisco, quiz, révisions, exercices corrigés, réseau, certification, CCNA1, CCNA2, cours réseau, Cisco Networking Academy, Packet Tracer">
-  <link rel="icon" href="img/routeur.png" type="image/png">
-  <!-- Bootstrap & Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/accueil.css">
+  <meta name="description" content="Révise le CCNA 1, CCNA 2, CSNA et CSNE avec 961 questions de quiz corrigées et gratuites. Correction immédiate, suivi de progression et entraînement ciblé pour réussir ta certification Cisco.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#1657c7">
+  <link rel="canonical" href="https://ccna-revision.fr/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CCNA Révisions">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="CCNA Révisions – Quiz interactifs gratuits pour réviser Cisco CCNA">
+  <meta property="og:description" content="Révise le CCNA 1, CCNA 2, CSNA et CSNE avec 961 questions de quiz corrigées et gratuites. Correction immédiate, suivi de progression et entraînement ciblé pour réussir ta certification Cisco.">
+  <meta property="og:url" content="https://ccna-revision.fr/">
+  <meta property="og:image" content="https://ccna-revision.fr/img/routeur.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CCNA Révisions – Quiz interactifs gratuits pour réviser Cisco CCNA">
+  <meta name="twitter:description" content="Révise le CCNA 1, CCNA 2, CSNA et CSNE avec 961 questions de quiz corrigées et gratuites. Correction immédiate, suivi de progression et entraînement ciblé pour réussir ta certification Cisco.">
+  <link rel="icon" href="/img/routeur.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    window.__ROOT__ = "/";
+    (function(){ try { var t = localStorage.getItem("ccna-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch(e){} })();
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "CCNA Révisions",
+  "url": "https://ccna-revision.fr/",
+  "description": "Quiz interactifs gratuits pour réviser les certifications Cisco CCNA 1, CCNA 2, CSNA et CSNE.",
+  "inLanguage": "fr"
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Parcours de révision Cisco",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "CCNA 1 — Introduction aux réseaux",
+      "url": "https://ccna-revision.fr/ccna1/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "CCNA 2 — Commutation, routage et sans-fil",
+      "url": "https://ccna-revision.fr/ccna2/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "CSNA — Cisco Certified Support Network",
+      "url": "https://ccna-revision.fr/csna/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "CSNE — Cisco Certified Network Engineer",
+      "url": "https://ccna-revision.fr/csne/"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
-    <div class="container">
-      <a class="navbar-brand" href="https://ccna-revision.fr/">📘 CCNA Révisions</a>
-    </div>
-  </nav>
+  <div id="nav-slot"></div>
 
-  <!-- Main Hero Section -->
-  <div class="container main-content mt-5">
-    <div class="section-box">
-      <h1 class="display-5 fw-bold mb-4 text-center">Révisez le <span class="text-primary">CCNA 1 & 2</span> avec nos quiz interactifs</h1>
-      <p class="lead mb-4">
-        Découvrez une plateforme simple, rapide et 100% gratuite pour vous entraîner aux examens Cisco CCNA.<br>
-        Des <strong>quiz corrigés</strong>, des <strong>questions officielles CCNA</strong>, des <strong>réponses validées</strong> et des fiches de <strong>révision réseau</strong> efficaces.
-      </p>
-      <div class="row justify-content-center">
-        <div class="col-md-4 mb-3">
-          <div class="icon-circle text-center">
-            <i class="bi bi-diagram-3-fill fs-1"></i>
+  <main class="container page">
+    <section class="hero">
+      <span class="eyebrow">Révisions Cisco CCNA</span>
+      <h1>Réussis ta certification <span class="accent">Cisco CCNA</span></h1>
+      <p class="lead">Entraîne-toi gratuitement aux examens Cisco avec 961 questions de quiz corrigées, réparties par module officiel. Correction immédiate, suivi de ta progression et rejeu des questions ratées.</p>
+      <div class="hero__cta">
+        <a href="/ccna1/" class="btn btn--primary btn--lg">Commencer par le CCNA 1</a>
+        <a href="#parcours" class="btn btn--ghost btn--lg">Voir tous les parcours</a>
+      </div>
+    </section>
+
+    <section class="section" id="progress-panel" style="display:none">
+      <div class="card">
+        <div class="pbar__row"><span style="font-size:.95rem;color:var(--text)">Ta progression</span><span id="progress-count"></span></div>
+        <div class="pbar"><div class="pbar__fill" id="global-fill"></div></div>
+        <p style="margin:12px 0 0;color:var(--text-muted);font-size:.88rem" id="progress-hint"></p>
+      </div>
+    </section>
+
+    <section class="section" id="parcours">
+      <div class="section-head">
+        <h2>Choisis ton parcours de révision</h2>
+        <p>Chaque parcours regroupe les modules officiels Cisco et leurs quiz corrigés.</p>
+      </div>
+      <div class="grid grid--2" id="tracks">
+        <a class="track" href="/ccna1/" data-track="ccna1">
+          <div class="track__head">
+            <span class="track__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3M12 12V8"/></svg></span>
+            <div><div class="track__label">CCNA 1</div><h3>Introduction aux réseaux</h3></div>
           </div>
-          <a href="ccna1/" class="btn btn-primary btn-ccna w-100 mt-2">Réviser CCNA 1</a>
+          <p class="track__desc">Les fondamentaux : modèles réseau, Ethernet, adressage IP et sécurité de base.</p>
+          <div class="track__meta">
+            <span class="track__stat">6 modules · 305 questions</span>
+            <span class="track__go">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+        <a class="track" href="/ccna2/" data-track="ccna2">
+          <div class="track__head">
+            <span class="track__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6.01 18H6M10.01 18H10M15 10V6a2 2 0 0 1 2-2h2M18 4l-2 2M18 4l2 2"/></svg></span>
+            <div><div class="track__label">CCNA 2</div><h3>Commutation, routage et sans-fil</h3></div>
+          </div>
+          <p class="track__desc">VLAN, routage inter-VLAN, réseaux redondants, sécurité de couche 2 et WLAN.</p>
+          <div class="track__meta">
+            <span class="track__stat">6 modules · 414 questions</span>
+            <span class="track__go">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+        <a class="track" href="/csna/" data-track="csna">
+          <div class="track__head">
+            <span class="track__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg></span>
+            <div><div class="track__label">CSNA</div><h3>Cisco Certified Support Network</h3></div>
+          </div>
+          <p class="track__desc">Entraînement global aux compétences de support et d’administration réseau.</p>
+          <div class="track__meta">
+            <span class="track__stat">1 module · 146 questions</span>
+            <span class="track__go">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+        <a class="track" href="/csne/" data-track="csne">
+          <div class="track__head">
+            <span class="track__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <div><div class="track__label">CSNE</div><h3>Cisco Certified Network Engineer</h3></div>
+          </div>
+          <p class="track__desc">Entraînement global aux compétences d’ingénierie réseau.</p>
+          <div class="track__meta">
+            <span class="track__stat">1 module · 96 questions</span>
+            <span class="track__go">Réviser <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Une méthode de révision efficace</h2>
+        <p>Tout ce qu’il faut pour transformer tes révisions en points le jour de l’examen.</p>
+      </div>
+      <div class="grid grid--3">
+        <div class="feature card">
+          <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/></svg></span>
+          <div><h3>Correction immédiate</h3><p>Chaque réponse est corrigée sur-le-champ, avec la bonne réponse mise en évidence.</p></div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="icon-circle text-center">
-            <i class="bi bi-router-fill fs-1"></i>
-          </div>
-          <a href="ccna2/" class="btn btn-secondary btn-ccna w-100 mt-2">Réviser CCNA 2</a>
+        <div class="feature card">
+          <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 3-3 3 3 5-5"/></svg></span>
+          <div><h3>Suivi de progression</h3><p>Ton meilleur score par module est conservé dans ton navigateur, sans compte à créer.</p></div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="icon-circle text-center">
-            <i class="bi bi-shield-lock-fill fs-1"></i>
-          </div>
-          <a href="csna/" class="btn btn-success btn-ccna w-100 mt-2">Réviser CSNA</a>
+        <div class="feature card">
+          <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+          <div><h3>Entraînement ciblé</h3><p>Rejoue uniquement les questions ratées à la fin d’un quiz pour combler tes lacunes.</p></div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="icon-circle text-center">
-            <i class="bi bi-shield-lock-fill fs-1"></i>
-          </div>
-          <a href="csne/" class="btn btn-success btn-ccna w-100 mt-2">Réviser CSNE</a>
+        <div class="feature card">
+          <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span>
+          <div><h3>Recherche de modules</h3><p>Retrouve rapidement un module par mot-clé pour réviser une notion précise.</p></div>
+        </div>
+        <div class="feature card">
+          <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="14" height="16" rx="2"/><path d="M8 5V3.5A1.5 1.5 0 0 1 9.5 2h9A1.5 1.5 0 0 1 20 3.5V15a1.5 1.5 0 0 1-1.5 1.5H17"/></svg></span>
+          <div><h3>Questions mélangées</h3><p>L’ordre des questions et l’enchaînement changent à chaque tentative.</p></div>
+        </div>
+        <div class="feature card">
+          <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></svg></span>
+          <div><h3>Aligné sur le programme</h3><p>Questions organisées par module officiel : CCNA 1, CCNA 2, CSNA et CSNE.</p></div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- À propos -->
-    <div class="section-box">
-      <h2 class="mb-3">ℹ️ À propos de ce site de révisions CCNA</h2>
-      <br>
-      <p class="text-start">
-        <strong>CCNA Révisions</strong> est un site pédagogique open-source pensé pour les étudiants en informatique et réseaux.<br>
-        Tu y trouveras :
-        <ul>
-          <li>🧠 Des <strong>quiz interactifs CCNA 1 & 2</strong> basés sur les modules officiels Cisco</li>
-          <li>📚 Des <strong>réponses validées</strong></li>
-          <li>🎯 Des <strong>exercices de préparation à la certification CCNA</strong></li>
-        </ul>
-        <br>
-        <em>Les questions proviennent de <a href="https://ccnareponses.com" target="_blank">ccnareponses.com</a>, une base fiable pour l'entraînement aux certifications Cisco.</em>
-      </p>
-    </div>
+    <section class="section">
+      <div class="card">
+        <h2 style="font-size:1.25rem;margin-bottom:6px">À propos de CCNA Révisions</h2>
+        <p style="color:var(--text-muted);margin:0 0 14px">CCNA Révisions est une plateforme pédagogique gratuite et open-source destinée aux étudiants en informatique et réseaux qui préparent les certifications Cisco. Les quiz couvrent l’ensemble des modules officiels du cursus Cisco Networking Academy : introduction aux réseaux, commutation, routage, réseaux sans fil et sécurité.</p>
+        <h2 style="font-size:1.25rem;margin:18px 0 10px">Ressources officielles</h2>
+        <div class="grid grid--2">
+          <a class="feature" href="https://www.netacad.com/" target="_blank" rel="noopener" style="padding:14px;border:1px solid var(--border);border-radius:12px">
+            <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></span>
+            <div><h3>Cisco NetAcad</h3><p>La plateforme officielle de la Networking Academy.</p></div>
+          </a>
+          <a class="feature" href="https://www.netacad.com/portal/resources/packet-tracer" target="_blank" rel="noopener" style="padding:14px;border:1px solid var(--border);border-radius:12px">
+            <span class="feature__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></span>
+            <div><h3>Packet Tracer</h3><p>Le simulateur réseau de Cisco à télécharger.</p></div>
+          </a>
+        </div>
+        <p style="margin:14px 0 0;color:var(--text-faint);font-size:.85rem">Les questions proviennent de <a href="https://ccnareponses.com" target="_blank" rel="noopener">ccnareponses.com</a>, une base fiable pour l’entraînement aux certifications Cisco.</p>
+      </div>
+    </section>
+  </main>
 
-    <!-- Liens utiles -->
-    <div class="section-box">
-      <h2 class="mb-3">🔗 Ressources et téléchargements</h2>
-      <ul class="list-unstyled text-start">
-        <li><i class="bi bi-box-arrow-up-right me-2"></i><a href="https://www.netacad.com/" target="_blank">Cisco NetAcad – Plateforme officielle</a></li>
-        <li><i class="bi bi-box-arrow-up-right me-2"></i><a href="https://www.netacad.com/portal/resources/packet-tracer" target="_blank">Télécharger Packet Tracer</a></li>
-      </ul>
-    </div>
-  </div>
+  <div id="footer-slot"></div>
 
-  <footer class="container">
-    <p class="mt-5 text-center text-muted">&copy; 2025 CCNA Révisions – plateforme gratuite de quiz, exercices et réponses pour la certification Cisco.</p>
-  </footer>
+  <script src="/js/curriculum.js"></script>
+  <script src="/js/icons.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/home.js"></script>
 </body>
 </html>
