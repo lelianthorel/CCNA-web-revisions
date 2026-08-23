@@ -8,6 +8,7 @@ const C = global.CURRICULUM;
 
 const ROOT = __dirname;
 const SITE = "https://ccna-revision.fr";
+const VERSION = Date.now().toString(36); // cache-busting des assets
 
 // Vérifie les compteurs réels de questions
 for (const k of Object.keys(C)) {
@@ -70,12 +71,26 @@ function buildHome() {
           <div><h3>${t}</h3><p>${d}</p></div>
         </div>`).join("\n");
 
+  const faqs = [
+    ["Le site CCNA Révisions est-il gratuit ?", "Oui, CCNA Révisions est 100 % gratuit et sans inscription. Tous les quiz des parcours CCNA 1, CCNA 2, CSNA et CSNE sont accessibles librement."],
+    ["Quelles certifications Cisco puis-je réviser ?", "Tu peux réviser le CCNA 1 (Introduction aux réseaux), le CCNA 2 (Commutation, routage et sans-fil), le CSNA et le CSNE, avec des quiz organisés par module officiel."],
+    ["Les questions correspondent-elles à l’examen Cisco officiel ?", "Les quiz suivent les modules officiels du cursus Cisco Networking Academy. Ils servent d’entraînement : vérifie toujours avec tes cours et des sources fiables."],
+    ["Comment suivre ma progression ?", "Ton meilleur score par module est enregistré automatiquement dans ton navigateur, sans compte à créer. Tu peux aussi rejouer uniquement les questions ratées."]
+  ];
+
   const ld = [
-    { "@context": "https://schema.org", "@type": "WebSite", name: "CCNA Révisions", url: SITE + "/",
+    { "@context": "https://schema.org", "@type": "WebSite", name: "CCNA Révisions",
+      alternateName: ["CCNA Révision", "CCNA Revisions", "ccna-revision.fr"], url: SITE + "/",
       description: "Quiz interactifs gratuits pour réviser les certifications Cisco CCNA 1, CCNA 2, CSNA et CSNE.",
-      inLanguage: "fr" },
+      inLanguage: "fr", publisher: { "@type": "Organization", name: "CCNA Révisions", url: SITE + "/" } },
+    { "@context": "https://schema.org", "@type": "EducationalOrganization", name: "CCNA Révisions",
+      alternateName: "CCNA Révision", url: SITE + "/", logo: SITE + "/img/routeur.png",
+      description: "Plateforme gratuite de quiz et de révisions pour les certifications Cisco (CCNA 1, CCNA 2, CSNA, CSNE).",
+      sameAs: ["https://ccnareponses.com"] },
     { "@context": "https://schema.org", "@type": "ItemList", name: "Parcours de révision Cisco",
-      itemListElement: Object.keys(C).map((k, i) => ({ "@type": "ListItem", position: i + 1, name: `${C[k].label} — ${C[k].title}`, url: `${SITE}/${k}/` })) }
+      itemListElement: Object.keys(C).map((k, i) => ({ "@type": "ListItem", position: i + 1, name: `${C[k].label} — ${C[k].title}`, url: `${SITE}/${k}/` })) },
+    { "@context": "https://schema.org", "@type": "FAQPage",
+      mainEntity: faqs.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) }
   ];
 
   return page({
@@ -123,6 +138,19 @@ ${tracks}
       </div>
       <div class="grid grid--3">
 ${features}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Questions fréquentes</h2>
+        <p>Tout savoir sur CCNA Révisions et la préparation aux certifications Cisco.</p>
+      </div>
+      <div class="faq">
+${faqs.map(([q, a]) => `        <details class="faq__item">
+          <summary>${esc(q)}</summary>
+          <p>${esc(a)}</p>
+        </details>`).join("\n")}
       </div>
     </section>
 
@@ -241,8 +269,11 @@ function page({ lang, title, desc, canonical, ogUrl, ld, body, noindex }) {
   <title>${esc(title)}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${esc(desc)}">
-  ${noindex ? '<meta name="robots" content="noindex,follow">' : '<meta name="robots" content="index,follow">'}
+  ${noindex ? '<meta name="robots" content="noindex,follow">' : '<meta name="robots" content="index,follow,max-image-preview:large">'}
   <meta name="theme-color" content="#1657c7">
+  <meta name="application-name" content="CCNA Révisions">
+  <meta name="apple-mobile-web-app-title" content="CCNA Révisions">
+  <meta name="author" content="CCNA Révisions">
   <link rel="canonical" href="${canonical}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="CCNA Révisions">
@@ -294,4 +325,15 @@ Disallow: /quiz/
 Sitemap: ${SITE}/sitemap.xml
 `);
 console.log("✓ robots.txt");
+
+// Cache-busting : appose ?v=VERSION sur les assets locaux (css/js) de toutes les pages HTML
+const htmlFiles = ["index.html", "quiz/index.html", ...Object.keys(C).map(k => `${k}/index.html`)];
+const assetRe = /((?:href|src)=")(\/(?:css|js|script)\/[^"?]+\.(?:css|js))(?:\?v=[^"]*)?"/g;
+for (const rel of htmlFiles) {
+  const fp = path.join(ROOT, rel);
+  let html = fs.readFileSync(fp, "utf8");
+  html = html.replace(assetRe, (m, pre, url) => `${pre}${url}?v=${VERSION}"`);
+  fs.writeFileSync(fp, html);
+}
+console.log(`✓ cache-busting v=${VERSION} sur ${htmlFiles.length} pages`);
 console.log(`Total questions: ${grandTotal}`);
