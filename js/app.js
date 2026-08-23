@@ -82,7 +82,7 @@ function buildFooter() {
     <div class="footer__inner">
       <div>
         <div class="footer__brand"><span class="brand__logo" style="width:28px;height:28px;border-radius:8px">${icon("network")}</span> CCNA Révisions</div>
-        <p style="margin-top:8px">Plateforme gratuite et open-source de quiz et révisions Cisco.</p>
+        <p style="margin-top:8px">Plateforme gratuite et open-source de quiz et révisions Cisco CCNA et Stormshield.</p>
       </div>
       <div class="footer__links">
         <a href="${base}index.html">Accueil</a>
@@ -92,7 +92,7 @@ function buildFooter() {
       </div>
     </div>
     <div class="footer__inner" style="padding-top:0">
-      <p>&copy; 2025–2026 CCNA Révisions — quiz, exercices et réponses pour la certification Cisco.</p>
+      <p>&copy; 2025–2026 CCNA Révisions — quiz, exercices et réponses pour les certifications Cisco CCNA et Stormshield CSNA/CSNE.</p>
     </div>
   </footer>`;
 }

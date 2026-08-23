@@ -33,24 +33,24 @@ root.CURRICULUM = {
   },
   csna: {
     label: "CSNA",
-    title: "Cisco Certified Support Network",
-    desc: "Entraînement global aux compétences de support et d’administration réseau.",
+    title: "Certified Stormshield Network Administrator",
+    desc: "Administration des firewalls Stormshield Network Security (SNS) : politiques de filtrage et de routage, authentification et réseaux VPN.",
     color: ["#059669", "#10b981"],
     icon: "shield",
     warning: "Les questions sont proposées uniquement à titre éducatif. Les réponses ne sont pas garanties exactes. Vérifiez toujours avec des sources fiables.",
     modules: [
-      { id: "module1", name: "Quiz CSNA", topic: "Entraînement global aux compétences CSNA", count: 146, icon: "shield" }
+      { id: "module1", name: "Quiz CSNA", topic: "Entraînement aux compétences d’administration Stormshield SNS", count: 146, icon: "shield" }
     ]
   },
   csne: {
     label: "CSNE",
-    title: "Cisco Certified Network Engineer",
-    desc: "Entraînement global aux compétences d’ingénierie réseau.",
+    title: "Certified Stormshield Network Expert",
+    desc: "Exploitation avancée des firewalls Stormshield SNS : prévention d’intrusions, PKI, VPN IPSec par certificat et haute disponibilité.",
     color: ["#d97706", "#f59e0b"],
     icon: "shield-check",
     warning: "Les questions sont proposées uniquement à titre éducatif. Les réponses ne sont pas garanties exactes. Vérifiez toujours avec des sources fiables.",
     modules: [
-      { id: "module1", name: "Quiz CSNE", topic: "Entraînement global aux compétences CSNE", count: 96, icon: "shield-check" }
+      { id: "module1", name: "Quiz CSNE", topic: "Entraînement aux compétences expertes Stormshield SNS", count: 96, icon: "shield-check" }
     ]
   }
 };
