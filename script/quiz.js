@@ -42,6 +42,17 @@
   $("btn-back").href = courseMeta ? `/${ccna}/` : "/index.html";
   $("btn-next").innerHTML = `Suivant <span class="kbd">Espace</span>`;
 
+  // Avertissement éventuel du parcours (CSNA/CSNE)
+  if (courseMeta && courseMeta.warning) {
+    const note = document.createElement("div");
+    note.className = "notice notice--warn";
+    note.setAttribute("role", "note");
+    note.style.margin = "0 0 16px";
+    note.innerHTML = `<span class="notice__ic">${icon("alert")}</span><p><strong>À noter —</strong> ${courseMeta.warning}</p>`;
+    const qcard = $("qcard");
+    qcard.parentNode.insertBefore(note, qcard);
+  }
+
   // ---------- Chargement ----------
   fetch(`/data/${ccna}/${moduleId}.json`)
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })

@@ -37,6 +37,7 @@ root.CURRICULUM = {
     desc: "Entraînement global aux compétences de support et d’administration réseau.",
     color: ["#059669", "#10b981"],
     icon: "shield",
+    warning: "Les questions sont proposées uniquement à titre éducatif. Les réponses ne sont pas garanties exactes. Vérifiez toujours avec des sources fiables.",
     modules: [
       { id: "module1", name: "Quiz CSNA", topic: "Entraînement global aux compétences CSNA", count: 146, icon: "shield" }
     ]
@@ -47,6 +48,7 @@ root.CURRICULUM = {
     desc: "Entraînement global aux compétences d’ingénierie réseau.",
     color: ["#d97706", "#f59e0b"],
     icon: "shield-check",
+    warning: "Les questions sont proposées uniquement à titre éducatif. Les réponses ne sont pas garanties exactes. Vérifiez toujours avec des sources fiables.",
     modules: [
       { id: "module1", name: "Quiz CSNE", topic: "Entraînement global aux compétences CSNE", count: 96, icon: "shield-check" }
     ]

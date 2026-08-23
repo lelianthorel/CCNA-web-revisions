@@ -204,7 +204,12 @@ function buildCourse(k) {
       <p>${esc(t.desc)}</p>
       <p class="track__stat" id="course-stat">${n} module${n > 1 ? "s" : ""} · ${tot} questions</p>
     </header>
-${showSearch ? `
+${t.warning ? `
+    <div class="notice notice--warn" role="note">
+      <span class="notice__ic">${icon("alert")}</span>
+      <p><strong>À noter —</strong> ${esc(t.warning)}</p>
+    </div>
+` : ""}${showSearch ? `
     <div class="toolbar" id="search-wrap">
       <label class="search">
         <span id="search-ic"></span>

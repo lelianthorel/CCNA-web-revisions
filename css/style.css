@@ -241,6 +241,14 @@ svg { width: 1em; height: 1em; vertical-align: middle; flex: none; }
 .page-head h1 { font-size: clamp(1.6rem, 3.6vw, 2.2rem); margin: 4px 0 0; }
 .page-head p { color: var(--text-muted); max-width: 62ch; margin: 0; }
 
+/* notice / avertissement */
+.notice { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border-radius: var(--radius); border: 1px solid var(--warning-soft); background: var(--warning-soft); color: var(--text); margin: 22px 0 0; }
+.notice--warn { border-color: color-mix(in srgb, var(--warning) 35%, transparent); }
+.notice__ic { flex: none; color: var(--warning); display: grid; place-items: center; }
+.notice__ic svg { width: 20px; height: 20px; }
+.notice p { margin: 0; font-size: .9rem; color: var(--text-muted); }
+.notice strong { color: var(--warning); }
+
 /* toolbar */
 .toolbar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 22px 0 4px; }
 .search { position: relative; flex: 1; min-width: 240px; }
