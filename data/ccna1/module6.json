@@ -627,5 +627,58 @@
         "answers": [
             2
         ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. La documentation de base pour une petite entreprise comportait des statistiques ping aller-retour de 36/97/132 entre les hôtes H1 et H3. Aujourd’hui, l’administrateur réseau a vérifié la connectivité en pingant entre les hôtes H1 et H3, ce qui a donné lieu à un temps aller-retour de 1458/2390/6066. Qu’est-ce que cela indique à l’administrateur réseau?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_083252.jpg",
+        "choices": [
+            "Quelque chose provoque un délai entre les réseaux.",
+            "Les performances entre les réseaux sont dans les paramètres attendus.",
+            "La connectivité entre H1 et H3 est parfaite.",
+            "Quelque chose provoque des interférences entre H1 et R1.",
+            "H3 n’est pas connecté correctement au réseau."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question. Quelle commande doit être configurée sur le routeur pour terminer la configuration SSH?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_233716.jpg",
+        "choices": [
+            "enable secret class",
+            "transport input ssh",
+            "ip domain-name cisco.com",
+            "service password-encryption"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. L’hôte H3 rencontre des difficultés pour communiquer avec l’hôte H1. L’administrateur réseau soupçonne qu’il existe un problème avec la station de travail H3 et veut prouver qu’il n’y a pas de problème avec la configuration R2. Quel outil l’administrateur réseau pourrait-il utiliser sur le routeur R2 pour prouver qu’il existe une communication pour héberger H1 à partir de l’interface sur R2, qui est l’interface utilisée par H3 lors de la communication avec des réseaux distants ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_233424.jpg",
+        "choices": [
+            "traceroute",
+            "show cdp neighbors",
+            "Telnet",
+            "Extensions de la commande ping"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur teste la connectivité à un périphérique distant avec l’adresse IP 10.1.1.1. Qu’indique le résultat de cette commande ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_233557.jpg",
+        "choices": [
+            "Un paquet ping est bloqué par un dispositif de sécurité sur le chemin.",
+            "Un routeur situé sur le chemin ne possède pas de route vers la destination.",
+            "Le délai de connexion a expiré pendant l’attente de la réponse du périphérique distant.",
+            "La connectivité au périphérique distant est fonctionnelle."
+        ],
+        "answers": [
+            1
+        ]
     }
 ]

@@ -8,12 +8,13 @@ root.CURRICULUM = {
     color: ["#4f46e5", "#7c3aed"],
     icon: "network",
     modules: [
-      { id: "module1", name: "Modules 1 & 3", topic: "Connectivité des réseaux de base et communications", count: 51, icon: "network" },
-      { id: "module2", name: "Modules 4 & 7", topic: "Concepts d’Ethernet", count: 56, icon: "ethernet" },
-      { id: "module3", name: "Modules 8 & 10", topic: "Communication entre les réseaux", count: 44, icon: "plug" },
-      { id: "module4", name: "Modules 11 & 13", topic: "Adressage IP", count: 47, icon: "stack" },
+      { id: "module1", name: "Modules 1 & 3", topic: "Connectivité des réseaux de base et communications", count: 55, icon: "network" },
+      { id: "module2", name: "Modules 4 & 7", topic: "Concepts d’Ethernet", count: 62, icon: "ethernet" },
+      { id: "module3", name: "Modules 8 & 10", topic: "Communication entre les réseaux", count: 56, icon: "plug" },
+      { id: "module4", name: "Modules 11 & 13", topic: "Adressage IP", count: 52, icon: "stack" },
       { id: "module5", name: "Modules 14 & 15", topic: "Communications des applications du réseau", count: 55, icon: "layers" },
-      { id: "module6", name: "Modules 16 & 17", topic: "Création et sécurisation d’un réseau de petite taille", count: 52, icon: "shield" }
+      { id: "module6", name: "Modules 16 & 17", topic: "Création et sécurisation d’un réseau de petite taille", count: 56, icon: "shield" },
+      { id: "module7", name: "Examen final", topic: "Examen final du cours CCNA 1 (ITNv7)", count: 140, icon: "trophy" }
     ]
   },
   ccna2: {
