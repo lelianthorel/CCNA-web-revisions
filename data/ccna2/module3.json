@@ -1,6 +1,6 @@
 [
     {
-       "question": "2. Quel protocole automatise l’attribution des adresses IP sur un réseau, et quel numéro de port utilise-t-il ? (Choisissez deux réponses.)",
+       "question": "Quel protocole automatise l’attribution des adresses IP sur un réseau, et quel numéro de port utilise-t-il ? (Choisissez deux réponses.)",
        "choices": [
           "DHCP",
           "DNS",
@@ -10,11 +10,12 @@
           "80"
        ],
        "answers": [
-          0, 4
+          0,
+          4
        ]
     },
     {
-       "question": "3. Une entreprise utilise des serveurs DHCP pour affecter dynamiquement des adresses IPv4 aux stations de travail des employés. La durée du bail de l’adresse est définie sur 5 jours. Un employé revient au bureau après une absence d’une semaine. Lorsque l’employé démarre sa station de travail, celle-ci envoie un message pour obtenir une adresse IP. Quelles adresses de destination de couche 2 et de couche 3 le message contient-il ?",
+       "question": "Une entreprise utilise des serveurs DHCP pour affecter dynamiquement des adresses IPv4 aux stations de travail des employés. La durée du bail de l’adresse est définie sur 5 jours. Un employé revient au bureau après une absence d’une semaine. Lorsque l’employé démarre sa station de travail, celle-ci envoie un message pour obtenir une adresse IP. Quelles adresses de destination de couche 2 et de couche 3 le message contient-il ?",
        "choices": [
           "L’adresse MAC du serveur DHCP et 255.255.255.255",
           "FF-FF-FF-FF-FF-FF et l’adresse IPv4 du serveur DHCP",
@@ -26,7 +27,7 @@
        ]
     },
     {
-       "question": "5. Quel jeu de commandes permet de configurer un routeur comme serveur DHCP attribuant des adresses IPv4 au LAN 192.168.100.0/23 tout en réservant les 10 premières adresses et la dernière adresse pour l’attribution statique ?",
+       "question": "Quel jeu de commandes permet de configurer un routeur comme serveur DHCP attribuant des adresses IPv4 au LAN 192.168.100.0/23 tout en réservant les 10 premières adresses et la dernière adresse pour l’attribution statique ?",
        "choices": [
           "ip dhcp excluded-address 192.168.100.1 192.168.100.10\nip dhcp excluded-address 192.168.100.254\nip dhcp pool LAN-POOL-100 network 192.168.100.0 255.255.255.0\nip default-gateway 192.168.100.1",
           "ip dhcp excluded-address 192.168.100.1 192.168.100.9\nip dhcp excluded-address 192.168.101.254\nip dhcp pool LAN-POOL-100\nip network 192.168.100.0 255.255.254.0\nip default-gateway 192.168.100.1",
@@ -38,7 +39,7 @@
        ]
     },
     {
-       "question": "4. Quelle commande permet à un administrateur réseau de vérifier l’adresse IP attribuée à une adresse MAC donnée ?",
+       "question": "Quelle commande permet à un administrateur réseau de vérifier l’adresse IP attribuée à une adresse MAC donnée ?",
        "choices": [
           "Router# show ip dhcp binding",
           "Router# show running-config I section_dhcp",
@@ -50,7 +51,7 @@
        ]
     },
     {
-       "question": "6. Un PC hôte tente de louer une adresse via DHCP. Quel message est envoyé par le serveur pour informer le client qu’il est capable d’utiliser les informations IP fournies?",
+       "question": "Un PC hôte tente de louer une adresse via DHCP. Quel message est envoyé par le serveur pour informer le client qu’il est capable d’utiliser les informations IP fournies?",
        "choices": [
           "DHCPOFFER",
           "DHCPREQUEST",
@@ -63,7 +64,7 @@
        ]
     },
     {
-       "question": "7. Que se passe-t-il lorsque les serveurs DHCP ne sont pas opérationnels sur un réseau ?",
+       "question": "Que se passe-t-il lorsque les serveurs DHCP ne sont pas opérationnels sur un réseau ?",
        "choices": [
           "Les postes de travail reçoivent des adresses appartenant à la plage 169.254.0.0/16.",
           "Les postes de travail reçoivent l’adresse IP 127.0.0.1.",
@@ -75,7 +76,7 @@
        ]
     },
     {
-       "question": "8. Quelle information peut indiquer qu’un ordinateur Windows n’a pas reçu une adresse IPv4 de la part d’un serveur DHCP ?",
+       "question": "Quelle information peut indiquer qu’un ordinateur Windows n’a pas reçu une adresse IPv4 de la part d’un serveur DHCP ?",
        "choices": [
           "L’ordinateur reçoit une adresse IP commençant par 169.254.",
           "L’ordinateur ne peut pas envoyer de requête ping avec la 127.0.0.1.",
@@ -87,7 +88,7 @@
        ]
     },
     {
-       "question": "9. Un petit café propose une connexion Wi-Fi gratuite aux clients. Le réseau comprend un routeur sans fil et un modem DSL connecté à la compagnie de téléphone locale. Quelle méthode est généralement utilisée pour configurer la connexion à la compagnie de téléphone?",
+       "question": "Un petit café propose une connexion Wi-Fi gratuite aux clients. Le réseau comprend un routeur sans fil et un modem DSL connecté à la compagnie de téléphone locale. Quelle méthode est généralement utilisée pour configurer la connexion à la compagnie de téléphone?",
        "choices": [
           "Définissez le modem DSL en tant que client DHCP pour la compagnie de téléphone et un serveur DHCP pour la connexion interne.",
           "Définissez le modem DSL en tant que client DHCP pour obtenir une adresse IP publique du routeur sans fil.",
@@ -99,7 +100,7 @@
        ]
     },
     {
-       "question": "10. Quelle est la raison pour laquelle un ISp attribue couramment une adresse DHCP à un routeur sans fil dans un environnement SOHO?",
+       "question": "Quelle est la raison pour laquelle un ISp attribue couramment une adresse DHCP à un routeur sans fil dans un environnement SOHO?",
        "choices": [
           "meilleure connectivité",
           "configuration facile sur pare-feu FAI",
@@ -111,7 +112,7 @@
        ]
     },
     {
-       "question": "11. Une entreprise utilise DHCP pour gérer le déploiement d’adresses IP pour les postes de travail des employés. Le service informatique déploie plusieurs serveurs DHCP dans le datacenter et utilise des agents relais DHCP pour faciliter les demandes DHCP des postes de travail. Quels sont les deux ports UDP utilisés pour transférer le trafic DHCP? (Choisissez deux propositions.)",
+       "question": "Une entreprise utilise DHCP pour gérer le déploiement d’adresses IP pour les postes de travail des employés. Le service informatique déploie plusieurs serveurs DHCP dans le datacenter et utilise des agents relais DHCP pour faciliter les demandes DHCP des postes de travail. Quels sont les deux ports UDP utilisés pour transférer le trafic DHCP? (Choisissez deux propositions.)",
        "choices": [
           "67",
           "23",
@@ -120,11 +121,12 @@
           "53"
        ],
        "answers": [
-          0, 3
+          0,
+          3
        ]
     },
     {
-       "question": "12. Quelle information est vérifiée par la commande show ip dhcp binding ?",
+       "question": "Quelle information est vérifiée par la commande show ip dhcp binding ?",
        "choices": [
           "Les adresses IPv4 exclues du pool DHCPv4",
           "Les adresses IPv4 attribuées aux hôtes par le serveur DHCP",
@@ -136,7 +138,7 @@
        ]
     },
     {
-       "question": "13. Un périphérique client sur un segment Ethernet doit disposer d’une adresse IP pour communiquer sur le réseau. Un serveur DHCP dont l’adresse IP est 192.168.1.1 a été configuré et activé sur le réseau. Comment un périphérique client peut-il obtenir une adresse IP utilisable pour ce réseau ?",
+       "question": "Un périphérique client sur un segment Ethernet doit disposer d’une adresse IP pour communiquer sur le réseau. Un serveur DHCP dont l’adresse IP est 192.168.1.1 a été configuré et activé sur le réseau. Comment un périphérique client peut-il obtenir une adresse IP utilisable pour ce réseau ?",
        "choices": [
           "En envoyant un message DHCPDISCOVER à l’adresse physique FF-FF-FF-FF-FF-FF.",
           "En envoyant un paquet DHCPREQUEST à l’adresse IP 255.255.255.255.",
@@ -148,7 +150,7 @@
        ]
     },
     {
-       "question": "14. Quel avantage présente la configuration d’un routeur Cisco comme agent de relais ?",
+       "question": "Quel avantage présente la configuration d’un routeur Cisco comme agent de relais ?",
        "choices": [
           "Cela permet de fournir des services de relais pour plusieurs services UDP.",
           "Cela permet la transmission des messages de diffusion et de multidiffusion au nom des clients.",
@@ -160,10 +162,10 @@
        ]
     },
     {
-       "question": "16. Une entreprise utilise la méthode SLAAC pour configurer les adresses IPv6 des stations de travail de ses employés. Un administrateur réseau a configuré l’adresse IPv6 sur l’interface LAN du routeur. L’état de l’interface est UP. Cependant, les stations de travail sur le segment LAN n’ont pas obtenu le préfixe et la longueur de préfixe corrects. Que configurer d’autre sur le routeur connecté au segment LAN pour que les stations de travail obtiennent ces informations ?",
+       "question": "Une entreprise utilise la méthode SLAAC pour configurer les adresses IPv6 des stations de travail de ses employés. Un administrateur réseau a configuré l’adresse IPv6 sur l’interface LAN du routeur. L’état de l’interface est UP. Cependant, les stations de travail sur le segment LAN n’ont pas obtenu le préfixe et la longueur de préfixe corrects. Que configurer d’autre sur le routeur connecté au segment LAN pour que les stations de travail obtiennent ces informations ?",
        "choices": [
           "R1(config)# ipv6 unicast-routing",
-          "R1(config)# ipv6 dhcp pool < nom du pool >",
+          "R1(config)# ipv6 dhcp pool &lt;nom du pool&gt;",
           "R1(config-if)# ipv6 nd other-config-flag",
           "R1(config-if)# ipv6 enable"
        ],
@@ -172,7 +174,7 @@
        ]
     },
     {
-       "question": "22. Un administrateur réseau analyse les fonctions prises en charge par différents protocoles de redondance des routeurs de premier saut. Quelle proposition désigne une fonction associée au protocole HSRP ?",
+       "question": "Un administrateur réseau analyse les fonctions prises en charge par différents protocoles de redondance des routeurs de premier saut. Quelle proposition désigne une fonction associée au protocole HSRP ?",
        "choices": [
           "Le protocole HSRP utilise des routeurs actifs et de secours.",
           "Cela permet d’équilibrer la charge entre un groupe de routeurs redondants.",
@@ -184,7 +186,7 @@
        ]
     },
     {
-       "question": "28. Quelle implémentation FHRP est un protocole électoral non propriétaire uniquement IPv4 avec une évolutivité limitée?",
+       "question": "Quelle implémentation FHRP est un protocole électoral non propriétaire uniquement IPv4 avec une évolutivité limitée?",
        "choices": [
           "IRDP",
           "GLBP pour IPv6",
@@ -196,7 +198,7 @@
        ]
     },
     {
-       "question": "29. Le pool d’adresses d’un serveur DHCP est configuré avec 10.92.71.0/25. L’administrateur réseau réserve 8 adresses IP pour les serveurs. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 10.92.71.0/25. L’administrateur réseau réserve 8 adresses IP pour les serveurs. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
        "choices": [
           "118",
           "116",
@@ -209,7 +211,7 @@
        ]
     },
     {
-       "question": "31. Après qu’un hôte a généré une adresse IPv6 à l’aide du processus DHCPv6 ou SLAAC, comment l’hôte vérifie-t-il que l’adresse est unique et donc utilisable?​",
+       "question": "Après qu’un hôte a généré une adresse IPv6 à l’aide du processus DHCPv6 ou SLAAC, comment l’hôte vérifie-t-il que l’adresse est unique et donc utilisable?​",
        "choices": [
           "L’hôte envoie une diffusion ARP vers le lien local et si aucun hôte n’envoie de réponse, l’adresse est considérée comme unique.",
           "L’hôte envoie un message de sollicitation de voisin ICMPv6 à l’adresse DHCP ou SLAAC apprise et si aucune annonce de voisin n’est renvoyée, l’adresse est considérée comme unique.",
@@ -221,7 +223,7 @@
        ]
     },
     {
-       "question": "32. Quelle déclaration décrit un HSRP?​",
+       "question": "Quelle déclaration décrit un HSRP?​",
        "choices": [
           "Utilisé dans un groupe de routeurs pour sélectionner un périphérique actif et un périphérique de secours pour fournir les services de passerelle à un réseau local.",
           "Choix d’un routeur comme routeur virtuel principal, les autres servant de routeurs de secours en cas de défaillance du routeur virtuel principal.",
@@ -233,7 +235,7 @@
        ]
     },
     {
-       "question": "34. Quel message un hôte IPv4 utilise-t-il pour répondre lorsqu’il reçoit un message DHCPOFFER à partir d’un serveur DHCP ?",
+       "question": "Quel message un hôte IPv4 utilise-t-il pour répondre lorsqu’il reçoit un message DHCPOFFER à partir d’un serveur DHCP ?",
        "choices": [
           "DHCPDISCOVER",
           "DHCPACK",
@@ -245,7 +247,7 @@
        ]
     },
     {
-       "question": "35. Quelle commande, exécutée dans le mode de configuration d’interface d’un routeur, permet à l’interface d’obtenir automatiquement une adresse IPv4 d’un FAI, lorsque cette liaison au FAI est activée ?",
+       "question": "Quelle commande, exécutée dans le mode de configuration d’interface d’un routeur, permet à l’interface d’obtenir automatiquement une adresse IPv4 d’un FAI, lorsque cette liaison au FAI est activée ?",
        "choices": [
           "ip address dhcp",
           "ip dhcp pool",
@@ -257,7 +259,7 @@
        ]
     },
     {
-       "question": "36. Quel type de message un client DHCP envoie-t-il lorsque le bail de son adresse IP a expiré ?",
+       "question": "Quel type de message un client DHCP envoie-t-il lorsque le bail de son adresse IP a expiré ?",
        "choices": [
           "Un message monodiffusion DHCPDISCOVER",
           "Un message monodiffusion DHCPREQUEST",
@@ -269,7 +271,7 @@
        ]
     },
     {
-       "question": "37. Quel message DHCPv4 un client envoie-t-il pour accepter une adresse IPv4 offerte par un serveur DHCP ?",
+       "question": "Quel message DHCPv4 un client envoie-t-il pour accepter une adresse IPv4 offerte par un serveur DHCP ?",
        "choices": [
           "Diffusion DHCPREQUEST",
           "Diffusion DHCPACK",
@@ -281,7 +283,7 @@
        ]
     },
     {
-       "question": "38. Si un technicien réseau saisit la commande ip dhcp excluded-address 10.0.15.1 10.0.15.15 sur un routeur Cisco, quel est le résultat obtenu ?",
+       "question": "Si un technicien réseau saisit la commande ip dhcp excluded-address 10.0.15.1 10.0.15.15 sur un routeur Cisco, quel est le résultat obtenu ?",
        "choices": [
           "Le routeur Cisco ne permet de louer aux clients que les adresses IP spécifiées.",
           "Le routeur Cisco exclut 15 adresses IP de la location aux clients DHCP.",
@@ -293,7 +295,7 @@
        ]
     },
     {
-       "question": "39. Parmi les propositions suivantes relatives au fonctionnement DHCP, laquelle est exacte ?",
+       "question": "Parmi les propositions suivantes relatives au fonctionnement DHCP, laquelle est exacte ?",
        "choices": [
           "Si le client reçoit plusieurs messages DHCPOFFER provenant de différents serveurs, il envoie un message DHCPREQUEST monodiffusion au serveur à partir duquel il choisit d’obtenir les informations IP.",
           "Le message DHCPDISCOVER contient l’adresse IP et le masque de sous-réseau à attribuer, l’adresse IP du serveur DNS et l’adresse IP de la passerelle par défaut.​",
@@ -305,7 +307,7 @@
        ]
     },
     {
-       "question": "40. Une entreprise utilise la méthode SLAAC pour configurer des adresses IPv6 pour les stations de travail de ses employés. Quelle adresse un client utilise-t-il comme passerelle par défaut ?",
+       "question": "Une entreprise utilise la méthode SLAAC pour configurer des adresses IPv6 pour les stations de travail de ses employés. Quelle adresse un client utilise-t-il comme passerelle par défaut ?",
        "choices": [
           "L’adresse locale unique de l’interface du routeur connectée au réseau",
           "L’adresse de monodiffusion globale de l’interface du routeur connectée au réseau",
@@ -317,7 +319,7 @@
        ]
     },
     {
-       "question": "41. Quelle implémentation FHRP est un protocole d’élection IPv4 exclusif qui a un routeur principal par groupe?",
+       "question": "Quelle implémentation FHRP est un protocole d’élection IPv4 exclusif qui a un routeur principal par groupe?",
        "choices": [
           "VRRPv3",
           "HSRP pour IPv6",
@@ -329,7 +331,7 @@
        ]
     },
     {
-       "question": "42. Le pool d’adresses d’un serveur DHCP est configuré avec 10.19.44.0/24. L’administrateur réseau réserve 3 adresses IP pour les serveurs. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 10.19.44.0/24. L’administrateur réseau réserve 3 adresses IP pour les serveurs. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
        "choices": [
           "251",
           "241",
@@ -342,7 +344,7 @@
        ]
     },
     {
-       "question": "43. Un administrateur réseau configure un routeur de manière à envoyer des messages d’annonce de routeur avec l’indicateur M réglé sur 0 et l’indicateur O réglé sur 1. Parmi les propositions suivantes, laquelle décrit l’effet de cette configuration sur la tentative de configuration par un PC de son adresse IPv6 ?",
+       "question": "Un administrateur réseau configure un routeur de manière à envoyer des messages d’annonce de routeur avec l’indicateur M réglé sur 0 et l’indicateur O réglé sur 1. Parmi les propositions suivantes, laquelle décrit l’effet de cette configuration sur la tentative de configuration par un PC de son adresse IPv6 ?",
        "choices": [
           "Il doit contacter un serveur DHCPv6 pour toutes les informations dont il a besoin.",
           "Il doit contacter un serveur DHCPv6 pour obtenir le préfixe, les informations de longueur de préfixe et un ID d’interface unique et aléatoire.",
@@ -354,7 +356,7 @@
        ]
     },
     {
-       "question": "46. Le pool d’adresses d’un serveur DHCP est configuré avec 10.19.44.0/24. L’administrateur réseau réserve 6 adresses IP pour les serveurs. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 10.19.44.0/24. L’administrateur réseau réserve 6 adresses IP pour les serveurs. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
        "choices": [
           "252",
           "248",
@@ -367,7 +369,7 @@
        ]
     },
     {
-       "question": "48. Le pool d’adresses d’un serveur DHCP est configuré avec 192.168.234.0/27. L’administrateur réseau réserve 22 adresses IP pour les téléphones IP. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées à d’autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 192.168.234.0/27. L’administrateur réseau réserve 22 adresses IP pour les téléphones IP. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées à d’autres hôtes?",
        "choices": [
           "0",
           "21",
@@ -380,7 +382,7 @@
        ]
     },
     {
-       "question": "50. Quelle implémentation FHRP est un protocole propriétaire de Cisco qui prend en charge le partage de charge IPv4?",
+       "question": "Quelle implémentation FHRP est un protocole propriétaire de Cisco qui prend en charge le partage de charge IPv4?",
        "choices": [
           "IRDP",
           "GLBP pour IPv6",
@@ -392,7 +394,7 @@
        ]
     },
     {
-       "question": "51. Quelle implémentation FHRP est un protocole propriétaire de CISCO qui prend en charge l’équilibrage de charge IPv6?",
+       "question": "Quelle implémentation FHRP est un protocole propriétaire de CISCO qui prend en charge l’équilibrage de charge IPv6?",
        "choices": [
           "VRRPv3",
           "GLBP pour IPv6",
@@ -404,7 +406,7 @@
        ]
     },
     {
-       "question": "52. Le pool d’adresses d’un serveur DHCP est configuré avec 10.7.30.0/24. L’administrateur réseau réserve 5 adresses IP pour les imprimantes. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 10.7.30.0/24. L’administrateur réseau réserve 5 adresses IP pour les imprimantes. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
        "choices": [
           "247",
           "249",
@@ -417,7 +419,7 @@
        ]
     },
     {
-       "question": "53. Quelle implémentation FHRP est un protocole non propriétaire qui s’appuie sur ICMP pour fournir la redondance IPv4?",
+       "question": "Quelle implémentation FHRP est un protocole non propriétaire qui s’appuie sur ICMP pour fournir la redondance IPv4?",
        "choices": [
           "IRDP",
           "VRRPv3",
@@ -429,7 +431,7 @@
        ]
     },
     {
-       "question": "54. Le pool d’adresses d’un serveur DHCP est configuré avec 172.21.121.0/25. L’administrateur réseau réserve 12 adresses IP pour les serveurs Web. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 172.21.121.0/25. L’administrateur réseau réserve 12 adresses IP pour les serveurs Web. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
        "choices": [
           "118",
           "104",
@@ -442,7 +444,7 @@
        ]
     },
     {
-       "question": "55. Quelle implémentation FHRP est un protocole non propriétaire qui s’appuie sur ICMP pour fournir une redondance IPv4?",
+       "question": "Quelle implémentation FHRP est un protocole non propriétaire qui s’appuie sur ICMP pour fournir une redondance IPv4?",
        "choices": [
           "HSRP pour IPv6",
           "VRRPv3",
@@ -454,7 +456,7 @@
        ]
     },
     {
-       "question": "56. Le pool d’adresses d’un serveur DHCP est configuré avec 172.18.93.0/25. L’administrateur réseau réserve 10 adresses IP pour les serveurs Web. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 172.18.93.0/25. L’administrateur réseau réserve 10 adresses IP pour les serveurs Web. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
        "choices": [
           "120",
           "106",
@@ -467,7 +469,7 @@
        ]
     },
     {
-       "question": "57. Le pool d’adresses d’un serveur DHCP est configuré avec 192.168.184.0/26. L’administrateur réseau réserve 18 adresses IP pour les points d’accès. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
+       "question": "Le pool d’adresses d’un serveur DHCP est configuré avec 192.168.184.0/26. L’administrateur réseau réserve 18 adresses IP pour les points d’accès. Combien reste-t-il d’adresses IP dans le pool peuvent être attribuées aux autres hôtes?",
        "choices": [
           "36",
           "46",
@@ -478,5 +480,150 @@
        "answers": [
           4
        ]
+    },
+    {
+       "question": "Examinez l’illustration. PC-A ne parvient pas à recevoir une adresse IPv6 à partir du serveur DHCPv6 avec état. Quel est le problème ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_220352.jpg",
+       "choices": [
+          "La commande ipv6 nd managed-config-flag doit être ipv6 nd other-config-flag .",
+          "La commande ipv6 dhcp relay doit utiliser l’adresse link-local du serveur DHCP.",
+          "La commande ipv6 nd managed-config-flag doit être appliquée à l’interface Gig0/1.",
+          "La commande ipv6 dhcp relay doit être appliquée à l’interface Gig0/0."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Reportez-vous à l’illustration. Un administrateur réseau implémente le fonctionnement DHCPv6 sans état pour l’entreprise. Les clients configurent les adresses IPv6 comme prévu. Toutefois, les clients ne récupèrent pas les adresses des serveurs de noms de domaine (DNS) et le nom de domaine configuré dans le pool DHCP. Quelle est la cause probable de ce problème ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_220303.jpg",
+       "choices": [
+          "Les clients ne peuvent pas communiquer avec le serveur DHCPv6, comme l’indique le fait que le nombre de clients actifs soit 0.",
+          "Le routeur est configuré pour un fonctionnement SLAAC",
+          "L’adresse du serveur de noms de domaine (DNS) n’est pas sur le même réseau que les clients.",
+          "L’interface Gigabit Ethernet n’est pas activée."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Un administrateur réseau configure un routeur pour un fonctionnement DHCPv6. Quelles conclusions pouvez-vous tirer à partir des commandes ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_220213.jpg",
+       "choices": [
+          "Le routeur est configuré pour un fonctionnement DHCPv6 sans état.",
+          "Les clients doivent configurer les ID d’interface supérieurs à 0010.",
+          "Le routeur est configuré pour un fonctionnement DHCPv6 avec état, mais la configuration du pool DHCP est incomplète.",
+          "Le nom du serveur DHCPv6 est ACAD_CLASS."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Quel protocole peut être configuré sur les routeurs de passerelle R1 et R2 pour permettre l’équilibrage de la charge du trafic provenant du LAN interne entre les deux passerelles Internet ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_220131.jpg",
+       "choices": [
+          "PVST",
+          "PVST+",
+          "STP",
+          "GLBP"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Un ingénieur réseau dépanne la connectivité des hôtes sur un LAN utilisant un protocole de redondance au premier saut. Quelle adresse de passerelle IPv4 doit être configurée sur l’hôte ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_220038.jpg",
+       "choices": [
+          "192.168.2.0",
+          "192.168.2.1",
+          "192.168.2.2",
+          "192.168.2.100"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Quelle adresse MAC de destination est utilisée lorsque des trames sont envoyées depuis la station de travail vers la passerelle par défaut ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_220003.jpg",
+       "choices": [
+          "L’adresse MAC du routeur de transfert",
+          "L’adresse MAC du routeur virtuel",
+          "Les adresses MAC du routeur de transfert et du routeur en veille.",
+          "L’adresse MAC du routeur en veille"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question.<br>Quel est le mot-clé affiché sur www.netacad.com?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_222126.jpg",
+       "choices": [
+          "réseau",
+          "Routeur",
+          "commutateur",
+          "DHCP",
+          "Cisco",
+          "IPv6"
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. D’après le résultat affiché, quel type d’adressage IPv6 est configuré ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_161226.jpg",
+       "choices": [
+          "Link-local statique",
+          "SLAAC",
+          "stateless DHCPv6",
+          "stateful DHCPv6"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Que faut-il faire pour permettre à PC-A de recevoir une adresse IPv6 depuis le serveur DHCPv6 ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_161318.jpg",
+       "choices": [
+          "Ajouter l’adresse IPv6 2001:DB8:1234:5678::10/64 à la configuration d’interface du serveur DHCPv6.",
+          "Ajouter la commande ipv6 dhcp relay à l’interface Fa0/0.",
+          "Configurer la commande ipv6 nd managed-config-flag sur l’interface Fa0/1.",
+          "Remplacer la commande ipv6 nd managed-config-flag par la commande ipv6 nd other-config-flag ."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. PC1 est configuré pour obtenir une adresse IP dynamique du serveur DHCP. PC1 a été arrêté pendant deux semaines. Lorsque PC1 démarre et tente de demander une adresse IP disponible, quelle adresse IP de destination PC1 place-t-il dans l’en-tête IP ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_161424.jpg",
+       "choices": [
+          "192.168.1.255",
+          "192.168.1.1",
+          "255.255.255.255",
+          "192.168.1.8"
+       ],
+       "answers": [
+          2
+       ]
+    },
+    {
+       "question": "Reportez-vous à l’illustration. Un administrateur réseau configure le routeur comme DHCPv6 sur le serveur. L’administrateur émet une commande show ipv6 dhcp pool pour vérifier la configuration. Quelle instruction explique la raison pour laquelle le nombre de clients actifs est 0?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-02_101403.jpg",
+       "choices": [
+          "L’état n’est pas maintenu par le serveur DHCPv6 sous l’opération DHCPv6 sans état.",
+          "L’adresse de passerelle par défaut n’est pas fournie dans le pool.",
+          "La configuration du pool DHCP IPv6 n’a aucune plage d’adresses IPv6 spécifiée.",
+          "Aucun client n’a encore communiqué avec le serveur DHCPv6."
+       ],
+       "answers": [
+          0
+       ]
     }
- ]
+]

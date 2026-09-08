@@ -1,6 +1,6 @@
 [
    {
-      "question": "1. Reportez-vous à l’illustration. PC A envoie une requête au serveur B. Quelle adresse IPv4 est utilisée dans le champ de destination du paquet quand ce dernier sort de PC A ?",
+      "question": "Reportez-vous à l’illustration. PC A envoie une requête au serveur B. Quelle adresse IPv4 est utilisée dans le champ de destination du paquet quand ce dernier sort de PC A ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_182525.jpg",
       "choices": [
          "192.168.10.1",
@@ -13,7 +13,7 @@
       ]
    },
    {
-      "question": "2. Reportez -vous à l’illustration. Quelle adresse MAC de destination R1 utilise-t-il pour concevoir la trame à transférer de R1 vers le serveur B ?",
+      "question": "Reportez -vous à l’illustration. Quelle adresse MAC de destination R1 utilise-t-il pour concevoir la trame à transférer de R1 vers le serveur B ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_182910.jpg",
       "choices": [
          "R1 laisse le champ vide et transmet les données au PC.",
@@ -26,7 +26,7 @@
       ]
    },
    {
-      "question": "3. Quels sont les deux avantages du routage statique sur le routage dynamique ? (Choisissez deux réponses.)",
+      "question": "Quels sont les deux avantages du routage statique sur le routage dynamique ? (Choisissez deux réponses.)",
       "choices": [
          "Le routage statique se met à l’échelle facilement pour suivre l’évolution des réseaux.",
          "Le routage statique utilise moins de ressources du routeur que le routage dynamique.",
@@ -35,11 +35,12 @@
          "Le routage statique est plus sûr puisqu’il n’envoie pas d’annonces sur le réseau."
       ],
       "answers": [
-         1, 4
+         1,
+         4
       ]
    },
    {
-      "question": "4. Dans quel cas est-il préférable d’utiliser un protocole de routage dynamique au lieu du routage statique ?",
+      "question": "Dans quel cas est-il préférable d’utiliser un protocole de routage dynamique au lieu du routage statique ?",
       "choices": [
          "dans une entreprise où les routeurs rencontrent des problèmes de performances",
          "pour les réseaux d’entreprise de petite taille qui ne sont pas amenés à se développer de manière significative",
@@ -51,7 +52,7 @@
       ]
    },
    {
-      "question": "5. Reportez-vous à l’illustration. Quelle est la valeur de la distance administrative de la route pour que le routeur R1 atteigne l’adresse IPv6 de destination 2001:DB8:CAFE:4::A ?",
+      "question": "Reportez-vous à l’illustration. Quelle est la valeur de la distance administrative de la route pour que le routeur R1 atteigne l’adresse IPv6 de destination 2001:DB8:CAFE:4::A ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_183122.jpg",
       "choices": [
          "110",
@@ -64,17 +65,7 @@
       ]
    },
    {
-      "question": "6. Associez la caractéristique au type de routage correspondant. (Les options ne doivent pas être toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_183422-768x491.jpg",
-      "choices": [
-         "CLIQUER ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "7. Un administrateur réseau configure l’interface Fa0/0 du routeur R1 avec la commande ip address 172.16.1.254 255.255.255.0 . Cependant, lorsqu’il exécute la commande show ip route , la table de routage n’affiche pas le réseau connecté directement. Quelle est la cause possible du problème ?",
+      "question": "Un administrateur réseau configure l’interface Fa0/0 du routeur R1 avec la commande ip address 172.16.1.254 255.255.255.0 . Cependant, lorsqu’il exécute la commande show ip route , la table de routage n’affiche pas le réseau connecté directement. Quelle est la cause possible du problème ?",
       "choices": [
          "La configuration doit être d’abord enregistrée.",
          "Le masque de sous-réseau n’est pas valide pour l’adresse IPv4.",
@@ -86,7 +77,7 @@
       ]
    },
    {
-      "question": "8. Un routeur a utilisé le protocole OSPF pour apprendre une route vers le réseau 172.16.32.0/19. Quelle commande implémente une route statique flottante de secours vers ce réseau ?",
+      "question": "Un routeur a utilisé le protocole OSPF pour apprendre une route vers le réseau 172.16.32.0/19. Quelle commande implémente une route statique flottante de secours vers ce réseau ?",
       "choices": [
          "ip route 172.16.0.0 255.255.224.0 S0/0/0 100",
          "ip route 172.16.32.0 255.255.224.0 S0/0/0 200",
@@ -98,7 +89,7 @@
       ]
    },
    {
-      "question": "9. Sur quels routeurs une route statique par défaut doit être configurée ? (Choisissez deux réponses.)",
+      "question": "Sur quels routeurs une route statique par défaut doit être configurée ? (Choisissez deux réponses.)",
       "choices": [
          "Le routeur de destination utilisé comme passerelle de dernier recours",
          "Un routeur souche connecté au reste du réseau d’entreprise ou de campus",
@@ -107,11 +98,12 @@
          "Un routeur de périphérie connecté à un FAI"
       ],
       "answers": [
-         1, 4
+         1,
+         4
       ]
    },
    {
-      "question": "10. Reportez-vous à l’illustration. Ce réseau comprend deux connexions au FAI, une via le routeur C et une autre via le routeur B. La liaison série entre les routeurs A et C prend en charge le protocole EIGRP et constitue la liaison principale à Internet. Si la liaison principale échoue, l’administrateur a besoin d’une route statique flottante qui évite les recherches récursives de route et les problèmes potentiels de tronçon suivant résultant de la nature à accès multiple du segment Ethernet avec le routeur B. Quel élément l’administrateur doit-il configurer ?",
+      "question": "Reportez-vous à l’illustration. Ce réseau comprend deux connexions au FAI, une via le routeur C et une autre via le routeur B. La liaison série entre les routeurs A et C prend en charge le protocole EIGRP et constitue la liaison principale à Internet. Si la liaison principale échoue, l’administrateur a besoin d’une route statique flottante qui évite les recherches récursives de route et les problèmes potentiels de tronçon suivant résultant de la nature à accès multiple du segment Ethernet avec le routeur B. Quel élément l’administrateur doit-il configurer ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_184545.jpg",
       "choices": [
          "Créer une route statique entièrement spécifiée pointant vers Fa0/0 avec une distance administrative de 1.",
@@ -125,7 +117,7 @@
       ]
    },
    {
-      "question": "11. Quelle est la caractéristique d’une route statique flottante?",
+      "question": "Quelle est la caractéristique d’une route statique flottante?",
       "choices": [
          "Lorsqu’il est configuré, il crée une passerelle de dernier recours.​",
          "Il est utilisé pour fournir l’équilibrage de charge entre les routes statiques.",
@@ -137,7 +129,7 @@
       ]
    },
    {
-      "question": "12. Quelle combinaison de préfixe réseau et de longueur de préfixe est utilisée pour créer une route statique par défaut qui correspondra à n’importe quelle destination IPv6 ?",
+      "question": "Quelle combinaison de préfixe réseau et de longueur de préfixe est utilisée pour créer une route statique par défaut qui correspondra à n’importe quelle destination IPv6 ?",
       "choices": [
          "::/0",
          "::1/64",
@@ -149,7 +141,7 @@
       ]
    },
    {
-      "question": "13. Reportez-vous à l’illustration. La table de routage de R2 est la suivante :<br><br>Gateway of last resort is not set<br>10.0.0.0/30 is subnetted, 2 subnets<br>C 10.0.0.0 is directly connected, Serial0/0/0<br>C 10.0.0.4 is directly connected, Serial0/0/1<br>192.168.10.0/26 is subnetted, 3 subnets<br>S 192.168.10.0 is directly connected, Serial0/0/0<br>C 192.168.10.64 is directly connected, FastEthernet0/0<br>S 192.168.10.128 [1/0] via 10.0.0.6<br><br>Quelle opération le routeur R2 effectue sur un paquet destiné à 192.168.10.129 ?",
+      "question": "Reportez-vous à l’illustration. La table de routage de R2 est la suivante :<br><br>Gateway of last resort is not set<br>10.0.0.0/30 is subnetted, 2 subnets<br>C 10.0.0.0 is directly connected, Serial0/0/0<br>C 10.0.0.4 is directly connected, Serial0/0/1<br>192.168.10.0/26 is subnetted, 3 subnets<br>S 192.168.10.0 is directly connected, Serial0/0/0<br>C 192.168.10.64 is directly connected, FastEthernet0/0<br>S 192.168.10.128 [1/0] via 10.0.0.6<br><br>Quelle opération le routeur R2 effectue sur un paquet destiné à 192.168.10.129 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_184851.jpg",
       "choices": [
          "envoyer le paquet en sortie sur l’interface FastEthernet0/0",
@@ -162,7 +154,7 @@
       ]
    },
    {
-      "question": "15. Reportez-vous à l’illustration. Pour le réseau 10.0.0.0/8, quelles commandes convertissent l’adresse de tronçon suivant 172.16.40.2 en 192.168.1.2 ? (Choisissez deux réponses.)",
+      "question": "Reportez-vous à l’illustration. Pour le réseau 10.0.0.0/8, quelles commandes convertissent l’adresse de tronçon suivant 172.16.40.2 en 192.168.1.2 ? (Choisissez deux réponses.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185033.jpg",
       "choices": [
          "A(config)# no network 10.0.0.0 255.0.0.0 172.16.40.2",
@@ -172,11 +164,12 @@
          "A(config)# ip route 10.0.0.0 255.0.0.0 192.168.1.2"
       ],
       "answers": [
-         1, 4
+         1,
+         4
       ]
    },
    {
-      "question": "16. Examinez l’illustration. Quelle commande de route statique par défaut permettrait à R1 d’atteindre potentiellement tous les réseaux inconnus sur Internet ?",
+      "question": "Examinez l’illustration. Quelle commande de route statique par défaut permettrait à R1 d’atteindre potentiellement tous les réseaux inconnus sur Internet ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185129.jpg",
       "choices": [
          "R1(config)# ipv6 route 2001:db8:32::/64 G0/1 fe80::2",
@@ -189,7 +182,7 @@
       ]
    },
    {
-      "question": "17. Reportez-vous à l’illustration. Quel type de route statique IPv6 est configuré dans la présentation ?",
+      "question": "Reportez-vous à l’illustration. Quel type de route statique IPv6 est configuré dans la présentation ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185222.jpg",
       "choices": [
          "Route statique entièrement spécifiée",
@@ -202,7 +195,7 @@
       ]
    },
    {
-      "question": "18. Examinez l’illustration. L’ingénieur réseau de l’entreprise représentée souhaite utiliser la connexion principale du FAI pour toutes les connexions externes. La connexion de secours du FAI est utilisée uniquement en cas d’échec de la connexion principale. Quel jeu de commandes doit être exécuté pour ce faire ?",
+      "question": "Examinez l’illustration. L’ingénieur réseau de l’entreprise représentée souhaite utiliser la connexion principale du FAI pour toutes les connexions externes. La connexion de secours du FAI est utilisée uniquement en cas d’échec de la connexion principale. Quel jeu de commandes doit être exécuté pour ce faire ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185258.jpg",
       "choices": [
          "ip route 198.133.219.24 255.255.255.252<br>ip route 64.100.210.80 255.255.255.252 10",
@@ -215,7 +208,7 @@
       ]
    },
    {
-      "question": "19. Examinez l’illustration. La petite entreprise illustrée utilise le routage statique. Les utilisateurs du LAN de R2 ont signalé un problème de connectivité. Quel est le problème ?",
+      "question": "Examinez l’illustration. La petite entreprise illustrée utilise le routage statique. Les utilisateurs du LAN de R2 ont signalé un problème de connectivité. Quel est le problème ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185408-768x461.jpg",
       "choices": [
          "R1 doit disposer d’une route par défaut vers R2.",
@@ -229,7 +222,7 @@
       ]
    },
    {
-      "question": "20. Reportez-vous à l’illustration. Un administrateur tente de configurer une route statique IPv6 sur le routeur R1 pour atteindre le réseau connecté au routeur R2. Après la saisie de la commande de la route statique, la connectivité au réseau est toujours défaillante. Quelle erreur a été effectuée dans la configuration de la route statique ?",
+      "question": "Reportez-vous à l’illustration. Un administrateur tente de configurer une route statique IPv6 sur le routeur R1 pour atteindre le réseau connecté au routeur R2. Après la saisie de la commande de la route statique, la connectivité au réseau est toujours défaillante. Quelle erreur a été effectuée dans la configuration de la route statique ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185531-768x334.jpg",
       "choices": [
          "Le préfixe réseau est incorrect.",
@@ -243,7 +236,7 @@
       ]
    },
    {
-      "question": "14. Un administrateur exécute la commande ipv6 route 2001:db8:acad:1::/32 gigabitethernet0/0 2001:db8:acad:6::1 100 sur un routeur. Quelle distance administrative est attribuée à cette route ?",
+      "question": "Un administrateur exécute la commande ipv6 route 2001:db8:acad:1::/32 gigabitethernet0/0 2001:db8:acad:6::1 100 sur un routeur. Quelle distance administrative est attribuée à cette route ?",
       "choices": [
          "0",
          "1",
@@ -255,7 +248,7 @@
       ]
    },
    {
-      "question": "21. Reportez-vous à l’illustration. Quelle est la méthode d’installation de la route hôte 2001:DB8:CAFE:4::1/128 dans la table de routage ?",
+      "question": "Reportez-vous à l’illustration. Quelle est la méthode d’installation de la route hôte 2001:DB8:CAFE:4::1/128 dans la table de routage ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185615.jpg",
       "choices": [
          "Cette route a été saisie manuellement par un administrateur.",
@@ -268,7 +261,7 @@
       ]
    },
    {
-      "question": "22. Examinez l’illustration. L’hôte HostA tente de contacter le serveur ServerB. Quels sont les deux énoncés décrivant l’adressage que l’hôte HostA génère dans le cadre de ce processus ? (Choisissez deux réponses.)",
+      "question": "Examinez l’illustration. L’hôte HostA tente de contacter le serveur ServerB. Quels sont les deux énoncés décrivant l’adressage que l’hôte HostA génère dans le cadre de ce processus ? (Choisissez deux réponses.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185743.jpg",
       "choices": [
          "Une trame dont l’adresse MAC de destination est celle du routeur RouterA.",
@@ -279,11 +272,12 @@
          "Une trame dont l’adresse MAC de destination est celle du commutateur SwitchA."
       ],
       "answers": [
-         0, 1
+         0,
+         1
       ]
    },
    {
-      "question": "23. Examinez l’illustration. Les tests ping de R1 à 10.1.1.2 aboutissent, mais les tests ping de R1 vers n’importe quelle adresse du réseau 192.168.2.0 échouent. Quelle est la cause de ce problème ?",
+      "question": "Examinez l’illustration. Les tests ping de R1 à 10.1.1.2 aboutissent, mais les tests ping de R1 vers n’importe quelle adresse du réseau 192.168.2.0 échouent. Quelle est la cause de ce problème ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194009.jpg",
       "choices": [
          "La route statique de 192.168.2.0 n’est pas correctement configurée.",
@@ -296,7 +290,7 @@
       ]
    },
    {
-      "question": "24. Reportez-vous à l’illustration. Un administrateur tente d’installer une route statique par défaut sur le routeur R1 pour atteindre le réseau du site B sur le routeur R2. Après avoir entré la commande de route statique, l’itinéraire n’apparaît toujours pas dans la table de routage du routeur R1. Qu’est-ce qui empêche l’installation de l’itinéraire dans la table de routage?",
+      "question": "Reportez-vous à l’illustration. Un administrateur tente d’installer une route statique par défaut sur le routeur R1 pour atteindre le réseau du site B sur le routeur R2. Après avoir entré la commande de route statique, l’itinéraire n’apparaît toujours pas dans la table de routage du routeur R1. Qu’est-ce qui empêche l’installation de l’itinéraire dans la table de routage?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194052-768x454.jpg",
       "choices": [
          "L’adresse du tronçon suivant est incorrecte.",
@@ -309,7 +303,7 @@
       ]
    },
    {
-      "question": "25. Reportez-vous à l’illustration. Le routeur Branch a une relation de voisin OSPF avec le routeur HQ sur le réseau 198.51.0.4/30. La liaison réseau 198.51.0.8/30 devrait servir de sauvegarde lorsque la liaison OSPF tombe en panne. La commande flottante statique route ip route 0.0.0.0 0.0.0.0 S0/1/1 100 a été émise sur Branch et maintenant le trafic utilise la liaison de sauvegarde même lorsque la liaison OSPF est en service et fonctionne. Quelle modification doit être apportée à la commande route statique afin que le trafic n’utilise la liaison OSPF que lorsqu’elle est en service?",
+      "question": "Reportez-vous à l’illustration. Le routeur Branch a une relation de voisin OSPF avec le routeur HQ sur le réseau 198.51.0.4/30. La liaison réseau 198.51.0.8/30 devrait servir de sauvegarde lorsque la liaison OSPF tombe en panne. La commande flottante statique route ip route 0.0.0.0 0.0.0.0 S0/1/1 100 a été émise sur Branch et maintenant le trafic utilise la liaison de sauvegarde même lorsque la liaison OSPF est en service et fonctionne. Quelle modification doit être apportée à la commande route statique afin que le trafic n’utilise la liaison OSPF que lorsqu’elle est en service?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194221.jpg",
       "choices": [
          "Ajoutez l’adresse du voisin de saut suivant, 198.51.0.8.",
@@ -322,7 +316,7 @@
       ]
    },
    {
-      "question": "26. Quelle caractéristique complète l’énoncé suivant ?<br><br>Lorsqu’ une route statique IPv6 est configurée, l’installation de la route peut être vérifiée avec…",
+      "question": "Quelle caractéristique complète l’énoncé suivant ?<br><br>Lorsqu’ une route statique IPv6 est configurée, l’installation de la route peut être vérifiée avec…",
       "choices": [
          "la commande « show ipv6 route static ».",
          "la commande “ipv6 unicast-routing”.",
@@ -334,7 +328,7 @@
       ]
    },
    {
-      "question": "27. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.139.244 ?<br>La passerelle de dernier recours n'est pas configurée.<br>192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0<br>O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1<br>O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0<br>C 192.168.139.192/27 is directly connected, GigabitEthernet0/0<br>L 192.168.139.193/27 is directly connected, GigabitEthernet0/0<br>C 192.168.139.224/27 is directly connected, GigabitEthernet0/1<br>L 192.168.139.225/27 is directly connected, GigabitEthernet0/1<br>192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 192.168.70.0/30 is directly connected, Serial0/0/0<br>L 192.168.70.2/32 is directly connected, Serial0/0/0<br>C 192.168.70.4/30 is directly connected, Serial0/0/1<br>L 192.168.70.5/32 is directly connected, Serial0/0/1<br>S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0<br>R1#",
+      "question": "Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.139.244 ?<br>La passerelle de dernier recours n'est pas configurée.<br>192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0<br>O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1<br>O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0<br>C 192.168.139.192/27 is directly connected, GigabitEthernet0/0<br>L 192.168.139.193/27 is directly connected, GigabitEthernet0/0<br>C 192.168.139.224/27 is directly connected, GigabitEthernet0/1<br>L 192.168.139.225/27 is directly connected, GigabitEthernet0/1<br>192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 192.168.70.0/30 is directly connected, Serial0/0/0<br>L 192.168.70.2/32 is directly connected, Serial0/0/0<br>C 192.168.70.4/30 is directly connected, Serial0/0/1<br>L 192.168.70.5/32 is directly connected, Serial0/0/1<br>S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Serial0/0/1",
          "GigabitEthernet0/0",
@@ -346,7 +340,7 @@
       ]
    },
    {
-      "question": "28. Reportez-vous à l’illustration. Quelle solution de routage permettra à PC A et à PC B d’accéder à Internet avec une utilisation minimale de la bande passante du CPU du routeur et du réseau ?",
+      "question": "Reportez-vous à l’illustration. Quelle solution de routage permettra à PC A et à PC B d’accéder à Internet avec une utilisation minimale de la bande passante du CPU du routeur et du réseau ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194438.jpg",
       "choices": [
          "Configurer une route dynamique de R1 vers Edge et une route statique de Edge vers R1.",
@@ -359,7 +353,7 @@
       ]
    },
    {
-      "question": "29. Reportez-vous à l’illustration. Que se passe-t-il lorsque l’administrateur informatique saisit la nouvelle route statique ?",
+      "question": "Reportez-vous à l’illustration. Que se passe-t-il lorsque l’administrateur informatique saisit la nouvelle route statique ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194541.jpg",
       "choices": [
          "La route 172.16.1.0 associée au protocole RIP est remplacée par la route statique 172.16.1.0.",
@@ -372,7 +366,7 @@
       ]
    },
    {
-      "question": "30. Quelles sont les informations requises dans une route statique entièrement spécifiée pour éliminer les recherches récurrentes ? (Choisissez deux réponses.)",
+      "question": "Quelles sont les informations requises dans une route statique entièrement spécifiée pour éliminer les recherches récurrentes ? (Choisissez deux réponses.)",
       "choices": [
          "l’adresse IP du voisin du tronçon suivant",
          "l’ID d’interface du voisin du tronçon suivant",
@@ -381,11 +375,12 @@
          "la distance administrative pour le réseau de destination"
       ],
       "answers": [
-         0, 2
+         0,
+         2
       ]
    },
    {
-      "question": "31. Reportez-vous à l’illustration. Quelle commande configure correctement une route statique IPv6 sur R2 pour permettre au trafic de PC2 d’atteindre PC1 sans aucune recherche récursive par le routeur R2 ?",
+      "question": "Reportez-vous à l’illustration. Quelle commande configure correctement une route statique IPv6 sur R2 pour permettre au trafic de PC2 d’atteindre PC1 sans aucune recherche récursive par le routeur R2 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194657.jpg",
       "choices": [
          "R2(config)# ipv6 route 2001:db8:10:12::/64 S0/0/0",
@@ -398,7 +393,7 @@
       ]
    },
    {
-      "question": "32. Reportez-vous à l’illustration. Quelle route statique un technicien informatique doit-il saisir pour créer une route de secours vers le réseau 172.16.1.0 qui sera utilisée uniquement en cas de défaillance de la route principale associée à RIP ?",
+      "question": "Reportez-vous à l’illustration. Quelle route statique un technicien informatique doit-il saisir pour créer une route de secours vers le réseau 172.16.1.0 qui sera utilisée uniquement en cas de défaillance de la route principale associée à RIP ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_194823.jpg",
       "choices": [
          "ip route 172.16.1.0 255.255.255.0 s0/0/0 91",
@@ -411,7 +406,7 @@
       ]
    },
    {
-      "question": "33. Un utilisateur signale que PC0 ne peut pas visiter le serveur web www.server.com . Dépannez la configuration réseau pour identifier le problème. Quelle est la cause du problème ?",
+      "question": "Un utilisateur signale que PC0 ne peut pas visiter le serveur web www.server.com . Dépannez la configuration réseau pour identifier le problème. Quelle est la cause du problème ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_221912-768x338.jpg",
       "choices": [
          "L’adresse du serveur DNS sur PC0 est mal configurée.",
@@ -424,7 +419,7 @@
       ]
    },
    {
-      "question": "34. Examinez l’illustration. Comment le routeur traite-t-il un paquet dont l’adresse IP de destination est 192.168.12.227 ?",
+      "question": "Examinez l’illustration. Comment le routeur traite-t-il un paquet dont l’adresse IP de destination est 192.168.12.227 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_222615.jpg",
       "choices": [
          "Il envoie le paquet à l’interface GigabitEthernet0/0.",
@@ -437,7 +432,7 @@
       ]
    },
    {
-      "question": "35. Qu’arrive-t-il à une entrée de route statique de la table de routage lorsque l’interface sortante associée à cette route est mise hors service ?",
+      "question": "Qu’arrive-t-il à une entrée de route statique de la table de routage lorsque l’interface sortante associée à cette route est mise hors service ?",
       "choices": [
          "La route statique est supprimée de la table de routage.",
          "La route statique reste dans la table, car elle est définie comme statique.",
@@ -449,7 +444,7 @@
       ]
    },
    {
-      "question": "36. Quelle est la caractéristique d’une route statique qui correspond à tous les paquets ?",
+      "question": "Quelle est la caractéristique d’une route statique qui correspond à tous les paquets ?",
       "choices": [
          "Elle est configurée avec une distance administrative supérieure à celle du protocole de routage dynamique original.",
          "Elle sauvegarde la route déjà découverte par un protocole de routage dynamique.",
@@ -461,7 +456,7 @@
       ]
    },
    {
-      "question": "37. Quelle route est utilisée pour transférer un paquet associé à une adresse IP source 192.168.10.1 et une adresse IP de destination 10.1.1.1 ?",
+      "question": "Quelle route est utilisée pour transférer un paquet associé à une adresse IP source 192.168.10.1 et une adresse IP de destination 10.1.1.1 ?",
       "choices": [
          "S 10.1.0.0/16 is directly connected, GigabitEthernet0/0",
          "C 192.168.10.0/30 is directly connected, GigabitEthernet0/1",
@@ -473,7 +468,7 @@
       ]
    },
    {
-      "question": "38. Quelle valeur dans une table de routage représente la fiabilité et est utilisée par le routeur pour déterminer l’itinéraire à installer dans la table de routage lorsqu’il existe plusieurs itinéraires vers la même destination?",
+      "question": "Quelle valeur dans une table de routage représente la fiabilité et est utilisée par le routeur pour déterminer l’itinéraire à installer dans la table de routage lorsqu’il existe plusieurs itinéraires vers la même destination?",
       "choices": [
          "protocole de routage",
          "mesure",
@@ -485,7 +480,7 @@
       ]
    },
    {
-      "question": "39. Examinez l’illustration. Quelle commande permet de configurer une route statique sur R1 afin que le trafic des deux LAN atteigne le réseau distant 2001:db8:1:4::/64 ?",
+      "question": "Examinez l’illustration. Quelle commande permet de configurer une route statique sur R1 afin que le trafic des deux LAN atteigne le réseau distant 2001:db8:1:4::/64 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_223318.jpg",
       "choices": [
          "ipv6 route ::/0 serial0/0/0",
@@ -498,7 +493,7 @@
       ]
    },
    {
-      "question": "40. Observez le schéma. Quelle commande est utilisée sur le routeur A pour configurer une route statique afin de diriger le trafic du LAN A vers le LAN C ?",
+      "question": "Observez le schéma. Quelle commande est utilisée sur le routeur A pour configurer une route statique afin de diriger le trafic du LAN A vers le LAN C ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_223412.jpg",
       "choices": [
          "A(config)# ip route 192.168.4.0 255.255.255.0 192.168.5.2",
@@ -512,7 +507,7 @@
       ]
    },
    {
-      "question": "ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Comment l’administrateur devrait-il tester cette configuration ?",
+      "question": "Examinez la commande suivante :<br>ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Comment l’administrateur devrait-il tester cette configuration ?",
       "choices": [
          "Supprimer la route de la passerelle par défaut sur le routeur.",
          "Envoyer un message Ping au réseau 192.168.10.0 à l’adresse 10.10.10.2.",
@@ -524,7 +519,7 @@
       ]
    },
    {
-      "question": "42. Reportez-vous à l’illustration. Quel ensemble de commandes configurera des routes statiques qui permettront aux routeurs Park et Alta de a) transférer des paquets vers chaque réseau local et b) diriger tout autre trafic vers Internet?",
+      "question": "Reportez-vous à l’illustration. Quel ensemble de commandes configurera des routes statiques qui permettront aux routeurs Park et Alta de a) transférer des paquets vers chaque réseau local et b) diriger tout autre trafic vers Internet?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_223612.jpg",
       "choices": [
          "Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1<br>Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2<br>Alta(config)# ip route 198.18.222.0 255.255.255.255 s0/0/0",
@@ -537,7 +532,7 @@
       ]
    },
    {
-      "question": "43. Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.19.115.206 ?<br>La passerelle de dernier recours n'est pas configurée.<br>172.19.115.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.19.115.0/26 [110/10] via 172.19.39.1, 00:00:24, Serial0/0/0<br>O 172.19.115.64/26 [110/20] via 172.19.39.6, 00:00:56, Serial 0/0/1<br>O 172.19.115.128/26 [110/10] via 172.19.39.1, 00:00:24, Serial 0/0/0<br>C 172.19.115.192/27 is directly connected, GigabitEthernet0/0<br>L 172.19.115.193/27 is directly connected, GigabitEthernet0/0<br>C 172.19.115.224/27 is directly connected, GigabitEthernet0/1<br>L 172.19.115.225/27 is directly connected, GigabitEthernet0/1<br>172.19.39.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.19.39.0/30 is directly connected, Serial0/0/0<br>L 172.19.39.2/32 is directly connected, Serial0/0/0<br>C 172.19.39.4/30 is directly connected, Serial0/0/1<br>L 172.19.39.5/32 is directly connected, Serial0/0/1<br>S 172.19.40.0/26 [1/0] via 172.19.39.1, 00:00:24, Serial0/0/0<br>R1#",
+      "question": "Refer to the exhibit. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.19.115.206 ?<br>La passerelle de dernier recours n'est pas configurée.<br>172.19.115.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.19.115.0/26 [110/10] via 172.19.39.1, 00:00:24, Serial0/0/0<br>O 172.19.115.64/26 [110/20] via 172.19.39.6, 00:00:56, Serial 0/0/1<br>O 172.19.115.128/26 [110/10] via 172.19.39.1, 00:00:24, Serial 0/0/0<br>C 172.19.115.192/27 is directly connected, GigabitEthernet0/0<br>L 172.19.115.193/27 is directly connected, GigabitEthernet0/0<br>C 172.19.115.224/27 is directly connected, GigabitEthernet0/1<br>L 172.19.115.225/27 is directly connected, GigabitEthernet0/1<br>172.19.39.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.19.39.0/30 is directly connected, Serial0/0/0<br>L 172.19.39.2/32 is directly connected, Serial0/0/0<br>C 172.19.39.4/30 is directly connected, Serial0/0/1<br>L 172.19.39.5/32 is directly connected, Serial0/0/1<br>S 172.19.40.0/26 [1/0] via 172.19.39.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Le paquet prend la passerelle de dernier recours.",
          "GigabitEthernet0/1",
@@ -549,17 +544,7 @@
       ]
    },
    {
-      "question": "44. Associer l’entrée de la table de routage à la fonction correspondante. (Les propositions ne doivent pas être toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_235325-768x568.jpg",
-      "choices": [
-         "CLIQUER ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "46. Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, en tant que route de sauvegarde vers une route statique dans la table de routage, la commande « distance » est utilisée avec…",
+      "question": "Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, en tant que route de sauvegarde vers une route statique dans la table de routage, la commande « distance » est utilisée avec…",
       "choices": [
          "la commande « show ipv6 route static ».",
          "un itinéraire hôte de destination avec un préfixe /128.",
@@ -571,7 +556,7 @@
       ]
    },
    {
-      "question": "45. Prenez la commande suivante : ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Quelle route devrait être hors service pour que cette route statique apparaisse dans la table de routage ?",
+      "question": "Prenez la commande suivante : ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Quelle route devrait être hors service pour que cette route statique apparaisse dans la table de routage ?",
       "choices": [
          "une route par défaut",
          "une route statique vers le réseau 192.168.10.0/24",
@@ -583,7 +568,7 @@
       ]
    },
    {
-      "question": "47. Référez-vous à l’exposition. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.18.109.152 ?<br>La passerelle de dernier recours n'est pas configurée.<br>172.18.109.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.18.109.0/26 [110/10] via 172.18.32.1, 00:00:24, Serial0/0/0<br>O 172.18.109.64/26 [110/20] via 172.18.32.6, 00:00:56, Serial 0/0/1<br>O 172.18.109.128/26 [110/10] via 172.18.32.1, 00:00:24, Serial 0/0/0<br>C 172.18.109.192/27 is directly connected, GigabitEthernet0/0<br>L 172.18.109.193/27 is directly connected, GigabitEthernet0/0<br>C 172.18.109.224/27 is directly connected, GigabitEthernet0/1<br>L 172.18.109.225/27 is directly connected, GigabitEthernet0/1<br>172.18.32.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.18.32.0/30 is directly connected, Serial0/0/0<br>L 172.18.32.2/32 is directly connected, Serial0/0/0<br>C 172.18.32.4/30 is directly connected, Serial0/0/1<br>L 172.18.32.5/32 is directly connected, Serial0/0/1<br>S 172.18.33.0/26 [1/0] via 172.18.32.1, 00:00:24, Serial0/0/0<br>R1#",
+      "question": "Référez-vous à l’exposition. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.18.109.152 ?<br>La passerelle de dernier recours n'est pas configurée.<br>172.18.109.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.18.109.0/26 [110/10] via 172.18.32.1, 00:00:24, Serial0/0/0<br>O 172.18.109.64/26 [110/20] via 172.18.32.6, 00:00:56, Serial 0/0/1<br>O 172.18.109.128/26 [110/10] via 172.18.32.1, 00:00:24, Serial 0/0/0<br>C 172.18.109.192/27 is directly connected, GigabitEthernet0/0<br>L 172.18.109.193/27 is directly connected, GigabitEthernet0/0<br>C 172.18.109.224/27 is directly connected, GigabitEthernet0/1<br>L 172.18.109.225/27 is directly connected, GigabitEthernet0/1<br>172.18.32.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.18.32.0/30 is directly connected, Serial0/0/0<br>L 172.18.32.2/32 is directly connected, Serial0/0/0<br>C 172.18.32.4/30 is directly connected, Serial0/0/1<br>L 172.18.32.5/32 is directly connected, Serial0/0/1<br>S 172.18.33.0/26 [1/0] via 172.18.32.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Aucun, le paquet est abandonné.",
          "Serial0/0/0",
@@ -595,7 +580,7 @@
       ]
    },
    {
-      "question": "48. Quelle route est associée à la distance administrative la plus courte ?",
+      "question": "Quelle route est associée à la distance administrative la plus courte ?",
       "choices": [
          "un réseau connecté directement",
          "une route reçue via le protocole de routage OSPF",
@@ -607,7 +592,7 @@
       ]
    },
    {
-      "question": "ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Que signifie le 5 à la fin de la commande?",
+      "question": "Considérez la commande suivante:<br>ip route 192.168.10.0 255.255.255.0 10.10.10.2 5<br>Que signifie le 5 à la fin de la commande?",
       "choices": [
          "nombre maximal de sauts sur le réseau 192.168.10.0/24",
          "Interface de sortie",
@@ -619,19 +604,7 @@
       ]
    },
    {
-      "question": "Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.3.86.2 ?<br>10.3.86.0/26 est diversement sous-réseau, 7 sous-réseaux, 3 masques<br>O 10.3.86.0/26 [110/10] via 10.3.2.1, 00:00:24, Serial0/0/0<br>O 10.3.86.64/26 [110/20] via 10.3.2.6, 00:00:56, Série 0/0/1<br>O 10.3.86.128/26 [110/10] via 10.3.2.1, 00:00:24, Série 0/0<br>C 10.3.86.192/27 est directement connecté, PARTIALURLPLACEHOLDER<br>L PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER<br>C PARTIALURLPLACEHOLDER est directement connecté, PARTIALURLPLACEHOLDER<br>L PARTIALURLPLACEHOLDER est directement connecté,<br>PARTIALURLPLACEHOLDER est variable sous-réseau, 4 sous-réseaux, 2 masques<br>C 10.3.2.0/30 est directement connecté, Serial0/0/0<br>L 10.3.2.2/32 est directement connecté, Serial0/0/0<br>C 10.3.2.4/30 est directement connecté, Serial0/0/1<br>L 10.3.2.5/32 est directement connecté, Serial0/0/1<br>S 10.3.3.0/26 [1/0 ] via 10.3.2.1, 00:00:24, Serial0/0/0<br>R1#",
-      "choices": [
-         "Serial0/0/1",
-         "Serial0/0/0",
-         "GigabitEthernet0/1",
-         "GigabitEthernet0/0"
-      ],
-      "answers": [
-         1
-      ]
-   },
-   {
-      "question": "51. Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, il est d’abord nécessaire de configurer…",
+      "question": "Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, il est d’abord nécessaire de configurer…",
       "choices": [
          "la commande “ipv6 unicast-routing”.",
          "l’adresse de saut suivant de deux routeurs adjacents différents.",
@@ -643,7 +616,7 @@
       ]
    },
    {
-      "question": "52. Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, une configuration entièrement spécifiée doit être utilisée avec…",
+      "question": "Quelle caractéristique complète l’énoncé suivant ?<br>Lorsqu’ une route statique IPv6 est configurée, une configuration entièrement spécifiée doit être utilisée avec…",
       "choices": [
          "la commande “ipv6 unicast-routing”.",
          "l’adresse de saut suivant de deux routeurs adjacents différents.",
@@ -655,7 +628,7 @@
       ]
    },
    {
-      "question": "53. Se référer à la pièce jointe. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.25.128.244 ?<br>Gateway of last resort is not set.<br>172.25.128.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.25.128.0/26 [110/10] via 172.25.56.1, 00:00:24, Serial0/0/0<br>O 172.25.128.64/26 [110/20] via 172.25.56.6, 00:00:56, Serial 0/0/1<br>O 172.25.128.128/26 [110/10] via 172.25.56.1, 00:00:24, Serial 0/0/0<br>C 172.25.128.192/27 is directly connected, GigabitEthernet0/0<br>L 172.25.128.193/27 is directly connected, GigabitEthernet0/0<br>C 172.25.128.224/27 is directly connected, GigabitEthernet0/1<br>L 172.25.128.225/27 is directly connected, GigabitEthernet0/1<br>172.25.56.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.25.56.0/30 is directly connected, Serial0/0/0<br>L 172.25.56.2/32 is directly connected, Serial0/0/0<br>C 172.25.56.4/30 is directly connected, Serial0/0/1<br>L 172.25.56.5/32 is directly connected, Serial0/0/1<br>S 172.25.57.0/26 [1/0] via 172.25.56.1, 00:00:24, Serial0/0/0<br>R1#",
+      "question": "Se référer à la pièce jointe. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 172.25.128.244 ?<br>Gateway of last resort is not set.<br>172.25.128.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 172.25.128.0/26 [110/10] via 172.25.56.1, 00:00:24, Serial0/0/0<br>O 172.25.128.64/26 [110/20] via 172.25.56.6, 00:00:56, Serial 0/0/1<br>O 172.25.128.128/26 [110/10] via 172.25.56.1, 00:00:24, Serial 0/0/0<br>C 172.25.128.192/27 is directly connected, GigabitEthernet0/0<br>L 172.25.128.193/27 is directly connected, GigabitEthernet0/0<br>C 172.25.128.224/27 is directly connected, GigabitEthernet0/1<br>L 172.25.128.225/27 is directly connected, GigabitEthernet0/1<br>172.25.56.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 172.25.56.0/30 is directly connected, Serial0/0/0<br>L 172.25.56.2/32 is directly connected, Serial0/0/0<br>C 172.25.56.4/30 is directly connected, Serial0/0/1<br>L 172.25.56.5/32 is directly connected, Serial0/0/1<br>S 172.25.57.0/26 [1/0] via 172.25.56.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "GigabitEthernet0/0",
          "GigabitEthernet0/1",
@@ -667,7 +640,7 @@
       ]
    },
    {
-      "question": "54. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.55.99.78 ?<br>Gateway of last resort is not set.<br>10.55.99.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 10.55.99.0/26 [110/10] via 10.55.18.1, 00:00:24, Serial0/0/0<br>O 10.55.99.64/26 [110/20] via 10.55.18.6, 00:00:56, Serial 0/0/1<br>O 10.55.99.128/26 [110/10] via 10.55.18.1, 00:00:24, Serial 0/0/0<br>C 10.55.99.192/27 is directly connected, GigabitEthernet0/0<br>L 10.55.99.193/27 is directly connected, GigabitEthernet0/0<br>C 10.55.99.224/27 is directly connected, GigabitEthernet0/1<br>L 10.55.99.225/27 is directly connected, GigabitEthernet0/1<br>10.55.18.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 10.55.18.0/30 is directly connected, Serial0/0/0<br>L 10.55.18.2/32 is directly connected, Serial0/0/0<br>C 10.55.18.4/30 is directly connected, Serial0/0/1<br>L 10.55.18.5/32 is directly connected, Serial0/0/1<br>S 10.55.19.0/26 [1/0] via 10.55.18.1, 00:00:24, Serial0/0/0<br>R1#",
+      "question": "Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 10.55.99.78 ?<br>Gateway of last resort is not set.<br>10.55.99.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 10.55.99.0/26 [110/10] via 10.55.18.1, 00:00:24, Serial0/0/0<br>O 10.55.99.64/26 [110/20] via 10.55.18.6, 00:00:56, Serial 0/0/1<br>O 10.55.99.128/26 [110/10] via 10.55.18.1, 00:00:24, Serial 0/0/0<br>C 10.55.99.192/27 is directly connected, GigabitEthernet0/0<br>L 10.55.99.193/27 is directly connected, GigabitEthernet0/0<br>C 10.55.99.224/27 is directly connected, GigabitEthernet0/1<br>L 10.55.99.225/27 is directly connected, GigabitEthernet0/1<br>10.55.18.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 10.55.18.0/30 is directly connected, Serial0/0/0<br>L 10.55.18.2/32 is directly connected, Serial0/0/0<br>C 10.55.18.4/30 is directly connected, Serial0/0/1<br>L 10.55.18.5/32 is directly connected, Serial0/0/1<br>S 10.55.19.0/26 [1/0] via 10.55.18.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Serial0/0/1",
          "GigabitEthernet0/1",
@@ -679,7 +652,7 @@
       ]
    },
    {
-      "question": "55. Quelle caractéristique complète l’énoncé suivant?<br>Lorsqu’ une route statique IPv6 est configurée, il est possible que la même adresse lien-local IPv6 soit utilisée pour…",
+      "question": "Quelle caractéristique complète l’énoncé suivant?<br>Lorsqu’ une route statique IPv6 est configurée, il est possible que la même adresse lien-local IPv6 soit utilisée pour…",
       "choices": [
          "une distance administrative de 2.",
          "la commande “ipv6 unicast-routing”.",
@@ -691,7 +664,7 @@
       ]
    },
    {
-      "question": "56. Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.71.52 ?<br>Gateway of last resort is not set.<br>192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0<br>O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1<br>O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0<br>C 192.168.139.192/27 is directly connected, GigabitEthernet0/0<br>L 192.168.139.193/27 is directly connected, GigabitEthernet0/0<br>C 192.168.139.224/27 is directly connected, GigabitEthernet0/1<br>L 192.168.139.225/27 is directly connected, GigabitEthernet0/1<br>192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 192.168.70.0/30 is directly connected, Serial0/0/0<br>L 192.168.70.2/32 is directly connected, Serial0/0/0<br>C 192.168.70.4/30 is directly connected, Serial0/0/1<br>L 192.168.70.5/32 is directly connected, Serial0/0/1<br>S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0<br>R1#",
+      "question": "Se reporter à la pièce. Quelle interface sera l’interface de sortie pour transmettre un paquet de données dont l’adresse IP de destination est 192.168.71.52 ?<br>Gateway of last resort is not set.<br>192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks<br>O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0<br>O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1<br>O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0<br>C 192.168.139.192/27 is directly connected, GigabitEthernet0/0<br>L 192.168.139.193/27 is directly connected, GigabitEthernet0/0<br>C 192.168.139.224/27 is directly connected, GigabitEthernet0/1<br>L 192.168.139.225/27 is directly connected, GigabitEthernet0/1<br>192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks<br>C 192.168.70.0/30 is directly connected, Serial0/0/0<br>L 192.168.70.2/32 is directly connected, Serial0/0/0<br>C 192.168.70.4/30 is directly connected, Serial0/0/1<br>L 192.168.70.5/32 is directly connected, Serial0/0/1<br>S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0<br>R1#",
       "choices": [
          "Le paquet prend la passerelle de dernier recours.",
          "GigabitEthernet0/1",
@@ -700,6 +673,19 @@
       ],
       "answers": [
          2
+      ]
+   },
+   {
+      "question": "Reportez-vous à l’illustration. Un administrateur tente de configurer une route statique IPv6 sur le routeur R1 pour atteindre le réseau connecté au routeur R2. Après la saisie de la commande de la route statique, la connectivité au réseau est toujours défaillante. Quelle erreur a été effectuée dans la configuration de la route statique ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_185531.jpg",
+      "choices": [
+         "Le préfixe réseau est incorrect.",
+         "L’interface est incorrecte.",
+         "L’adresse du tronçon suivant est incorrecte.",
+         "Le réseau de destination est incorrect."
+      ],
+      "answers": [
+         1
       ]
    }
 ]
