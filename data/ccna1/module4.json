@@ -578,5 +578,79 @@
         "answers": [
             0
         ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur doit envoyer un message à tous ceux connectés au réseau du routeur A. Quelle est l’adresse de diffusion du réseau 172.16.16.0/22 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_062234.jpg",
+        "choices": [
+            "172.16.23.255",
+            "172.16.20.255",
+            "172.16.19.255",
+            "172.16.16.255",
+            "172.16.255.255"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. En tenant compte des adresses déjà utilisées et de la contrainte de rester dans la plage réseau 10.16.10.0/24, quelle adresse de sous-réseau pourrait-être attribuée au réseau qui comporte 25 hôtes ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_062345.jpg",
+        "choices": [
+            "10.16.10.128/28",
+            "10.16.10.160/26",
+            "10.16.10.240/28",
+            "10.16.10.224/26",
+            "10.16.10.240/27",
+            "10.16.10.64/27"
+        ],
+        "answers": [
+            5
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Une entreprise déploie un schéma d’adressage IPv6 pour son réseau. Le document de conception de l’entreprise indique que la partie Sous-réseau des adresses IPv6 est utilisée pour le nouveau modèle architectural du réseau, avec la sous-section s ite représentant plusieurs sites géographiques de l’entreprise, la section s ous-site représentant plusieurs campus sur chaque site, et la section s ous-réseau indiquant chaque segment réseau séparé par des routeurs. Avec ce schéma, quel est le nombre maximum de sous-réseaux atteint par sous-site ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_062551.jpg",
+        "choices": [
+            "256",
+            "0",
+            "16",
+            "4"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur tente de résoudre les problèmes de connectivité entre le PC1 et le PC2 et utilise la commande tracert du PC1 pour y parvenir. D’après le résultat affiché, où l’administrateur doit-il commencer le dépannage ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_063007.jpg",
+        "choices": [
+            "PC2",
+            "R1",
+            "SW2",
+            "SW1",
+            "R2"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question. | Quelles sont les trois adresses IPv6 affichées lorsque la route de PC1 à PC2 est tracée ? (Choisissez trois réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-12_224649.jpg",
+        "choices": [
+            "2001:DB8:1:1::1",
+            "2001:DB8:1:1::A",
+            "2001:DB8:1:2::2",
+            "2001:DB8:1:2::1",
+            "2001:DB8:1:3::1",
+            "2001:DB8:1:3::2",
+            "2001:DB8:1:4::1"
+        ],
+        "answers": [
+            0,
+            3,
+            5
+        ]
     }
 ]

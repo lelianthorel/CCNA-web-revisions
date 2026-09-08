@@ -252,5 +252,60 @@
         "question": "Quel type de trafic réseau nécessite une QoS ?",
         "choices": ["L’achat en ligne", "wiki", "E-mail", "La vidéoconférence"],
         "answers": [3]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Le serveur B tente de contacter hôte A. Quelles deux instructions identifient correctement l’adressage que Serveur B va générer dans le processus? (Choisissez deux réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_043139.jpg",
+        "choices": [
+            "Serveur B va générer un paquet avec l’adresse IP de destination de routeur B.",
+            "Serveur B va générer un paquet avec l’adresse IP de destination de l’hôte B.",
+            "Serveur B va générer un paquet avec l’adresse MAC de destination de routeur B.",
+            "Serveur B va générer un paquet avec l’adresse MAC de destination de routeur A.",
+            "Serveur B va générer un paquet avec l’adresse IP de destination de routeur B.",
+            "Serveur B va générer un paquet avec l’adresse MAC de destination de routeur B."
+        ],
+        "answers": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question. | Quelle est l’adresse IP de l’interface virtuelle du commutateur (SVI) sur le Switch0?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_120725.jpg",
+        "choices": [
+            "192.168.5.10",
+            "192.168.10.1",
+            "192.168.10.5",
+            "192.168.5.0"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur tente de configurer le commutateur mais reçoit le message d’erreur affiché sur l’illustration. Quel est le problème ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_043300.jpg",
+        "choices": [
+            "L’administrateur doit se connecter via le port de console pour accéder au mode de configuration globale.",
+            "La commande complète, configure terminal , doit être utilisée.",
+            "L’administrateur doit d’abord passer en mode d’exécution privilégié avant d’exécuter la commande.",
+            "L’administrateur est déjà en mode de configuration globale."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur réseau configure le contrôle d’accès au commutateur SW1. Si l’administrateur utilise une connexion console pour se connecter au commutateur, quel mot de passe est nécessaire pour accéder au mode d’exécution utilisateur ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-27_160150.png",
+        "choices": [
+            "letmein",
+            "secretin",
+            "lineconin",
+            "linevtyin"
+        ],
+        "answers": [
+            2
+        ]
     }
-    ]
+]

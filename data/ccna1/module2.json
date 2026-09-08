@@ -575,5 +575,83 @@
             "câble en cuivre"
         ],
         "answers": [3]
+    },
+    {
+        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question. Quel port Switch0 utilise-t-il pour envoyer des trames à l’hôte avec l’adresse IPv4 10.1.1.5?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_052544.jpg",
+        "choices": [
+            "Fa0/1",
+            "Fa0/5",
+            "FA/9",
+            "Fa0/11"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous au graphique. Quel type de câblage est-il affiché?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_114623.jpg",
+        "choices": [
+            "STP",
+            "Câblage coaxial",
+            "UTP",
+            "Fibre optique"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous au graphique. Quel type de câblage est-il affiché?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-28_081812.png",
+        "choices": [
+            "STP",
+            "UTP",
+            "Câblage coaxial",
+            "Fibre optique"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Quelle est l’adresse MAC de destination de la trame Ethernet quand elle quitte le serveur Web si la destination finale est le PC1 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_051744.jpg",
+        "choices": [
+            "00-60-2F-3A-07-AA",
+            "00-60-2F-3A-07-DD",
+            "00-60-2F-3A-07-CC",
+            "00-60-2F-3A-07-BB"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Quel est le problème avec le raccordement affiché ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_114901.jpg",
+        "choices": [
+            "La longueur détorsadée de chaque fil est trop longue.",
+            "Le mauvais type de connecteur est utilisé.",
+            "Les câbles sont trop épais pour le connecteur utilisé.",
+            "Le treillis de cuivre n’aurait pas dû être retiré."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Le PC est connecté au port de console du commutateur. Toutes les autres connexions sont établies via des liens FastEthernet. Quels types de câbles à paires torsadées non blindées peuvent être utilisés pour connecter les périphériques ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_114941.jpg",
+        "choices": [
+            "1 – renversement, 2 – croisement, 3 – droit",
+            "1 – renversement, 2 – droit, 3 – croisement",
+            "1 – croisement, 2 – droit, 3 – renversement",
+            "1 – croisement, 2 – renversement, 3 – direct"
+        ],
+        "answers": [
+            1
+        ]
     }
-    ]
+]

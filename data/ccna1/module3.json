@@ -454,5 +454,164 @@
             "Somme de contrôle d’en-tête"
         ],
         "answers": [0]
+    },
+    {
+        "question": "Examinez l’illustration. L’illustration présente un réseau commuté de petite taille et le contenu de la table d’adresses MAC du commutateur. Le PC1 a envoyé une trame au PC3. Comment le commutateur traite-t-il cette trame ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2024/11/aai281124n1v1.png",
+        "choices": [
+            "Le commutateur transfère la trame uniquement aux ports 1 et 3.",
+            "Le commutateur transfère la trame uniquement au port 2.",
+            "Le commutateur ignore la trame.",
+            "Le commutateur transfère la trame à tous les ports excepté au port 4.",
+            "Le commutateur transfère la trame à tous les ports."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un PC d’utilisateur a réussi à transmettre des paquets à www.cisco.com. Quelle adresse IP le PC de l’utilisateur cible-t-il afin de transmettre ses données hors du réseau local ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_213409.jpg",
+        "choices": [
+            "172.24.1.22",
+            "172.20.1.18",
+            "172.20.0.254",
+            "172.24.255.4",
+            "172.24.255.17"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Examinez la configuration d’adresse IP indiquée à partir du PC1. Parmi les propositions suivante, laquelle correspond à une description de l’adresse de la passerelle par défaut ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_213515.jpg",
+        "choices": [
+            "Il s’agit de l’adresse IP de l’interface Router1 qui connecte le réseau local du PC1 au Router1.",
+            "Il s’agit de l’adresse IP de l’interface Router1 qui connecte l’entreprise à Internet.",
+            "Il s’agit de l’adresse IP du périphérique réseau du FAI situé dans le cloud.",
+            "Il s’agit de l’adresse IP du Switch1 qui connecte le PC1 à d’autres périphériques sur le même réseau local."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau connecte un nouvel hôte au réseau local du Store. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte? | HQ(config)# interface gi0/1HQ | (config-if)# description Connects to the Branch LAN | HQ(config-if)# ip address 172.19.99.99 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# interface gi0/0 | HQ(config-if)# description Connects to the Store LAN | HQ(config-if)# ip address 172.19.98.230 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# interface s0/0/0 | HQ(config-if)# description Connects to the ISP | HQ(config-if)# ip address 10.98.99.254 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# interface s0/0/1 | HQ(config-if)# description Connects to the Head Office WAN | HQ(config-if)# ip address 209.165.200.120 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# end",
+        "choices": [
+            "172.19.98.1",
+            "10.98.99.254",
+            "172.19.98.230",
+            "209.165.200.120",
+            "172.19.99.99"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. PC1 tente de se connecter à File_server1 et envoie une requête ARP pour obtenir une adresse MAC de destination. Quelle adresse MAC PC1 reçoit-il dans la réponse ARP ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_055901.jpg",
+        "choices": [
+            "L’adresse MAC de File_server1.",
+            "L’adresse MAC de S2.",
+            "L’adresse MAC de S1.",
+            "L’adresse MAC de l’interface G0/0 sur R2.",
+            "L’adresse MAC de l’interface G0/0 sur R1."
+        ],
+        "answers": [
+            4
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau connecte un nouvel hôte au réseau local Manager. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte? | Floor(config)# interface gi0/1 | Floor(config-if)# description Connects to the Registrar LAN | Floor(config-if)# ip address 10.118.63.65 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface gi0/0 | Floor(config-if)# description Connects to the Manager LAN | Floor(config-if)# ip address 10.118.62.196 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface s0/0/0 | Floor(config-if)# description Connects to the ISP | Floor(config-if)# ip address 10.62.63.254 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface s0/0/1 | Floor(config-if)# description Connects to the Head Office WAN | Floor(config-if)# ip address 209.165.200.87 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# end",
+        "choices": [
+            "10.118.63.65",
+            "10.62.63.254",
+            "209.165.200.87",
+            "10.118.62.196",
+            "10.118.62.1"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau est en train de connecter un nouvel hôte au réseau local du bureau d’enregistrement. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte ? | Floor(config)# interface gi0/1 | Floor(config-if)# description Connects to the Registrar LAN | Floor(config-if)# ip address192.168.235.234 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface gi0/0 | Floor(config-if)# description Connects to the Manager LAN | Floor(config-if)# ip address 192.168.234.114 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface s0/0/0 | Floor(config-if)# description Connects to the ISP | Floor(config-if)# ip address 10.234.235.254 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface s0/0/1 | Floor(config-if)# description Connects to the Head Office WAN | Floor(config-if)# ip address203.0.113.3 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# end",
+        "choices": [
+            "192.168.235.1",
+            "192.168.234.114",
+            "203.0.113.3",
+            "10.234.235.254",
+            "192.168.235.234"
+        ],
+        "answers": [
+            4
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau connecte un nouvel hôte au réseau local du Store. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte? | HQ(config)# interface gi0/1 | HQ(config-if)# description Connects to the Branch LAN | HQ(config-if)# ip address 172.20.133.132 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# interface gi0/0 | HQ(config-if)# description Connects to the Store LAN | HQ(config-if)# ip address 172.20.132.13 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# interface s0/0/0 | HQ(config-if)# description Connects to the ISP | HQ(config-if)# ip address 10.132.133.254 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# interface s0/0/1 | HQ(config-if)# description Connects to the Head Office WAN | HQ(config-if)# ip address 198.51.100.156 255.255.255.0 | HQ(config-if)# no shutdown | HQ(config-if)# end",
+        "choices": [
+            "198.51.100.156",
+            "172.20.132.13",
+            "172.20.132.1",
+            "172.20.133.132",
+            "10.132.133.254"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau connecte un nouvel hôte au réseau local de Payroll. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte? | RTR1(config)# interface gi0/1 | RTR1(config-if)# description Connects to the Marketing LAN | RTR1(config-if)# ip address 10.27.15.17 255.255.255.0 | RTR1(config-if)# no shutdown | RTR1(config-if)# interface gi0/0 | RTR1(config-if)# description Connects to the Payroll LAN | RTR1(config-if)# ip address 10.27.14.148 255.255.255.0 | RTR1(config-if)# no shutdown | RTR1(config-if)# interface s0/0/0 | RTR1(config-if)# description Connects to the ISP | RTR1(config-if)# ip address 10.14.15.254 255.255.255.0 | RTR1(config-if)# no shutdown | RTR1(config-if)# interface s0/0/1 | RTR1(config-if)# description Connects to the Head Office WAN | RTR1(config-if)# ip address 203.0.113.39 255.255.255.0 | RTR1(config-if)# no shutdown | RTR1(config-if)# end",
+        "choices": [
+            "10.27.14.148",
+            "10.27.15.17",
+            "203.0.113.39",
+            "10.14.15.254",
+            "10.27.14.1"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau connecte un nouvel hôte au réseau local Medical. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte? | BldgA(config)# interface gi0/1 | BldgA(config-if)# description Connects to the Medical LAN | BldgA(config-if)# ip address 192.168.191.189 255.255.255.0 | 0BldgA(config-if)# no shutdown | BldgA(config-if)# interface gi0/0 | BldgA(config-if)# description Connects to the Client LAN | BldgA(config-if)# ip address 192.168.190.70 255.255.255.0 | BldgA(config-if)# no shutdown | BldgA(config-if)# interface s0/0/0 | BldgA(config-if)# description Connects to the ISP | BldgA(config-if)# ip address 10.190.191.254 255.255.255.0 | BldgA(config-if)# no shutdown | BldgA(config-if)# interface s0/0/1 | BldgA(config-if)# description Connects to the Head Office WAN | BldgA(config-if)# ip address 198.51.100.213 255.255.255.0 | BldgA(config-if)# no shutdown | BldgA(config-if)# end",
+        "choices": [
+            "10.190.191.254",
+            "192.168.191.1",
+            "192.168.191.189",
+            "198.51.100.213",
+            "192.168.190.70"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau connecte un nouvel hôte au Service de réseau local. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte? | Main(config)# interface gi0/1 | Main(config-if)# description Connects to the Service LAN | Main(config-if)# ip address 172.29.157.156 255.255.255.0 | Main(config-if)# no shutdown | Main(config-if)# interface gi0/0 | Main(config-if)# description Connects to the Engineering LAN | Main(config-if)# ip address 172.29.156.36 255.255.255.0 | Main(config-if)# no shutdown | Main(config-if)# interface s0/0/0 | Main(config-if)# description Connects to the ISP | Main(config-if)# ip address 10.156.157.254 255.255.255.0 | Main(config-if)# no shutdown | Main(config-if)# interface s0/0/1 | Main(config-if)# description Connects to the Head Office WAN | Main(config-if)# ip address 198.51.100.177 255.255.255.0 | Main(config-if)# no shutdown | Main(config-if)# end",
+        "choices": [
+            "198.51.100.177",
+            "172.29.157.1",
+            "172.29.156.36",
+            "10.156.157.254",
+            "172.29.157.156"
+        ],
+        "answers": [
+            4
+        ]
+    },
+    {
+        "question": "Reportez-vous à l'illustration. Un administrateur réseau connecte un nouvel hôte au réseau local Registrar. L’hôte doit communiquer avec les réseaux distants. Quelle adresse IP doit être configurée comme passerelle par défaut sur le nouvel hôte? | Floor(config)# interface gi0/1 | Floor(config-if)# description Connects to the Registrar LAN | Floor(config-if)# ip address 192.168.225.223 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface gi0/0 | Floor(config-if)# description Connects to the Manager LAN | Floor(config-if)# ip address 192.168.224.103 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface s0/0/0 | Floor(config-if)# description Connects to the ISP | Floor(config-if)# ip address 10.224.225.254 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# interface s0/0/1 | Floor(config-if)# description Connects to the Head Office WAN | Floor(config-if)# ip address 203.0.113.246 255.255.255.0 | Floor(config-if)# no shutdown | Floor(config-if)# end",
+        "choices": [
+            "10.224.225.254",
+            "192.168.225.1",
+            "192.168.224.103",
+            "203.0.113.246",
+            "192.168.225.223"
+        ],
+        "answers": [
+            4
+        ]
     }
 ]
