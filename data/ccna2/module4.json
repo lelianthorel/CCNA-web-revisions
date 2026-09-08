@@ -1,6 +1,6 @@
 [
     {
-       "question": "1. Quelle méthode d’authentification stocke les noms d’utilisateur et les mots de passe dans le routeur et est idéale pour les petits réseaux ?",
+       "question": "Quelle méthode d’authentification stocke les noms d’utilisateur et les mots de passe dans le routeur et est idéale pour les petits réseaux ?",
        "choices": [
           "AAA local",
           "AAA local sur TACACS+",
@@ -14,7 +14,7 @@
        ]
     },
     {
-       "question": "2. Quel est le résultat d’une attaque par épuisement de ressources DHCP ?",
+       "question": "Quel est le résultat d’une attaque par épuisement de ressources DHCP ?",
        "choices": [
           "Les clients légitimes ne peuvent pas louer d’adresses IP.",
           "Le hacker transmet aux clients des informations incorrectes sur le DNS et la passerelle par défaut.",
@@ -26,7 +26,7 @@
        ]
     },
     {
-       "question": "3. Quelle instruction décrit le comportement d’un commutateur lorsque la table d’adresses MAC est pleine ?",
+       "question": "Quelle instruction décrit le comportement d’un commutateur lorsque la table d’adresses MAC est pleine ?",
        "choices": [
           "Il traite les trames comme une monodiffusion inconnue et inonde toutes les trames entrantes sur tous les ports du commutateur.",
           "Il traite les trames comme une monodiffusion inconnue et inonde toutes les trames entrantes à tous les ports du domaine de collision.",
@@ -38,7 +38,7 @@
        ]
     },
     {
-       "question": "4. Quelle composante du modèle AAA permet à un administrateur d’effectuer le suivi des personnes qui accèdent aux ressources réseau, ainsi que des modifications qui sont apportées à ces ressources ?",
+       "question": "Quelle composante du modèle AAA permet à un administrateur d’effectuer le suivi des personnes qui accèdent aux ressources réseau, ainsi que des modifications qui sont apportées à ces ressources ?",
        "choices": [
           "accessibilité",
           "authentification",
@@ -50,7 +50,7 @@
        ]
     },
     {
-       "question": "5. Quel appareil est considéré comme demandeur lors de la procédure d’authentification 802.1X ?",
+       "question": "Quel appareil est considéré comme demandeur lors de la procédure d’authentification 802.1X ?",
        "choices": [
           "le serveur d’authentification qui réalise l’authentification du client",
           "le commutateur qui contrôle l’accès au réseau",
@@ -62,7 +62,7 @@
        ]
     },
     {
-       "question": "9. Un expert en sécurité informatique active la sécurité des ports sur un port de commutateur d’un commutateur Cisco. Quel mode de violation par défaut est utilisé avant qu’un autre mode de violation soit configuré sur le port de commutateur ?",
+       "question": "Un expert en sécurité informatique active la sécurité des ports sur un port de commutateur d’un commutateur Cisco. Quel mode de violation par défaut est utilisé avant qu’un autre mode de violation soit configuré sur le port de commutateur ?",
        "choices": [
           "protect",
           "shutdown",
@@ -74,7 +74,7 @@
        ]
     },
     {
-       "question": "10. Quelles sont les deux commandes qui peuvent être utilisées pour activer la protection BPDU sur un commutateur ? (Choisissez deux.)",
+       "question": "Quelles sont les deux commandes qui peuvent être utilisées pour activer la protection BPDU sur un commutateur ? (Choisissez deux.)",
        "choices": [
           "S1(config)# spanning-tree portfast bpduguard default",
           "S1(config)# spanning-tree bpduguard default",
@@ -83,11 +83,12 @@
           "S1(config-if)# spanning-tree bpduguard enable"
        ],
        "answers": [
-          0, 4
+          0,
+          4
        ]
     },
     {
-       "question": "11. Dans le cadre de la nouvelle politique de sécurité, tous les commutateurs du réseau sont configurés pour apprendre automatiquement les adresses MAC de chaque port. Toutes les configurations en cours sont enregistrées au début et à la fin de chaque jour ouvrable. Un violent orage provoque une panne d’alimentation prolongée de plusieurs heures après la fermeture de l’entreprise. Lorsque les commutateurs sont reconnectés au réseau, les adresses MAC enregistrées de manière dynamique sont conservées. Quelle configuration de la sécurité des ports a activé cette fonctionnalité ?",
+       "question": "Dans le cadre de la nouvelle politique de sécurité, tous les commutateurs du réseau sont configurés pour apprendre automatiquement les adresses MAC de chaque port. Toutes les configurations en cours sont enregistrées au début et à la fin de chaque jour ouvrable. Un violent orage provoque une panne d’alimentation prolongée de plusieurs heures après la fermeture de l’entreprise. Lorsque les commutateurs sont reconnectés au réseau, les adresses MAC enregistrées de manière dynamique sont conservées. Quelle configuration de la sécurité des ports a activé cette fonctionnalité ?",
        "choices": [
           "adresses MAC sécurisées automatiques",
           "adresses MAC sécurisées dynamiques",
@@ -99,7 +100,7 @@
        ]
     },
     {
-       "question": "12. Quel type d’antenne sans fil est la mieux adaptée à la couverture de grands espaces ouverts, tels que des couloirs ou de grandes salles de conférence ?",
+       "question": "Quel type d’antenne sans fil est la mieux adaptée à la couverture de grands espaces ouverts, tels que des couloirs ou de grandes salles de conférence ?",
        "choices": [
           "omnidirectionnelle",
           "Yagi",
@@ -111,7 +112,7 @@
        ]
     },
     {
-       "question": "13. Quelle topologie réseau sans fil doit être utilisée par les techniciens réseau souhaitant proposer une connexion sans fil dans l’ensemble d’un bâtiment universitaire ?",
+       "question": "Quelle topologie réseau sans fil doit être utilisée par les techniciens réseau souhaitant proposer une connexion sans fil dans l’ensemble d’un bâtiment universitaire ?",
        "choices": [
           "mode mixte",
           "infrastructure",
@@ -123,7 +124,7 @@
        ]
     },
     {
-       "question": "14. Quelles sont les deux normes sans fil IEEE 802.11 qui ne fonctionnent que dans la gamme de 5 GHz ? (Choisissez deux.)",
+       "question": "Quelles sont les deux normes sans fil IEEE 802.11 qui ne fonctionnent que dans la gamme de 5 GHz ? (Choisissez deux.)",
        "choices": [
           "802.11b",
           "802.11a",
@@ -133,11 +134,12 @@
           "802.11ad"
        ],
        "answers": [
-          1, 4
+          1,
+          4
        ]
     },
     {
-       "question": "15. Un technicien configure un routeur sans fil pour qu’il utilise le canal 1, 6 ou 11. À quoi sert le réglage du canal ?",
+       "question": "Un technicien configure un routeur sans fil pour qu’il utilise le canal 1, 6 ou 11. À quoi sert le réglage du canal ?",
        "choices": [
           "À activer différentes normes 802.11",
           "À désactiver la diffusion du SSID",
@@ -149,7 +151,7 @@
        ]
     },
     {
-       "question": "16. Lorsque les participants participent à une conférence, ils utilisent des ordinateurs portables pour se connecter au réseau. Lorsqu’un présentateur tente de se connecter au réseau, l’ordinateur portable n’affiche aucun des réseaux sans fil disponibles. Le point d’accès doit fonctionner dans quel mode ?",
+       "question": "Lorsque les participants participent à une conférence, ils utilisent des ordinateurs portables pour se connecter au réseau. Lorsqu’un présentateur tente de se connecter au réseau, l’ordinateur portable n’affiche aucun des réseaux sans fil disponibles. Le point d’accès doit fonctionner dans quel mode ?",
        "choices": [
           "Actif",
           "Ouvert",
@@ -161,7 +163,7 @@
        ]
     },
     {
-       "question": "17. Un technicien se prépare à installer et à configurer un réseau sans fil dans une petite filiale. Quelle est la première mesure de sécurité qu’il doit appliquer juste après avoir allumé le routeur ?",
+       "question": "Un technicien se prépare à installer et à configurer un réseau sans fil dans une petite filiale. Quelle est la première mesure de sécurité qu’il doit appliquer juste après avoir allumé le routeur ?",
        "choices": [
           "Désactiver la diffusion des SSID sur le réseau sans fil",
           "Changer le nom d’utilisateur et le mot de passe par défaut du routeur sans fil",
@@ -173,7 +175,7 @@
        ]
     },
     {
-       "question": "18. Sur un tableau de bord Cisco 3504 WLC, quelle option permet l’accès au menu complet des fonctionnalités ?",
+       "question": "Sur un tableau de bord Cisco 3504 WLC, quelle option permet l’accès au menu complet des fonctionnalités ?",
        "choices": [
           "Avancé",
           "Points d’accès",
@@ -185,7 +187,7 @@
        ]
     },
     {
-       "question": "19. Sur la page Summary du WLC Cisco 3504 (Advanced> Summary ), quel onglet permet à un administrateur réseau d’accéder et de configurer un WLAN pour une option de sécurité spécifique telle que WPA2 ?",
+       "question": "Sur la page Summary du WLC Cisco 3504 (Advanced> Summary ), quel onglet permet à un administrateur réseau d’accéder et de configurer un WLAN pour une option de sécurité spécifique telle que WPA2 ?",
        "choices": [
           "WLAN",
           "SÉCURITÉ",
@@ -197,7 +199,7 @@
        ]
     },
     {
-       "question": "20. Quel est le service qui peut être utilisé sur un routeur sans fil pour prioriser le trafic réseau parmi différents types d’applications afin que la voix et les données vidéo soient prioritaires par rapport au courrier électronique et aux données Web ?",
+       "question": "Quel est le service qui peut être utilisé sur un routeur sans fil pour prioriser le trafic réseau parmi différents types d’applications afin que la voix et les données vidéo soient prioritaires par rapport au courrier électronique et aux données Web ?",
        "choices": [
           "NAT",
           "QoS",
@@ -209,7 +211,7 @@
        ]
     },
     {
-       "question": "21. Un ingénieur réseau est en mission de dépanner un réseau sans fil récemment déployé qui utilise les dernières normes 802.11. Lorsque les utilisateurs accèdent à des services à large bande passante tels que la vidéo en streaming, les performances du réseau sans fil sont faibles. Pour améliorer les performances, l’ingénieur réseau décide de configurer un SSID de bande de fréquences de 5 GHz et de former les utilisateurs à utiliser ce SSID pour les services de médias en streaming. Pourquoi cette solution peut-elle améliorer les performances du réseau sans fil pour ce type de service?",
+       "question": "Un ingénieur réseau est en mission de dépanner un réseau sans fil récemment déployé qui utilise les dernières normes 802.11. Lorsque les utilisateurs accèdent à des services à large bande passante tels que la vidéo en streaming, les performances du réseau sans fil sont faibles. Pour améliorer les performances, l’ingénieur réseau décide de configurer un SSID de bande de fréquences de 5 GHz et de former les utilisateurs à utiliser ce SSID pour les services de médias en streaming. Pourquoi cette solution peut-elle améliorer les performances du réseau sans fil pour ce type de service?",
        "choices": [
           "Les seuls utilisateurs qui pourront passer à la bande de 5 GHz seront ceux qui disposeront des NIC sans fil plus récents , ce qui réduira l’utilisation.",
           "La bande de 5 GHz a une gamme plus étendue et est donc susceptible de ne pas causer d’interférences.",
@@ -221,7 +223,7 @@
        ]
     },
     {
-       "question": "22. Un administrateur réseau configure une connexion au serveur RADIUS sur un WLC de la série Cisco 3500. La configuration nécessite un mot de passe secret partagé. Quel est le but du mot de passe secret partagé ?",
+       "question": "Un administrateur réseau configure une connexion au serveur RADIUS sur un WLC de la série Cisco 3500. La configuration nécessite un mot de passe secret partagé. Quel est le but du mot de passe secret partagé ?",
        "choices": [
           "Il est utilisé pour chiffrer les messages entre le WLC et le serveur RADIUS.",
           "Il est utilisé par le serveur RADIUS pour authentifier les utilisateurs WLAN.",
@@ -233,7 +235,7 @@
        ]
     },
     {
-       "question": "23. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui indique le succès ou l’échec d’un service demandé par le client avec un message PASS ou FAIL ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui indique le succès ou l’échec d’un service demandé par le client avec un message PASS ou FAIL ?",
        "choices": [
           "Gestion des comptes",
           "802.1X",
@@ -245,7 +247,7 @@
        ]
     },
     {
-       "question": "24. Quel sont les WLAN qui sont basés sur la norme 802.11 et une fréquence radio 2,4 GHz ou 5 GHz.",
+       "question": "Quel sont les WLAN qui sont basés sur la norme 802.11 et une fréquence radio 2,4 GHz ou 5 GHz.",
        "choices": [
           "Réseau étendu sans fil (WAN)",
           "Réseau métropolitain sans fil",
@@ -257,7 +259,7 @@
        ]
     },
     {
-       "question": "26. Quelles sont les deux solutions Cisco qui aident à prévenir les attaques d’insuffisance de ressources DHCP ? (Choisissez deux.)",
+       "question": "Quelles sont les deux solutions Cisco qui aident à prévenir les attaques d’insuffisance de ressources DHCP ? (Choisissez deux.)",
        "choices": [
           "Sécurité des ports",
           "Protection de la source IP",
@@ -266,11 +268,12 @@
           "Appliances de sécurisation du Web"
        ],
        "answers": [
-          0, 2
+          0,
+          2
        ]
     },
     {
-       "question": "27. Plusieurs actions peuvent pallier une attaque de VLAN. Citez-en trois. (Choisissez trois propositions.)",
+       "question": "Plusieurs actions peuvent pallier une attaque de VLAN. Citez-en trois. (Choisissez trois propositions.)",
        "choices": [
           "Faire d’un VLAN inutilisé le VLAN natif.",
           "Désactiver le protocole DTP.",
@@ -280,11 +283,13 @@
           "Utiliser des VLAN privés."
        ],
        "answers": [
-          0, 1, 2
+          0,
+          1,
+          2
        ]
     },
     {
-       "question": "29. Un administrateur réseau d’un collège configure le processus d’authentification des utilisateurs WLAN. Les utilisateurs sans fil doivent saisir un nom d’utilisateur et un mot de passe qui seront vérifiés par un serveur. Quel est le serveur qui fournirait ce service ?",
+       "question": "Un administrateur réseau d’un collège configure le processus d’authentification des utilisateurs WLAN. Les utilisateurs sans fil doivent saisir un nom d’utilisateur et un mot de passe qui seront vérifiés par un serveur. Quel est le serveur qui fournirait ce service ?",
        "choices": [
           "AAA",
           "SNMP",
@@ -296,7 +301,7 @@
        ]
     },
     {
-       "question": "30. Un technicien dépanne un réseau local sans fil (WLAN) lent composé de périphériques 802.11b et 802.11g. Un nouveau routeur double bande 802.11n/ac a été déployé sur le réseau pour remplacer l’ancien routeur 802.11g. Que peut faire le technicien pour résoudre la lenteur de la vitesse sans fil?",
+       "question": "Un technicien dépanne un réseau local sans fil (WLAN) lent composé de périphériques 802.11b et 802.11g. Un nouveau routeur double bande 802.11n/ac a été déployé sur le réseau pour remplacer l’ancien routeur 802.11g. Que peut faire le technicien pour résoudre la lenteur de la vitesse sans fil?",
        "choices": [
           "Modifier le SSID.",
           "Configurer les périphériques pour qu’ils utilisent un autre canal.",
@@ -308,7 +313,7 @@
        ]
     },
     {
-       "question": "31. Selon le règlement de travail, les employés ne peuvent pas avoir de four à micro-ondes dans leur bureau. Ils doivent utiliser les fours à micro-ondes se trouvant dans la cafétéria du personnel. Quel risque lié à la sécurité des réseaux sans fil l’entreprise essaie-t-elle d’éviter ?",
+       "question": "Selon le règlement de travail, les employés ne peuvent pas avoir de four à micro-ondes dans leur bureau. Ils doivent utiliser les fours à micro-ondes se trouvant dans la cafétéria du personnel. Quel risque lié à la sécurité des réseaux sans fil l’entreprise essaie-t-elle d’éviter ?",
        "choices": [
           "les interférences accidentelles",
           "les points d’accès indésirables",
@@ -320,7 +325,7 @@
        ]
     },
     {
-       "question": "32. Quelle est la fonction fournie par le protocole CAPWAP dans un réseau sans fil d’entreprise ?",
+       "question": "Quelle est la fonction fournie par le protocole CAPWAP dans un réseau sans fil d’entreprise ?",
        "choices": [
           "CAPWAP fournit le chiffrement du trafic utilisateur sans fil entre un point d’accès et un client sans fil.",
           "CAPWAP crée un tunnel sur les ports TCP (Transmission Control Protocol) afin de permettre à un WLC de configurer un point d’accès autonome.",
@@ -332,7 +337,7 @@
        ]
     },
     {
-       "question": "34. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui vérifie quelles actions des utilisateurs sont effectuées sur le réseau ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui vérifie quelles actions des utilisateurs sont effectuées sur le réseau ?",
        "choices": [
           "Autorisation",
           "802.1X",
@@ -344,7 +349,7 @@
        ]
     },
     {
-       "question": "35. Quels sont les trois paramètres qui devraient être modifiés si des meilleurs pratiques sont mises en œuvre pour un point d’accès sans fil domestique ? (Choisissez trois.)",
+       "question": "Quels sont les trois paramètres qui devraient être modifiés si des meilleurs pratiques sont mises en œuvre pour un point d’accès sans fil domestique ? (Choisissez trois.)",
        "choices": [
           "Mot de passe du réseau sans fil",
           "Mot de passe du système d’exploitation de client sans fil",
@@ -354,11 +359,13 @@
           "SSID"
        ],
        "answers": [
-          0, 2, 5
+          0,
+          2,
+          5
        ]
     },
     {
-       "question": "36. Un ordinateur portable ne peut pas se connecter à un point d’accès sans fil. Quelles sont les deux étapes de dépannage à effectuer en premier? (Choisissez deux.)",
+       "question": "Un ordinateur portable ne peut pas se connecter à un point d’accès sans fil. Quelles sont les deux étapes de dépannage à effectuer en premier? (Choisissez deux.)",
        "choices": [
           "S’assurer que le SSID sans fil est choisi.",
           "S’assurer que le support réseau correct est sélectionné.",
@@ -367,11 +374,12 @@
           "S’assurer que l’antenne de l’ordinateur portable est fixée."
        ],
        "answers": [
-          0, 2
+          0,
+          2
        ]
     },
     {
-       "question": "37. Quel est le protocole qui peut être utilisé pour surveiller le réseau ?",
+       "question": "Quel est le protocole qui peut être utilisé pour surveiller le réseau ?",
        "choices": [
           "SNMP",
           "RADIUS",
@@ -383,7 +391,7 @@
        ]
     },
     {
-       "question": "38. Un administrateur réseau tente d’améliorer les performances WLAN d’un routeur sans fil dual-bande. Quelle est la façon la plus simple pour réaliser le résultat de partage du trafic ?",
+       "question": "Un administrateur réseau tente d’améliorer les performances WLAN d’un routeur sans fil dual-bande. Quelle est la façon la plus simple pour réaliser le résultat de partage du trafic ?",
        "choices": [
           "Ajouter un extenseur de gamme Wi-Fi au WLAN et réglez l’AP et l’extenseur de gamme pour qu’ils servent des bandes différentes.",
           "Vérifier et tenir à jour le micrologiciel du routeur sans fil.",
@@ -395,7 +403,7 @@
        ]
     },
     {
-       "question": "39. Quel est le type de réseau sans fil qui convient aux communications nationales et mondiales ?",
+       "question": "Quel est le type de réseau sans fil qui convient aux communications nationales et mondiales ?",
        "choices": [
           "Réseau métropolitain sans fil",
           "Réseau personnel sans fil",
@@ -407,7 +415,7 @@
        ]
     },
     {
-       "question": "40. Quelle fonctionnalité ou configuration d’un commutateur le rend vulnérable aux attaques à double étiquetage VLAN ?",
+       "question": "Quelle fonctionnalité ou configuration d’un commutateur le rend vulnérable aux attaques à double étiquetage VLAN ?",
        "choices": [
           "Le VLAN natif du port trunking étant le même qu’un VLAN utilisateur.",
           "La taille limitée de l’espace mémoire est adressable au contenu.",
@@ -419,7 +427,7 @@
        ]
     },
     {
-       "question": "41. Quel est l’un des avantages du masquage du SSID ?",
+       "question": "Quel est l’un des avantages du masquage du SSID ?",
        "choices": [
           "Il s’agit de la meilleure façon de sécuriser un réseau sans fil.",
           "Les SSID sont très difficiles à détecter parce que les points d’accès ne les diffusent pas.​",
@@ -431,7 +439,7 @@
        ]
     },
     {
-       "question": "42. Un administrateur réseau est chargé de mettre à niveau l’accès sans fil des utilisateurs finaux dans un bâtiment. Pour fournir des débits de données pouvant atteindre 1,3 Gbit/s et toujours assurer une rétrocompatibilité avec des périphériques plus anciens, quelle norme sans fil doit être implémentée ?",
+       "question": "Un administrateur réseau est chargé de mettre à niveau l’accès sans fil des utilisateurs finaux dans un bâtiment. Pour fournir des débits de données pouvant atteindre 1,3 Gbit/s et toujours assurer une rétrocompatibilité avec des périphériques plus anciens, quelle norme sans fil doit être implémentée ?",
        "choices": [
           "802.11b",
           "802.11n",
@@ -443,7 +451,7 @@
        ]
     },
     {
-       "question": "43. Quelles sont les deux méthodes utilisées par une carte réseau sans fil pour détecter un point d’accès ? (Choisissez deux réponses.)",
+       "question": "Quelles sont les deux méthodes utilisées par une carte réseau sans fil pour détecter un point d’accès ? (Choisissez deux réponses.)",
        "choices": [
           "transmission d’une requête d’analyse",
           "envoi d’une trame de diffusion",
@@ -452,11 +460,12 @@
           "envoi d’une requête ARP"
        ],
        "answers": [
-          0, 2
+          0,
+          2
        ]
     },
     {
-       "question": "45. Quel type d’attaque par saut de VLAN peut être prévenu en définissant un VLAN inutilisé comme VLAN natif ?",
+       "question": "Quel type d’attaque par saut de VLAN peut être prévenu en définissant un VLAN inutilisé comme VLAN natif ?",
        "choices": [
           "L’attaque de double étiquetage VLAN",
           "Usurpation (spoofing) DHCP",
@@ -468,7 +477,7 @@
        ]
     },
     {
-       "question": "46. Un administrateur réseau configure DAI sur un commutateur avec la commande ip arp inspection validate src-mac . Quel est l’objectif de cette commande de configuration?",
+       "question": "Un administrateur réseau configure DAI sur un commutateur avec la commande ip arp inspection validate src-mac . Quel est l’objectif de cette commande de configuration?",
        "choices": [
           "Il vérifie l’adresse MAC de source dans l’en-tête Ethernet par rapport aux listes de contrôle d’accès ARP configurées par l’utilisateur.",
           "Il vérifie l’adresse MAC de source dans l’en-tête Ethernet par rapport à l’adresse MAC cible dans le corps ARP.",
@@ -480,7 +489,7 @@
        ]
     },
     {
-       "question": "47. Un administrateur réseau configure la sécurité des ports sur un commutateur Cisco. La politique de sécurité de l’entreprise indique qu’en cas de violation, les paquets associés à des adresses source inconnues sont à supprimer, et ce sans aucune notification. Quel mode de violation doit être configuré sur les interfaces ?",
+       "question": "Un administrateur réseau configure la sécurité des ports sur un commutateur Cisco. La politique de sécurité de l’entreprise indique qu’en cas de violation, les paquets associés à des adresses source inconnues sont à supprimer, et ce sans aucune notification. Quel mode de violation doit être configuré sur les interfaces ?",
        "choices": [
           "off",
           "restrict",
@@ -492,7 +501,7 @@
        ]
     },
     {
-       "question": "48. Quel est l’avantage en matière de sécurité qui permet la protection BPDU sur les interfaces activées par PortFast ?",
+       "question": "Quel est l’avantage en matière de sécurité qui permet la protection BPDU sur les interfaces activées par PortFast ?",
        "choices": [
           "Renforcer la mise en place des ponts de racines",
           "Prévenir les attaques par saturation de la mémoire tampon",
@@ -504,7 +513,7 @@
        ]
     },
     {
-       "question": "49. Un administrateur réseau saisit les commandes suivantes sur le commutateur SW1.\nSW1(config)# interface range fa0/5 – 10\nSW1(config-if)# ip dhcp snooping limit rate 6",
+       "question": "Un administrateur réseau saisit les commandes suivantes sur le commutateur SW1.\nSW1(config)# interface range fa0/5 – 10\nSW1(config-if)# ip dhcp snooping limit rate 6",
        "choices": [
           "Si l’un des ports FastEthernet 5 à 10 reçoit plus de 6 messages DHCP par seconde, le port sera arrêté.",
           "Si l’un des ports FastEthernet 5 à 10 reçoit plus de 6 messages DHCP par seconde, le port continuera à fonctionner et un message d’erreur sera envoyé à l’administrateur réseau.",
@@ -516,7 +525,7 @@
        ]
     },
     {
-       "question": "50. Quel protocole devrait être utilisé pour atténuer la vulnérabilité liée à l’utilisation de Telnet pour gérer des périphériques réseau à distance ?",
+       "question": "Quel protocole devrait être utilisé pour atténuer la vulnérabilité liée à l’utilisation de Telnet pour gérer des périphériques réseau à distance ?",
        "choices": [
           "SNMP",
           "SSH",
@@ -528,7 +537,7 @@
        ]
     },
     {
-       "question": "51. Quel composant du modèle AAA est utilisé pour déterminer les ressources auxquelles l’utilisateur peut accéder et les opérations qu’il est autorisé à effectuer ?",
+       "question": "Quel composant du modèle AAA est utilisé pour déterminer les ressources auxquelles l’utilisateur peut accéder et les opérations qu’il est autorisé à effectuer ?",
        "choices": [
           "traçabilité",
           "Audit",
@@ -540,7 +549,7 @@
        ]
     },
     {
-       "question": "52. Quel type de trame de gestion peut être régulièrement diffusé par un point d’accès ?",
+       "question": "Quel type de trame de gestion peut être régulièrement diffusé par un point d’accès ?",
        "choices": [
           "réponse d’analyse",
           "authentification",
@@ -552,7 +561,7 @@
        ]
     },
     {
-       "question": "53. Une entreprise a récemment mis en place un réseau sans fil 802.11n. Certains utilisateurs se plaignent que le réseau sans fil est trop lent. Quelle solution est la meilleure méthode pour améliorer la performance du réseau sans fil?",
+       "question": "Une entreprise a récemment mis en place un réseau sans fil 802.11n. Certains utilisateurs se plaignent que le réseau sans fil est trop lent. Quelle solution est la meilleure méthode pour améliorer la performance du réseau sans fil?",
        "choices": [
           "Mettre à niveau le firmware sur le point d’accès sans fil.",
           "Désactiver DHCP sur le point d’accès et attribuer des adresses statiques aux clients sans fil.",
@@ -564,7 +573,7 @@
        ]
     },
     {
-       "question": "54. Un administrateur réseau déploie un routeur sans fil dans un petit cabinet d’avocats. Les ordinateurs portables des employés rejoignent le WLAN et reçoivent des adresses IP dans le réseau 10.0.10.0/24. Quel est le service utilisé sur le routeur sans fil pour permettre aux ordinateurs portables des employés d’accéder à l’internet ?",
+       "question": "Un administrateur réseau déploie un routeur sans fil dans un petit cabinet d’avocats. Les ordinateurs portables des employés rejoignent le WLAN et reçoivent des adresses IP dans le réseau 10.0.10.0/24. Quel est le service utilisé sur le routeur sans fil pour permettre aux ordinateurs portables des employés d’accéder à l’internet ?",
        "choices": [
           "RADIUS",
           "NAT",
@@ -576,7 +585,7 @@
        ]
     },
     {
-       "question": "55. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui enregistre les commandes d’EXEC et de configuration configurées par un utilisateur ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui enregistre les commandes d’EXEC et de configuration configurées par un utilisateur ?",
        "choices": [
           "Authentification",
           "Autorisation",
@@ -588,7 +597,7 @@
        ]
     },
     {
-       "question": "56. Quel est le type de réseau sans fil qui est approprié pour une utilisation au maison ou au bureau ?",
+       "question": "Quel est le type de réseau sans fil qui est approprié pour une utilisation au maison ou au bureau ?",
        "choices": [
           "Réseau métropolitain sans fil",
           "Réseau local sans fil (WLAN)",
@@ -600,7 +609,7 @@
        ]
     },
     {
-       "question": "57. Quels sont les deux protocoles utilisés par AAA pour authentifier les utilisateurs par rapport à une base de données centrale de noms d’utilisateur et de mot de passe ? (Choisissez deux.)",
+       "question": "Quels sont les deux protocoles utilisés par AAA pour authentifier les utilisateurs par rapport à une base de données centrale de noms d’utilisateur et de mot de passe ? (Choisissez deux.)",
        "choices": [
           "NTP",
           "SSH",
@@ -610,11 +619,12 @@
           "HTTPS"
        ],
        "answers": [
-          2, 3
+          2,
+          3
        ]
     },
     {
-       "question": "58. Quelle caractéristique d’un commutateur le rend vulnérable aux attaques par saut de VLAN ?",
+       "question": "Quelle caractéristique d’un commutateur le rend vulnérable aux attaques par saut de VLAN ?",
        "choices": [
           "La fonctionnalité de port de liaison automatique activée sur tous les ports par défaut.",
           "Prise en charge de la bande passante des ports mixtes activée par défaut pour tous les ports.",
@@ -626,7 +636,7 @@
        ]
     },
     {
-       "question": "59. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui contrôle ce que les utilisateurs peuvent réaliser sur le réseau ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui contrôle ce que les utilisateurs peuvent réaliser sur le réseau ?",
        "choices": [
           "802.1X",
           "Gestion des comptes",
@@ -638,7 +648,7 @@
        ]
     },
     {
-       "question": "60. Quel est le type de réseau sans fil utilise couramment des appareils Bluetooth ou ZigBee ?",
+       "question": "Quel est le type de réseau sans fil utilise couramment des appareils Bluetooth ou ZigBee ?",
        "choices": [
           "Réseau local sans fil (WLAN)",
           "Réseau étendu sans fil (WAN)",
@@ -650,7 +660,7 @@
        ]
     },
     {
-       "question": "61. Quel mode de sécurité sans fil requiert un serveur RADIUS pour authentifier les utilisateurs sans fil ?",
+       "question": "Quel mode de sécurité sans fil requiert un serveur RADIUS pour authentifier les utilisateurs sans fil ?",
        "choices": [
           "personnel",
           "entreprise",
@@ -662,7 +672,7 @@
        ]
     },
     {
-       "question": "62. Quelle est la meilleure pratique concernant les protocoles de découverte tels que CDP et LLDP sur les périphériques réseau ?",
+       "question": "Quelle est la meilleure pratique concernant les protocoles de découverte tels que CDP et LLDP sur les périphériques réseau ?",
        "choices": [
           "Activer CDP sur les périphériques de bord et activer LLDP sur les périphériques intérieurs.",
           "Utiliser le LLDP standard ouvert plutôt que CDP.",
@@ -674,7 +684,7 @@
        ]
     },
     {
-       "question": "63. Quelle est l’étape requise avant de créer un nouveau WLAN sur un WLC Cisco 3500 ?",
+       "question": "Quelle est l’étape requise avant de créer un nouveau WLAN sur un WLC Cisco 3500 ?",
        "choices": [
           "Créer ou disposer un serveur SNMP.",
           "Créer ou disposer un serveur RADIUS.",
@@ -686,7 +696,7 @@
        ]
     },
     {
-       "question": "64. Quel est le type de réseau sans fil qui utilise souvent des appareils montés sur les bâtiments ?",
+       "question": "Quel est le type de réseau sans fil qui utilise souvent des appareils montés sur les bâtiments ?",
        "choices": [
           "Réseau personnel sans fil",
           "Réseau local sans fil (WLAN)",
@@ -698,7 +708,7 @@
        ]
     },
     {
-       "question": "65. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès restreint l’accès au réseau local par des ports de commutateur accessibles au public ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès restreint l’accès au réseau local par des ports de commutateur accessibles au public ?",
        "choices": [
           "autorisation",
           "802.1X",
@@ -710,7 +720,7 @@
        ]
     },
     {
-       "question": "66. Quel est le type de réseau sans fil qui utilise des transmetteurs pour assurer une couverture sur une zone géographique étendue ?",
+       "question": "Quel est le type de réseau sans fil qui utilise des transmetteurs pour assurer une couverture sur une zone géographique étendue ?",
        "choices": [
           "Réseau étendu sans fil (WAN)",
           "Réseau métropolitain sans fil",
@@ -722,7 +732,7 @@
        ]
     },
     {
-       "question": "67. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui est basé sur les rôles de périphérique du demandeur, d’authentificateur et du serveur d’authentification ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui est basé sur les rôles de périphérique du demandeur, d’authentificateur et du serveur d’authentification ?",
        "choices": [
           "Gestion des comptes",
           "Authentification",
@@ -734,7 +744,7 @@
        ]
     },
     {
-       "question": "68. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès basé sur les noms d’utilisateur et les mots de passe ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès basé sur les noms d’utilisateur et les mots de passe ?",
        "choices": [
           "Authentification",
           "802.1X",
@@ -746,7 +756,7 @@
        ]
     },
     {
-       "question": "69. Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui contrôle ce ui est autorisé à accéder à un réseau ?",
+       "question": "Quel est le composant, la mise en œuvre ou le protocole de contrôle d’accès qui contrôle ce ui est autorisé à accéder à un réseau ?",
        "choices": [
           "Authentification",
           "802.1X",
@@ -758,7 +768,7 @@
        ]
     },
     {
-       "question": "70. Quel est le type de réseau sans fil qui utilise des émetteurs de faible puissance pour un réseau à courte gamme, généralement de 6 à 9 mètres (20 à 30 pieds)?",
+       "question": "Quel est le type de réseau sans fil qui utilise des émetteurs de faible puissance pour un réseau à courte gamme, généralement de 6 à 9 mètres (20 à 30 pieds)?",
        "choices": [
           "Réseau personnel sans fil",
           "Réseau local sans fil (WLAN)",
@@ -770,7 +780,7 @@
        ]
     },
     {
-       "question": "71. Quel est le type de réseau sans fil qui utilise des émetteurs pour fournir un service sans fil dans une grande région urbaine ?",
+       "question": "Quel est le type de réseau sans fil qui utilise des émetteurs pour fournir un service sans fil dans une grande région urbaine ?",
        "choices": [
           "Réseau personnel sans fil",
           "Réseau local sans fil (WLAN)",
@@ -780,5 +790,97 @@
        "answers": [
           2
        ]
+    },
+    {
+       "question": "Reportez-vous à l’illustration. L’interface Fa 0/2 du commutateur S1 a été configurée avec la commande switchport port-security mac-address 0023.189d.6456 et une station de travail a été connectée. Quelle pourrait être la raison de l’arrêt de l’interface Fa 0/2 ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-29_190027.jpg",
+       "choices": [
+          "L’adresse MAC de PC1 qui se connecte à l’interface Fa 0/2 n’est pas l’adresse MAC configurée.",
+          "PC1 et connecté au S1 à partir d’un câble croisé.",
+          "S1 a été configuré avec la commande switchport port-security aging .",
+          "L’interface Fa 0/24 de S1 est configurée avec la même adresse MAC que l’interface Fa 0/2."
+       ],
+       "answers": [
+          0
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Le port Fa0/2 a déjà été configuré correctement. Le téléphone IP et le PC fonctionnent correctement. Quelle configuration du commutateur est la plus appropriée pour le port Fa0/2 si l’administrateur réseau vise les objectifs suivants ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-29_190501.jpg",
+       "choices": [
+          "SWA(config-if)# switchport port-security<br>SWA(config-if)# switchport port-security maximum 2<br>SWA(config-if)# switchport port-security mac-address sticky<br>SWA(config-if)# switchport port-security violation restrict",
+          "SWA(config-if)# switchport port-security<br>SWA(config-if)# switchport port-security mac-address sticky",
+          "SWA(config-if)# switchport port-security mac-address sticky<br>SWA(config-if)# switchport port-security maximum 2<br>Correct Response",
+          "SWA(config-if)# switchport port-security<br>SWA(config-if)# switchport port-security maximum 2<br>SWA(config-if)# switchport port-security mac-address sticky"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Le PC1 et le PC2 doivent pouvoir obtenir des affectations d’adresses IP à partir du serveur DHCP. Combien de ports parmi les commutateurs doivent être affectés comme ports fiables dans le cadre de la configuration de la surveillance DHCP ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-29_190640.jpg",
+       "choices": [
+          "1",
+          "3",
+          "5",
+          "7"
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Examinez l’illustration. Que peut-on conclure à propos de la sécurité des ports à partir des informations présentées ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-29_192806.jpg",
+       "choices": [
+          "Le port est désactivé.",
+          "Le port possède le nombre maximal d’adresses MAC pris en charge par un port de commutateur de couche 2 configuré pour la sécurité des ports.",
+          "Deux périphériques sont connectés au port.",
+          "Le mode de violation du port utilisé est le mode par défaut pour n’importe quel port dont la sécurité est activée."
+       ],
+       "answers": [
+          3
+       ]
+    },
+    {
+       "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question.Que se passe-t-il s’il y a une violation de sécurité de port sur l’interface Fa 0/1 du commutateur S1 ?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_233518.jpg",
+       "choices": [
+          "Un message syslog est enregistré.",
+          "Les paquets dont les adresses source sont inconnues sont abandonnés.",
+          "Une notification est envoyée.",
+          "L’interface est placée dans l’état de désactivation des erreurs."
+       ],
+       "answers": [
+          1
+       ]
+    },
+    {
+       "question": "Reportez-vous à l’illustration. La sécurité de port a été configurée sur l’interface Fa 0/12 du commutateur S1. Quelle action se produira lorsque PC1 est connecté au commutateur S1 avec la configuration appliquée?",
+       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-29_235206.jpg",
+       "choices": [
+          "Les trames de PC1 seront transférées à sa destination, mais aucune entrée de journal ne sera créée.",
+          "Les trames de PC1 seront transférées à sa destination et une entrée de journal sera créée.",
+          "Les trames de PC1 seront supprimées et un message de journal sera créé.",
+          "Les trames de PC1 seront transférées dans la mesure où la commande switchport port security violation est manquante.",
+          "Les trames de PC1 seront supprimées, et il n’y aura pas de journal de la violation.",
+          "Les trames de PC1 provoquent l’arrêt immédiat de l’interface, et une entrée de journal sera effectuée."
+       ],
+       "answers": [
+          5
+       ]
+    },
+    {
+       "question": "Un administrateur réseau saisit les commandes suivantes sur le commutateur SW1.<br>SW1(config)# interface range fa0/5 – 10<br>SW1(config-if)# ip dhcp snooping limit rate 6<br>Quel est l’effet après la saisie de ces commandes ?",
+       "choices": [
+          "Si l’un des ports FastEthernet 5 à 10 reçoit plus de 6 messages DHCP par seconde, le port sera arrêté.",
+          "Si l’un des ports FastEthernet 5 à 10 reçoit plus de 6 messages DHCP par seconde, le port continuera à fonctionner et un message d’erreur sera envoyé à l’administrateur réseau.",
+          "Les ports FastEthernet 5 à 10 peuvent recevoir jusqu’à 6 messages DHCP par seconde de tout type.",
+          "Les ports FastEthernet 5 à 10 peuvent recevoir jusqu’à 6 messages de découverte DHCP par seconde."
+       ],
+       "answers": [
+          3
+       ]
     }
- ]
+]

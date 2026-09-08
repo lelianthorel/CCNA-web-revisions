@@ -1,6 +1,6 @@
 [
    {
-      "question": "1. Dans quelle situation un technicien utilise-t-il la commande de commutateur show interfaces ?",
+      "question": "Dans quelle situation un technicien utilise-t-il la commande de commutateur show interfaces ?",
       "image": null,
       "choices": [
          "Pour déterminer l’adresse MAC d’un périphérique réseau directement connecté sur une interface donnée",
@@ -13,17 +13,7 @@
       ]
    },
    {
-      "question": "2. Faites correspondre le numéro d’étape à la séquence des étapes qui se produisent pendant le processus de basculement HSRP. (Les propositions ne doivent pas être toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2024-10-16_102955.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "3. Reportez-vous à l’illustration. Un administrateur tente de configurer une route statique IPv6 sur le routeur R1 pour atteindre le réseau connecté au routeur R2. Après la saisie de la commande de la route statique, la connectivité au réseau est toujours défaillante. Quelle erreur a été effectuée dans la configuration de la route statique ?",
+      "question": "Reportez-vous à l’illustration. Un administrateur tente de configurer une route statique IPv6 sur le routeur R1 pour atteindre le réseau connecté au routeur R2. Après la saisie de la commande de la route statique, la connectivité au réseau est toujours défaillante. Quelle erreur a été effectuée dans la configuration de la route statique ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221514.jpg",
       "choices": [
          "L’adresse du tronçon suivant est incorrecte.",
@@ -36,7 +26,7 @@
       ]
    },
    {
-      "question": "4. Un nouveau commutateur de couche 3 est connecté à un routeur et est en cours de configuration pour le routage InterVLAN. Quelles sont les trois étapes requises pour la configuration? (Choisissez trois propositions.)",
+      "question": "Un nouveau commutateur de couche 3 est connecté à un routeur et est en cours de configuration pour le routage InterVLAN. Quelles sont les trois étapes requises pour la configuration? (Choisissez trois propositions.)",
       "image": null,
       "choices": [
          "Attribution des ports au VLAN natif",
@@ -54,7 +44,7 @@
       ]
    },
    {
-      "question": "5. Reportez-vous à l’illustration. En fonction de la configuration et de la sortie présentées, pourquoi manque-t-il le VLAN 99 ?",
+      "question": "Reportez-vous à l’illustration. En fonction de la configuration et de la sortie présentées, pourquoi manque-t-il le VLAN 99 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221532.jpg",
       "choices": [
          "Parce qu’il y a un problème de câblage sur le VLAN 99",
@@ -67,7 +57,7 @@
       ]
    },
    {
-      "question": "6. Quelles paires de modes d’agrégation établissent une liaison agrégée fonctionnelle entre deux commutateurs Cisco ? (Choisissez trois réponses.)",
+      "question": "Quelles paires de modes d’agrégation établissent une liaison agrégée fonctionnelle entre deux commutateurs Cisco ? (Choisissez trois réponses.)",
       "image": null,
       "choices": [
          "dynamic auto – dynamic auto",
@@ -84,7 +74,7 @@
       ]
    },
    {
-      "question": "7. Quel protocole ou technologie nécessite que les commutateurs soient en mode serveur ou client?",
+      "question": "Quel protocole ou technologie nécessite que les commutateurs soient en mode serveur ou client?",
       "image": null,
       "choices": [
          "Protocole VTP",
@@ -97,7 +87,7 @@
       ]
    },
    {
-      "question": "8. Examinez l’illustration. Après avoir essayé de saisir la configuration affichée dans le routeur RTA, un administrateur reçoit une erreur et les utilisateurs du VLAN 20 signalent qu’ils ne peuvent pas communiquer avec les utilisateurs du VLAN 30. Quelle est l’origine du problème ?",
+      "question": "Examinez l’illustration. Après avoir essayé de saisir la configuration affichée dans le routeur RTA, un administrateur reçoit une erreur et les utilisateurs du VLAN 20 signalent qu’ils ne peuvent pas communiquer avec les utilisateurs du VLAN 30. Quelle est l’origine du problème ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221548.jpg",
       "choices": [
          "La commande no shutdown aurait dû être exécutée sur Fa0/0.20 et Fa0/0.30.",
@@ -110,7 +100,7 @@
       ]
    },
    {
-      "question": "9. Quels sont les deux modes VTP qui permettent la création, la modification et la suppression des VLAN sur le commutateur local ? (Choisissez deux propositions.)",
+      "question": "Quels sont les deux modes VTP qui permettent la création, la modification et la suppression des VLAN sur le commutateur local ? (Choisissez deux propositions.)",
       "image": null,
       "choices": [
          "client",
@@ -126,7 +116,7 @@
       ]
    },
    {
-      "question": "10. Reportez-vous à l’illustration. Un administrateur réseau configure R1 pour le routage inter-VLAN entre VLAN 10 et VLAN 20. Toutefois, les périphériques du VLAN 10 et du VLAN 20 ne peuvent pas communiquer. Selon la configuration de l’exposition, quelle est la cause possible du problème?",
+      "question": "Reportez-vous à l’illustration. Un administrateur réseau configure R1 pour le routage inter-VLAN entre VLAN 10 et VLAN 20. Toutefois, les périphériques du VLAN 10 et du VLAN 20 ne peuvent pas communiquer. Selon la configuration de l’exposition, quelle est la cause possible du problème?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221606.jpg",
       "choices": [
          "L’encapsulation est mal configurée sur une sous-interface.",
@@ -139,7 +129,7 @@
       ]
    },
    {
-      "question": "11. Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur utiliserait-il un contrôleur WLAN?",
+      "question": "Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur utiliserait-il un contrôleur WLAN?",
       "image": null,
       "choices": [
          "pour centraliser la gestion de plusieurs réseaux WLAN",
@@ -152,17 +142,7 @@
       ]
    },
    {
-      "question": "12. Associez la description au type de VLAN correct. (Les options ne sont pas toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_222545.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "13. Examinez l’illustration. Comment une trame envoyée depuis PCA est-elle transmise à PCC si la table d’adresses MAC du commutateur SW1 est vide ?",
+      "question": "Examinez l’illustration. Comment une trame envoyée depuis PCA est-elle transmise à PCC si la table d’adresses MAC du commutateur SW1 est vide ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_222651.jpg",
       "choices": [
          "SW1 abandonne la trame car il ne connaît pas l’adresse MAC de destination.",
@@ -175,17 +155,7 @@
       ]
    },
    {
-      "question": "14. Associez l’état de la liaison au statut d’interface et de protocole. (Les options ne sont pas toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2024-10-15_201613.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "15. Quel est le moyen d’avoir une configuration sécurisée pour l’accès à distance à un appareil sur le réseau ?",
+      "question": "Quel est le moyen d’avoir une configuration sécurisée pour l’accès à distance à un appareil sur le réseau ?",
       "image": null,
       "choices": [
          "Configurer SSH.",
@@ -198,7 +168,7 @@
       ]
    },
    {
-      "question": "16. Examinez l’illustration. L’hôte A a envoyé un paquet à l’hôte B. Quelles sont les adresses IP et MAC source sur le paquet lorsqu’il atteint l’hôte B ?",
+      "question": "Examinez l’illustration. L’hôte A a envoyé un paquet à l’hôte B. Quelles sont les adresses IP et MAC source sur le paquet lorsqu’il atteint l’hôte B ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_222840.jpg",
       "choices": [
          "MAC source : 00E0.FE10.17A3<br>IP source : 192.168.1.1",
@@ -212,7 +182,7 @@
       ]
    },
    {
-      "question": "17. Reportez-vous à l’illustration. Quels sont les rôles possibles pour les ports A, B, C et D dans ce réseau RSTP ?",
+      "question": "Reportez-vous à l’illustration. Quels sont les rôles possibles pour les ports A, B, C et D dans ce réseau RSTP ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_164220.png",
       "choices": [
          "Désigné, racine, alternatif, racine",
@@ -225,7 +195,7 @@
       ]
    },
    {
-      "question": "18. Plusieurs actions peuvent pallier une attaque de VLAN. Citez-en trois. (Choisissez trois propositions.)",
+      "question": "Plusieurs actions peuvent pallier une attaque de VLAN. Citez-en trois. (Choisissez trois propositions.)",
       "image": null,
       "choices": [
          "Activer la fonction de protection BPDU.",
@@ -242,7 +212,7 @@
       ]
    },
    {
-      "question": "19. Quelle méthode de chiffrement sans fil offre la meilleure sécurité ?",
+      "question": "Quelle méthode de chiffrement sans fil offre la meilleure sécurité ?",
       "image": null,
       "choices": [
          "WPA2 avec AES",
@@ -255,7 +225,7 @@
       ]
    },
    {
-      "question": "20. Après qu’un hôte a généré une adresse IPv6 à l’aide du processus DHCPv6 ou SLAAC, comment l’hôte vérifie-t-il que l’adresse est unique et donc utilisable?",
+      "question": "Après qu’un hôte a généré une adresse IPv6 à l’aide du processus DHCPv6 ou SLAAC, comment l’hôte vérifie-t-il que l’adresse est unique et donc utilisable?",
       "image": null,
       "choices": [
          "L’hôte envoie un message de demande d’écho ICMPv6 à l’adresse DHCPv6 ou SLAAC apprise et si aucune réponse n’est renvoyée, l’adresse est considérée comme unique.",
@@ -268,7 +238,7 @@
       ]
    },
    {
-      "question": "21. Un administrateur tente de supprimer des configurations d’un commutateur. Après avoir exécuté la commande erase startup-config et rechargé le commutateur, l’administrateur constate que les VLAN 10 et 100 existent toujours dans le commutateur. Pourquoi ces VLAN n’ont-ils pas été supprimés ?",
+      "question": "Un administrateur tente de supprimer des configurations d’un commutateur. Après avoir exécuté la commande erase startup-config et rechargé le commutateur, l’administrateur constate que les VLAN 10 et 100 existent toujours dans le commutateur. Pourquoi ces VLAN n’ont-ils pas été supprimés ?",
       "image": null,
       "choices": [
          "Ces VLAN étant enregistrés dans un fichier appelé vlan.dat qui se trouve dans la mémoire Flash, ce fichier doit être supprimé manuellement.",
@@ -281,7 +251,7 @@
       ]
    },
    {
-      "question": "22. Examinez l’illustration. Un administrateur réseau configure le routage inter-VLAN sur un réseau. Pour l’instant, un seul VLAN est utilisé, mais d’autres seront ajoutés prochainement. Quel est le rôle du paramètre manquant, indiqué par un point d’interrogation mis en surbrillance dans l’illustration ?",
+      "question": "Examinez l’illustration. Un administrateur réseau configure le routage inter-VLAN sur un réseau. Pour l’instant, un seul VLAN est utilisé, mais d’autres seront ajoutés prochainement. Quel est le rôle du paramètre manquant, indiqué par un point d’interrogation mis en surbrillance dans l’illustration ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_223727.jpg",
       "choices": [
          "Il identifie le numéro du VLAN.",
@@ -295,7 +265,7 @@
       ]
    },
    {
-      "question": "23. Après avoir attaché quatre PC aux ports du commutateur, configuré le SSID et défini les propriétés d’authentification pour un petit réseau de bureau, un technicien teste avec succès la connectivité de tous les PC connectés au commutateur et au WLAN. Un pare-feu est ensuite configuré sur le périphérique avant de le connecter à Internet. Quel type de périphérique réseau inclut toutes les fonctionnalités décrites?",
+      "question": "Après avoir attaché quatre PC aux ports du commutateur, configuré le SSID et défini les propriétés d’authentification pour un petit réseau de bureau, un technicien teste avec succès la connectivité de tous les PC connectés au commutateur et au WLAN. Un pare-feu est ensuite configuré sur le périphérique avant de le connecter à Internet. Quel type de périphérique réseau inclut toutes les fonctionnalités décrites?",
       "image": null,
       "choices": [
          "commutateur",
@@ -308,17 +278,7 @@
       ]
    },
    {
-      "question": "24. Associez les types de message DHCP à l’ordre du processus DHCPv4. (Les options ne doivent pas être toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2024-10-15_161502.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "25 Examinez l’illustration. En plus des routes statiques qui dirigent le trafic vers les réseaux 10.10.0.0/16 et 10.20.0.0/16, le routeur HQ est configuré avec la commande suivante :<br>ip route 0.0.0.0 0.0.0.0 serial 0/1/1<br>Quel est l’objectif de cette commande ?",
+      "question": "Examinez l’illustration. En plus des routes statiques qui dirigent le trafic vers les réseaux 10.10.0.0/16 et 10.20.0.0/16, le routeur HQ est configuré avec la commande suivante :<br>ip route 0.0.0.0 0.0.0.0 serial 0/1/1<br>Quel est l’objectif de cette commande ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_224526.jpg",
       "choices": [
          "Les paquets dont le réseau de destination n’est ni 10.10.0.0/16 ni 10.20.0.0/16, ou dont le réseau de destination n’est pas connecté directement seront transférés à Internet.",
@@ -331,7 +291,7 @@
       ]
    },
    {
-      "question": "26. Examinez l’illustration. Quelle adresse MAC de destination est utilisée lorsque des trames sont envoyées depuis la station de travail vers la passerelle par défaut ?",
+      "question": "Examinez l’illustration. Quelle adresse MAC de destination est utilisée lorsque des trames sont envoyées depuis la station de travail vers la passerelle par défaut ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_225318.jpg",
       "choices": [
          "Les adresses MAC du routeur de transfert et du routeur en veille.",
@@ -344,7 +304,7 @@
       ]
    },
    {
-      "question": "27. Reportez-vous à l’illustration. Un administrateur réseau a relié deux commutateurs via la technologie EtherChannel. Si le protocole STP fonctionne, quel sera le résultat final ?",
+      "question": "Reportez-vous à l’illustration. Un administrateur réseau a relié deux commutateurs via la technologie EtherChannel. Si le protocole STP fonctionne, quel sera le résultat final ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_225512.jpg",
       "choices": [
          "Les commutateurs équilibreront la charge et utiliseront les deux EtherChannels pour transférer les paquets.",
@@ -357,7 +317,7 @@
       ]
    },
    {
-      "question": "28. Reportez-vous à l’illustration. Quelle route statique un technicien informatique doit-il saisir pour créer une route de secours vers le réseau 172.16.1.0 qui sera utilisée uniquement en cas de défaillance de la route principale associée à RIP ?",
+      "question": "Reportez-vous à l’illustration. Quelle route statique un technicien informatique doit-il saisir pour créer une route de secours vers le réseau 172.16.1.0 qui sera utilisée uniquement en cas de défaillance de la route principale associée à RIP ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_225649.jpg",
       "choices": [
          "ip route 172.16.1.0 255.255.255.0 s0/0/0 121",
@@ -370,7 +330,7 @@
       ]
    },
    {
-      "question": "29. Quel est l’effet de l’entrée de la commande de configuration shutdown sur un commutateur?",
+      "question": "Quel est l’effet de l’entrée de la commande de configuration shutdown sur un commutateur?",
       "image": null,
       "choices": [
          "Il active portfast sur une interface de commutateur spécifique.",
@@ -383,7 +343,7 @@
       ]
    },
    {
-      "question": "30. Quelles sont les trois normes Wi-Fi fonctionnant dans la plage de fréquences 2,4 GHz ? (Choisissez trois réponses.)",
+      "question": "Quelles sont les trois normes Wi-Fi fonctionnant dans la plage de fréquences 2,4 GHz ? (Choisissez trois réponses.)",
       "image": null,
       "choices": [
          "802.11b",
@@ -399,7 +359,7 @@
       ]
    },
    {
-      "question": "31. Un technicien réseau dépanne un réseau sans fil venant d’être déployé et utilisant les normes 802.11 les plus récentes. Lorsque les utilisateurs accèdent à des services gourmands en bande passante tels que la vidéo sur Internet, les performances du réseau sans fil sont médiocres. Pour améliorer les performances, le technicien réseau décide de configurer un SSID avec une bande de fréquences de 5 GHz et de former les utilisateurs à employer ce SSID pour les services multimédias de transmission en continu. En quoi cette solution permet-elle d’améliorer les performances du réseau sans fil pour ce type de service ?",
+      "question": "Un technicien réseau dépanne un réseau sans fil venant d’être déployé et utilisant les normes 802.11 les plus récentes. Lorsque les utilisateurs accèdent à des services gourmands en bande passante tels que la vidéo sur Internet, les performances du réseau sans fil sont médiocres. Pour améliorer les performances, le technicien réseau décide de configurer un SSID avec une bande de fréquences de 5 GHz et de former les utilisateurs à employer ce SSID pour les services multimédias de transmission en continu. En quoi cette solution permet-elle d’améliorer les performances du réseau sans fil pour ce type de service ?",
       "image": null,
       "choices": [
          "La bande 5 GHz offre une plage plus étendue et est donc susceptible de ne pas comporter d’interférences.",
@@ -412,7 +372,7 @@
       ]
    },
    {
-      "question": "32. Sélectionnez les trois modes d’établissement de canaux PAgP. (Choisissez trois propositions.)",
+      "question": "Sélectionnez les trois modes d’établissement de canaux PAgP. (Choisissez trois propositions.)",
       "image": null,
       "choices": [
          "actif",
@@ -429,7 +389,7 @@
       ]
    },
    {
-      "question": "33 Reportez-vous à l’illustration. L’administrateur réseau est en train de configurer la fonction de sécurité du port sur le commutateur SWC. L’administrateur a émis la commande show port-security interface fa 0/2 pour vérifier la configuration. Que peut-on conclure de la sortie qui est montrée? (Choisissez trois propositions.)",
+      "question": "Reportez-vous à l’illustration. L’administrateur réseau est en train de configurer la fonction de sécurité du port sur le commutateur SWC. L’administrateur a émis la commande show port-security interface fa 0/2 pour vérifier la configuration. Que peut-on conclure de la sortie qui est montrée? (Choisissez trois propositions.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_230812.jpg",
       "choices": [
          "Le port est configuré en tant que liaison de trunk.",
@@ -440,11 +400,13 @@
          "Aucun périphérique n’est actuellement connecté à ce port."
       ],
       "answers": [
-         1, 2, 3
+         1,
+         2,
+         3
       ]
    },
    {
-      "question": "34. Quel protocole doit être désactivé pour pallier les attaques de VLAN ?",
+      "question": "Quel protocole doit être désactivé pour pallier les attaques de VLAN ?",
       "image": null,
       "choices": [
          "CDP",
@@ -457,7 +419,7 @@
       ]
    },
    {
-      "question": "35. Quelle technique d’atténuation empêcherait les serveurs malveillants de fournir de faux paramètres de configuration IP aux clients ?",
+      "question": "Quelle technique d’atténuation empêcherait les serveurs malveillants de fournir de faux paramètres de configuration IP aux clients ?",
       "image": null,
       "choices": [
          "mise en œuvre des solutions de sécurisation des ports",
@@ -470,7 +432,7 @@
       ]
    },
    {
-      "question": "36. Quelle méthode d’attribution de préfixe IPv6 repose sur le préfixe contenu dans les messages RA?",
+      "question": "Quelle méthode d’attribution de préfixe IPv6 repose sur le préfixe contenu dans les messages RA?",
       "image": null,
       "choices": [
          "statique",
@@ -483,7 +445,7 @@
       ]
    },
    {
-      "question": "37. Un analyste de la cybersécurité utilise l’outil macof pour évaluer la configuration des commutateurs déployés dans le réseau de base d’une organisation. Quel type d’attaque LAN l’analyste cible-t-il au cours de cette évaluation?",
+      "question": "Un analyste de la cybersécurité utilise l’outil macof pour évaluer la configuration des commutateurs déployés dans le réseau de base d’une organisation. Quel type d’attaque LAN l’analyste cible-t-il au cours de cette évaluation?",
       "image": null,
       "choices": [
          "Usurpation DHCP (ou spoofing)",
@@ -496,7 +458,7 @@
       ]
    },
    {
-      "question": "38. Au cours du processus AAA, quand l’autorisation est-elle implémentée ?",
+      "question": "Au cours du processus AAA, quand l’autorisation est-elle implémentée ?",
       "image": null,
       "choices": [
          "dès que la fonction de traçabilité et d’audit AAA a reçu des rapports détaillés",
@@ -509,7 +471,7 @@
       ]
    },
    {
-      "question": "39. Examinez l’illustration. Un ingénieur réseau configure le routage IPv6 sur le réseau. Quelle commande exécutée sur le routeur HQ permet de configurer une route par défaut vers Internet en vue de transférer les paquets vers un réseau de destination IPv6 qui n’est pas répertorié dans la table de routage ?​",
+      "question": "Examinez l’illustration. Un ingénieur réseau configure le routage IPv6 sur le réseau. Quelle commande exécutée sur le routeur HQ permet de configurer une route par défaut vers Internet en vue de transférer les paquets vers un réseau de destination IPv6 qui n’est pas répertorié dans la table de routage ?​",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_231809.jpg",
       "choices": [
          "ipv6 route ::/0 serial 0/0/0",
@@ -522,7 +484,7 @@
       ]
    },
    {
-      "question": "40. Quel type de route statique est configuré avec une plus grande distance administrative pour fournir une route de secours vers une route associée à un protocole de routage dynamique ?",
+      "question": "Quel type de route statique est configuré avec une plus grande distance administrative pour fournir une route de secours vers une route associée à un protocole de routage dynamique ?",
       "image": null,
       "choices": [
          "route statique flottante",
@@ -535,7 +497,7 @@
       ]
    },
    {
-      "question": "41. Quelle réponse indique une route statique par défaut IPv4 correctement configurée ?",
+      "question": "Quelle réponse indique une route statique par défaut IPv4 correctement configurée ?",
       "image": null,
       "choices": [
          "ip route 0.0.0.0 255.255.255.255 S0/0/0",
@@ -548,7 +510,7 @@
       ]
    },
    {
-      "question": "42. Reportez-vous à l’illustration. Quelle commande de route statique peut être entrée sur R1 pour transférer le trafic vers le réseau local connecté à R2?",
+      "question": "Reportez-vous à l’illustration. Quelle commande de route statique peut être entrée sur R1 pour transférer le trafic vers le réseau local connecté à R2?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232325.jpg",
       "choices": [
          "ipv6 route 2001:db8:12:10::/64 S0/0/0 fe80::2",
@@ -561,7 +523,7 @@
       ]
    },
    {
-      "question": "43. Examinez l’illustration. Quelle métrique permet de transférer un paquet de données avec l’adresse de destination IPv6 2001:DB8:ACAD:E:240:BFF:FED4:9DD2 ?",
+      "question": "Examinez l’illustration. Quelle métrique permet de transférer un paquet de données avec l’adresse de destination IPv6 2001:DB8:ACAD:E:240:BFF:FED4:9DD2 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232532.jpg",
       "choices": [
          "90",
@@ -576,7 +538,7 @@
       ]
    },
    {
-      "question": "44. Examinez l’illustration. Le routeur R1 entretient une relation de voisinage OSPF avec le routeur du FAI sur le réseau 192.168.0.32. La liaison réseau 192.168.0.36 doit servir de liaison de secours si la liaison OSPF tombe en panne. La commande de route statique flottante ip route 0.0.0.0 0.0.0.0 S0/0/1 100 a été exécutée sur R1 et, à présent, le trafic utilise la liaison de secours même lorsque la liaison OSPF est activée et opérationnelle. Quelle modification doit être apportée à la commande de route statique afin que le trafic utilise obligatoirement la liaison OSPF lorsque celle-ci est active ?",
+      "question": "Examinez l’illustration. Le routeur R1 entretient une relation de voisinage OSPF avec le routeur du FAI sur le réseau 192.168.0.32. La liaison réseau 192.168.0.36 doit servir de liaison de secours si la liaison OSPF tombe en panne. La commande de route statique flottante ip route 0.0.0.0 0.0.0.0 S0/0/1 100 a été exécutée sur R1 et, à présent, le trafic utilise la liaison de secours même lorsque la liaison OSPF est activée et opérationnelle. Quelle modification doit être apportée à la commande de route statique afin que le trafic utilise obligatoirement la liaison OSPF lorsque celle-ci est active ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232636.jpg",
       "choices": [
          "Configuration du réseau de destination sur 192.168.0.34.",
@@ -589,7 +551,7 @@
       ]
    },
    {
-      "question": "45. Reportez-vous à l’illustration. Quelle route a été configurée comme route statique vers un réseau spécifique en utilisant l’adresse du tronçon suivant ?",
+      "question": "Reportez-vous à l’illustration. Quelle route a été configurée comme route statique vers un réseau spécifique en utilisant l’adresse du tronçon suivant ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232818.jpg",
       "choices": [
          "C 10.16.2.0/24 is directly connected, Serial0/0/0",
@@ -602,7 +564,7 @@
       ]
    },
    {
-      "question": "46. Reportez-vous à l’illustration. Quel trunk ne transmettra aucun trafic au terme du processus de sélection de pont racine ?",
+      "question": "Reportez-vous à l’illustration. Quel trunk ne transmettra aucun trafic au terme du processus de sélection de pont racine ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232945.jpg",
       "choices": [
          "Trunk1",
@@ -615,7 +577,7 @@
       ]
    },
    {
-      "question": "47. Quels sont les deux types de protocoles STP pouvant générer des flux de trafic non optimaux parce qu’ils ne supposent qu’une seule instance Spanning Tree pour le réseau ponté entier ? (Choisissez deux réponses.)",
+      "question": "Quels sont les deux types de protocoles STP pouvant générer des flux de trafic non optimaux parce qu’ils ne supposent qu’une seule instance Spanning Tree pour le réseau ponté entier ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "MSTP",
@@ -630,7 +592,7 @@
       ]
    },
    {
-      "question": "48. Pour obtenir un aperçu de l’état du mode Spanning Tree d’un réseau commuté, un technicien réseau exécute la commande show spanning-tree sur un commutateur. Quelles informations cette commande permet-elle d’afficher ? (Choisissez deux réponses.)",
+      "question": "Pour obtenir un aperçu de l’état du mode Spanning Tree d’un réseau commuté, un technicien réseau exécute la commande show spanning-tree sur un commutateur. Quelles informations cette commande permet-elle d’afficher ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "L’adresse IP de l’interface VLAN de gestion.",
@@ -645,7 +607,7 @@
       ]
    },
    {
-      "question": "49. Examinez l’illustration. Quelles sont les deux conclusions pouvant être tirées du résultat ? (Choisissez deux réponses.)",
+      "question": "Examinez l’illustration. Quelles sont les deux conclusions pouvant être tirées du résultat ? (Choisissez deux réponses.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_233605.jpg",
       "choices": [
          "Le canal de port est un canal de couche 3.",
@@ -660,7 +622,7 @@
       ]
    },
    {
-      "question": "50 Quelle action se déroule lorsqu’une trame entrant dans un commutateur a une adresse MAC de destination monodiffusion apparaissant dans la table d’adresses MAC?",
+      "question": "Quelle action se déroule lorsqu’une trame entrant dans un commutateur a une adresse MAC de destination monodiffusion apparaissant dans la table d’adresses MAC?",
       "image": null,
       "choices": [
          "Le commutateur réinitialise le minuteur d’actualisation sur toutes les entrées de table d’adresses MAC.",
@@ -673,7 +635,7 @@
       ]
    },
    {
-      "question": "51 Reportez-vous à l’illustration. Un administrateur réseau a ajouté un nouveau sous-réseau au réseau et veut que les hôtes du sous-réseau reçoivent des adresses IPv4 du serveur DHCPv4.Quelles commandes permettent aux hôtes du nouveau sous-réseau de recevoir des adresses du serveur DHCPv4 ? (Choisissez deux réponses.)",
+      "question": "Reportez-vous à l’illustration. Un administrateur réseau a ajouté un nouveau sous-réseau au réseau et veut que les hôtes du sous-réseau reçoivent des adresses IPv4 du serveur DHCPv4.Quelles commandes permettent aux hôtes du nouveau sous-réseau de recevoir des adresses du serveur DHCPv4 ? (Choisissez deux réponses.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_235737.jpg",
       "choices": [
          "R1(config)# interface G0/0",
@@ -684,11 +646,12 @@
          "R2(config)# interface G0/0"
       ],
       "answers": [
-         0, 4
+         0,
+         4
       ]
    },
    {
-      "question": "52. Quelle action prend un client DHCPv4 s’il reçoit plus d’un DHCPOFFER de plusieurs serveurs DHCP?",
+      "question": "Quelle action prend un client DHCPv4 s’il reçoit plus d’un DHCPOFFER de plusieurs serveurs DHCP?",
       "image": null,
       "choices": [
          "Il envoie un DHCPNAK et recommence le processus DHCP.",
@@ -701,7 +664,7 @@
       ]
    },
    {
-      "question": "53. Examinez l’illustration. Si les adresses IP du routeur de passerelle par défaut et du serveur de noms de domaine (DNS) sont correctes, quel est le problème de cette configuration ?",
+      "question": "Examinez l’illustration. Si les adresses IP du routeur de passerelle par défaut et du serveur de noms de domaine (DNS) sont correctes, quel est le problème de cette configuration ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_235457.jpg",
       "choices": [
          "Les commandes default-router et dns-server doivent être configurées avec des masques de sous-réseau.",
@@ -714,7 +677,7 @@
       ]
    },
    {
-      "question": "54. Les utilisateurs de la succursale ont pu accéder à un site le matin, mais n’ont pas eu de connectivité avec le site depuis l’heure du déjeuner. Que faut-il faire ou vérifier?",
+      "question": "Les utilisateurs de la succursale ont pu accéder à un site le matin, mais n’ont pas eu de connectivité avec le site depuis l’heure du déjeuner. Que faut-il faire ou vérifier?",
       "image": null,
       "choices": [
          "Vérifiez la configuration sur l’itinéraire statique flottant et ajustez l’AD.",
@@ -727,17 +690,7 @@
       ]
    },
    {
-      "question": "55. Associez la caractéristique de transmission à son type. (Les options ne sont pas toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_224759.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "56. Quelles informations un commutateur utilise-t-il pour renseigner la table d’adresses MAC ?",
+      "question": "Quelles informations un commutateur utilise-t-il pour renseigner la table d’adresses MAC ?",
       "image": null,
       "choices": [
          "les adresses MAC source et de destination et le port entrant",
@@ -752,7 +705,7 @@
       ]
    },
    {
-      "question": "57. Pour quelles raisons un administrateur réseau segmenterait-il un réseau avec un commutateur de couche 2 ? (Choisissez deux réponses.)",
+      "question": "Pour quelles raisons un administrateur réseau segmenterait-il un réseau avec un commutateur de couche 2 ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "Pour créer moins de domaines de collision.",
@@ -768,7 +721,7 @@
       ]
    },
    {
-      "question": "58. Un technicien dépannage un WLAN lent et décide d’utiliser l’approche de répartition du trafic. Quels deux paramètres devraient être configurés pour le faire? (Choisissez deux propositions.)",
+      "question": "Un technicien dépannage un WLAN lent et décide d’utiliser l’approche de répartition du trafic. Quels deux paramètres devraient être configurés pour le faire? (Choisissez deux propositions.)",
       "image": null,
       "choices": [
          "Configurer le mode de sécurité sur WPA Personal TKIP/AES pour un réseau et WPA2 Personal AES pour l’autre réseau",
@@ -783,7 +736,7 @@
       ]
    },
    {
-      "question": "59. Sur un Cisco 3504 WLC Summary page ( Advanced > Summary ), quel onglet permet à un administrateur réseau de configurer un WLAN particulier avec une stratégie WPA2?",
+      "question": "Sur un Cisco 3504 WLC Summary page ( Advanced > Summary ), quel onglet permet à un administrateur réseau de configurer un WLAN particulier avec une stratégie WPA2?",
       "image": null,
       "choices": [
          "SÉCURITÉ",
@@ -796,7 +749,7 @@
       ]
    },
    {
-      "question": "60. Un administrateur réseau ajoute un nouveau WLAN sur un WLC Cisco 3500. Quel onglet l’administrateur doit-il utiliser pour créer une nouvelle interface VLAN à utiliser pour le nouveau WLAN?",
+      "question": "Un administrateur réseau ajoute un nouveau WLAN sur un WLC Cisco 3500. Quel onglet l’administrateur doit-il utiliser pour créer une nouvelle interface VLAN à utiliser pour le nouveau WLAN?",
       "image": null,
       "choices": [
          "GESTION",
@@ -809,7 +762,7 @@
       ]
    },
    {
-      "question": "61. Quel est l’effet de l’entrée de la commande de configuration switchport mode access sur un commutateur?",
+      "question": "Quel est l’effet de l’entrée de la commande de configuration switchport mode access sur un commutateur?",
       "image": null,
       "choices": [
          "Il spécifie le nombre maximal d’adresses L2 autorisées sur un port.",
@@ -822,7 +775,7 @@
       ]
    },
    {
-      "question": "62. Reportez-vous à l’illustration. L’administrateur réseau configure les deux commutateurs comme illustré. Cependant, l’hôte C ne peut envoyer de requête ping à l’hôte D et l’hôte E ne peut envoyer de requête ping à l’hôte F. Quelle action l’administrateur doit-il effectuer pour activer cette communication ?",
+      "question": "Reportez-vous à l’illustration. L’administrateur réseau configure les deux commutateurs comme illustré. Cependant, l’hôte C ne peut envoyer de requête ping à l’hôte D et l’hôte E ne peut envoyer de requête ping à l’hôte F. Quelle action l’administrateur doit-il effectuer pour activer cette communication ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_095045.jpg",
       "choices": [
          "Inclure un routeur dans la topologie.",
@@ -836,17 +789,7 @@
       ]
    },
    {
-      "question": "63. Associez l’étape à la description de la séquence d’amorçage du commutateur correspondante. (Les options ne doivent pas être toutes utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2024-10-16_070315.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "64. Reportez-vous à l’illustration. Supposons que le courant vient juste d’être rétabli. PC3 émet une requête de diffusion DHCP IPv4. À quel port SW1 transmet-il cette requête ?",
+      "question": "Reportez-vous à l’illustration. Supposons que le courant vient juste d’être rétabli. PC3 émet une requête de diffusion DHCP IPv4. À quel port SW1 transmet-il cette requête ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_095409.jpg",
       "choices": [
          "À Fa0/1, à Fa0/2 et à Fa0/3 uniquement",
@@ -860,7 +803,7 @@
       ]
    },
    {
-      "question": "65. Quel préfixe IPv6 est conçu pour la communication lien-local?",
+      "question": "Quel préfixe IPv6 est conçu pour la communication lien-local?",
       "image": null,
       "choices": [
          "2001::/3",
@@ -873,7 +816,7 @@
       ]
    },
    {
-      "question": "66. Comment un routeur gère-t-il le routage statique si Cisco Express Forwarding est désactivé ?",
+      "question": "Comment un routeur gère-t-il le routage statique si Cisco Express Forwarding est désactivé ?",
       "image": null,
       "choices": [
          "Il n’effectue pas de recherches récursives.",
@@ -886,7 +829,7 @@
       ]
    },
    {
-      "question": "67. Reportez-vous à l’illustration. Que peut-on conclure de la configuration affichée sur R1?",
+      "question": "Reportez-vous à l’illustration. Que peut-on conclure de la configuration affichée sur R1?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_102708.jpg",
       "choices": [
          "R1 fonctionne comme un serveur DHCPv4.",
@@ -899,7 +842,7 @@
       ]
    },
    {
-      "question": "68. Quelle action se déroule lorsque l’adresse MAC source d’un cadre entrant dans un commutateur n’est pas dans la table d’adresses MAC?",
+      "question": "Quelle action se déroule lorsque l’adresse MAC source d’un cadre entrant dans un commutateur n’est pas dans la table d’adresses MAC?",
       "image": null,
       "choices": [
          "Le commutateur ajoute à la table l’adresse MAC et le numéro de port entrant.",
@@ -912,7 +855,7 @@
       ]
    },
    {
-      "question": "69. Le routage inter-VLAN réussi fonctionne depuis un certain temps sur un réseau avec plusieurs VLAN sur plusieurs commutateurs. Lorsqu’une liaison de jonction entre commutateurs échoue et que le protocole Spanning Tree affiche une liaison de jonction de sauvegarde, il est signalé que les hôtes de deux VLAN peuvent accéder à certaines ressources réseau, mais pas à toutes les ressources précédemment accessibles. Les hôtes sur tous les autres VLAN n’ont pas ce problème. Quelle est la cause la plus probable de ce problème?",
+      "question": "Le routage inter-VLAN réussi fonctionne depuis un certain temps sur un réseau avec plusieurs VLAN sur plusieurs commutateurs. Lorsqu’une liaison de jonction entre commutateurs échoue et que le protocole Spanning Tree affiche une liaison de jonction de sauvegarde, il est signalé que les hôtes de deux VLAN peuvent accéder à certaines ressources réseau, mais pas à toutes les ressources précédemment accessibles. Les hôtes sur tous les autres VLAN n’ont pas ce problème. Quelle est la cause la plus probable de ce problème?",
       "image": null,
       "choices": [
          "Le routage inter-VLAN a également échoué lorsque le lien de jonction a échoué.",
@@ -925,7 +868,7 @@
       ]
    },
    {
-      "question": "70. Un administrateur réseau utilise le modèle « Router-on-a-Stick » pour configurer un commutateur et un routeur pour le routage inter-VLAN. Comment le port du commutateur connecté au routeur doit-il être configuré ?",
+      "question": "Un administrateur réseau utilise le modèle « Router-on-a-Stick » pour configurer un commutateur et un routeur pour le routage inter-VLAN. Comment le port du commutateur connecté au routeur doit-il être configuré ?",
       "image": null,
       "choices": [
          "Il doit être configuré comme port agrégé 802.1q.",
@@ -938,7 +881,7 @@
       ]
    },
    {
-      "question": "71. Pourquoi l’espionnage DHCP est-il nécessaire lors de l’utilisation de la fonction Dynamic ARP Inspection?",
+      "question": "Pourquoi l’espionnage DHCP est-il nécessaire lors de l’utilisation de la fonction Dynamic ARP Inspection?",
       "image": null,
       "choices": [
          "Il utilise la table d’adresses MAC pour vérifier l’adresse IP de la passerelle par défaut.",
@@ -951,7 +894,7 @@
       ]
    },
    {
-      "question": "72. Reportez-vous à l’illustration. Un administrateur réseau a configuré les routeurs R1 et R2 comme faisant partie du groupe HSRP 1. Après le rechargement des routeurs, un utilisateur associé à l’hôte 1 s’est plaint d’une mauvaise connectivité à Internet. L’administrateur réseau a donc exécuté la commande show standby brief sur les deux routeurs pour vérifier le fonctionnement du protocole HSRP. En outre, l’administrateur a observé le tableau ARP sur Host1. Quelle entrée doit apparaître dans le tableau ARP sur Host1 pour acquérir la connectivité à Internet?",
+      "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré les routeurs R1 et R2 comme faisant partie du groupe HSRP 1. Après le rechargement des routeurs, un utilisateur associé à l’hôte 1 s’est plaint d’une mauvaise connectivité à Internet. L’administrateur réseau a donc exécuté la commande show standby brief sur les deux routeurs pour vérifier le fonctionnement du protocole HSRP. En outre, l’administrateur a observé le tableau ARP sur Host1. Quelle entrée doit apparaître dans le tableau ARP sur Host1 pour acquérir la connectivité à Internet?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_102911.jpg",
       "choices": [
          "L’adresse IP virtuelle et l’adresse MAC virtuelle du groupe HSRP 1",
@@ -964,7 +907,7 @@
       ]
    },
    {
-      "question": "73. Une route statique a été configurée sur un routeur. Cependant, le réseau de destination n’existe plus. Que doit faire un administrateur pour supprimer l’itinéraire statique de la table de routage ?",
+      "question": "Une route statique a été configurée sur un routeur. Cependant, le réseau de destination n’existe plus. Que doit faire un administrateur pour supprimer l’itinéraire statique de la table de routage ?",
       "image": null,
       "choices": [
          "Rien. La route statique disparaîtra d’elle-même.",
@@ -977,7 +920,7 @@
       ]
    },
    {
-      "question": "74. Un technicien junior ajoutait un itinéraire à un routeur LAN. Un traceroute vers un périphérique sur le nouveau réseau a révélé un mauvais chemin et un état inaccessible. Que faut-il faire ou vérifier?",
+      "question": "Un technicien junior ajoutait un itinéraire à un routeur LAN. Un traceroute vers un périphérique sur le nouveau réseau a révélé un mauvais chemin et un état inaccessible. Que faut-il faire ou vérifier?",
       "image": null,
       "choices": [
          "Vérifiez la configuration sur l’itinéraire statique flottant et ajustez l’AD.",
@@ -990,7 +933,7 @@
       ]
    },
    {
-      "question": "75. Quelle méthode d’authentification sans fil dépend d’un serveur d’authentification RADIUS ?",
+      "question": "Quelle méthode d’authentification sans fil dépend d’un serveur d’authentification RADIUS ?",
       "image": null,
       "choices": [
          "WPA Personal",
@@ -1003,7 +946,7 @@
       ]
    },
    {
-      "question": "76. Quels sont les deux paramètres définis par défaut sur un routeur sans fil pouvant affecter la sécurité du réseau ? (Choisissez deux propositions.)",
+      "question": "Quels sont les deux paramètres définis par défaut sur un routeur sans fil pouvant affecter la sécurité du réseau ? (Choisissez deux propositions.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103041.jpg",
       "choices": [
          "Le SSID est diffusé.",
@@ -1018,7 +961,7 @@
       ]
    },
    {
-      "question": "77. Un administrateur réseau d’une petite société de publicité configure la sécurité WLAN à l’aide de la méthode PSK WPA2. Quelles informations d’identification les utilisateurs de bureau ont-ils besoin pour connecter leurs ordinateurs portables au WLAN?",
+      "question": "Un administrateur réseau d’une petite société de publicité configure la sécurité WLAN à l’aide de la méthode PSK WPA2. Quelles informations d’identification les utilisateurs de bureau ont-ils besoin pour connecter leurs ordinateurs portables au WLAN?",
       "image": null,
       "choices": [
          "une clé qui correspond à la clé sur l’AP",
@@ -1031,7 +974,7 @@
       ]
    },
    {
-      "question": "78. Quelle commande permet de créer une route statique sur R2 pour atteindre PC B ?",
+      "question": "Quelle commande permet de créer une route statique sur R2 pour atteindre PC B ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103139.jpg",
       "choices": [
          "R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.2.254",
@@ -1044,7 +987,7 @@
       ]
    },
    {
-      "question": "79. Reportez-vous à l’illustration. R1 a été configuré avec la commande de route statique ip route 209.165.200.224 255.255.255.224 S0/0/0 et, par conséquent, les utilisateurs du réseau 172.16.0.0/16 ne peuvent pas accéder aux ressources sur Internet. Comment cette route statique doit-elle être modifiée pour permettre au trafic utilisateur du LAN d’accéder à Internet ?",
+      "question": "Reportez-vous à l’illustration. R1 a été configuré avec la commande de route statique ip route 209.165.200.224 255.255.255.224 S0/0/0 et, par conséquent, les utilisateurs du réseau 172.16.0.0/16 ne peuvent pas accéder aux ressources sur Internet. Comment cette route statique doit-elle être modifiée pour permettre au trafic utilisateur du LAN d’accéder à Internet ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103216.jpg",
       "choices": [
          "En ajoutant une distance administrative de 254.",
@@ -1057,7 +1000,7 @@
       ]
    },
    {
-      "question": "80. Quel est le risque associé à la méthode de la base de données locale pour la sécurisation de l’accès des appareils qui peut être réalisée au moyen de AAA sur des serveurs centralisés ?",
+      "question": "Quel est le risque associé à la méthode de la base de données locale pour la sécurisation de l’accès des appareils qui peut être réalisée au moyen de AAA sur des serveurs centralisés ?",
       "image": null,
       "choices": [
          "Les mots de passe peuvent être stockés uniquement en texte brut dans la configuration en cours.",
@@ -1070,7 +1013,7 @@
       ]
    },
    {
-      "question": "81. Qu’est-ce qu’une méthode pour lancer une attaque de saut VLAN?",
+      "question": "Qu’est-ce qu’une méthode pour lancer une attaque de saut VLAN?",
       "image": null,
       "choices": [
          "inondation du commutateur avec des adresses MAC",
@@ -1083,7 +1026,7 @@
       ]
    },
    {
-      "question": "82. Quel protocole ou technologie utilise l’adresse IP source vers l’adresse IP de destination comme mécanisme d’équilibrage de charge?",
+      "question": "Quel protocole ou technologie utilise l’adresse IP source vers l’adresse IP de destination comme mécanisme d’équilibrage de charge?",
       "image": null,
       "choices": [
          "EtherChannel",
@@ -1096,7 +1039,7 @@
       ]
    },
    {
-      "question": "83. Examinez l’illustration. Tous les commutateurs affichés sont des modèles Cisco 2960 dont la priorité par défaut est identique et fonctionnant à la même bande passante. Quels sont les trois ports qui seront désignés pour STP ? (Choisissez trois réponses.)",
+      "question": "Examinez l’illustration. Tous les commutateurs affichés sont des modèles Cisco 2960 dont la priorité par défaut est identique et fonctionnant à la même bande passante. Quels sont les trois ports qui seront désignés pour STP ? (Choisissez trois réponses.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103809.jpg",
       "choices": [
          "Fa0/9",
@@ -1113,7 +1056,7 @@
       ]
    },
    {
-      "question": "84. Un ingénieur WLAN déploie un WLC et cinq points d’accès sans fil à l’aide du protocole CAPWAP avec la fonction DTLS pour sécuriser le plan de contrôle des périphériques réseau. Lors du test du réseau sans fil, l’ingénieur WLAN remarque que le trafic de données est en cours d’échange entre le WLC et les AP en texte brut et qu’il n’est pas crypté. Quelle est la raison la plus probable pour cela?",
+      "question": "Un ingénieur WLAN déploie un WLC et cinq points d’accès sans fil à l’aide du protocole CAPWAP avec la fonction DTLS pour sécuriser le plan de contrôle des périphériques réseau. Lors du test du réseau sans fil, l’ingénieur WLAN remarque que le trafic de données est en cours d’échange entre le WLC et les AP en texte brut et qu’il n’est pas crypté. Quelle est la raison la plus probable pour cela?",
       "image": null,
       "choices": [
          "Bien que DTLS soit activé par défaut pour sécuriser le canal de contrôle CAPWAP, il est désactivé par défaut pour le canal de données.",
@@ -1126,7 +1069,7 @@
       ]
    },
    {
-      "question": "85. Contrairement aux routes dynamiques, quels sont les avantages qu’offre l’utilisation des routes statiques sur un routeur ? (Choisissez deux réponses.)",
+      "question": "Contrairement aux routes dynamiques, quels sont les avantages qu’offre l’utilisation des routes statiques sur un routeur ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "Elles changent automatiquement le chemin vers le réseau de destination en cas de modification de la topologie.",
@@ -1141,7 +1084,7 @@
       ]
    },
    {
-      "question": "86. Examinez l’illustration. R1 a été configuré comme illustré. Cependant, PC1 ne parvient pas à recevoir d’adresse IPv4. Quel est le problème ?",
+      "question": "Examinez l’illustration. R1 a été configuré comme illustré. Cependant, PC1 ne parvient pas à recevoir d’adresse IPv4. Quel est le problème ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163055.png",
       "choices": [
          "La commande ip address dhcp n’a pas été exécutée sur l’interface Gi0/1.",
@@ -1154,7 +1097,7 @@
       ]
    },
    {
-      "question": "87. Quel est l’effet de l’entrée de la commande de configuration ip arp inspection vlan 10 sur un commutateur?",
+      "question": "Quel est l’effet de l’entrée de la commande de configuration ip arp inspection vlan 10 sur un commutateur?",
       "image": null,
       "choices": [
          "Il active le DAI sur des interfaces de commutation spécifiques précédemment configurées avec la surveillance DHCP.",
@@ -1167,7 +1110,7 @@
       ]
    },
    {
-      "question": "88. Quelle action se déroule lorsque l’adresse MAC source d’un cadre entrant dans un commutateur apparaît dans la table d’adresses MAC associée à un port différent?",
+      "question": "Quelle action se déroule lorsque l’adresse MAC source d’un cadre entrant dans un commutateur apparaît dans la table d’adresses MAC associée à un port différent?",
       "image": null,
       "choices": [
          "Le commutateur transmet le cadre hors du port spécifié.",
@@ -1180,7 +1123,7 @@
       ]
    },
    {
-      "question": "89. Reportez-vous à l’illustration. Actuellement, le routeur R1 utilise une route EIGRP enregistrée via Branch2 pour atteindre le réseau 10.10.0.0/16. Quelle route statique flottante crée une route de secours vers le réseau 10.10.0.0/16 au cas où la liaison entre R1 et Branch2 serait interrompue ?",
+      "question": "Reportez-vous à l’illustration. Actuellement, le routeur R1 utilise une route EIGRP enregistrée via Branch2 pour atteindre le réseau 10.10.0.0/16. Quelle route statique flottante crée une route de secours vers le réseau 10.10.0.0/16 au cas où la liaison entre R1 et Branch2 serait interrompue ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163253.png",
       "choices": [
          "ip route 10.10.0.0 255.255.0.0 Serial 0/0/0 100",
@@ -1193,7 +1136,7 @@
       ]
    },
    {
-      "question": "90. Quelles sont les trois étapes à suivre avant de transférer un commutateur Cisco vers un nouveau domaine de gestion VTP ? (Choisissez trois réponses.)",
+      "question": "Quelles sont les trois étapes à suivre avant de transférer un commutateur Cisco vers un nouveau domaine de gestion VTP ? (Choisissez trois réponses.)",
       "image": null,
       "choices": [
          "Redémarrer le commutateur.",
@@ -1210,7 +1153,7 @@
       ]
    },
    {
-      "question": "91. Reportez-vous à l’illustration. Quelle opération effectue le routeur R1 sur un paquet associé à une adresse IPv6 de destination 2001:db8:cafe:5::1 ?",
+      "question": "Reportez-vous à l’illustration. Quelle opération effectue le routeur R1 sur un paquet associé à une adresse IPv6 de destination 2001:db8:cafe:5::1 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163433.png",
       "choices": [
          "supprimer le paquet",
@@ -1223,7 +1166,7 @@
       ]
    },
    {
-      "question": "92. Quelle est la principale raison pour un cybercriminel de lancer une attaque par dépassement d’adresses MAC ?",
+      "question": "Quelle est la principale raison pour un cybercriminel de lancer une attaque par dépassement d’adresses MAC ?",
       "image": null,
       "choices": [
          "pour que le cybercriminel puisse voir les trames destinées à d’autres hôtes",
@@ -1236,7 +1179,7 @@
       ]
    },
    {
-      "question": "93. Quelle proposition décrit le résultat de l’interconnexion de plusieurs commutateurs Cisco LAN ?",
+      "question": "Quelle proposition décrit le résultat de l’interconnexion de plusieurs commutateurs Cisco LAN ?",
       "image": null,
       "choices": [
          "Chaque commutateur comprend un espace de diffusion et un espace de collision.",
@@ -1249,7 +1192,7 @@
       ]
    },
    {
-      "question": "94. Reportez-vous à l’illustration. Un administrateur réseau configure le routeur R1 pour l’attribution d’adresse IPv6. Sur la base de la configuration partielle, quel système d’attribution d’adresses IPv6 global monodiffusion l’administrateur a-t-il l’intention de mettre en œuvre ?",
+      "question": "Reportez-vous à l’illustration. Un administrateur réseau configure le routeur R1 pour l’attribution d’adresse IPv6. Sur la base de la configuration partielle, quel système d’attribution d’adresses IPv6 global monodiffusion l’administrateur a-t-il l’intention de mettre en œuvre ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163717.png",
       "choices": [
          "configuration manuelle",
@@ -1262,7 +1205,7 @@
       ]
    },
    {
-      "question": "95. Examinez l’illustration. Un administrateur réseau vérifie la configuration du commutateur S1. Quel protocole a été implémenté pour regrouper plusieurs ports physiques en une liaison logique ?",
+      "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du commutateur S1. Quel protocole a été implémenté pour regrouper plusieurs ports physiques en une liaison logique ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163739.png",
       "choices": [
          "DTP",
@@ -1275,7 +1218,7 @@
       ]
    },
    {
-      "question": "96. Une politique de sécurité de l’entreprise exige que l’adressage MAC soit enregistré de manière dynamique et ajouté à la table des adresses MAC et à la configuration en cours sur chaque commutateur. Quelle configuration de la sécurité des ports permettra de respecter cette mesure ?",
+      "question": "Une politique de sécurité de l’entreprise exige que l’adressage MAC soit enregistré de manière dynamique et ajouté à la table des adresses MAC et à la configuration en cours sur chaque commutateur. Quelle configuration de la sécurité des ports permettra de respecter cette mesure ?",
       "image": null,
       "choices": [
          "adresses MAC sécurisées automatiques",
@@ -1288,7 +1231,7 @@
       ]
    },
    {
-      "question": "97. Un administrateur réseau utilise la commande de configuration globale spanning-tree portfastbpduguard default pour activer la garde BPDU sur un commutateur. Cependant, BPDU guard n’est pas activé sur tous les ports d’accès. Quelle est la source du problème?",
+      "question": "Un administrateur réseau utilise la commande de configuration globale spanning-tree portfastbpduguard default pour activer la garde BPDU sur un commutateur. Cependant, BPDU guard n’est pas activé sur tous les ports d’accès. Quelle est la source du problème?",
       "image": null,
       "choices": [
          "PortFast n’est pas configuré sur tous les ports d’accès.",
@@ -1301,21 +1244,22 @@
       ]
    },
    {
-      "question": "98. Examinez l’illustration. Un commutateur de couche 3 se charge du routage pour trois VLAN et se connecte à un routeur pour la connectivité Internet. Comment le commutateur doit-il être configuré ? (Choisissez deux réponses.)",
+      "question": "Examinez l’illustration. Un commutateur de couche 3 se charge du routage pour trois VLAN et se connecte à un routeur pour la connectivité Internet. Comment le commutateur doit-il être configuré ? (Choisissez deux réponses.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-13_090443.jpg",
       "choices": [
          "(config)# interface vlan 1<br>(config-if)# ip address 192.168.1.2 255.255.255.0<br>(config-if)# no shutdown",
          "(config)# ip routing",
          "(config)# interface gigabitethernet 1/1<br>(config-if)# no switchport<br>(config-if)# ip address 192.168.1.2 255.255.255.252",
-         "(config)# interface fastethernet0/4<bt>(config-if)# switchport mode trunk",
+         "(config)# interface fastethernet0/4<br>(config-if)# switchport mode trunk",
          "(config)# interface gigabitethernet1/1<br>(config-if)# switchport mode trunk"
       ],
       "answers": [
-         1, 2
+         1,
+         2
       ]
    },
    {
-      "question": "99. Quel est l’effet de l’entrée de la commande de configuration ip dhcp snooping sur un commutateur?",
+      "question": "Quel est l’effet de l’entrée de la commande de configuration ip dhcp snooping sur un commutateur?",
       "image": null,
       "choices": [
          "Activez globalement la surveillance DHCP (snooping )sur le commutateur.",
@@ -1328,7 +1272,7 @@
       ]
    },
    {
-      "question": "100. Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur désactiverait-il la fonction de diffusion pour le SSID?",
+      "question": "Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur désactiverait-il la fonction de diffusion pour le SSID?",
       "image": null,
       "choices": [
          "pour assurer la confidentialité et l’intégrité du trafic sans fil en utilisant le chiffrement",
@@ -1341,7 +1285,7 @@
       ]
    },
    {
-      "question": "101. Une entreprise déploie un réseau sans fil dans le site de distribution d’une banlieue de Boston. L’entrepôt est assez volumineux et nécessite l’utilisation de plusieurs points d’accès. Étant donné que certains appareils de l’entreprise fonctionnent toujours à 2,4 GHz, l’administrateur réseau décide de déployer la norme 802.11g. Quels sont les canaux que vous affecterez aux différents points d’accès afin d’éviter les chevauchements ?",
+      "question": "Une entreprise déploie un réseau sans fil dans le site de distribution d’une banlieue de Boston. L’entrepôt est assez volumineux et nécessite l’utilisation de plusieurs points d’accès. Étant donné que certains appareils de l’entreprise fonctionnent toujours à 2,4 GHz, l’administrateur réseau décide de déployer la norme 802.11g. Quels sont les canaux que vous affecterez aux différents points d’accès afin d’éviter les chevauchements ?",
       "image": null,
       "choices": [
          "Canaux 2, 6 et 10",
@@ -1354,7 +1298,7 @@
       ]
    },
    {
-      "question": "102. Quelle attaque a pour but de créer un DOS pour les clients en les empêchant d’obtenir un crédit-bail DHCP ?",
+      "question": "Quelle attaque a pour but de créer un DOS pour les clients en les empêchant d’obtenir un crédit-bail DHCP ?",
       "image": null,
       "choices": [
          "Attaque par dépassement de table CAM",
@@ -1367,7 +1311,7 @@
       ]
    },
    {
-      "question": "103. Les utilisateurs d’un réseau local ne peuvent pas accéder à un serveur Web d’entreprise mais peuvent se rendre ailleurs. Que faut-il faire ou vérifier?",
+      "question": "Les utilisateurs d’un réseau local ne peuvent pas accéder à un serveur Web d’entreprise mais peuvent se rendre ailleurs. Que faut-il faire ou vérifier?",
       "image": null,
       "choices": [
          "Vérifiez que la route statique vers le serveur est présente dans la table de routage.",
@@ -1380,7 +1324,7 @@
       ]
    },
    {
-      "question": "104. Quelle commande permet de lancer le processus de regroupement de deux interfaces physiques afin de créer un groupe EtherChannel par le biais du protocole LACP ?",
+      "question": "Quelle commande permet de lancer le processus de regroupement de deux interfaces physiques afin de créer un groupe EtherChannel par le biais du protocole LACP ?",
       "image": null,
       "choices": [
          "channel-group 1 mode desirable",
@@ -1393,7 +1337,7 @@
       ]
    },
    {
-      "question": "105. Quelle instruction est correcte sur la façon dont un commutateur de couche 2 détermine comment transférer des trames?",
+      "question": "Quelle instruction est correcte sur la façon dont un commutateur de couche 2 détermine comment transférer des trames?",
       "image": null,
       "choices": [
          "Les décisions de transfert de trame sont basées sur l’adresse MAC et les mappages des ports dans la table CAM.",
@@ -1406,7 +1350,7 @@
       ]
    },
    {
-      "question": "106. Reportez-vous à l’illustration. Quels sont les trois hôtes qui recevront des requêtes ARP de l’hôte A, dans l’hypothèse où le port Fa0/4 sur les deux commutateurs est configuré pour transporter du trafic pour plusieurs VLAN ? (Choisissez trois réponses.)",
+      "question": "Reportez-vous à l’illustration. Quels sont les trois hôtes qui recevront des requêtes ARP de l’hôte A, dans l’hypothèse où le port Fa0/4 sur les deux commutateurs est configuré pour transporter du trafic pour plusieurs VLAN ? (Choisissez trois réponses.)",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/01/2022-01-26_112504.jpg",
       "choices": [
          "hôte D",
@@ -1423,21 +1367,22 @@
       ]
    },
    {
-      "question": "107. Parmi les propositions suivantes, lesquelles caractérisent les ports routés d’un commutateur multicouche ? Choisissez deux réponses.",
+      "question": "Parmi les propositions suivantes, lesquelles caractérisent les ports routés d’un commutateur multicouche ? Choisissez deux réponses.",
       "image": null,
       "choices": [
          "Ils sont utilisés pour les liaisons point à multipoint.",
          "Dans un réseau commuté, elles sont principalement configurées entre les commutateurs, sur les couches principale et de distribution.",
          "Ils ne sont associés à aucun VLAN particulier.",
-         "La commande interface vlan <numéro du VLAN> doit être exécutée pour créer un VLAN sur les ports routés.",
+         "La commande interface vlan &lt;numéro du VLAN&gt; doit être exécutée pour créer un VLAN sur les ports routés.",
          "Ils prennent en charge les sous-interfaces, notamment les interfaces sur les routeurs Cisco IOS."
       ],
       "answers": [
-         1, 2
+         1,
+         2
       ]
    },
    {
-      "question": "108. Quel protocole ou technologie définit un groupe de routeurs, l’un d’eux défini comme actif et l’autre comme veille?",
+      "question": "Quel protocole ou technologie définit un groupe de routeurs, l’un d’eux défini comme actif et l’autre comme veille?",
       "image": null,
       "choices": [
          "EtherChannel",
@@ -1450,7 +1395,7 @@
       ]
    },
    {
-      "question": "109. Un administrateur réseau prépare l’implémentation du protocole Rapid PVST+ sur un réseau de production. Comment les types de liaisons Rapid PVST+ sont-ils déterminés sur les interfaces de commutateur ?",
+      "question": "Un administrateur réseau prépare l’implémentation du protocole Rapid PVST+ sur un réseau de production. Comment les types de liaisons Rapid PVST+ sont-ils déterminés sur les interfaces de commutateur ?",
       "image": null,
       "choices": [
          "Les types de liaisons sont déterminés automatiquement.",
@@ -1463,7 +1408,7 @@
       ]
    },
    {
-      "question": "110. Sur quels ports de commutation devrait-on activer la protection BPDU pour améliorer la stabilité STP?",
+      "question": "Sur quels ports de commutation devrait-on activer la protection BPDU pour améliorer la stabilité STP?",
       "image": null,
       "choices": [
          "tous les ports équipés de PortFast",
@@ -1476,7 +1421,7 @@
       ]
    },
    {
-      "question": "111. Examinez l’illustration. Un administrateur réseau configure un routeur comme serveur DHCPv6. L’administrateur exécute une commande show ipv6 dhcp pool pour vérifier la configuration. Parmi les propositions suivantes, laquelle décrit la raison pour laquelle le nombre de clients actifs est 0 ?",
+      "question": "Examinez l’illustration. Un administrateur réseau configure un routeur comme serveur DHCPv6. L’administrateur exécute une commande show ipv6 dhcp pool pour vérifier la configuration. Parmi les propositions suivantes, laquelle décrit la raison pour laquelle le nombre de clients actifs est 0 ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/i210895v1n1_210895.jpg",
       "choices": [
          "Aucune plage d’adresses IPv6 n’est spécifiée pour la configuration du pool DHCP IPv6.",
@@ -1489,7 +1434,7 @@
       ]
    },
    {
-      "question": "112. Un administrateur réseau a trouvé un utilisateur envoyant une trame 802.1Q à un commutateur. Quelle est la meilleure solution pour prévenir ce type d’attaque?",
+      "question": "Un administrateur réseau a trouvé un utilisateur envoyant une trame 802.1Q à un commutateur. Quelle est la meilleure solution pour prévenir ce type d’attaque?",
       "image": null,
       "choices": [
          "Les VLAN des ports d’accès utilisateur doivent être différents des VLAN natifs utilisés sur les ports de jonction.",
@@ -1502,7 +1447,7 @@
       ]
    },
    {
-      "question": "113. Un nouveau commutateur doit être ajouté à un réseau existant dans un bureau distant. L’administrateur réseau ne souhaite pas que les techniciens du bureau distant puissent ajouter de nouveaux VLAN au commutateur, mais le commutateur doit recevoir des mises à jour VLAN du domaine VTP. Quelles deux étapes doivent être effectuées pour configurer VTP sur le nouveau commutateur afin de répondre à ces conditions? (Choisissez deux propositions.)",
+      "question": "Un nouveau commutateur doit être ajouté à un réseau existant dans un bureau distant. L’administrateur réseau ne souhaite pas que les techniciens du bureau distant puissent ajouter de nouveaux VLAN au commutateur, mais le commutateur doit recevoir des mises à jour VLAN du domaine VTP. Quelles deux étapes doivent être effectuées pour configurer VTP sur le nouveau commutateur afin de répondre à ces conditions? (Choisissez deux propositions.)",
       "image": null,
       "choices": [
          "Configurer le nouveau commutateur en tant que client VTP.",
@@ -1517,7 +1462,7 @@
       ]
    },
    {
-      "question": "114. Deux protocoles sont utilisés pour l’authentification AAA au niveau des serveurs. Lesquels ? (Choisissez deux propositions.)",
+      "question": "Deux protocoles sont utilisés pour l’authentification AAA au niveau des serveurs. Lesquels ? (Choisissez deux propositions.)",
       "image": null,
       "choices": [
          "SSH",
@@ -1532,7 +1477,7 @@
       ]
    },
    {
-      "question": "115. Quelle attaque réseau est atténuée en activant la garde BPDU ?",
+      "question": "Quelle attaque réseau est atténuée en activant la garde BPDU ?",
       "image": null,
       "choices": [
          "attaque par débordement de la table CAM",
@@ -1545,7 +1490,7 @@
       ]
    },
    {
-      "question": "116. Quel est le terme commun donné aux messages de journal SNMP générés par les périphériques réseau et envoyés au serveur SNMP?",
+      "question": "Quel est le terme commun donné aux messages de journal SNMP générés par les périphériques réseau et envoyés au serveur SNMP?",
       "image": null,
       "choices": [
          "L’accusé de réception",
@@ -1558,7 +1503,7 @@
       ]
    },
    {
-      "question": "117. Quel protocole ou technologie est-il un protocole propriétaire Cisco qui est automatiquement activé sur les commutateurs 2960?",
+      "question": "Quel protocole ou technologie est-il un protocole propriétaire Cisco qui est automatiquement activé sur les commutateurs 2960?",
       "image": null,
       "choices": [
          "STP",
@@ -1571,7 +1516,7 @@
       ]
    },
    {
-      "question": "118. Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur appliquerait-il WPA2 avec AES au WLAN?",
+      "question": "Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur appliquerait-il WPA2 avec AES au WLAN?",
       "image": null,
       "choices": [
          "pour assurer la confidentialité et l’intégrité du trafic sans fil en utilisant le chiffrement",
@@ -1584,7 +1529,7 @@
       ]
    },
    {
-      "question": "119. Un technicien junior ajoutait une route à un routeur LAN. Un traceroute vers un périphérique sur le nouveau réseau a révélé un mauvais chemin et un état inaccessible. Que faut-il faire ou vérifier?",
+      "question": "Un technicien junior ajoutait une route à un routeur LAN. Un traceroute vers un périphérique sur le nouveau réseau a révélé un mauvais chemin et un état inaccessible. Que faut-il faire ou vérifier?",
       "image": null,
       "choices": [
          "Vérifiez que la route statique vers le serveur est présente dans la table de routage.",
@@ -1597,7 +1542,7 @@
       ]
    },
    {
-      "question": "120. Quels énoncés décrivent précisément les paramètres de mode bidirectionnel et de débit des commutateurs Cisco 2960 ? (Choisissez trois réponses.)",
+      "question": "Quels énoncés décrivent précisément les paramètres de mode bidirectionnel et de débit des commutateurs Cisco 2960 ? (Choisissez trois réponses.)",
       "image": null,
       "choices": [
          "Les paramètres de mode bidirectionnel et de débit de chaque port du commutateur peuvent être configurés manuellement.",
@@ -1614,7 +1559,7 @@
       ]
    },
    {
-      "question": "121. Reportez-vous à l’illustration. Quelle instruction indiquée dans le résultat permet au routeur R1 de répondre aux demandes DHCPv6 sans état ?",
+      "question": "Reportez-vous à l’illustration. Quelle instruction indiquée dans le résultat permet au routeur R1 de répondre aux demandes DHCPv6 sans état ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA-2-v7-exam-answers-56.png",
       "choices": [
          "prefix-delegation 2001:DB8:8::/48 00030001000E84244E70",
@@ -1628,7 +1573,7 @@
       ]
    },
    {
-      "question": "122. Quelle action se déroule lorsqu’une trame entrant dans un commutateur a une adresse MAC de destination multidiffusion?",
+      "question": "Quelle action se déroule lorsqu’une trame entrant dans un commutateur a une adresse MAC de destination multidiffusion?",
       "image": null,
       "choices": [
          "Le commutateur transmet le cadre hors du port spécifié.",
@@ -1641,7 +1586,7 @@
       ]
    },
    {
-      "question": "123. Quel protocole ou technologie permet à des données de transmettre via des liaisons de commutation redondantes?",
+      "question": "Quel protocole ou technologie permet à des données de transmettre via des liaisons de commutation redondantes?",
       "image": null,
       "choices": [
          "EtherChannel",
@@ -1654,7 +1599,7 @@
       ]
    },
    {
-      "question": "124. Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur modifie-t-il les adresses DHCP IPv4 par défaut sur un point d’accès?",
+      "question": "Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur modifie-t-il les adresses DHCP IPv4 par défaut sur un point d’accès?",
       "image": null,
       "choices": [
          "pour réduire le risque d’interférence par des dispositifs externes tels que les fours à micro-ondes",
@@ -1667,7 +1612,7 @@
       ]
    },
    {
-      "question": "125. Un administrateur réseau configure la fonction de sécurité des ports sur un commutateur. La politique de sécurité indique qu’au maximum deux adresses MAC sont autorisées sur chaque port d’accès. Lorsque le nombre maximal d’adresses MAC est atteint, une trame avec l’adresse MAC source inconnue est abandonnée et une notification est envoyée au serveur Syslog. Quel mode de violation de sécurité doit être configuré sur chaque port d’accès ?",
+      "question": "Un administrateur réseau configure la fonction de sécurité des ports sur un commutateur. La politique de sécurité indique qu’au maximum deux adresses MAC sont autorisées sur chaque port d’accès. Lorsque le nombre maximal d’adresses MAC est atteint, une trame avec l’adresse MAC source inconnue est abandonnée et une notification est envoyée au serveur Syslog. Quel mode de violation de sécurité doit être configuré sur chaque port d’accès ?",
       "image": null,
       "choices": [
          "warning",
@@ -1680,7 +1625,7 @@
       ]
    },
    {
-      "question": "126. Un administrateur réseau a configuré un routeur pour une opération DHCPv6 sans état. Toutefois, les utilisateurs signalent que les stations de travail ne reçoivent pas d’informations sur le serveur DNS. Quelles sont les deux lignes de configuration du routeur qui doivent être vérifiées pour s’assurer que le service DHCPv6 sans état est correctement configuré? (Choisissez deux propositions.)",
+      "question": "Un administrateur réseau a configuré un routeur pour une opération DHCPv6 sans état. Toutefois, les utilisateurs signalent que les stations de travail ne reçoivent pas d’informations sur le serveur DNS. Quelles sont les deux lignes de configuration du routeur qui doivent être vérifiées pour s’assurer que le service DHCPv6 sans état est correctement configuré? (Choisissez deux propositions.)",
       "image": null,
       "choices": [
          "La ligne de nom de domaine est incluse dans la section du pool dhcp ipv6 .",
@@ -1695,7 +1640,7 @@
       ]
    },
    {
-      "question": "127. Quel protocole ou quelle technologie désactive les chemins redondants pour éliminer les boucles de la couche 2 ?",
+      "question": "Quel protocole ou quelle technologie désactive les chemins redondants pour éliminer les boucles de la couche 2 ?",
       "image": null,
       "choices": [
          "EtherChannel",
@@ -1708,7 +1653,7 @@
       ]
    },
    {
-      "question": "128. Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur utiliserait-il des serveurs RADIUS sur le réseau?",
+      "question": "Un administrateur réseau est en train de configurer un WLAN. Pourquoi l’administrateur utiliserait-il des serveurs RADIUS sur le réseau?",
       "image": null,
       "choices": [
          "pour restreindre l’accès au WLAN uniquement par les utilisateurs autorisés et authentifiés",
@@ -1721,7 +1666,7 @@
       ]
    },
    {
-      "question": "129. Quel est l’effet de l’entrée de la commande de configuration show ip dhcp snooping binding sur un commutateur?",
+      "question": "Quel est l’effet de l’entrée de la commande de configuration show ip dhcp snooping binding sur un commutateur?",
       "image": null,
       "choices": [
          "Il limite le nombre de messages de découverte, par seconde, à recevoir sur l’interface.",
@@ -1734,7 +1679,7 @@
       ]
    },
    {
-      "question": "33. Quel est l’effet de la saisie de la commande de configuration spanning-tree portfast sur un commutateur ?",
+      "question": "Quel est l’effet de la saisie de la commande de configuration spanning-tree portfast sur un commutateur ?",
       "image": null,
       "choices": [
          "Cela désactive un port inutilisé.",
@@ -1747,7 +1692,7 @@
       ]
    },
    {
-      "question": "34. Quel est le préfixe IPv6 utilisé pour les adresses lien-local ?",
+      "question": "Quel est le préfixe IPv6 utilisé pour les adresses lien-local ?",
       "image": null,
       "choices": [
          "FF01::/8",
@@ -1760,7 +1705,7 @@
       ]
    },
    {
-      "question": "49. Quelles sont les deux fonctions exécutées par un WLC lors de l’utilisation du contrôle d’accès aux médias (MAC) ? (Choisissez deux réponses.)",
+      "question": "Quelles sont les deux fonctions exécutées par un WLC lors de l’utilisation du contrôle d’accès aux médias (MAC) ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "accusés de réception et retransmissions de paquets",
@@ -1775,7 +1720,7 @@
       ]
    },
    {
-      "question": "55. Un administrateur réseau configure un nouveau commutateur Cisco pour l’accès à la gestion à distance. Quels sont les trois éléments à configurer sur le commutateur pour la tâche ? (Choisissez trois réponses.)",
+      "question": "Un administrateur réseau configure un nouveau commutateur Cisco pour l’accès à la gestion à distance. Quels sont les trois éléments à configurer sur le commutateur pour la tâche ? (Choisissez trois réponses.)",
       "image": null,
       "choices": [
          "Adresse IP",
@@ -1792,7 +1737,7 @@
       ]
    },
    {
-      "question": "59. Une entreprise vient de passer à un nouveau FAI. Le FAI a terminé et vérifié la connexion de son site à l’entreprise. Cependant, les employés de l’entreprise ne peuvent pas accéder à Internet. Que faut-il faire ou vérifier ?",
+      "question": "Une entreprise vient de passer à un nouveau FAI. Le FAI a terminé et vérifié la connexion de son site à l’entreprise. Cependant, les employés de l’entreprise ne peuvent pas accéder à Internet. Que faut-il faire ou vérifier ?",
       "image": null,
       "choices": [
          "Vérifiez que la route statique vers le serveur est présente dans la table de routage.",
@@ -1805,7 +1750,7 @@
       ]
    },
    {
-      "question": "83. Un technicien configure un routeur pour une petite entreprise avec plusieurs WLAN et n’a pas besoin de la complexité d’un protocole de routage dynamique. Qu’est-ce que doitêtre fait ou vérifié ?",
+      "question": "Un technicien configure un routeur pour une petite entreprise avec plusieurs WLAN et n’a pas besoin de la complexité d’un protocole de routage dynamique. Qu’est-ce que doitêtre fait ou vérifié ?",
       "image": null,
       "choices": [
          "Vérifiez qu’il n’y a pas de route par défaut dans les tables de routage du routeur Edge.",
@@ -1818,7 +1763,7 @@
       ]
    },
    {
-      "question": "88. Quel plan d’atténuation est le meilleur pour contrecarrer une attaque DoS qui crée un débordement de table d’adresses MAC ?",
+      "question": "Quel plan d’atténuation est le meilleur pour contrecarrer une attaque DoS qui crée un débordement de table d’adresses MAC ?",
       "image": null,
       "choices": [
          "Désactiver la DTP.",
@@ -1831,7 +1776,7 @@
       ]
    },
    {
-      "question": "90. Quel message DHCPv4 un client enverra-t-il pour accepter une adresse IPv4 proposée par un serveur DHCP ?",
+      "question": "Quel message DHCPv4 un client enverra-t-il pour accepter une adresse IPv4 proposée par un serveur DHCP ?",
       "image": null,
       "choices": [
          "diffusion DHCPACK",
@@ -1844,17 +1789,7 @@
       ]
    },
    {
-      "question": "93. Faites correspondre le but avec son type de message DHCP. (Toutes les options ne sont pas utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2020-01-20_232028.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "94. Quel protocole ajoute de la sécurité aux connexions à distance ?",
+      "question": "Quel protocole ajoute de la sécurité aux connexions à distance ?",
       "image": null,
       "choices": [
          "FTP",
@@ -1868,7 +1803,7 @@
       ]
    },
    {
-      "question": "95. Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage inter-VLAN. Les utilisateurs se plaignent que PC2 ne peut pas communiquer avec PC1. Sur la base de la sortie, quelle est la cause possible du problème ?",
+      "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage inter-VLAN. Les utilisateurs se plaignent que PC2 ne peut pas communiquer avec PC1. Sur la base de la sortie, quelle est la cause possible du problème ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2021/12/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
       "choices": [
          "Gi0/0 n’est pas configuré comme port de jonction.",
@@ -1882,17 +1817,7 @@
       ]
    },
    {
-      "question": "97. Faites correspondre chaque type de message DHCP avec sa description. (Toutes les options ne sont pas utilisées.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2020-01-20_225135-1.jpg",
-      "choices": [
-         "CLIQUEZ ICI POUR PASSER A LA QUESTION SUIVANTE"
-      ],
-      "answers": [
-         0
-      ]
-   },
-   {
-      "question": "98. Quelle attaque réseau cherche à créer un DoS pour les clients en les empêchant d’obtenir un bail DHCP ?",
+      "question": "Quelle attaque réseau cherche à créer un DoS pour les clients en les empêchant d’obtenir un bail DHCP ?",
       "image": null,
       "choices": [
          "Usurpation d’adresse IP",
@@ -1905,7 +1830,7 @@
       ]
    },
    {
-      "question": "105. Quelle commande permettra à un routeur de commencer à envoyer des messages lui permettant de configurer une adresse lien-local sans utiliser de serveur DHCP IPv6 ?",
+      "question": "Quelle commande permettra à un routeur de commencer à envoyer des messages lui permettant de configurer une adresse lien-local sans utiliser de serveur DHCP IPv6 ?",
       "image": null,
       "choices": [
          "un itinéraire statique",
@@ -1918,7 +1843,7 @@
       ]
    },
    {
-      "question": "136. Quel est le résultat de la connexion de deux ou plusieurs commutateurs ensemble ?",
+      "question": "Quel est le résultat de la connexion de deux ou plusieurs commutateurs ensemble ?",
       "image": null,
       "choices": [
          "Le nombre de domaines de diffusion est augmenté.",
@@ -1931,7 +1856,7 @@
       ]
    },
    {
-      "question": "119. Les utilisateurs se plaignent d’un accès sporadique à Internet chaque après-midi. Que faut-il faire ou vérifier ?",
+      "question": "Les utilisateurs se plaignent d’un accès sporadique à Internet chaque après-midi. Que faut-il faire ou vérifier ?",
       "image": null,
       "choices": [
          "Créez des routes statiques vers tous les réseaux internes et une route par défaut vers Internet.",
@@ -1956,7 +1881,9 @@
          "implémenter un protocole de routage"
       ],
       "answers": [
-         3, 4, 5
+         3,
+         4,
+         5
       ]
    },
    {
@@ -1972,11 +1899,13 @@
          "attribution de ports aux VLAN"
       ],
       "answers": [
-         0, 1, 6
+         0,
+         1,
+         6
       ]
    },
    {
-      "question": "132. Les employés ne peuvent pas se connecter aux serveurs sur l’un des réseaux internes. Que faut-il faire ou vérifier ?",
+      "question": "Les employés ne peuvent pas se connecter aux serveurs sur l’un des réseaux internes. Que faut-il faire ou vérifier ?",
       "image": null,
       "choices": [
          "Utilisez la commande « show ip interface brief » pour voir si une interface est en panne.",
@@ -1989,7 +1918,7 @@
       ]
    },
    {
-      "question": "134. Un administrateur remarque qu’un grand nombre de paquets sont supprimés sur l’un des routeurs de succursale. Que faut-il faire ou vérifier ?",
+      "question": "Un administrateur remarque qu’un grand nombre de paquets sont supprimés sur l’un des routeurs de succursale. Que faut-il faire ou vérifier ?",
       "image": null,
       "choices": [
          "Créez des routes statiques vers tous les réseaux internes et une route par défaut vers Internet.",
@@ -2002,7 +1931,7 @@
       ]
    },
    {
-      "question": "135. Quelles sont les deux caractéristiques du commutateur qui pourraient aider à réduire la congestion du réseau ? (Choisissez deux réponses.)",
+      "question": "Quelles sont les deux caractéristiques du commutateur qui pourraient aider à réduire la congestion du réseau ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "commutation interne rapide",
@@ -2012,24 +1941,12 @@
          "contrôle de séquence de contrôle de trame (FCS)"
       ],
       "answers": [
-         0, 1
-      ]
-   },
-   {
-      "question": "136. Quel est le résultat de la connexion de deux ou plusieurs commutateurs ensemble ?",
-      "image": null,
-      "choices": [
-         "Le nombre de domaines de diffusion est augmenté.",
-         "La taille du domaine de diffusion est augmentée.",
-         "Le nombre de domaines de collision est réduit.",
-         "La taille du domaine de collision est augmentée."
-      ],
-      "answers": [
+         0,
          1
       ]
    },
    {
-      "question": "139. Quel est l’effet de la saisie de la commande de configuration switchport port-security sur un commutateur ?",
+      "question": "Quel est l’effet de la saisie de la commande de configuration switchport port-security sur un commutateur ?",
       "image": null,
       "choices": [
          "Il apprend dynamiquement l’adresse L2 et la copie dans la configuration en cours.",
@@ -2042,7 +1959,7 @@
       ]
    },
    {
-      "question": "140. Un administrateur réseau configure un WLAN. Pourquoi l’administrateur utiliserait-il plusieurs points d’accès légers ?",
+      "question": "Un administrateur réseau configure un WLAN. Pourquoi l’administrateur utiliserait-il plusieurs points d’accès légers ?",
       "image": null,
       "choices": [
          "pour centraliser la gestion de plusieurs WLAN",
@@ -2055,7 +1972,7 @@
       ]
    },
    {
-      "question": "141. Examinez l’illustration. PC-A et PC-B sont tous deux dans le VLAN 60. PC-A est incapable de communiquer avec PC-B. Quel est le problème ?",
+      "question": "Examinez l’illustration. PC-A et PC-B sont tous deux dans le VLAN 60. PC-A est incapable de communiquer avec PC-B. Quel est le problème ?",
       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/i211586v1n1_Question-5.png",
       "choices": [
          "Le VLAN natif doit être le VLAN 60.",
@@ -2068,7 +1985,7 @@
       ]
    },
    {
-      "question": "144. Un administrateur réseau a configuré un routeur pour un fonctionnement DHCPv6 sans état. Cependant, les utilisateurs signalent que les postes de travail ne reçoivent pas les informations du serveur DNS. Quelles lignes de configuration de routeur doivent être vérifiées pour s’assurer que le service DHCPv6 sans état est correctement configuré ? (Choisissez deux réponses.)",
+      "question": "Un administrateur réseau a configuré un routeur pour un fonctionnement DHCPv6 sans état. Cependant, les utilisateurs signalent que les postes de travail ne reçoivent pas les informations du serveur DNS. Quelles lignes de configuration de routeur doivent être vérifiées pour s’assurer que le service DHCPv6 sans état est correctement configuré ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "La ligne de nom de domaine est incluse dans la section ipv6 dhcp pool.",
@@ -2078,11 +1995,12 @@
          "Le ipv6 et managed-config-flag est saisi pour l’interface qui fait face au segment LAN."
       ],
       "answers": [
-         1, 2
+         1,
+         2
       ]
    },
    {
-      "question": "147. Quelle action a lieu lorsqu’une trame entrant dans un commutateur a une adresse MAC de destination de monodiffusion qui ne figure pas dans la table d’adresses MAC ?",
+      "question": "Quelle action a lieu lorsqu’une trame entrant dans un commutateur a une adresse MAC de destination de monodiffusion qui ne figure pas dans la table d’adresses MAC ?",
       "image": null,
       "choices": [
          "Le commutateur met à jour la minuterie d’actualisation de l’entrée.",
@@ -2095,7 +2013,7 @@
       ]
    },
    {
-      "question": "150. Quel protocole ou quelle technologie gère les négociations de jonction entre les commutateurs ?",
+      "question": "Quel protocole ou quelle technologie gère les négociations de jonction entre les commutateurs ?",
       "image": null,
       "choices": [
          "VTP",
@@ -2108,7 +2026,7 @@
       ]
    },
    {
-      "question": "154. Quel est l’effet de la saisie de la commande de configurationip dhcp snooping limit rate 6sur un commutateur ?",
+      "question": "Quel est l’effet de la saisie de la commande de configurationip dhcp snooping limit rate 6sur un commutateur ?",
       "image": null,
       "choices": [
          "Il affiche les associations d’adresses IP-MAC pour les interfaces de commutateur.",
@@ -2121,7 +2039,7 @@
       ]
    },
    {
-      "question": "156. Quel est l’effet de la saisie de la commande de configuration ip arp inspection validate src-mac sur un commutateur ?",
+      "question": "Quel est l’effet de la saisie de la commande de configuration ip arp inspection validate src-mac sur un commutateur ?",
       "image": null,
       "choices": [
          "Il vérifie l’adresse L2 source dans l’en-tête Ethernet par rapport à l’adresse L2 de l’expéditeur dans le corps ARP.",
@@ -2134,7 +2052,7 @@
       ]
    },
    {
-      "question": "158. Quelle longueur d’adresse et de préfixe est utilisée lors de la configuration d’une route statique IPv6 par défaut ?",
+      "question": "Quelle longueur d’adresse et de préfixe est utilisée lors de la configuration d’une route statique IPv6 par défaut ?",
       "image": null,
       "choices": [
          "::/0",
@@ -2147,7 +2065,7 @@
       ]
    },
    {
-      "question": "159. Quelles sont les deux caractéristiques de Cisco Express Forwarding (CEF) ? (choisitet deux.)",
+      "question": "Quelles sont les deux caractéristiques de Cisco Express Forwarding (CEF) ? (choisitet deux.)",
       "image": null,
       "choices": [
          "Lorsqu’un paquet arrive sur une interface de routeur, il est transmis au plan de contrôle où le processeur fait correspondre l’adresse de destination avec une entrée de table de routage correspondante.",
@@ -2162,7 +2080,7 @@
       ]
    },
    {
-      "question": "160. Quel terme décrit le rôle d’un commutateur Cisco dans le contrôle d’accès basé sur les ports 802.1X ?",
+      "question": "Quel terme décrit le rôle d’un commutateur Cisco dans le contrôle d’accès basé sur les ports 802.1X ?",
       "image": null,
       "choices": [
          "agent",
@@ -2175,7 +2093,7 @@
       ]
    },
    {
-      "question": "161. Quelle solution Cisco permet d’éviter les attaques d’usurpation d’identité ARP et d’empoisonnement ARP ?",
+      "question": "Quelle solution Cisco permet d’éviter les attaques d’usurpation d’identité ARP et d’empoisonnement ARP ?",
       "image": null,
       "choices": [
          "Inspection ARP dynamique",
@@ -2188,7 +2106,7 @@
       ]
    },
    {
-      "question": "162. Quel est l’avantage de PVST+ ?",
+      "question": "Quel est l’avantage de PVST+ ?",
       "image": null,
       "choices": [
          "PVST+ optimise les performances sur le réseau grâce à la sélection automatique du pont racine.",
@@ -2201,7 +2119,7 @@
       ]
    },
    {
-      "question": "163. Quel protocole ou quelle technologie utilise un routeur de secours pour assumer la responsabilité du transfert de paquets si le routeur actif tombe en panne ?",
+      "question": "Quel protocole ou quelle technologie utilise un routeur de secours pour assumer la responsabilité du transfert de paquets si le routeur actif tombe en panne ?",
       "image": null,
       "choices": [
          "EtherChannel",
@@ -2214,7 +2132,7 @@
       ]
    },
    {
-      "question": "165. Quelle action a lieu lorsque l’adresse MAC source d’une trame entrant dans un commutateur est dans la table d’adresses MAC ?",
+      "question": "Quelle action a lieu lorsque l’adresse MAC source d’une trame entrant dans un commutateur est dans la table d’adresses MAC ?",
       "image": null,
       "choices": [
          "Le commutateur transfère la trame hors du port spécifié.",
@@ -2227,7 +2145,7 @@
       ]
    },
    {
-      "question": "166. Une petite maison d’édition a une conception de réseau telle que lorsqu’une diffusion est envoyée sur le réseau local, 200 appareils reçoivent la diffusion transmise. Comment l’administrateur réseau peut-il réduire le nombre d’appareils recevant du trafic de diffusion ?",
+      "question": "Une petite maison d’édition a une conception de réseau telle que lorsqu’une diffusion est envoyée sur le réseau local, 200 appareils reçoivent la diffusion transmise. Comment l’administrateur réseau peut-il réduire le nombre d’appareils recevant du trafic de diffusion ?",
       "image": null,
       "choices": [
          "Ajoutez plus de commutateurs afin que moins d’appareils soient sur un commutateur particulier.",
@@ -2240,7 +2158,7 @@
       ]
    },
    {
-      "question": "167. Qu’est-ce qui définit une route hôte sur un routeur Cisco ?",
+      "question": "Qu’est-ce qui définit une route hôte sur un routeur Cisco ?",
       "image": null,
       "choices": [
          "L’adresse lien-local est ajoutée automatiquement à la table de routage en tant que route hôte IPv6.",
@@ -2253,7 +2171,7 @@
       ]
    },
    {
-      "question": "168. Quoi d’autre est requis lors de la configuration d’une route statique IPv6 à l’aide d’une adresse lien-local de prochain saut ?",
+      "question": "Quoi d’autre est requis lors de la configuration d’une route statique IPv6 à l’aide d’une adresse lien-local de prochain saut ?",
       "image": null,
       "choices": [
          "distance administrative",
@@ -2266,7 +2184,7 @@
       ]
    },
    {
-      "question": "169. Un technicien configure un réseau sans fil pour une petite entreprise à l’aide d’un routeur sans fil SOHO. Quelles sont les deux méthodes d’authentification utilisées si le routeur est configuré avec WPA2 ? (Choisissez deux réponses.)",
+      "question": "Un technicien configure un réseau sans fil pour une petite entreprise à l’aide d’un routeur sans fil SOHO. Quelles sont les deux méthodes d’authentification utilisées si le routeur est configuré avec WPA2 ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "personnel",
@@ -2281,7 +2199,7 @@
       ]
    },
    {
-      "question": "171. Un PC a envoyé un message RS à un routeur IPv6 connecté au même réseau. Quelles sont les deux informations que le routeur enverra au client ? (Choisissez deux réponses.)",
+      "question": "Un PC a envoyé un message RS à un routeur IPv6 connecté au même réseau. Quelles sont les deux informations que le routeur enverra au client ? (Choisissez deux réponses.)",
       "image": null,
       "choices": [
          "longueur du préfixe",
@@ -2297,7 +2215,7 @@
       ]
    },
    {
-      "question": "172. Lorsqu’ils assistent à une conférence, les participants utilisent des ordinateurs portables pour la connectivité réseau. Lorsqu’un orateur invité tente de se connecter au réseau, l’ordinateur portable ne parvient pas à afficher les réseaux sans fil disponibles. Le point d’accès doit fonctionner dans quel mode ?",
+      "question": "Lorsqu’ils assistent à une conférence, les participants utilisent des ordinateurs portables pour la connectivité réseau. Lorsqu’un orateur invité tente de se connecter au réseau, l’ordinateur portable ne parvient pas à afficher les réseaux sans fil disponibles. Le point d’accès doit fonctionner dans quel mode ?",
       "image": null,
       "choices": [
          "mixte",
@@ -2310,7 +2228,7 @@
       ]
    },
    {
-      "question": "173. Quels sont les trois composants combinés pour former un identifiant de pont ?",
+      "question": "Quels sont les trois composants combinés pour former un identifiant de pont ?",
       "image": null,
       "choices": [
          "ID système étendu",
@@ -2324,6 +2242,59 @@
          0,
          3,
          4
+      ]
+   },
+   {
+      "question": "Quel est l’effet de l’entrée de la commande de configuration switchport mode access sur un commutateur?",
+      "image": null,
+      "choices": [
+         "Il spécifie le nombre maximal d’adresses L2 autorisées sur un port.",
+         "Il désactive le PAO sur une interface non-trunking.",
+         "Il active le DAI sur des interfaces de commutation spécifiques précédemment configurées avec la surveillance DHCP.",
+         "Il active manuellement un lien de trunk."
+      ],
+      "answers": [
+         1
+      ]
+   },
+   {
+      "question": "Une politique de sécurité de l’entreprise exige que l’adressage MAC soit enregistré de manière dynamique et ajouté à la table des adresses MAC et à la configuration en cours sur chaque commutateur. Quelle configuration de la sécurité des ports permettra de respecter cette mesure ?",
+      "image": null,
+      "choices": [
+         "adresses MAC sécurisées automatiques",
+         "adresses MAC sécurisées dynamiques",
+         "adresses MAC sécurisées statiques",
+         "adresses MAC sécurisées fixes"
+      ],
+      "answers": [
+         3
+      ]
+   },
+   {
+      "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage inter-VLAN. Les utilisateurs se plaignent que PC2 ne peut pas communiquer avec PC1. Sur la base de la sortie, quelle est la cause possible du problème ?",
+      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
+      "choices": [
+         "Gi0/0 n’est pas configuré comme port de jonction.",
+         "L’interface de commande GigabitEthernet0/0.5 a été saisie de manière incorrecte.",
+         "Aucune adresse IP n’est configurée sur l’interface Gi0/0.",
+         "La commande no shutdown n’est pas entrée sur les sous-interfaces.",
+         "Le eLa commande ncapsulation dot1Q 5 contient le mauvais VLAN."
+      ],
+      "answers": [
+         4
+      ]
+   },
+   {
+      "question": "Quel est l’effet de la saisie de la commande de configuration ip dhcp snooping limit rate 6 sur un commutateur ?",
+      "image": null,
+      "choices": [
+         "Il affiche les associations d’adresses IP-MAC pour les interfaces de commutateur.",
+         "Il active la sécurité des ports globalement sur le commutateur.",
+         "Il restreint le nombre de messages de découverte, par seconde, à recevoir sur l’interface.",
+         "Il apprend dynamiquement l’adresse L2 et la copie dans la configuration en cours."
+      ],
+      "answers": [
+         2
       ]
    }
 ]

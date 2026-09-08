@@ -24,12 +24,12 @@ root.CURRICULUM = {
     color: ["#0ea5e9", "#2563eb"],
     icon: "router",
     modules: [
-      { id: "module1", name: "Modules 1 & 4", topic: "Concepts de commutation, VLAN et routage inter-VLAN", count: 44, icon: "router" },
-      { id: "module2", name: "Modules 5 & 6", topic: "Réseaux redondants", count: 38, icon: "redundant" },
-      { id: "module3", name: "Modules 7 & 9", topic: "Réseaux disponibles et fiables", count: 39, icon: "shield-check" },
-      { id: "module4", name: "Modules 10 & 13", topic: "Sécurité de couche 2 et réseau sans fil (WLAN)", count: 64, icon: "wifi" },
-      { id: "module5", name: "Modules 14 & 16", topic: "Concepts de routage et configuration", count: 56, icon: "route" },
-      { id: "module6", name: "Examen final", topic: "Examen final du cours CCNA 2", count: 173, icon: "trophy" }
+      { id: "module1", name: "Modules 1 & 4", topic: "Concepts de commutation, VLAN et routage inter-VLAN", count: 63, icon: "router" },
+      { id: "module2", name: "Modules 5 & 6", topic: "Réseaux redondants", count: 48, icon: "redundant" },
+      { id: "module3", name: "Modules 7 & 9", topic: "Réseaux disponibles et fiables", count: 50, icon: "shield-check" },
+      { id: "module4", name: "Modules 10 & 13", topic: "Sécurité de couche 2 et réseau sans fil (WLAN)", count: 71, icon: "wifi" },
+      { id: "module5", name: "Modules 14 & 16", topic: "Concepts de routage et configuration", count: 54, icon: "route" },
+      { id: "module6", name: "Examen final", topic: "Examen final du cours CCNA 2", count: 168, icon: "trophy" }
     ]
   },
   csna: {
