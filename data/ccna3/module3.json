@@ -1,0 +1,659 @@
+[
+    {
+        "question": "Examinez l’illustration. Que faut-il faire pour terminer la configuration de la NAT statique sur R1 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_210753.jpg",
+        "choices": [
+            "R1 doit être configuré avec la commande ip nat inside source static 209.165.200.200 192.168.11.11 .",
+            "R1 doit être configuré avec la commande ip nat inside source static 209.165.200.1 192.168.11.11 .",
+            "L’interface S0/0/0 doit être configurée avec la commande ip nat outside .",
+            "L’interface Fa0/0 doit être configurée avec la commande no ip nat inside ."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Du point de vue de R1, le routeur NAT, quelle adresse est l’adresse globale interne?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_210903.jpg",
+        "choices": [
+            "192.168.0.10",
+            "209.165.200.254",
+            "209.165.200.225",
+            "192.168.0.1"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Compte tenu des commandes comme indiqué, combien d’hôtes sur le réseau local interne hors R1 peuvent avoir des traductions NAT simultanées sur R1?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_210950.jpg",
+        "choices": [
+            "1",
+            "244",
+            "255",
+            "10"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel inconvénient l’utilisation de la traduction PAT des deux côtés de la transmission présente-t-elle ?",
+        "choices": [
+            "La sécurité de la communication en pâtit.",
+            "L’adressage IPv4 d’hôte est complexe.",
+            "La traçabilité IPv4 de bout en bout est perdue.",
+            "La flexibilité des connexions à Internet est réduite."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Sur la base de la sortie affichée, quel type de NAT a été implémenté?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211515.jpg",
+        "choices": [
+            "NAT statique avec une entrée",
+            "NAT dynamique avec un pool de deux adresses IP publiques",
+            "PAT à l’aide d’une interface externe",
+            "NAT statique avec un pool NAT"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Du point de vue des utilisateurs derrière le routeur NAT, quel type d’adresse NAT est 209.165.201.1?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211550.jpg",
+        "choices": [
+            "Globale interne",
+            "Locale externe",
+            "Locale interne",
+            "Globale externe"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel est l’objectif du mot clé overload dans la commande iip nat inside source list 1 pool NAT_POOL overload ?",
+        "choices": [
+            "Il permet à une liste d’hôtes internes de communiquer avec un groupe spécifique d’hôtes externes.",
+            "Il permet à de nombreux hôtes internes de partager une ou quelques adresses globales internes.",
+            "Il permet aux hôtes internes d’utiliser un pool d’adresses globales internes.",
+            "Il permet aux hôtes externes d’établir des sessions avec des hôtes internes."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quelle adresse source est utilisée par le routeur R1 pour les paquets transmis sur Internet ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211647.jpg",
+        "choices": [
+            "198.51.100.3",
+            "209.165.200.225",
+            "209.165.202.141",
+            "10.6.15.2"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. D’après le résultat présenté dans cette illustration, quels énoncés sont exacts ? (Choisissez deux réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211739.jpg",
+        "choices": [
+            "L’hôte dont l’adresse est 209.165.200.235 répond aux requêtes en utilisant l’adresse source 192.168.10.10.",
+            "L’hôte dont l’adresse est 209.165.200.235 répond aux requêtes en utilisant l’adresse source 209.165.200.235.",
+            "Ce résultat est celui de la commande show ip nat translations .",
+            "Le trafic dont l’adresse de destination est celle d’un serveur Web public provient de l’adresse IP 192.168.1.10.",
+            "Ce résultat est celui de la commande show ip nat statistics ."
+        ],
+        "answers": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Quelles sont les deux technologies catégorisées comme infrastructures WAN privées ? (Choisissez deux propositions.)",
+        "choices": [
+            "DSL",
+            "MetroE",
+            "Câble",
+            "Frame Relay",
+            "VPN"
+        ],
+        "answers": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Quel scénario de réseau nécessite l’utilisation d’un WAN ?",
+        "choices": [
+            "Les employés doivent accéder aux pages Web hébergées sur les serveurs Web de l’entreprise dans la DMZ au sein de leur bâtiment.",
+            "Lors de leurs déplacements, les employés doivent se connecter au serveur de messagerie de l’entreprise par l’intermédiaire d’un VPN.",
+            "Les stations de travail des employés doivent obtenir des adresses IP attribuées dynamiquement.",
+            "Les employés de la filiale ont besoin de partager des fichiers avec le siège social qui se trouve dans un autre bâtiment, et ce, sur le même réseau de campus."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Dans quel cas une entreprise déciderait-elle de mettre en œuvre un WAN d’entreprise ?",
+        "choices": [
+            "Lorsque ses employés sont répartis sur plusieurs filiales",
+            "Lorsque l’entreprise décide de sécuriser son LAN d’entreprise",
+            "Lorsque le nombre d’employés dépasse la capacité du LAN",
+            "Lorsqu’il est prévu que le réseau englobe plusieurs bâtiments"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel algorithme est utilisé avec IPsec pour assurer la confidentialité des données?",
+        "choices": [
+            "Diffie-Hellman",
+            "AES",
+            "SHA",
+            "RSA",
+            "MD5"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle solution VPN permet d’utiliser un navigateur Web pour établir un tunnel VPN d’accès distant sécurisé vers l’ASA?",
+        "choices": [
+            "SSL sans client",
+            "site à site à l’aide d’une clé prépartagée",
+            "site à site à l’aide d’une ACL",
+            "SSL basé sur le client"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quelle fonction de sécurité IPsec garantit que les données reçues via un VPN n’ont pas été modifiées en transit?",
+        "choices": [
+            "confidentialité",
+            "authentification",
+            "intégrité",
+            "échange sécurisé de clés"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelles sont les deux technologies qui fournissent des solutions VPN gérées par l’entreprise? (Choisissez deux.)",
+        "choices": [
+            "Couche 2 MPLS VPN",
+            "relayage de trames (Frame Relay)",
+            "Réseau privé virtuel site à site (VPN)",
+            "Couche 3 MPLS VPN",
+            "VPN d’accès à distance"
+        ],
+        "answers": [
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Quels sont les deux types de VPN qui sont des exemples de VPN d’accès à distance gérés par l’entreprise? (Choisissez deux.)",
+        "choices": [
+            "VPN IPsec basé sur le client",
+            "VPN IPsec",
+            "VPN SSL sans client",
+            "VPN GRE sur IPsec",
+            "VPN d’interface de tunnel virtuel IPsec"
+        ],
+        "answers": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Parmi les affirmations suivantes, laquelle s’applique à un VPN site à site ?",
+        "choices": [
+            "Il oblige les hôtes à utiliser un logiciel client VPN pour encapsuler le trafic.",
+            "Il nécessite le placement d’un serveur VPN à la périphérie du réseau de l’entreprise.",
+            "Il nécessite une passerelle VPN à chaque extrémité du tunnel pour chiffrer et déchiffrer le trafic.",
+            "Il nécessite une architecture client/serveur."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle est la fonction de l’algorithme Diffie-Hellman dans le cadre de travail IPsec?",
+        "choices": [
+            "permet aux pairs d’échanger des clés partagées",
+            "fournit une authentification",
+            "garantit l’intégrité des messages",
+            "fournit un cryptage des données puissant"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Qu’est-ce que la surcharge NAT utilise pour suivre plusieurs hôtes internes qui utilisent une adresse globale interne?",
+        "choices": [
+            "Les numéros de système autonome",
+            "Adresses MAC",
+            "Numéros de port",
+            "Adresses IP"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. R1 est configuré pour NAT statique. Quelle adresse IP les hôtes Internet utiliseront-ils pour atteindre PC1 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_212611.jpg",
+        "choices": [
+            "192.168.0.10",
+            "192.168.0.1",
+            "209.165.200.225",
+            "209.165.201.1"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur réseau affiche la sortie de la commande show ip nat translations . Quelle instruction décrit correctement la traduction NAT qui se produit sur le routeur RT2?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_212655.jpg",
+        "choices": [
+            "Le trafic provenant d’une adresse IPv4 source de 192.168.254.253 est traduit en 192.0.2.88 au moyen d’un NAT statique.",
+            "Le trafic provenant d’une adresse publique IPv4 source qui provient du trafic sur Internet pourrait atteindre des adresses IPv4 internes privées.",
+            "Le trafic provenant d’une adresse IPv4 source de 192.168.2.20 est traduit par le routeur RT2 pour atteindre une adresse IPv4 de destination 192.0.2.254.",
+            "Le trafic provenant d’une adresse IPv4 source de 192.0.2.88 est traduit par le routeur RT2 pour atteindre une adresse IPv4 de destination 192.168.254.253."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Citez deux services d’infrastructure WAN qui sont des exemples de connexions privées. (Choisissez deux réponses.)",
+        "choices": [
+            "DSL",
+            "Frame Relay",
+            "Câble",
+            "Technologie sans fil",
+            "T1/E1"
+        ],
+        "answers": [
+            1,
+            4
+        ]
+    },
+    {
+        "question": "Quelles sont les deux déclarations concernant la relation entre les LAN et les WAN? (Choisissez deux réponses.)",
+        "choices": [
+            "Les réseaux WAN sont généralement gérés par plusieurs fournisseurs de services Internet, mais les réseaux locaux sont généralement gérés par des organisations ou des particuliers.",
+            "Les réseaux WAN connectent les réseaux locaux à une vitesse plus lente que les réseaux locaux connectent leurs périphériques internes.​",
+            "Les réseaux locaux et les réseaux étendues connectent les périphériques terminaux.",
+            "Les réseaux locaux connectent plusieurs réseaux WAN ensemble.",
+            "Les réseaux WAN doivent être publics, mais les réseaux locaux peuvent être détenus par des entités publiques ou privées."
+        ],
+        "answers": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Quelle déclaration décrit une caractéristique importante d’un VPN de site à site?",
+        "choices": [
+            "Cela nécessite l’utilisation d’un client VPN sur le PC du hôte.",
+            "Une fois la connexion initiale établie, elle peut modifier dynamiquement les informations de connexion.",
+            "Il est idéalement adapté à une utilisation par des travailleurs mobiles.",
+            "Il est généralement mis en œuvre sur les réseaux par modem commutés et câblés.",
+            "Il doit être configuré statiquement."
+        ],
+        "answers": [
+            4
+        ]
+    },
+    {
+        "question": "Comment fonctionne le tunneling sur un VPN ?",
+        "choices": [
+            "Tous les paquets entre deux hôtes sont attribués à un seul support physique pour garantir la confidentialité des paquets.",
+            "De nouveaux en-têtes d’un ou de plusieurs protocoles VPN encapsulent les paquets d’origine.",
+            "Un circuit dédié est établi entre les périphériques source et de destination pendant la durée de la connexion.",
+            "Les paquets sont déguisés pour ressembler à d’autres types de trafic afin qu’ils soient ignorés par les pirates éventuels."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle déclaration décrit un VPN?",
+        "choices": [
+            "Les VPN utilisent des connexions physiques dédiées pour transférer des données entre des utilisateurs distants.",
+            "Les VPN utilisent des connexions logiques pour créer des réseaux publics via Internet.",
+            "Les VPN utilisent des connexions virtuelles pour créer un réseau privé via un réseau public.",
+            "Les VPN utilisent un logiciel de virtualisation de source ouverte pour créer le tunnel via Internet."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Ouvrez le fichier d’activité Packet Tracer.Effectuez les tâches décrites dans les instructions relatives à l’activité, puis répondez à la question. Quel problème empêche PC-A de communiquer avec Internet?",
+        "choices": [
+            "La liste d’accès utilisée dans le processus NAT fait référence au mauvais sous-réseau.",
+            "La route statique ne doit pas faire référence à l’interface, mais plutôt à l’adresse extérieure.",
+            "Ce routeur doit être configuré pour utiliser le NAT statique au lieu de PAT.",
+            "Les interfaces NAT ne sont pas correctement attribuées.",
+            "La commande ip nat inside source fait référence à la mauvaise interface."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel type d’adresse est 64.100.190.189?",
+        "choices": [
+            "public",
+            "privé"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel type de VPN a à la fois des implémentations de couche 2 et de couche 3?",
+        "choices": [
+            "VPN multipoint dynamique",
+            "VPN MPLS",
+            "VPN SSL",
+            "GRE sur IPsec"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "xaminez l’illustration. Un administrateur réseau a configuré R2 pour la traduction d’adresses de port (PAT). Pourquoi la configuration est-elle incorrecte ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_100733.jpg",
+        "choices": [
+            "Il manque l’entrée NAT statique.",
+            "La liste de contrôle d’accès ne définit pas la liste des adresses à traduire.",
+            "Le mot clé overload n’aurait pas dû être appliqué.",
+            "NAT-POOL2 n’est pas lié à la liste de contrôle d’accès adéquate."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. La fonction NAT statique est configurée pour autoriser PC 1 à accéder au serveur Web sur le réseau interne. Quelles adresses doivent remplacer les points A et B pour terminer la configuration de la NAT statique ? (Choisissez deux réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_100943.jpg",
+        "choices": [
+            "A = 10.1.0.13",
+            "A = 209.165.201.2",
+            "B = 209.165.201.1",
+            "B = 209.165.201.7",
+            "B = 10.0.254.5"
+        ],
+        "answers": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Quelles sont les deux adresses spécifiées dans une configuration NAT statique?",
+        "choices": [
+            "Globale interne et locale externe",
+            "Globale externe et locale externe",
+            "Locale interne et globale interne",
+            "Locale interne et globale externe"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. La configuration NAT appliquée au routeur est la suivante :<br>ERtr(config)# access-list 1 permit 10.0.0.0 0.255.255.255<br>ERtr(config)# ip nat pool corp 209.165.201.6 209.165.201.30 netmask 255.255.255.224<br>ERtr(config)# ip nat inside source list 1 pool corp overload<br>ERtr(config)# ip nat inside source static 10.10.10.55 209.165.201.4<br>ERtr(config)# interface gigabitethernet 0/0<br>ERtr(config-if)# ip nat inside<br>ERtr(config-if)# interface serial 0/0/0<br>ERtr(config-if)# ip nat outside<br>D’après la configuration et le résultat affichés, que peut-on dire de l’état de la NAT au sein de l’organisation ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_101107.jpg",
+        "choices": [
+            "La NAT fonctionne.",
+            "La NAT statique fonctionne, mais pas la NAT dynamique.",
+            "Les informations fournies sont insuffisantes pour déterminer si la NAT statique et la NAT dynamique fonctionnent.",
+            "La NAT dynamique fonctionne, mais pas la NAT statique."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Une entreprise envisage de changer sa connexion WAN pour son réseau local. Quelles sont les deux options représentatives d’une architecture WAN privée ? (Choisissez deux propositions.)",
+        "choices": [
+            "WAN Ethernet",
+            "Wi-Fi municipal",
+            "ligne louée",
+            "ligne d’abonné numérique",
+            "câble"
+        ],
+        "answers": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Quelle est la fonction de l’algorithme HMAC (Code d’authentification de message haché) dans la configuration d’un VPN IPsec?",
+        "choices": [
+            "protège les clés IPsec pendant la négociation de session",
+            "garantit l’intégrité des messages",
+            "crée un canal sécurisé pour la négociation des clés",
+            "authentifie les pairs IPsec"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quels sont les deux algorithmes de hachage utilisés avec IPsec AH pour garantir l’authenticité? (Choisissez deux.)",
+        "choices": [
+            "SHA",
+            "RSA",
+            "AES",
+            "MD5",
+            "DH"
+        ],
+        "answers": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Quels deux algorithmes peuvent faire partie d’une politique IPsec pour fournir le chiffrement et le hachage pour protéger le trafic intéressant?? (Choisissez deux.)",
+        "choices": [
+            "DH",
+            "SHA",
+            "RSA",
+            "PSK",
+            "AES"
+        ],
+        "answers": [
+            1,
+            4
+        ]
+    },
+    {
+        "question": "Quel protocole crée une connexion virtuelle de point à point vers un trafic de tunnel non chiffré entre les routeurs Cisco et provenant de différents types de protocole ?",
+        "choices": [
+            "IPsec",
+            "GRE",
+            "OSPF",
+            "Protocole IKE"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type d’adresse est 198.133.219.148?",
+        "choices": [
+            "privé",
+            "public"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type de VPN implique un protocole de tunnel non sécurisé encapsulé par IPSec?",
+        "choices": [
+            "VPN multipoint dynamique",
+            "Interface de tunnel virtuel IPSec",
+            "VPN SSL",
+            "GRE sur IPsec"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel type d’adresse est 192.168.7.126?",
+        "choices": [
+            "public",
+            "privé"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quels deux terminaux peuvent être de l’autre côté d’un VPN de site à site ASA configuré à l’aide d’ASDM? (Choisissez deux.)",
+        "choices": [
+            "Commutateur de Frame Relay",
+            "Commutateur DSL",
+            "Commutateur multicouche",
+            "Routeur ISR",
+            "un autre ASA"
+        ],
+        "answers": [
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Quel type de VPN prend en charge plusieurs sites en appliquant des configurations aux interfaces virtuelles plutôt qu’aux interfaces physiques?",
+        "choices": [
+            "VPN multipoint dynamique",
+            "VPN MPLS",
+            "Interface de tunnel virtuel IPSec",
+            "GRE sur IPsec"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "En termes de NAT, quel type d’adresse désigne l’adresse IPv4 globalement routable d’un hôte de destination sur l’internet ?",
+        "choices": [
+            "Locale externe",
+            "Globale interne",
+            "Globale externe",
+            "Locale interne"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. La NAT est configurée sur RT1 et RT2. Le PC envoie une requête au serveur Web. Quelle adresse IPv4 est l’adresse IP source du paquet entre RT2 et le serveur Web?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i386475n1v3.jpg",
+        "choices": [
+            "209.165.200.245",
+            "203.0.113.10",
+            "192.168.1.5",
+            "172.16.1.10",
+            "172.16.1.254",
+            "192.0.2.2"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur réseau vient de configurer la traduction d’adresses et vérifie la configuration. Que peut-il vérifier ? (Choisissez trois réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i239225n1v1.jpg",
+        "choices": [
+            "Que la traduction d’adresses fonctionne.",
+            "Qu’une liste de contrôle d’accès standard numérotée 1 est utilisée dans le cadre du processus de configuration.",
+            "Que les hôtes utilisent trois adresses du pool NAT.",
+            "Que le nom du pool NAT est refCount.",
+            "Que deux types de NAT sont activés.",
+            "Qu’un port du routeur ne participe pas à la traduction d’adresses."
+        ],
+        "answers": [
+            0,
+            1,
+            4
+        ]
+    },
+    {
+        "question": "Quelle situation décrit les transmissions de données via une connexion WAN?",
+        "choices": [
+            "Un directeur envoie un courriel à tous les employés du département ayant des bureaux situés dans plusieurs bâtiments.",
+            "Un employé partage un fichier de base de données avec un collègue qui se trouve dans une filiale de l’autre côté de la ville.",
+            "Un administrateur réseau du bureau accède à distance à un serveur Web situé dans le centre de données à la périphérie du campus.",
+            "Un employé imprime un fichier via une imprimante en réseau située dans un autre bâtiment."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type d’adresse est 192.168.7.98?",
+        "choices": [
+            "privé",
+            "public"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel type d’adresse est 10.131.48.7?",
+        "choices": [
+            "public",
+            "privé"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type de VPN se connecte à l’aide de la fonctionnalité TLS (Transport Layer Security)?",
+        "choices": [
+            "Interface de tunnel virtuel IPSec",
+            "VPN SSL",
+            "VPN MPLS",
+            "VPN multipoint dynamique"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type d’adresse est 10.100.126.126?",
+        "choices": [
+            "privé",
+            "public"
+        ],
+        "answers": [
+            0
+        ]
+    }
+]

@@ -1,0 +1,557 @@
+[
+    {
+        "question": "Quel élément facilite le routage hiérarchique dans OSPF ?",
+        "choices": [
+            "Le choix des routeurs désignés",
+            "La récapitulation automatique",
+            "Les calculs SPF fréquents",
+            "L’utilisation de plusieurs zones"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un technicien réseau a configuré manuellement l’intervalle Hello sur 15 secondes sur l’interface d’un routeur exécutant le protocole OSPFv2. Par défaut, comment l’intervalle Dead sur l’interface sera-t-il affecté ?",
+        "choices": [
+            "L’intervalle Dead est à présent de 15 secondes.",
+            "L’intervalle Dead est à présent de 30 secondes.",
+            "La valeur par défaut de l’intervalle Dead ne changera pas.",
+            "L’intervalle Dead est à présent de 60 secondes."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur réseau a configuré les minuteurs OSPF sur les valeurs illustrées dans le graphique. Quel est le résultat de la configuration manuelle des minuteurs ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_223411.jpg",
+        "choices": [
+            "R1 modifie automatiquement ses propres minuteurs pour les faire correspondre aux minuteurs de R2.",
+            "Le minuteur Hello sur R2 arrive à expiration toutes les dix secondes.",
+            "Le minuteur Dead R1 arrive à expiration entre les paquets Hello provenant de R2.",
+            "La contiguïté de voisinage est établie."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Pour établir une contiguïté voisine, deux routeurs OSPF échangeront des paquets hello. Quelles sont les deux valeurs dans les paquets hello qui doivent correspondre sur les deux routeurs? (Choisissez deux réponses.)",
+        "choices": [
+            "Intervalle Hello",
+            "Intervalle Dead",
+            "Liste des voisins",
+            "Priorité du routeur",
+            "ID de routeur"
+        ],
+        "answers": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Quelle est la valeur de priorité de routeur par défaut pour tous les routeurs Cisco OSPF?",
+        "choices": [
+            "0",
+            "1",
+            "10",
+            "255"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type de paquet OSPFv2 contient une liste abrégée de la LSDB d’un routeur émetteur et est utilisé par les routeurs récepteurs pour vérifier par rapport à la LSDB locale ?",
+        "choices": [
+            "Les mises à jour d’état de liens",
+            "Paquet LSA d’accusé de réception d’état de liens",
+            "LSR (Link-State Request)",
+            "Description de base de données (DD)"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Qu’est-ce qui indique à un routeur à état de liens qu’un voisin est injoignable ?",
+        "choices": [
+            "Lorsque le routeur ne reçoit plus de paquets Hello",
+            "Lorsque le routeur reçoit un paquet LSP avec des informations qui ont déjà été acquises",
+            "Lorsque le routeur ne reçoit plus de mises à jour de routage",
+            "Lorsque le routeur reçoit une mise à jour avec un nombre de sauts équivalant à 16"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Dans un réseau OSPF, quand les élections DR et BDR sont-elles nécessaires?",
+        "choices": [
+            "lorsque les deux voisins adjacents se trouvent dans deux réseaux différents",
+            "lorsque les routeurs sont interconnectés sur un réseau Ethernet commun",
+            "lorsque tous les routeurs d’une zone OSPF ne peuvent pas former d’adjacences",
+            "lorsque les deux voisins adjacents sont interconnectés sur une liaison point à point"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "À quoi sert l’ID d’un routeur OSPF ? (Choisissez deux réponses.)",
+        "choices": [
+            "À faciliter la participation du routeur à la sélection du routeur désigné.",
+            "À identifier de façon unique le routeur au sein du domaine OSPF.",
+            "À permettre à l’algorithme SPF de déterminer le chemin le moins coûteux vers les réseaux distants.",
+            "À faciliter la transition de l’état du voisin OSPF sur « Full ».",
+            "À faciliter l’établissement de la convergence du réseau."
+        ],
+        "answers": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Si aucun ID de routeur n’a été configuré manuellement, quel serait l’ID de routeur OSPF utilisé par le routeur Branch1 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_224602.jpg",
+        "choices": [
+            "209.165.201.1",
+            "192.168.1.100",
+            "10.0.0.1",
+            "10.1.0.1"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un technicien réseau émet les commandes suivantes pour configurer un routeur :<br>R1(config)# router ospf 11<br>R1(config-router)# network 10.10.10.0 0.0.0.255 area 0<br>Que représente le chiffre 11 ?",
+        "choices": [
+            "La distance administrative manuellement affectée à R1",
+            "Le numéro de la zone dans laquelle se trouve R1",
+            "Le coût du lien sur R1",
+            "L’ID de processus OSPF sur R1",
+            "Le numéro de système autonome auquel appartient R1"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un routeur OSPF a trois réseaux directement connectés : 172.16.0.0/16, 172.16.1.0/16 et 172.16.2.0/16. Quelle commande réseau OSPF annoncerait uniquement le réseau 172.16.1.0 aux voisins?",
+        "choices": [
+            "router(config-router)# network 172.16.1.0 0.0.255.255 area 0",
+            "router(config-router)# network 172.16.1.0 255.255.255.0 area 0",
+            "router(config-router)# network 172.16.0.0 0.0.15.255 area 0",
+            "router(config-router)# network 172.16.1.0 0.0.0.0 area 0"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle commande un ingénieur réseau exécutera pour vérifier les intervalles «hello» et «minuteur dead» configurés sur une liaison WAN point à point entre deux routeurs qui exécutent OSPFv2?",
+        "choices": [
+            "show ip ospf neighbor",
+            "show ip ospf interface fastethernet 0/1",
+            "show ip ospf interface serial 0/0/0",
+            "show ipv6 ospf interface serial 0/0/0"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quels trois déclaration décrivent les résultats du processus d’élection OSPF de la topologie qui est présentée dans la pièce? (Choisissez trois réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165731.jpg",
+        "choices": [
+            "La priorité R4 FastEthernet 0/0 est 128.",
+            "L’ID du routeur sur R2 est l’interface de bouclage.",
+            "R2 sera élu DR.",
+            "L’ID du routeur R4 est 172.16.1.1.",
+            "R3 sera élu BDR.",
+            "R1 sera élu BDR."
+        ],
+        "answers": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Supposons que les routeurs B, C et D aient une priorité par défaut et que le routeur A ait la priorité 0. Quelle conclusion pouvez-vous tirer du processus de sélection du DR/BDR ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_224820.jpg",
+        "choices": [
+            "Si la priorité du routeur C est remplacée par 255, celui-ci deviendra DR.",
+            "Si un nouveau routeur avec une priorité supérieure est ajouté à ce réseau, il deviendra DR.",
+            "Le routeur A deviendra DR et le routeur D deviendra BDR.",
+            "Si le DR échoue, le nouveau DR sera le routeur B."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Si le commutateur redémarre et que tous les routeurs doivent rétablir les adjacences OSPF, quels routeurs deviendront les nouveaux DR et BDR ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_170151.jpg",
+        "choices": [
+            "Le routeur R4 deviendra DR et le routeur R1 deviendra BDR.",
+            "Le routeur R1 deviendra DR et le routeur R2 deviendra BDR.",
+            "Le routeur R4 deviendra DR et le routeur R3 deviendra BDR.",
+            "Le routeur R2 deviendra DR et le routeur R3 deviendra BDR."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Par défaut, quel est le coût OSPF des liaisons dont la bande passante s’élève à 100 Mbit/s ou plus ?",
+        "choices": [
+            "10000",
+            "100000000",
+            "1",
+            "100"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quel est le coût OSPF pour atteindre le routeur A LAN 172.16.1.0/24 de B ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165945.jpg",
+        "choices": [
+            "128",
+            "782",
+            "65",
+            "74"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Sur quel(s) routeur(s) une route par défaut serait-elle configurée de manière statique dans un environnement d’entreprise qui utilise le protocole de routage OSPF à zone unique ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_170045.jpg",
+        "choices": [
+            "R0-B et R0-C",
+            "ISP et R0-A",
+            "ISP, R0-A, R0-B et R0-C",
+            "ISP",
+            "R0-A",
+            "R0-A, R0-B et R0-C"
+        ],
+        "answers": [
+            4
+        ]
+    },
+    {
+        "question": "Quelle commande serait utilisée pour déterminer si une relation initiée par le protocole de routage avait été établie avec un routeur adjacent?",
+        "choices": [
+            "ping",
+            "show ip protocols",
+            "show ip ospf neighbor",
+            "show ip interface brief"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quelle commande un administrateur a-t-il exécuté pour produire cette sortie?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165617.jpg",
+        "choices": [
+            "R1# show ip ospf neighbor",
+            "R1# show ip ospf",
+            "R1# show ip route ospf",
+            "R1# show ip ospf interface serial0/0/1"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré OSPFv2 sur les deux routeurs Cisco, mais PC1 ne parvient pas à se connecter à PC2. Quelle est la cause la plus probable de ce problème ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165835.jpg",
+        "choices": [
+            "L’interface S0/0 est configurée en tant qu’interface passive sur le routeur R2.",
+            "L’interface Fa0/0 est configurée en tant qu’interface passive sur le routeur R2.",
+            "L’interface s0/0 n’a pas été activée pour OSPFv2 sur le routeur R2.",
+            "L’interface Fa0/0 n’a pas été activée pour OSPFv2 sur le routeur R2."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quelle est la meilleure pratique de Cisco recommandée pour configurer un routeur compatible OSPF afin que chaque routeur puisse être facilement identifié lors du dépannage des problèmes de routage?",
+        "choices": [
+            "Configurer une valeur à l’aide de la commande router-id .",
+            "Utiliser l’adresse IP la plus élevée attribuée à une interface active participant au processus de routage.",
+            "Utiliser l’adresse IP de l’interface active la plus élevée qui est configurée sur le routeur.",
+            "Utiliser une interface de bouclage configurée avec l’adresse IP la plus élevée sur le routeur."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quelle étape du processus de routage d’état de liaison est décrite par un routeur exécutant un algorithme pour déterminer le meilleur chemin vers chaque destination?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165502.jpg",
+        "choices": [
+            "choisir la meilleure route",
+            "Exécution de l’algorithme SPF",
+            "équilibrage de charge chemins à coût égal",
+            "déclarer un voisin inaccessible"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un administrateur configure OSPF à zone unique sur un routeur. L’un des réseaux qui doivent être annoncés est 64.100.0.0 255.255.255.0. Quel masque générique l’administrateur utiliserait-il dans l’instruction réseau OSPF?",
+        "choices": [
+            "0.0.0.63",
+            "0.0.0.31",
+            "0.0.0.255",
+            "0.0.0.127"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel est le format de l’ID du routeur sur un routeur compatible OSPF?",
+        "choices": [
+            "un nom d’hôte de routeur unique qui est configuré sur le routeur",
+            "un nombre de 8 bits avec une valeur décimale comprise entre 0 et 255",
+            "une phrase unique ne comportant pas plus de 16 caractères",
+            "un nombre de 32 bits formaté comme une adresse IPv4",
+            "une chaîne de caractères sans espace"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Après avoir modifié l’ID du routeur sur un routeur OSPF, quelle est la méthode préférée pour rendre le nouvel ID du routeur efficace?",
+        "choices": [
+            "HQ# clear ip route *",
+            "HQ# clear ip ospf process",
+            "HQ# CV",
+            "HQ# copy running-config startup-config"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Dans une configuration OSPFv2, quel effet a la commande network 192.168.1.1 0.0.0.0 area 0 ?",
+        "choices": [
+            "Elle indique au routeur quelle interface activer pour le processus de routage OSPF.",
+            "Elle active le protocole OSPF sur toutes les interfaces du routeur.",
+            "Elle remplace l’ID du routeur par 192.168.1.1.",
+            "Elle permet à tous les réseaux 192.168.1.0 d’être annoncés."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Pour quelle raison un ingénieur réseau modifie-t-il le paramètre de bande passante de référence par défaut lors de la configuration d’un routage OSPF ?",
+        "choices": [
+            "Pour imposer l’utilisation de cette liaison spécifique dans le routage de destination",
+            "Pour accroître le débit des liaisons",
+            "Pour refléter plus précisément le coût des liaisons qui dépassent 100 Mbit/s",
+            "Pour activer la liaison pour le routage OSPF"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches décrites dans les instructions relatives à l’activité, puis répondez à la question. Quelle tâche doit être effectuée sur Routeur1 pour qu’il établisse une contiguïté OSPF avec Routeur2?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-10_090320.jpg",
+        "choices": [
+            "Remplacez le masque de sous-réseau de l’interface FastEthernet 0/0 par 255.255.255.0.",
+            "Exécutez la commande clear ip ospf process .",
+            "Ajoutez la commande network 10.0.1.0 0.0.255 area 0 au processus OSPF.",
+            "Supprimez la commande d’interface passive de l’interface FastEthernet 0/0."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel est le bénéfice d’un routage OSPF à zones multiples ?",
+        "choices": [
+            "La récapitulation automatique de route se produit par défaut entre les zones.",
+            "Les routeurs dans toutes les zones partagent la même base de données d’état de liens et ont une image complète du réseau.",
+            "Une zone fédératrice n’est pas nécessaire.",
+            "Les modifications de topologie dans une zone n’entraînent pas de recalculs SPF dans les autres zones."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quelle étape prend un routeur compatible OSPF immédiatement après avoir établi une contiguïté avec un autre routeur?",
+        "choices": [
+            "échange d’annonces à l’état de lien",
+            "crée la table de topologie",
+            "choisit le meilleur chemin",
+            "exécute l’algorithme SPF"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Lorsqu’un réseau OSPF est convergé et qu’aucun changement de topologie de réseau n’a été détecté par un routeur, à quelle fréquence les paquets LSU seront-ils envoyés aux routeurs voisins ?",
+        "choices": [
+            "Toutes les 5 min",
+            "Toutes les 10 minutes",
+            "Toutes les 30 min",
+            "Toutes les 60 minutes"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle commande est utilisée pour vérifier que OSPF est activé et fournit également une liste des réseaux annoncés par le réseau?",
+        "choices": [
+            "show ip ospf interface",
+            "show ip interface brief",
+            "show ip route ospf",
+            "show ip protocols"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un administrateur configure OSPF à zone unique sur un routeur. L’un des réseaux qui doivent être annoncés est 128.107.0.0 255.255.252.0. Quel masque générique l’administrateur utiliserait-il dans l’instruction réseau OSPF?",
+        "choices": [
+            "00–03",
+            "0.0.0.7",
+            "0.0.3.255",
+            "0.0.63.255"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle structure de données OSPF est identique sur tous les routeurs OSPF qui partagent la même zone?",
+        "choices": [
+            "Base de données d’état de liens",
+            "Base de données de transfert",
+            "Table de routage",
+            "Base de données de contiguïté"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quels trois états OSPF sont impliqués lorsque deux routeurs forment une contiguïté? (Choisissez trois réponses.)",
+        "choices": [
+            "ExStart",
+            "Inactif",
+            "Chargement",
+            "Exchange",
+            "Init",
+            "bidirectionnelle"
+        ],
+        "answers": [
+            1,
+            4,
+            5
+        ]
+    },
+    {
+        "question": "Quelle est la première préférence d’un routeur OSPF en matière d’ID de routeur ?",
+        "choices": [
+            "L’adresse IP de l’interface active la plus élevée configurée sur le routeur",
+            "Une interface de bouclage configurée avec l’adresse IP la plus élevée sur le routeur",
+            "Toute adresse IP configurée à l’aide de la commande router-id",
+            "L’interface active la plus élevée qui participe au processus de routage en raison d’une instruction network spécifiquement configurée"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle étape du processus de routage d’état de liens est décrite par un routeur qui construit une base de données d’état de liaison basée sur les LSA reçues?",
+        "choices": [
+            "Création de la table topologique",
+            "déclarer un voisin inaccessible",
+            "équilibrage de charge chemins à coût égal",
+            "Exécution de l’algorithme SPF"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un administrateur configure OSPF à zone unique sur un routeur. L’un des réseaux qui doivent être annoncés est 64.102.0.0 255.255.255.128. Quel masque générique l’administrateur utiliserait-il dans l’instruction réseau OSPF?",
+        "choices": [
+            "0.0.0.63",
+            "0.0.31.255",
+            "0.0.63.255",
+            "0.0.0.127"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un administrateur configure OSPF à zone unique sur un routeur. L’un des réseaux qui doivent être annoncés est 198.19.0.0 255.255.252.0. Quel masque générique l’administrateur utiliserait-il dans l’instruction réseau OSPF?",
+        "choices": [
+            "0.0.31.255",
+            "0.0.63.255",
+            "0.0.15.255",
+            "0.0.3.255"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quelle étape du processus de routage d’état de liens est décrite par un routeur inondant l’état de liens et les informations de coût sur chaque liaison directement connectée?",
+        "choices": [
+            "sélection du routeur désigné",
+            "Échange d’annonces à état de liens",
+            "Établissement des contiguïtés de voisinage",
+            "injection de la route par défaut"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un administrateur configure OSPF à zone unique sur un routeur. L’un des réseaux qui doivent être annoncés est 192.168.223.0 255.255.254.0. Quel masque générique l’administrateur utiliserait-il dans l’instruction réseau OSPF?",
+        "choices": [
+            "0.0.31.255",
+            "0.0.1.255",
+            "0.0.7.255",
+            "0.0.15.255"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un administrateur configure OSPF à zone unique sur un routeur. L’un des réseaux qui doivent être annoncés est 192.168.181.0 255.255.254.0. Quel masque générique l’administrateur utiliserait-il dans l’instruction réseau OSPF?",
+        "choices": [
+            "0.0.15.255",
+            "0.0.31.255",
+            "0.0.63.255",
+            "0.0.1.255"
+        ],
+        "answers": [
+            3
+        ]
+    }
+]

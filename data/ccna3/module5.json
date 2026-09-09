@@ -1,0 +1,423 @@
+[
+    {
+        "question": "Quelle opportunité en matière de cloud computing l’utilisation de matériel réseau tel que des routeurs et des commutateurs peut-elle offrir à une entreprise ?",
+        "choices": [
+            "Logiciel en tant que service (SaaS)",
+            "Sans fil en tant que service (WaaS)",
+            "Navigateur en tant que service (BaaS)",
+            "Infrastructure en tant que service (IaaS)"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel est le type d’hyperviseur le plus susceptible d’être utilisé dans un data center ?",
+        "choices": [
+            "Type 2",
+            "Type 1",
+            "Hadoop",
+            "Nexus"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Qu’est-ce qui caractérise un hyperviseur de type 1 ?",
+        "choices": [
+            "il est installé sur un système d’exploitation existant",
+            "il convient mieux aux particuliers qu’aux entreprises et à leurs environnements",
+            "il est installé directement sur le serveur",
+            "ne nécessite pas de logiciel de console de gestion"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel composant est considéré comme le cerveau de l’architecture ACI et traduit les politiques d’application ?",
+        "choices": [
+            "l’hyperviseur",
+            "les points de terminaison du profil d’applications réseau",
+            "le contrôleur d’infrastructure de politique d’application",
+            "le commutateur Nexus 9000"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Deux couches du modèle OSI sont associées aux fonctions SDN du plan de contrôle du réseau utilisées pour la prise de décision relative au transfert des fichiers. Lesquelles ? (Choisissez deux réponses.)",
+        "choices": [
+            "Couche 1",
+            "Couche 2",
+            "Couche 3",
+            "Couche 4",
+            "Couche 5"
+        ],
+        "answers": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "À partir de quoi est préremplie la FIB des appareils Cisco qui utilisent le CEF pour traiter les paquets ?",
+        "choices": [
+            "le DSP",
+            "la table ARP",
+            "la table de routage",
+            "la table de contiguïté"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle est la fonction du plan de données d’un appareil de réseau ?",
+        "choices": [
+            "résolution d’adresses MAC",
+            "transfert de flux de trafic",
+            "création de la table de routage",
+            "envoi d’informations au CPU pour traitement"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle affirmation décrit le concept de cloud computing ?",
+        "choices": [
+            "séparation de l’application du matériel",
+            "séparation du plan de contrôle du plan de données",
+            "séparation du système d’exploitation du matériel",
+            "séparation du plan de gestion du plan de contrôle"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quels sont les deux avantages, pour une entreprise, associés à l’adoption de la virtualisation et du cloud computing ? (Choisissez deux propositions.)",
+        "choices": [
+            "dépendance accrue envers les ressources informatiques sur site",
+            "traitement distribué de vastes jeux de données de l’ordre de plusieurs téraoctets",
+            "réponse rapide face au besoin croissant de volumes de données",
+            "modèle de facturation à l’utilisation, ce qui permet aux entreprises de gérer leurs dépenses informatiques et de stockage comme un service",
+            "suppression des vulnérabilités face aux cyberattaques"
+        ],
+        "answers": [
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Une petite entreprise envisage de faire migrer plusieurs de ses fonctions de data center vers le cloud. Quels sont les avantages de cette structure ? (Choisissez trois propositions.)",
+        "choices": [
+            "L’entreprise ne devra payer que pour la capacité de traitement et de stockage qu’elle utilise réellement.",
+            "Les services cloud sont facturés à un prix fixe, quelle que soit la capacité de stockage et de traitement utilisée par l’entreprise.",
+            "L’entreprise n’a pas à se soucier de l’augmentation de l’espace de stockage ni du traitement des demandes avec son propre équipement de data center.",
+            "Les services cloud permettent à l’entreprise de posséder et d’administrer ses propres serveurs et périphériques de stockage.",
+            "L’entreprise peut augmenter sa capacité de traitement et de stockage, puis la réduire au gré des besoins.",
+            "Les data centers à locataire unique peuvent facilement s’adapter à l’augmentation des besoins en matière de stockage de données."
+        ],
+        "answers": [
+            0,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "En quoi la virtualisation est-elle utile à la reprise après sinistre dans un data center ?",
+        "choices": [
+            "prise en charge de la migration en direct",
+            "amélioration des pratiques professionnelles",
+            "circulation d’air constante",
+            "garantie d’alimentation"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quelle technologie permet aux utilisateurs d’accéder aux données en tout lieu et à tout moment ?",
+        "choices": [
+            "L’analyse des données",
+            "Le micromarketing",
+            "Le cloud computing",
+            "La virtualisation"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle action a lieu dans l’élément d’assurance du modèle IBN ?",
+        "choices": [
+            "Vérification et mesure corrective",
+            "Configuration des systèmes",
+            "Conversion des politiques",
+            "Vérification de l’intégrité"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quel format de données est utilisé pour représenter les données pour les applications d’automatisation de réseau?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_222948.jpg",
+        "choices": [
+            "JSON",
+            "YAML",
+            "HTML",
+            "XML"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quelle est la fonction de la clé contenue dans la plupart des API RESTful?",
+        "choices": [
+            "Il est utilisé pour authentifier la source demandeuse.",
+            "Il représente les principaux composants de requête dans la demande d’API.",
+            "Il est utilisé dans le cryptage du message par une requête API.",
+            "Il s’agit de l’objet de niveau supérieur de la requête API."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quels sont les deux outils de gestion de configuration développés avec Ruby? (Choisissez deux.)",
+        "choices": [
+            "Puppet",
+            "RESTCONF",
+            "Chef",
+            "Ansible",
+            "SaltStack"
+        ],
+        "answers": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Quel terme est utilisé pour décrire un ensemble d’instructions à exécuter par l’outil de gestion de configuration Puppet?",
+        "choices": [
+            "Playbook",
+            "Manifest",
+            "Cookbook",
+            "Pillar"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel terme est utilisé pour décrire un ensemble d’instructions à exécuter par l’outil de gestion de configuration SaltStack?",
+        "choices": [
+            "Pillar",
+            "Manifest",
+            "Playbook",
+            "Cookbook"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel scénario décrit l’utilisation d’une API publique?",
+        "choices": [
+            "Il est utilisé entre une entreprise et ses partenaires commerciaux.",
+            "Cela nécessite une licence.",
+            "Il peut être utilisé sans aucune restriction.",
+            "Il n’est utilisé qu’au sein d’une organisation."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Dans quelle situation une API partenaire serait-elle appropriée?",
+        "choices": [
+            "un site de service de vacances interagissant avec les bases de données des hôtels pour afficher les informations de tous les hôtels sur son site Web",
+            "un moteur de recherche Internet permettant aux développeurs d’intégrer le moteur de recherche dans leurs propres applications logicielles",
+            "une personne qui crée un compte sur une application ou un site Web externe en utilisant ses informations d’identification sur les réseaux sociaux",
+            "le personnel commercial des entreprises accède aux données de vente interne à partir de leurs appareils mobiles"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Qu’est-ce que YAML?",
+        "choices": [
+            "Il s’agit d’un langage de programmation compilé.",
+            "Il s’agit d’un langage de script.",
+            "Il s’agit d’une application Web.",
+            "Il s’agit d’un format de données et d’un sur-ensemble de JSON."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quelle opération RESTFul correspond à la méthode HTTP GET?",
+        "choices": [
+            "correctif",
+            "affiche",
+            "mise à jour",
+            "lecture"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quelle technologie permet de virtualiser le plan de contrôle du réseau et de le placer dans un contrôleur centralisé ?",
+        "choices": [
+            "fog computing",
+            "cloud computing",
+            "SDN",
+            "IaaS"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelles sont les fonctions d’un hyperviseur ? (Choisissez deux réponses.)",
+        "choices": [
+            "Partager le logiciel antivirus sur les ordinateurs virtuels",
+            "Protéger l’hôte contre les programmes malveillants se trouvant dans les ordinateurs virtuels",
+            "Partitionner le disque dur pour exécuter des ordinateurs virtuels",
+            "Gérer les ordinateurs virtuels",
+            "Allouer des ressources système physiques aux ordinateurs virtuels"
+        ],
+        "answers": [
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Quelle est la différence entre les fonctions de l’informatique Cloud et la virtualisation ?",
+        "choices": [
+            "L’informatique Cloud sépare l’application du matériel tandis que la virtualisation sépare le système d’exploitation du matériel sous-jacent.",
+            "L’informatique Cloud requiert une technologie d’hyperviseur tandis que la virtualisation est une technologie de tolérance de panne.",
+            "L’informatique Cloud fournit des services sur l’accès par Internet tandis que la virtualisation fournit des services sur l’accès aux données via des connexions Internet virtualisées.",
+            "L’informatique Cloud utilise la technologie de data center tandis que la virtualisation n’est pas utilisée dans les data centers."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "En quoi la structure de format de données YAML est-elle différente de JSON?",
+        "choices": [
+            "Il utilise des niveaux hiérarchiques d’imbrication.",
+            "Il utilise des balises de fin.",
+            "Il utilise des indentations.",
+            "Il utilise des crochets et des virgules."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle est l’API la plus utilisée pour les services Web?",
+        "choices": [
+            "REST",
+            "JSON-RPC",
+            "XML-RPC",
+            "SOAP"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Qu’est-ce que REST?",
+        "choices": [
+            "Il s’agit d’un style d’architecture pour la conception d’applications de service Web.",
+            "Il s’agit d’une structure de données lisible par l’homme qui est utilisée par les applications pour stocker, transformer et lire des données.",
+            "Il s’agit d’un moyen de stocker et d’échanger des données dans un format structuré.",
+            "Il s’agit d’un protocole qui permet aux administrateurs de gérer les nœuds sur un réseau IP."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quelle est la différence entre les formats de données XML et HTML?",
+        "choices": [
+            "XML n’utilise pas de balises prédéfinies tandis que HTML utilise des balises prédéfinies.",
+            "XML enferme les données dans une paire de balises tandis que HTML utilise une paire de devis pour enfermer les données.",
+            "XML ne nécessite pas d’indentation pour chaque paire clé / valeur, mais HTML nécessite d’indentation.",
+            "XML formate les données en binaire tandis que HTML formate les données en texte simple."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un administrateur réseau a été chargé de créer un plan de reprise après sinistre. Dans le cadre de ce plan, l’administrateur recherche un site de sauvegarde pour toutes les données sur les serveurs de l’entreprise. Quel service ou quelle technologie permettrait de répondre à cette exigence ?",
+        "choices": [
+            "data center",
+            "Virtualisation",
+            "Serveurs dédiés",
+            "SDN (Software Defined Networking)"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel type d’hyperviseur est mis en œuvre lorsqu’un utilisateur installe une instance virtuelle du système d’exploitation Windows sur son Mac ?",
+        "choices": [
+            "type 2",
+            "type 1",
+            "ordinateur virtuel",
+            "sans système d’exploitation"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "ABCTech étudie l’utilisation de l’automatisation pour certains de ses produits. Afin de contrôler et de tester ces produits, les programmeurs nécessitent Windows, Linux et MAC OS sur leurs ordinateurs. Quel service ou quelle technologie permettrait de répondre à cette exigence ?",
+        "choices": [
+            "SDN (Software Defined Networking)",
+            "ACI Cisco",
+            "virtualisation",
+            "Serveurs dédiés"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel type de cloud permet d’offrir des services à une entreprise ou entité spécifique ?",
+        "choices": [
+            "un cloud hybride",
+            "un cloud communautaire",
+            "un cloud public",
+            "un cloud privé"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "En raison de l’énorme croissance du trafic Web, une entreprise a prévu d’acheter des serveurs supplémentaires pour aider à gérer le trafic Web. Quel service ou quelle technologie permettrait de répondre à cette exigence ?",
+        "choices": [
+            "SDN (Software Defined Networking)",
+            "APIC-EM",
+            "ACI Cisco",
+            "Serveurs dédiés"
+        ],
+        "answers": [
+            3
+        ]
+    }
+]

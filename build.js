@@ -49,7 +49,7 @@ function buildHome() {
     return `        <a class="track" href="/${k}/" data-track="${k}">
           <div class="track__head">
             <span class="track__icon">${icon(t.icon)}</span>
-            <div><div class="track__label">${t.label}</div><h3>${esc(t.title)}</h3></div>
+            <div><div class="track__label">${t.label}${t.isNew ? ` <span class="badge-new">Nouveau</span>` : ""}</div><h3>${esc(t.title)}</h3></div>
           </div>
           <p class="track__desc">${esc(t.desc)}</p>
           <div class="track__meta">
@@ -65,27 +65,36 @@ function buildHome() {
     ["target", "Entraînement ciblé", "Rejoue uniquement les questions ratées à la fin d’un quiz pour combler tes lacunes."],
     ["search", "Recherche de modules", "Retrouve rapidement un module par mot-clé pour réviser une notion précise."],
     ["cards", "Questions mélangées", "L’ordre des questions et l’enchaînement changent à chaque tentative."],
-    ["book", "Aligné sur le programme", "Questions organisées par module officiel : CCNA 1, CCNA 2, CSNA et CSNE."]
+    ["book", "Aligné sur le programme", "Questions organisées par module officiel : CCNA 1, CCNA 2, CCNA 3, CSNA et CSNE."]
   ].map(([ic, t, d]) => `        <div class="feature card">
           <span class="feature__ic">${icon(ic)}</span>
           <div><h3>${t}</h3><p>${d}</p></div>
         </div>`).join("\n");
 
   const faqs = [
-    ["Le site CCNA Révisions est-il gratuit ?", "Oui, CCNA Révisions est 100 % gratuit et sans inscription. Tous les quiz des parcours CCNA 1, CCNA 2, CSNA et CSNE sont accessibles librement."],
-    ["Quelles certifications puis-je réviser ?", "Deux univers : côté Cisco, le CCNA 1 (Introduction aux réseaux) et le CCNA 2 (Commutation, routage et sans-fil) ; côté Stormshield, le CSNA (administration des firewalls SNS) et le CSNE (niveau expert). Les quiz sont organisés par module."],
+    ["Le site CCNA Révisions est-il gratuit ?", "Oui, CCNA Révisions est 100 % gratuit et sans inscription. Tous les quiz des parcours CCNA 1, CCNA 2, CCNA 3, CSNA et CSNE sont accessibles librement."],
+    ["Quelles certifications puis-je réviser ?", "Deux univers : côté Cisco, le CCNA 1 (Introduction aux réseaux), le CCNA 2 (Commutation, routage et sans-fil) et le CCNA 3 (Réseaux d’entreprise, sécurité et automatisation) ; côté Stormshield, le CSNA (administration des firewalls SNS) et le CSNE (niveau expert). Les quiz sont organisés par module."],
     ["Les questions correspondent-elles aux examens officiels ?", "Les quiz CCNA suivent les modules du cursus Cisco Networking Academy, et les quiz CSNA/CSNE les thèmes des certifications Stormshield. Ils servent d’entraînement : vérifie toujours avec tes cours et des sources fiables."],
     ["Comment suivre ma progression ?", "Ton meilleur score par module est enregistré automatiquement dans ton navigateur, sans compte à créer. Tu peux aussi rejouer uniquement les questions ratées."]
   ];
 
+  // Bandeau d'annonce du dernier parcours publié (flag isNew dans curriculum.js)
+  const newKey = Object.keys(C).find(k => C[k].isNew);
+  const announce = newKey ? `      <a class="announce" href="/${newKey}/">
+        <span class="badge-new">Nouveau</span>
+        <span class="announce__text">Le parcours ${esc(C[newKey].label)} — ${esc(C[newKey].title)} vient d’arriver : ${trackTotal(newKey)} questions corrigées.</span>
+        <span class="announce__go">${icon("arrow")}</span>
+      </a>
+` : "";
+
   const ld = [
     { "@context": "https://schema.org", "@type": "WebSite", name: "CCNA Révisions",
       alternateName: ["CCNA Révision", "CCNA Revisions", "ccna-revision.fr"], url: SITE + "/",
-      description: "Quiz interactifs gratuits pour réviser les certifications Cisco CCNA (1 et 2) et Stormshield (CSNA, CSNE).",
+      description: "Quiz interactifs gratuits pour réviser les certifications Cisco CCNA (1, 2 et 3) et Stormshield (CSNA, CSNE).",
       inLanguage: "fr", publisher: { "@type": "Organization", name: "CCNA Révisions", url: SITE + "/" } },
     { "@context": "https://schema.org", "@type": "EducationalOrganization", name: "CCNA Révisions",
       alternateName: "CCNA Révision", url: SITE + "/", logo: SITE + "/img/routeur.png",
-      description: "Plateforme gratuite de quiz et de révisions pour les certifications Cisco (CCNA 1, CCNA 2) et Stormshield (CSNA, CSNE).",
+      description: "Plateforme gratuite de quiz et de révisions pour les certifications Cisco (CCNA 1, CCNA 2, CCNA 3) et Stormshield (CSNA, CSNE).",
       sameAs: ["https://ccnareponses.com"] },
     { "@context": "https://schema.org", "@type": "ItemList", name: "Parcours de révision réseau et sécurité",
       itemListElement: Object.keys(C).map((k, i) => ({ "@type": "ListItem", position: i + 1, name: `${C[k].label} — ${C[k].title}`, url: `${SITE}/${k}/` })) },
@@ -96,7 +105,7 @@ function buildHome() {
   return page({
     lang: "fr",
     title: "CCNA Révisions – Quiz gratuits Cisco CCNA & Stormshield CSNA/CSNE",
-    desc: `Révise le CCNA 1, CCNA 2 (Cisco) et le CSNA, CSNE (Stormshield) avec ${grandTotal} questions de quiz corrigées et gratuites. Correction immédiate, suivi de progression et entraînement ciblé pour réussir tes certifications réseau et sécurité.`,
+    desc: `Révise le CCNA 1, CCNA 2, CCNA 3 (Cisco) et le CSNA, CSNE (Stormshield) avec ${grandTotal} questions de quiz corrigées et gratuites. Correction immédiate, suivi de progression et entraînement ciblé pour réussir tes certifications réseau et sécurité.`,
     canonical: SITE + "/",
     ogUrl: SITE + "/",
     ld,
@@ -111,7 +120,7 @@ function buildHome() {
         <a href="/ccna1/" class="btn btn--primary btn--lg">Commencer par le CCNA 1</a>
         <a href="#parcours" class="btn btn--ghost btn--lg">Voir tous les parcours</a>
       </div>
-    </section>
+${announce}    </section>
 
     <section class="section" id="progress-panel" style="display:none">
       <div class="card">
@@ -157,7 +166,7 @@ ${faqs.map(([q, a]) => `        <details class="faq__item">
     <section class="section">
       <div class="card">
         <h2 style="font-size:1.25rem;margin-bottom:6px">À propos de CCNA Révisions</h2>
-        <p style="color:var(--text-muted);margin:0 0 14px">CCNA Révisions est une plateforme pédagogique gratuite et open-source destinée aux étudiants en informatique, réseaux et cybersécurité. Les quiz couvrent les modules du cursus Cisco Networking Academy (CCNA 1 et 2) — introduction aux réseaux, commutation, routage, réseaux sans fil et sécurité — ainsi que les certifications Stormshield (CSNA et CSNE) sur l’administration et l’exploitation des firewalls Network Security.</p>
+        <p style="color:var(--text-muted);margin:0 0 14px">CCNA Révisions est une plateforme pédagogique gratuite et open-source destinée aux étudiants en informatique, réseaux et cybersécurité. Les quiz couvrent les modules du cursus Cisco Networking Academy (CCNA 1, 2 et 3) — introduction aux réseaux, commutation, routage, réseaux sans fil, sécurité, WAN et automatisation — ainsi que les certifications Stormshield (CSNA et CSNE) sur l’administration et l’exploitation des firewalls Network Security.</p>
         <h2 style="font-size:1.25rem;margin:18px 0 10px">Ressources officielles</h2>
         <div class="grid grid--2">
           <a class="feature" href="https://www.netacad.com/" target="_blank" rel="noopener" style="padding:14px;border:1px solid var(--border);border-radius:12px">
@@ -227,7 +236,7 @@ function buildCourse(k) {
       <nav class="breadcrumb" aria-label="Fil d’Ariane">
         <a href="/index.html">Accueil</a> <span class="sep"></span> <span>${t.label}</span>
       </nav>
-      <span class="eyebrow">${t.label}</span>
+      <span class="eyebrow">${t.label}</span>${t.isNew ? ` <span class="badge-new">Nouveau</span>` : ""}
       <h1>${esc(t.title)}</h1>
       <p>${esc(t.desc)}</p>
       <p class="track__stat" id="course-stat">${n} module${n > 1 ? "s" : ""} · ${tot} questions</p>
