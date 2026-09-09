@@ -253,6 +253,9 @@
     if (recapEl.style.display !== "none" || quizEl.style.display === "none") return;
     const tag = (e.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea") return;
+    // Laisse passer les raccourcis du navigateur (Ctrl+C, Cmd+V, AltGr…) :
+    // sans ce garde, Ctrl+C sélectionnerait la réponse C.
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
 
     // Suivant : Espace / Entrée quand la réponse est validée
     if (answered && (e.code === "Space" || e.key === "Enter")) { e.preventDefault(); next(); return; }
