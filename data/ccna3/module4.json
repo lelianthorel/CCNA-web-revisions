@@ -1,0 +1,674 @@
+[
+    {
+        "question": "Quel est le bénéfice de déployer un marquage de QoS dans la couche 3 sur l’ensemble du réseau d’une l’entreprise ?",
+        "choices": [
+            "Le marquage de couche 3 permet d’envoyer les informations relatives à la QoS aux commutateurs qui ne connaissent aucune adresse IP.",
+            "Le marquage de couche 3 permet de transporter les informations relatives à la QoS d’un bout à l’autre.",
+            "Le marquage de couche 3 peut être utilisé pour transporter du trafic non IP.",
+            "Le marquage de couche 3 peut être transféré dans les champs 802.1Q."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle est la fonction de la ligne de confiance d’une QoS ?",
+        "choices": [
+            "La ligne de confiance permet de ne laisser entrer dans le réseau que le trafic émanant de terminaux fiables.",
+            "La ligne de confiance permet de ne laisser passer le trafic que s’il a précédemment été marqué.",
+            "La ligne de confiance marque l’endroit où le trafic ne peut être marqué de nouveau.",
+            "La ligne de confiance permet de savoir quels appareils se fient au marquage sur les paquets qui entrent dans le réseau."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quelles sont les deux approches permettant d’empêcher la perte de paquets induite par la congestion d’une interface ? (Choisissez deux propositions.)",
+        "choices": [
+            "Réduire l’espace tampon.",
+            "Désactiver les mécanismes de mise en file d’attente.",
+            "Empêcher les pics de trafic.",
+            "Abandonner les paquets moins prioritaires.",
+            "Augmenter la capacité des liaisons."
+        ],
+        "answers": [
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Quel scénario de configuration offrirait le plus de protection à SNMP pour obtenir et définir des messages?",
+        "choices": [
+            "SNMPv1 avec gestion hors bande dans un sous-réseau privé",
+            "SNMPv2 pour la gestion in-band avec des identifiants de communauté en lecture-écriture",
+            "Identifiants de communauté SNMP.",
+            "SNMPv3 configuré avec le niveau de sécurité d’authentification"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. L’administrateur réseau saisit ces commandes dans le routeur R1<br>R1# copy running-config tftp<br>Address or name of remote host [ ]?<br>Lorsque le routeur demande une adresse ou un nom d’hôte distant, quelle adresse IP l’administrateur doit-il saisir ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215412.jpg",
+        "choices": [
+            "192.168.9.254",
+            "192.168.10.1",
+            "192.168.10.2",
+            "192.168.11.252",
+            "192.168.11.254"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "La commande ntp server 10.1.1.1 est exécutée sur un routeur. Quel est l’impact de cette commande ?",
+        "choices": [
+            "synchronise l’horloge du système avec la source d’heure avec l’adresse IP 10.1.1.1.",
+            "Elle détermine le serveur auquel les fichiers de journalisation système doivent être envoyés.",
+            "Elle identifie le serveur sur lequel les sauvegardes de configuration doivent être stockées.",
+            "Elle garantit que toutes les informations de journalisation seront horodatées."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "En tant qu’administrateur réseau, vous avez été invité à implémenter EtherChannel sur le réseau d’entreprise. En quoi cette configuration consiste-t-elle ?",
+        "choices": [
+            "à regrouper deux périphériques en vue de partager une adresse IP virtuelle",
+            "à regrouper plusieurs ports physiques pour augmenter la bande passante entre deux commutateurs",
+            "à fournir des périphériques redondants pour autoriser le flux du trafic dans l’éventualité où un périphérique est défaillant",
+            "à fournir des liaisons redondantes bloquant ou acheminant le trafic de façon dynamique"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle est la définition d’une conception du réseau LAN à deux niveaux ?",
+        "choices": [
+            "Les couches d’accès et de distribution sont regroupées dans un niveau, et la couche cœur de réseau sur un niveau distinct",
+            "Les couches d’accès, de distribution et cœur de réseau sont regroupées dans un niveau, avec une couche distincte en tant que dorsale",
+            "Les couches de distribution et cœur de réseau sont regroupées dans un niveau, et la couche d’accès sur un niveau distinct",
+            "Les couches d’accès et cœur de réseau sont regroupées dans un niveau, et la couche de distribution sur un niveau distinct"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Citez deux bonnes raisons de créer une ligne de base du réseau. (Choisissez deux réponses.)",
+        "choices": [
+            "Pour concevoir un réseau en fonction d’un modèle approprié",
+            "Pour déterminer le type d’équipement à mettre en œuvre",
+            "Pour évaluer les failles de sécurité du réseau",
+            "Pour sélectionner un protocole de routage",
+            "Pour identifier les comportements anormaux du réseau à l’avenir",
+            "Pour déterminer si le réseau peut fournir les règles requises"
+        ],
+        "answers": [
+            4,
+            5
+        ]
+    },
+    {
+        "question": "Un ordinateur peut accéder aux périphériques situés sur le même réseau que lui, mais pas à ceux présents sur d’autres réseaux. Quelle est la cause probable de ce problème ?",
+        "choices": [
+            "Le masque de sous-réseau de l’ordinateur n’est pas correct.",
+            "L’adresse IP de l’ordinateur n’est pas valide.",
+            "L’adresse de la passerelle par défaut de l’ordinateur n’est pas valide.",
+            "Le câble n’est pas correctement raccordé à la carte réseau."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "À quelle étape du recueil des symptômes l’ingénieur réseau détermine-t-il si le problème se situe sur la couche cœur de réseau, la couche de distribution ou la couche d’accès du réseau ?",
+        "choices": [
+            "Détermination de la propriété.",
+            "Identification des symptômes.",
+            "Collecte d’informations.",
+            "Documentation des symptômes.",
+            "Réduction de l’étendue des causes probables."
+        ],
+        "answers": [
+            4
+        ]
+    },
+    {
+        "question": "Des paquets vocaux arrivent sur un téléphone IP en flux continu, mais, parce que le réseau est congestionné, le délai entre chaque paquet varie et la conversation est hachée. Quel terme décrit la cause de ce problème ?",
+        "choices": [
+            "mise en file d’attente",
+            "mise en mémoire tampon",
+            "gigue",
+            "latence"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel algorithme de mise en file ne présente qu’une file d’attente et traite tous les paquets d’égale manière ?",
+        "choices": [
+            "WFQ",
+            "FIFO",
+            "CBWFQ",
+            "LLQ"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un administrateur réseau déploie un programme de QoS établissant la possibilité de placer dans une file d’attente spéciale le trafic vocal de manière à ce que le trafic vocal soit transmis avant le trafic réseau mis en attente. Quelle méthode de mise en file d’attente conviendrait le mieux ?",
+        "choices": [
+            "WFQ",
+            "LLQ",
+            "CBWFQ",
+            "FIFO"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Le modèle de QoS dit « service au mieux » présente plusieurs caractéristiques. Citez-en deux. (Choisissez deux propositions.)",
+        "choices": [
+            "Il n’offre pas de garantie de livraison des paquets.",
+            "Il permet de traiter tous les paquets de la même façon.",
+            "Les hôtes en extrémité peuvent faire connaître leurs besoins au réseau.",
+            "Il assure un traitement préférentiel aux paquets vocaux.",
+            "Il repose sur l’utilisation d’une approche prenant en compte le type de connexion."
+        ],
+        "answers": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Un administrateur souhaite remplacer le fichier de configuration sur un routeur Cisco en en chargeant un nouveau à partir d’un serveur TFTP. Quelles sont les deux choses que l’administrateur doit connaître pour pouvoir réaliser cette tâche ? (Choisissez deux réponses.)",
+        "choices": [
+            "La valeur du registre de configuration",
+            "Le nom du fichier de configuration enregistré sur le serveur TFTP",
+            "L’adresse IP du routeur",
+            "L’adresse IP du serveur TFTP",
+            "Le nom du fichier de configuration actuellement enregistré sur le routeur"
+        ],
+        "answers": [
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Quelles sont les fonctions fournies par un service Syslog ? (Choisissez trois réponses.)",
+        "choices": [
+            "collecter les informations de journalisation pour la surveillance et le dépannage",
+            "spécifier les destinations des messages capturés",
+            "fournir des statistiques sur les paquets qui traversent un périphérique Cisco",
+            "sélectionner le type d’information de journalisation capturée",
+            "sonder de manière régulière les agents pour obtenir des données",
+            "fournir une analyse du trafic"
+        ],
+        "answers": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "question": "Quelle est la fonction de l’élément MIB dans le cadre d’un système de gestion de réseau ?",
+        "choices": [
+            "collecter les données des agents SNMP",
+            "stocker les données relatives à un appareil",
+            "envoyer et récupérer des informations sur la gestion du réseau",
+            "modifier les configurations sur les agents SNMP"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle proposition décrit le fonctionnement de SNMP ?",
+        "choices": [
+            "Un système de gestion de réseau (NMS) interroge périodiquement les agents SNMP qui résident sur les périphériques gérés à l’aide d’une requête traps en vue d’obtenir des données de ces périphériques.",
+            "Une requête set est utilisée par le système de gestion de réseau (NMS) afin de modifier les variables de configuration du périphérique de l’agent.",
+            "Une requête get est utilisée par l’agent SNMP pour obtenir des données de ce périphérique.​",
+            "Un agent SNMP résidant sur un périphérique géré collecte des informations sur le périphérique et les stocke à distance dans la base de données MIB située sur le NMS.​"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur réseau exécute la commande show lldp neighbors sur un commutateur. Quelles sont les deux conclusions qui peuvent être tirées ? (Choisissez deux propositions.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215916.jpg",
+        "choices": [
+            "Dev1 est connecté à l’interface Fa0/5 de S1.",
+            "Dev1 est connecté à l’interface Fa0/4 de Dev2.",
+            "Dev2 est un commutateur.",
+            "Dev1 est un commutateur dont les types d’interfaces sont mixtes.",
+            "S1 possède deux interfaces seulement."
+        ],
+        "answers": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Quelles sont les trois couches du modèle de conception hiérarchique de commutateur ? (Choisissez trois réponses.)",
+        "choices": [
+            "Distribution",
+            "Liaison de données",
+            "Accès",
+            "Entreprise",
+            "Cœur de réseau",
+            "Accès réseau"
+        ],
+        "answers": [
+            0,
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quels périphériques sont conservés sur le domaine défaillant lorsque le commutateur S3 n’est plus sous tension ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220706.jpg",
+        "choices": [
+            "S1 et S4",
+            "S4 et PC_2",
+            "AP_2 et AP_1",
+            "PC_3 et AP_2",
+            "PC_3 et PC_2"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un concepteur réseau envisage de mettre en œuvre un bloc de commutateurs sur le réseau d’entreprise. Quel est le principal avantage du déploiement d’un bloc de commutateurs ?",
+        "choices": [
+            "Un seul routeur central fournit l’ensemble du routage entre les VLAN.",
+            "C’est un logiciel d’application réseau qui empêche la défaillance d’un périphérique réseau unique.",
+            "C’est une fonctionnalité de sécurité qui est disponible sur tous les nouveaux commutateurs Catalyst.",
+            "La panne d’un bloc de commutateurs n’a pas d’impact sur tous les utilisateurs finaux."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Parmi les propositions suivantes, laquelle décrit l’une des fonctions de base de la couche d’accès de Cisco Borderless Architecture ?",
+        "choices": [
+            "Agrégation des domaines de diffusion de couche 2",
+            "Fourniture de l’accès à l’utilisateur",
+            "Fourniture de la localisation d’incidents",
+            "Agrégation des limites de routage de couche 3"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle caractéristique est prépondérante pour le technicien en conception de réseaux lorsqu’il choisit un commutateur multicouche plutôt qu’un commutateur de couche 2 ?",
+        "choices": [
+            "la possibilité d’agréger plusieurs ports en vue d’obtenir un débit de données maximum",
+            "la possibilité d’alimenter des périphériques connectés directement et le commutateur lui-même",
+            "la possibilité de disposer de plusieurs chemins d’acheminement par le biais du réseau commuté sur base du ou des numéros de VLAN",
+            "la possibilité de créer une table de routage"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un utilisateur a configuré une carte réseau sur le PC comme indiqué, mais constate que le PC n’est pas en mesure d’accéder à l’internet. Quel est le problème?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220810.jpg",
+        "choices": [
+            "L’adresse DNS préférée est incorrecte.",
+            "Les paramètres n’ont pas été validés à la sortie.",
+            "L’adresse de la passerelle par défaut est incorrecte.",
+            "Il ne doit pas y avoir de serveur DNS alternatif."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un ingénieur réseau a configuré une liste ACL empêchant l’accès Telnet et HTTP au serveur Web HQ des utilisateurs invités dans le réseau local de filiale. L’adresse du serveur Web est 192.168.1.10 et tous les utilisateurs invités se voient attribuer des adresses dans le réseau 192.168.10.0/24. Après la mise en œuvre de l’ACL, personne ne peut accéder à aucun des serveurs du HQ. Quel est le problème?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220852.jpg",
+        "choices": [
+            "L’ACL refuse implicitement l’accès à tous les serveurs.",
+            "Les listes ACL nommées nécessitent l’utilisation de numéros de port.",
+            "Les listes ACL entrantes doivent être routées avant qu’elles ne soient traitées.",
+            "La liste de contrôle d’accès est appliquée à une mauvaise interface et dans la mauvaise direction."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré OSPFv2 sur les deux routeurs Cisco, comme indiqué. PC1 ne peut pas se connecter à PC2. Que doit faire en premier l’administrateur lorsqu’il résout un problème de mise en œuvre du protocole OSPFv2 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220940.jpg",
+        "choices": [
+            "Tester la connectivité de couche 3 entre les routeurs directement connectés.",
+            "Mettre en œuvre la commande network 192.168.255.0 0.0.0.3 area 0 sur le routeur R1.",
+            "Débrancher le lien série entre le routeur R1 et le routeur R2.",
+            "Désactiver OSPFv2."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un utilisateur ne peut pas accéder au site web lorsqu’il saisit http://www.cisco.com à partir d’un navigateur, mais il peut accéder à ce site en tapant http://72.163.4.161 . Quel est le problème?",
+        "choices": [
+            "passerelle par défaut",
+            "DNS",
+            "La pile de protocoles TCP/IP",
+            "DHCP"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. R1 et R3 sont interconnectés par le biais de l’interface série locale 0/0/0. Pourquoi ne forment-ils pas une contiguïté ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020.jpg",
+        "choices": [
+            "Ils présentent des processus de routage différents.",
+            "Les interfaces de connexion sont configurées comme étant passives.",
+            "Ils présentent des ID de routeur différents.",
+            "Ils se trouvent dans des sous-réseaux différents."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel type de trafic est décrit comme nécessitant une latence ne dépassant pas 150 millisecondes (ms)?",
+        "choices": [
+            "voix",
+            "Vidéo",
+            "données"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un directeur de réseau souhaite afficher la quantité de mémoire disponible et libre, le type de système de fichiers et ses autorisations. Quelle commande l’administrateur doit-il utiliser sur un routeur Cisco?",
+        "choices": [
+            "clock timezone PST -7",
+            "ntp server 10.10.14.9",
+            "lldp enable",
+            "show file systems"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "uand la QoS est implémentée dans un réseau convergé, deux facteurs peuvent être contrôlés pour l’amélioration de la performance du réseau pour le trafic en temps réel. Lesquels ? (Choisissez deux propositions.)",
+        "choices": [
+            "le routage de paquets",
+            "l’adressage des paquets",
+            "gigue",
+            "la vitesse de la liaison",
+            "délai"
+        ],
+        "answers": [
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Lequel des trois images Cisco IOS affichées va charger dans la RAM?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103702.jpg",
+        "choices": [
+            "Le routeur sélectionne la troisième image Cisco IOS car il s’agit de l’image IOS la plus récente.",
+            "Le routeur sélectionne une image en fonction de la valeur du registre de configuration.",
+            "Le routeur sélectionne la deuxième image Cisco IOS car il s’agit de la plus petite image IOS.",
+            "Le routeur sélectionne une image en fonction de la commande boot system dans la configuration.",
+            "Le routeur sélectionne la troisième image Cisco IOS car elle contient l’image advipservicesk9."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quels sont les deux types d’appareils connectés à R1? (Choisissez deux réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103834.jpg",
+        "choices": [
+            "Pont de route source",
+            "commutateur",
+            "routeur",
+            "répéteur",
+            "concentrateur"
+        ],
+        "answers": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "En cas de défaillance, quelle est l’architecture réseau qui permettrait de réduire l’étendue des perturbations affectant le réseau ?",
+        "choices": [
+            "La réduction du nombre de connexions et d’appareils redondants dans le cœur du réseau",
+            "L’installation exclusive d’équipements haut de gamme sur l’ensemble du réseau",
+            "Le déploiement des commutateurs de couche de distribution par paires et la répartition des connexions des commutateurs de la couche d’accès entre eux",
+            "La configuration de tous les appareils de la couche d’accès pour qu’ils partagent une passerelle unique"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle action doit être entreprise lors de la planification de la redondance sur une conception de réseau hiérarchique ?",
+        "choices": [
+            "mettre en œuvre STP portfast entre les commutateurs sur le réseau",
+            "ajouter d’autres chemins physiques pour permettre l’acheminement des données sur le réseau",
+            "remplacer immédiatement un module, un service ou un périphérique non fonctionnel sur un réseau",
+            "acheter continuellement du matériel de sauvegarde pour le réseau"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quels sont les deux avantages de l’extension de la connectivité de la couche d’accès aux utilisateurs par le biais d’un support sans fil ? (Choisissez deux propositions.)",
+        "choices": [
+            "augmentation des options de gestion du réseau",
+            "coûts réduits",
+            "augmentation de la disponibilité de la bande passante",
+            "réduction du nombre de points de défaillance critiques",
+            "davantage de flexibilité"
+        ],
+        "answers": [
+            1,
+            4
+        ]
+    },
+    {
+        "question": "Quel est le meilleur moment pour mesurer les opérations réseau afin d’établir les performances de référence du réseau ?",
+        "choices": [
+            "À la même heure chaque jour sur une période définie de jours ouvrables moyens pour que les modèles de trafic standard puissent être définis",
+            "Pendant des périodes calmes de vacances pour pouvoir déterminer le niveau de trafic non lié aux données",
+            "De manière aléatoire sur une période de 10 semaines afin de détecter les niveaux de trafic anormaux",
+            "Dès qu’une utilisation élevée du réseau est détectée, pour que les performances du réseau sous pression puissent être observées"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel principe s’applique lorsqu’un technicien réseau résout une panne réseau à l’aide de la méthode « diviser et conquérir » ?",
+        "choices": [
+            "Une fois que le fonctionnement d’un composant sur une certaine couche a été vérifié, les tests peuvent ensuite être effectués sur n’importe quelle autre couche.",
+            "Une fois que le fonctionnement des composants d’une certaine couche a été vérifié, on peut supposer que les composants des couches inférieures sont également opérationnels.",
+            "Les tests sont effectués sur toutes les couches du modèle OSI jusqu’à l’identification d’un composant défaillant.",
+            "Les tests sont effectués sur les couches 7 et 1, puis sur les couches 6 et 2, etc., en progressant vers le milieu de la pile jusqu’à ce que toutes les couches soient vérifiées."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel outil de dépannage un administrateur réseau utiliserait-il pour vérifier l’en-tête de couche 2 des trames quittant un hôte précis ?",
+        "choices": [
+            "Outil de planification initiale",
+            "Analyseur de protocole",
+            "Base de connaissances",
+            "CiscoView"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel type de trafic est décrit comme ayant tendance à être imprévisible, incohérent et surbaissant?",
+        "choices": [
+            "données",
+            "vidéo",
+            "voix"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Un directeur de réseau veut s’assurer que le périphérique ignore le fichier de configuration de démarrage pendant le démarrage et contourne les mots de passe requis. Quelle commande l’administrateur doit-il utiliser sur un routeur Cisco?",
+        "choices": [
+            "copy running-config tftp",
+            "copie usbflash0: /R1-Config",
+            "config-register 0x2102",
+            "confreg 0x2142"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un directeur de réseau souhaite configurer le routeur pour charger une nouvelle image à partir de flash pendant le démarrage. Quelle commande l’administrateur doit-il utiliser sur un routeur Cisco?",
+        "choices": [
+            "copy flash: tftp:",
+            "clock set 14:25:00 nov 13 2018",
+            "copy tftp startup-config",
+            "boot system"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un administrateur réseau configure un routeur avec la séquence de commandes :<br>R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin<br>R1(config)# boot system rom<br>Quel est l’impact de la séquence de commandes ?",
+        "choices": [
+            "Le routeur cherchera et chargera une image valide de l’IOS dans l’ordre suivant : mémoire Flash, TFTP et mémoire morte (ROM).",
+            "Le routeur copiera l’image de l’IOS à partir du serveur TFTP, puis redémarrera le système.",
+            "Lors du redémarrage suivant, le routeur va charger l’image de l’IOS à partir de la mémoire morte (ROM).",
+            "Le routeur chargera l’IOS à partir du serveur TFTP. Si le chargement de l’image échoue, le routeur chargera l’image de l’IOS à partir de la mémoire morte (ROM)."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration.Pourquoi les routeurs R1 et R2 ne peuvent-ils pas établir une contiguïté OSPF ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2024/12/abi386467n1v4.jpg",
+        "choices": [
+            "Un routeur dorsal (backbone) ne peut pas établir une contiguïté avec un routeur ABR.",
+            "Les valeurs d’ID de routeur ne sont pas les mêmes dans les deux routeurs.",
+            "Les interfaces série ne se trouvent pas dans la même zone.",
+            "Les numéros de processus ne sont pas les mêmes dans les deux routeurs."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Pourquoi la QoS est-elle un élément important dans un réseau convergé qui combine communications vocales, vidéo et de données ?",
+        "choices": [
+            "Les communications de données sont sensibles à la gigue.",
+            "Les communications vocales et vidéo sont plus sensibles à la latence.",
+            "Les appareils anciens ne peuvent pas transmettre de la voix et de la vidéo sans QoS.",
+            "Les communications de données doivent être la première priorité."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Pour quel type de trafic ne peut-on pas utiliser les outils de prévention de congestion ?",
+        "choices": [
+            "UDP",
+            "TCP",
+            "ICMP",
+            "IP"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel type de trafic est décrit comme prévisible et fluide?",
+        "choices": [
+            "Voix",
+            "Vidéo",
+            "Données"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel type de trafic est décrit comme étant constitué d’un trafic dont la priorité est inférieure s’il n’est pas critique pour la mission?",
+        "choices": [
+            "voix",
+            "vidéo",
+            "données"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Un directeur de réseau souhaite déterminer la taille du fichier image Cisco IOS sur le périphérique réseau. Quelle commande l’administrateur doit-il utiliser sur un routeur Cisco?",
+        "choices": [
+            "show flash:0",
+            "ntp server 10.10.14.9",
+            "clock timezone PST -7",
+            "lldp enable"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Le trafic vocal a ses caractéristiques propres. Citez-en deux. (Choisissez deux propositions.)",
+        "choices": [
+            "La latence du trafic vocal ne doit pas excéder 150 ms.",
+            "Les paquets de trafic vocal ne sont pas retransmis.",
+            "Le trafic vocal est imprévisible et hétérogène.",
+            "Le trafic vocal nécessite au moins 384 Kbit/s de bande passante.",
+            "Le trafic vocal consomme beaucoup des ressources du réseau."
+        ],
+        "answers": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Quel type de trafic est décrit comme ayant un volume élevé de données par paquet?",
+        "choices": [
+            "Vidéo",
+            "Voix",
+            "Données"
+        ],
+        "answers": [
+            0
+        ]
+    }
+]

@@ -52,6 +52,7 @@ function buildNav(active) {
   const links = [
     { href: "ccna1/", label: "CCNA 1", key: "ccna1" },
     { href: "ccna2/", label: "CCNA 2", key: "ccna2" },
+    { href: "ccna3/", label: "CCNA 3", key: "ccna3" },
     { href: "csna/",  label: "CSNA",  key: "csna" },
     { href: "csne/",  label: "CSNE",  key: "csne" }
   ];

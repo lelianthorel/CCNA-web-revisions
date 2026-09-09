@@ -32,6 +32,22 @@ root.CURRICULUM = {
       { id: "module6", name: "Examen final", topic: "Examen final du cours CCNA 2", count: 168, icon: "trophy" }
     ]
   },
+  ccna3: {
+    label: "CCNA 3",
+    title: "Réseaux d’entreprise, sécurité et automatisation",
+    desc: "OSPF, sécurité des réseaux et ACL, technologies WAN, supervision, dépannage et automatisation.",
+    color: ["#0d9488", "#14b8a6"],
+    icon: "route",
+    isNew: true,
+    modules: [
+      { id: "module1", name: "Modules 1 & 2", topic: "Concepts et configuration d’OSPF", count: 44, icon: "route" },
+      { id: "module2", name: "Modules 3 & 5", topic: "Sécurité des réseaux", count: 56, icon: "shield" },
+      { id: "module3", name: "Modules 6 & 8", topic: "Concepts WAN", count: 52, icon: "network" },
+      { id: "module4", name: "Modules 9 & 12", topic: "Optimisation, surveillance et dépannage des réseaux", count: 53, icon: "chart" },
+      { id: "module5", name: "Modules 13 & 14", topic: "Technologies de réseau émergentes", count: 34, icon: "layers" },
+      { id: "module6", name: "Examen final", topic: "Examen final du cours CCNA 3 (ENSAv7)", count: 127, icon: "trophy" }
+    ]
+  },
   csna: {
     label: "CSNA",
     title: "Certified Stormshield Network Administrator",

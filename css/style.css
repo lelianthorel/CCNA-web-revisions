@@ -183,10 +183,17 @@ svg { width: 1em; height: 1em; vertical-align: middle; flex: none; }
 /* ---------- Hero ---------- */
 .hero { padding-top: 30px; max-width: 760px; }
 .eyebrow { display: inline-flex; align-items: center; gap: 8px; padding: 5px 12px; border-radius: 6px; background: var(--primary-soft); color: var(--primary); font-weight: 650; font-size: .8rem; letter-spacing: .02em; text-transform: uppercase; }
+.badge-new { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; background: var(--success-soft); color: var(--success); font-size: .68rem; font-weight: 750; letter-spacing: .05em; text-transform: uppercase; vertical-align: middle; }
 .hero h1 { font-size: clamp(1.9rem, 4.6vw, 2.9rem); font-weight: 800; margin: 18px 0 14px; letter-spacing: -.025em; }
 .hero h1 .accent { color: var(--primary); }
 .hero p.lead { font-size: clamp(1rem, 2vw, 1.15rem); color: var(--text-muted); max-width: 60ch; margin: 0 0 24px; }
 .hero__cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.announce { display: inline-flex; align-items: center; gap: 10px; margin-top: 20px; padding: 9px 14px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); box-shadow: var(--shadow-sm); color: var(--text); font-size: .9rem; transition: border-color .16s, box-shadow .16s, transform .16s; }
+.announce:hover { border-color: var(--border-strong); box-shadow: var(--shadow-md); transform: translateY(-1px); text-decoration: none; }
+.announce__text { font-weight: 600; }
+.announce__go { display: inline-flex; color: var(--primary); }
+.announce__go svg { width: 16px; height: 16px; }
+@media (max-width: 620px) { .announce { border-radius: var(--radius-lg); align-items: flex-start; } }
 
 /* ---------- Track cards ---------- */
 .track { position: relative; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 22px; box-shadow: var(--shadow-sm); transition: box-shadow .16s, border-color .16s, transform .16s; }

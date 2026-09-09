@@ -1,0 +1,720 @@
+[
+    {
+        "question": "En règle générale, quelles sont les raisons qui poussent les cybercriminels à attaquer des réseaux, en comparaison d’hacktivistes ou de pirates agissant pour le compte d’un État ?",
+        "choices": [
+            "La reconnaissance de leurs pairs",
+            "Des raisons politiques",
+            "gain financier",
+            "La recherche de la gloire"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel type de hacker agit pour des raisons politiques et sociales ?",
+        "choices": [
+            "cybercriminel",
+            "Hacktiviste",
+            "testeur de vulnérabilité",
+            "script kiddie"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Parmi les propositions suivantes, laquelle décrit le mieux un cheval de Troie ?",
+        "choices": [
+            "Il s’agit de la forme de programme malveillant la plus facile à détecter.",
+            "Il s’agit d’un logiciel qui entraîne des désagréments pour l’utilisateur, mais pas de problèmes irrécupérables pour l’ordinateur.",
+            "Il s’agit d’un programme malveillant qui ne peut être distribué que sur Internet.",
+            "Il se présente sous la forme d’un logiciel utile, mais dissimule un code malveillant."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Un utilisateur reçoit un appel téléphonique d’une personne qui prétend représenter des services informatiques et qui lui demande de confirmer son nom d’utilisateur et son mot de passe à des fins d’audit. Quelle menace cet appel téléphonique représente-t-il pour la sécurité ?",
+        "choices": [
+            "Manipulation psychologique",
+            "Courrier indésirable",
+            "DDoS",
+            "Enregistrement anonyme des frappes"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Qu’est-ce qu’un balayage ping ?",
+        "choices": [
+            "Une technique d’analyse du réseau qui indique les hôtes actifs dans une plage d’adresses IP.",
+            "Un protocole de type requête/réponse qui identifie des informations relatives à un domaine, y compris les adresses qui lui sont attribuées.",
+            "Une application logicielle qui permet de capturer tous les paquets réseau envoyés sur un LAN.",
+            "Une technique d’analyse qui examine une plage de numéros de port TCP ou UDP sur un hôte afin de détecter les services d’écoute."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "De quelle façon les zombies sont-ils utilisés dans les attaques contre la sécurité ?",
+        "choices": [
+            "Il s’agit de segments de code créés de façon malveillante pour remplacer des applications légitimes.",
+            "Ils ciblent des personnes précises pour obtenir les informations d’entreprises ou des informations personnelles.",
+            "Ce sont des ordinateurs infectés qui effectuent une attaque par déni de service (DDoS).",
+            "Ils sondent un groupe de machines pour trouver des ports ouverts afin de déterminer quels services sont en fonctionnement."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel masque générique correspondra aux réseaux 172.16.0.0 à 172.19.0.0?",
+        "choices": [
+            "0.0.3.255",
+            "0.252.255.255",
+            "0.3.255.255",
+            "0.0.255.255"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quels filtres de paquet un administrateur réseau peut-il utiliser sur une liste de contrôle d’accès étendue IPv4 ? (Choisissez deux réponses.)",
+        "choices": [
+            "Adresse MAC de destination",
+            "Adresse Hello TCP source",
+            "Type de message ICMP",
+            "Numéro de port UDP de destination",
+            "Type d’ordinateur"
+        ],
+        "answers": [
+            2,
+            3
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. L’étudiant sur l’ordinateur H1 continue à lancer une requête ping étendue avec des paquets étendus à l’étudiant sur l’ordinateur H2. L’administrateur réseau de l’établissement scolaire souhaite mettre un terme à ce comportement, tout en continuant à autoriser les deux étudiants à accéder aux devoirs informatiques basés sur le Web. Quelle est la meilleure méthode que l’administrateur réseau doit suivre pour ce faire ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_172847.jpg",
+        "choices": [
+            "Appliquer une liste de contrôle d’accès étendue entrante sur R1 Gi0/0.",
+            "Appliquer une liste de contrôle d’accès étendue sortante sur R1 S0/0/1.",
+            "Appliquer une liste de contrôle d’accès standard sortante sur R2 S0/0/1.",
+            "Appliquer une liste de contrôle d’accès étendue entrante sur R2 Gi0/1.",
+            "Appliquer une liste de contrôle d’accès standard entrante sur R1 Gi0/0."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel type d’ACL offre une grande flexibilité et un meilleur contrôle sur l’accès au réseau?",
+        "choices": [
+            "flexible",
+            "Numérotée standard",
+            "Standard nommée",
+            "étendu"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Un administrateur réseau configure une liste de contrôle d’accès IPv4 standard. Que se passe-t-il après l’exécution de la commande no access-list 10 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173040.jpg",
+        "choices": [
+            "La liste de contrôle d’accès 10 sera désactivée et supprimée après le redémarrage de R1.",
+            "La liste de contrôle d’accès 10 est désactivée sur Fa0/1.",
+            "La liste de contrôle d’accès 10 est supprimée de la configuration en cours et de l’interface Fa0/1.",
+            "La liste de contrôle d’accès 10 est supprimée de la configuration en cours."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré l’ACL 9 comme indiqué. Les utilisateurs sur le réseau 172.31.1.0 /24 ne peuvent pas transférer le trafic via le routeur CiscoVille. Quelle est la cause la plus probable de la défaillance de la circulation ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173135.jpg",
+        "choices": [
+            "L’instruction permit spécifie un masque générique incorrect.",
+            "Le numéro de port du trafic n’a pas été identifié avec le mot-clé eq .",
+            "La séquence des ACEs est incorrecte.",
+            "Le mot-clé établi n’est pas spécifié."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Un administrateur réseau doit configurer une ACL standard afin que seule la station de travail de l’administrateur avec l’adresse IP 192.168.15.23 puisse accéder au terminal virtuel du routeur principal. Quelles sont les deux commandes de configuration qui peuvent accomplir la tâche? Citez-en deux.",
+        "choices": [
+            "Router1(config)# access-list 10 permit 192.168.15.23 0.0.0.0",
+            "Router1(config)# access-list 10 permit 192.168.15.23 0.0.0.255",
+            "Router1 (config)# access-list 10 permit 192.168.15.23 255.255.255.255",
+            "Router1 (config)# access-list 10 permit host 192.168.15.23",
+            "Router1 (config)# access-list 10 permit 192.168.15.23 255.255.255.0"
+        ],
+        "answers": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quelle commande est utilisée dans une liste de contrôle d’accès standard pour autoriser uniquement les périphériques sur le réseau qui sont connectés à l’interface G0/0 de R2 à accéder aux réseaux connectés à R1 ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173223.jpg",
+        "choices": [
+            "access-list 1 permit 192.168.10.96 0.0.0.31",
+            "access-list 1 permit 192.168.10.0 0.0.0.255",
+            "access-list 1 permit 192.168.10.0 0.0.0.63",
+            "access-list 1 permit 192.168.10.128 0.0.0.63"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un administrateur réseau établit une liste de contrôle d’accès standard qui interdira tout trafic venant du réseau 172.16.0.0/16 mais autorisera tous les autres trafics. Quelles sont les deux commandes à utiliser ? (Choisissez deux réponses.)",
+        "choices": [
+            "Router(config)# access-list 95 host 172.16.0.0",
+            "Router(config)# access-list 95 deny any",
+            "Router(config)# access-list 95 deny 172.16.0.0 0.0.255.255",
+            "Router(config)# access-list 95 deny 172.16.0.0 255.255.0.0",
+            "Router(config)# access-list 95 permit any",
+            "Router(config)# access-list 95 172.16.0.0 255.255.255.255"
+        ],
+        "answers": [
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Une liste de contrôle d’accès a été configurée sur R1 afin de refuser l’entrée du trafic venant du sous-réseau 172.16.4.0/24 dans le sous-réseau 172.16.3.0/24. Tout autre trafic entrant dans le sous-réseau 172.16.3.0/24 est autorisé. Cette liste de contrôle d’accès standard est ensuite appliquée en sortie sur l’interface Fa0/0. Quelles conclusions pouvez-vous tirer de cette configuration ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173300.jpg",
+        "choices": [
+            "La liste de contrôle d’accès devrait être appliquée comme interface de sortie sur toutes les interfaces de R1.",
+            "Une liste de contrôle d’accès étendue doit être utilisée dans cette situation.",
+            "Seul le trafic venant du sous-réseau 172.16.4.0/24 est bloqué, et tout autre trafic est autorisé.",
+            "Tous les trafics seront bloqués, pas seulement le trafic venant du sous-réseau 172.16.4.0/24.",
+            "La liste de contrôle d’accès doit être appliquée à l’interface FastEthernet 0/0 de R1 en tant qu’interface d’entrée pour répondre aux exigences."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur réseau souhaite ajouter une entrée ACE à la liste de contrôle d’accès TRAFFIC-CONTROL pour refuser le trafic IP du sous-réseau 172.23.16.0/20. Quelle entrée ACE répond à cette exigence ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173338.jpg",
+        "choices": [
+            "15 deny 172.23.16.0 0.0.15.255",
+            "30 deny 172.23.16.0 0.0.15.255",
+            "5 deny 172.23.16.0 0.0.255.255",
+            "5 deny 172.23.16.0 0.0.15.255"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quel est l’effet de la commande Router1(config-ext-nacl)# permit tcp 172.16.4.0 0.0.0.255 any eq www lors de son implémentation en entrée sur l’interface f0/0 ?",
+        "choices": [
+            "Tout le trafic en provenance du réseau 172.16.4.0/24 est autorisé partout, sur tout port.",
+            "La commande est refusée par le routeur car elle est incomplète.",
+            "Le trafic en provenance du réseau 172.16.4.0/24 est autorisé sur l’ensemble des destinations de port 80 TCP.",
+            "Tout le trafic TCP est autorisé et tout autre trafic est refusé."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Quelles conclusions pouvez-vous tirer de ces informations ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173417.jpg",
+        "choices": [
+            "Le routeur n’a reçu aucun paquet Telnet provenant de 10.35.80.22 et destiné à 10.23.77.101.",
+            "La liste de contrôle d’accès surveille uniquement le trafic destiné à 10.23.77.101 et provenant de trois hôtes spécifiques.",
+            "La liste de contrôle d’accès est dépourvue d’une entrée deny ip any any.",
+            "Comme il n’existe aucune correspondance pour la ligne 10, la liste de contrôle d’accès ne fonctionne pas."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "À quoi change l’invite CLI après avoir entré la commande ip access-list standard aaa à partir du mode de configuration global?",
+        "choices": [
+            "Router(config-std-nacl)#",
+            "Router(config)#",
+            "Router(config-router)#",
+            "Router(config-line)#",
+            "Router(config-if)#"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Une nouvelle politique de réseau exige qu’une ACL refuse à tous les utilisateurs l’accès FTP et Telnet à un serveur de fichiers Corp. L’adresse du serveur de fichiers est 172.16.1.15 et tous les utilisateurs se voient attribuer des adresses dans le réseau 172.18.200.0/24. Après la mise en œuvre de l’ACL, personne dans le réseau de Corp ne peut accéder à aucun des serveurs. Quel est le problème?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173500.jpg",
+        "choices": [
+            "Les listes ACL nommées nécessitent l’utilisation de numéros de port.",
+            "La liste de contrôle d’accès est appliquée à une mauvaise interface et dans la mauvaise direction.",
+            "L’ACL refuse implicitement l’accès à tous les serveurs.",
+            "Les listes ACL entrantes doivent être routées avant qu’elles ne soient traitées."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Considérez la liste d’accès suivante.<br>access-list 100 permit ip host 192.168.10.1 any<br>access-list 100 deny icmp 192.168.10.0 0.0.255 any echo<br>access-list 100 permit ip any any<br>Deux actions sont prises si le liste d’accès est placé entrant sur un routeur port Gigabit Ethernet qui a l’adresse IP 192.168.10.254 attribué? (Choisissez deux réponses.)",
+        "choices": [
+            "Une session Telnet ou SSH est autorisée à partir de n’importe quel périphérique sur le 192.168.10.0 dans le routeur avec cette liste d’accès attribuée.",
+            "Seules les connexions de couche 3 peuvent être effectuées à partir du routeur vers n’importe quel autre périphérique réseau.",
+            "Seul le périphérique réseau attribué à l’adresse IP 192.168.10.1 est autorisé à accéder au routeur.",
+            "Les périphériques du réseau 192.168.10.0/24 peuvent effectuer un ping sur les périphériques du réseau 192.168.11.0.",
+            "Les périphériques du réseau 192.168.10.0/24 ne sont pas autorisés à répondre à des requêtes ping."
+        ],
+        "answers": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Lors de quelle attaque TCP le cybercriminel tente-t-il de submerger un hôte cible au moyen de connexions TCP semi-ouvertes ?",
+        "choices": [
+            "Attaque par réinitialisation",
+            "Attaque par piratage de sessions",
+            "Attaque par inondation SYN",
+            "Attaque par analyse de ports"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quel protocole est attaqué lorsqu’un cybercriminel fournit une passerelle non valide afin de lancer une attaque de l’homme du milieu ?",
+        "choices": [
+            "HTTP ou HTTPS",
+            "DHCP",
+            "ICMP",
+            "DNS"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur a configuré une liste ACL standard sur R1 et l’a appliqué à l’interface série 0/0/0 dans le sens sortant. Qu’arrive-t-il au trafic quittant l’interface série 0/0/0 qui ne correspond pas aux instructions ACL configurés ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173553.jpg",
+        "choices": [
+            "L’action résultante est déterminée par l’adresse IP de destination.",
+            "L’action résultante est déterminée par l’adresse IP de destination et le numéro de port.",
+            "le trafic est abandonné.",
+            "L’adresse IP source est vérifiée et, si une correspondance n’est pas trouvée, le trafic est acheminé vers l’interface série 0/0/1."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Examinez l’illustration. Les interfaces Gigabit sur les deux routeurs ont été configurées avec les numéros de sous-interface correspondant aux numéros des VLAN qui leur sont connectés. Les PC sur le VLAN 10 doivent pouvoir imprimer sur l’imprimante P1 du VLAN 12. Les PC sur le VLAN 20 doivent pouvoir imprimer sur les imprimantes du VLAN 22. Dans quelle interface, et dans quelle direction, devez-vous placer une liste de contrôle d’accès standard permettant l’impression sur P1 à partir du VLAN de données 10, mais empêchant les PC du VLAN 20 d’utiliser l’imprimante P1 ? (Choisissez deux réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173629.jpg",
+        "choices": [
+            "entrante",
+            "R2 Gi0/1.20",
+            "R2 S0/0/1",
+            "R1 Gi0/1.12",
+            "sortante",
+            "R1 S0/0/0"
+        ],
+        "answers": [
+            3,
+            4
+        ]
+    },
+    {
+        "question": "Quelle affirmation décrit une caractéristique des listes de contrôle d’accès IPv4 standard ?",
+        "choices": [
+            "Elles sont configurées en mode de configuration d’interface.",
+            "Elles peuvent être configurées de manière à filtrer le trafic en fonction des adresses IP source et des ports source.",
+            "Elles filtrent le trafic en fonction des adresses IP source uniquement.",
+            "Elles peuvent être créées avec un numéro, mais pas avec un nom."
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle est la meilleure pratique lors de la configuration des ACL sur des lignes vty?",
+        "choices": [
+            "Supprimer le mot de passe vty car l’ACL limite l’accès aux utilisateurs approuvés.",
+            "Utiliser uniquement des listes d’accès étendues.",
+            "Appliquer la commande ip access-group entrante.",
+            "Placer des restrictions identiques sur toutes les lignes vty."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur a d’abord configuré une liste ACL étendue comme indiqué par la sortie de la commande show access-lists . L’administrateur a ensuite modifié cette liste d’accès en exécutant les commandes ci-dessous.<br>Router(config)# ip access-list extended 101<br>Router(config-ext-nacl)# no 20<br>Router(config-ext-nacl)# 5 permit tcp any any eq 22<br>Router(config-ext-nacl)# 20 deny udp any any<br>Quelles deux conclusions peut-on tirer de cette nouvelle configuration?​ (Choisissez deux.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173741.jpg",
+        "choices": [
+            "Les paquets SSH seront autorisés.",
+            "Tous les paquets TCP et UDP seront refusés.",
+            "Les paquets Telnet seront autorisés.",
+            "Les paquets TFTP seront autorisés.",
+            "Les paquets ping seront autorisés."
+        ],
+        "answers": [
+            0,
+            4
+        ]
+    },
+    {
+        "question": "Quel est le terme utilisé pour décrire la garantie qu’il ne s’agit pas d’un faux message et qu’il provient réellement du propriétaire. ?",
+        "choices": [
+            "des risques",
+            "L’authentification de l’origine",
+            "exploit",
+            "atténuation"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Le réseau 192.168.30.0/24 contient tous les serveurs de l’entreprise. La stratégie exige que le trafic des serveurs vers les deux réseaux 192.168.10.0 et 192.168.11.0 soit limité aux réponses pour les demandes d’origine. Quel est le meilleur type et placement ACL à utiliser dans cette situation ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_173928.jpg",
+        "choices": [
+            "ACL étendues entrantes sur R1 G0/0 et G0/1",
+            "ACL étendue entrante sur R3 S0/0/1",
+            "ACL entrante étendue sur R3 G0/0",
+            "ACL entrante standard sur les lignes R1 vty"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Un technicien est chargé d’utiliser les ACLs pour sécuriser un routeur. Quand le technicien utiliserait-il l’option ou la commande de configuration access-class 20 in ?",
+        "choices": [
+            "pour supprimer une liste ACL configurée",
+            "pour sécuriser l’accès administratif au routeur",
+            "pour appliquer une liste ACL standard à une interface",
+            "pour supprimer une liste ACL d’une interface"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quelle affirmation caractérise avec précision l’évolution des menaces à la sécurité du réseau?",
+        "choices": [
+            "Les premiers utilisateurs d’Internet se livraient souvent à des activités susceptibles de nuire à d’autres utilisateurs.",
+            "Les architectes Internet ont prévu la sécurité du réseau dès le début.",
+            "Les menaces sont devenues moins sophistiquées tandis que les connaissances techniques nécessaires à un attaquant ont augmenté.",
+            "Les menaces internes peuvent causer des dommages encore plus importants que les menaces externes."
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Par quel type d’attaque un cybercriminel tente-t-il d’empêcher les utilisateurs légitimes d’accéder à des services réseau ?",
+        "choices": [
+            "MITM",
+            "DoS",
+            "Piratage de session",
+            "usurpation d’adresse"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Dans quel type d’attaque des informations falsifiées sont-elles utilisées pour rediriger les utilisateurs vers des sites Internet malveillants ?",
+        "choices": [
+            "Empoisonnement du cache DNS",
+            "Empoisonnement du cache ARP",
+            "Génération de domaine",
+            "Amplification et réflexion DNS"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quelle exigence de communications sécurisées est assurée par la mise en œuvre d’algorithmes de génération de hachage MD5 ou SHA?​",
+        "choices": [
+            "non répudiation",
+            "Intégrité",
+            "Confidentialité",
+            "Authentification"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quels sont les mots clés que vous pouvez utiliser dans une liste de contrôle d’accès pour remplacer un masque générique, ou un couple d’adresse et de masque générique? (Choisissez deux réponses.)",
+        "choices": [
+            "any",
+            "host",
+            "some",
+            "most",
+            "gt",
+            "all"
+        ],
+        "answers": [
+            0,
+            1
+        ]
+    },
+    {
+        "question": "Quelle est la méthode la plus rapide pour supprimer une entrée ACE unique d’une liste de contrôle d’accès nommée ?",
+        "choices": [
+            "Utiliser la commande no access-list pour supprimer l’ensemble de la liste de contrôle d’accès, puis la recréer sans une entrée ACE.",
+            "Utiliser le mot clé no et le numéro de séquence de l’entrée ACE à supprimer.",
+            "Créer une nouvelle liste de contrôle d’accès avec un numéro différent et appliquer la nouvelle liste de contrôle d’accès à l’interface du routeur.",
+            "Copier la liste de contrôle d’accès dans un éditeur de texte, supprimer l’entrée ACE, puis copier à nouveau la liste de contrôle d’accès sur le routeur."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel ACE autorisera un paquet provenant de n’importe quel réseau et destiné à un serveur Web à 192.168.1.1?",
+        "choices": [
+            "access-list 101 permit tcp host 192.168.1.1 any eq 80",
+            "access-list 101 permit tcp host 192.168.1.1 eq 80 any",
+            "access-list 101 permit tcp any host 192.168.1.1 eq 80",
+            "access-list 101 permit tcp any eq 80 host 192.168.1.1"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Consultez la figure. La liste de contrôle d’accès nommée « Gestionnaires » existe déjà dans le routeur. Que se passera-t-il lorsque l’administrateur réseau émettra les commandes indiquées dans la figure ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_094023.jpg",
+        "choices": [
+            "Les commandes seront ajoutées à la fin de la liste de contrôle d’accès Gestionnaires existante.",
+            "Les nouvelles commandes seront ajoutées au début de la liste de contrôle d’accès Gestionnaires existante.",
+            "Les commandes remplaceront la liste de contrôle d’accès Gestionnaires existante.",
+            "L’administrateur réseau recevra un message d’erreur stipulant que la liste de contrôle d’accès existe déjà."
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel est le terme utilisé pour décrire les criminels contraires à l’éthique qui compromettent la sécurité de l’ordinateur et du réseau pour un gain personnel ou pour des raisons malveillantes?",
+        "choices": [
+            "testeur de vulnérabilité",
+            "hacktivistes",
+            "script kiddies (hackers néophytes)",
+            "pirates au chapeau noir"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. La société a fourni des téléphones IP aux employés sur le réseau 192.168.10.0/24 et le trafic vocal aura besoin de priorité sur le trafic de données. Quel est le meilleur type et placement ACL à utiliser dans cette situation?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_094300.jpg",
+        "choices": [
+            "ACL entrante étendue sur R3 G0/0",
+            "ACL entrante étendue sur R3 G0/0",
+            "ACL entrante standard sur R1 G0/1",
+            "ACL entrante standard sur les lignes R1 vty"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un technicien est chargé d’utiliser les ACL pour sécuriser un routeur. Quand le technicien utiliserait-il l’option ou la commande de configuration no ip access-list 101 ?",
+        "choices": [
+            "pour appliquer une liste ACL à toutes les interfaces de routeur",
+            "pour sécuriser l’accès administratif au routeur",
+            "pour supprimer une liste ACL configurée",
+            "pour supprimer toutes les ACL du routeur"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Quelle affirmation décrit la différence entre le fonctionnement d’une liste de contrôle d’accès entrante et le fonctionnement d’une liste de contrôle d’accès sortante ?",
+        "choices": [
+            "Sur une interface réseau, il est possible de configurer plusieurs listes de contrôle d’accès entrantes, mais une liste de contrôle d’accès sortante uniquement.",
+            "Les listes de contrôle d’accès entrantes sont traitées avant que les paquets soient acheminés, alors que les listes de contrôle d’accès sortantes sont traitées une fois le routage terminé.",
+            "Contrairement aux listes de contrôle d’accès sortantes, les listes de contrôle d’accès entrantes peuvent être utilisées pour filtrer les paquets selon plusieurs critères.",
+            "Les listes de contrôle d’accès entrantes peuvent être utilisées indifféremment sur les routeurs et les commutateurs, tandis que les listes de contrôle d’accès sortantes peuvent être utilisées uniquement sur les routeurs."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur ne souhaite autoriser l’accès au serveur 192.168.2.1 /24 qu’à l’hôte 192.168.1.1 /24. Quelles sont les trois commandes utilisant les bonnes pratiques relatives au placement des ACL qui permettront de réaliser cette action ? (Choisissez trois propositions.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-13_144615.jpg",
+        "choices": [
+            "R2(config)# access-list 101 permit ip 192.168.1.0 255.255.255.0 192.168.2.0 255.255.255.0",
+            "R2(config)# access-list 101 permit ip any any",
+            "R2(config)# interface fastethernet 0/1",
+            "R2(config)# access-list 101 permit ip host 192.168.1.1 host 192.168.2.1",
+            "R2(config-if)# ip access-group 101 out",
+            "R2(config)# interface fastethernet 0/0",
+            "R2(config-if)# ip access-group 101 in"
+        ],
+        "answers": [
+            3,
+            5,
+            6
+        ]
+    },
+    {
+        "question": "Quel est le terme utilisé pour décrire les pirates attaquant du chapeau gris qui protestent publiquement des organisations ou des gouvernements en publiant des articles, des vidéos, des fuites d’informations sensibles et en effectuant des attaques réseau?",
+        "choices": [
+            "Pirates au chapeau blanc",
+            "Pirates au chapeau gris",
+            "Pirates Parrainés par l’État",
+            "hacktivistes"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Quelle attaque implique des acteurs de menace se positionnant entre une source et une destination dans le but de surveiller, capturer et contrôler la communication de manière transparente?",
+        "choices": [
+            "attaque par déni de service (DoS)",
+            "Attaque par inondation SYN",
+            "attaque d’homme-au-milieu",
+            "Attaque ICMP"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. De nombreux employés perdent du temps à accéder aux médias sociaux sur leurs ordinateurs de travail. La société veut arrêter cet accès. Quel est le meilleur type et placement ACL à utiliser dans cette situation?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i386651n1v3.jpg",
+        "choices": [
+            "ACL sortante standard sur l’interface WAN R2 vers Internet",
+            "ACL étendues entrantes sur R1 G0/0 et G0/1",
+            "ACL sortante standard sur R2 S0/0/0",
+            "ACL étendue sortante sur l’interface WAN R2 vers l’internet"
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Quel est le terme utilisé pour décrire un danger potentiel pour les actifs, les données ou les fonctionnalités réseau d’une entreprise?",
+        "choices": [
+            "menace",
+            "exploit",
+            "vulnérabilité",
+            "Algorithmes de chiffrement asymétrique"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un technicien est chargé d’utiliser les ACLs pour sécuriser un routeur. Quand le technicien utiliserait-il l’option ou la commande de configuration ip access-group 101 ?",
+        "choices": [
+            "pour sécuriser l’accès administratif au routeur",
+            "pour créer une entrée dans une liste ACL numérotée",
+            "pour appliquer une liste ACL à toutes les interfaces de routeur",
+            "pour appliquer une ACL étendue à une interface"
+        ],
+        "answers": [
+            3
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Un administrateur réseau configure une liste ACL sur le routeur. Quelle affirmation décrit le résultat de la configuration ?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i386453n1v3.jpg",
+        "choices": [
+            "Une connexion Telnet est autorisée à partir d’un poste de travail avec IP 172.16.45.16 vers un périphérique avec IP 192.168.25.18.",
+            "Une connexion SSH est autorisée à partir d’un poste de travail avec IP 192.168.25.18 vers un périphérique avec IP 172.16.45.16.",
+            "Une connexion Telnet est autorisée à partir d’un poste de travail avec IP 192.168.25.18 à un périphérique avec IP 172.16.45.16.",
+            "Une connexion SSH est autorisée à partir d’un poste de travail avec IP 172.16.45.16 vers un périphérique avec IP 192.168.25.18."
+        ],
+        "answers": [
+            1
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. Quelles deux ACL permettraient uniquement aux deux réseaux LAN connectés à R1 d’accéder au réseau qui se connecte à l’interface R2 G0/1 ? (Choisissez deux réponses.)",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i386501n1v3.jpg",
+        "choices": [
+            "access-list 3 permit 192.168.10.128 0.0.0.63",
+            "access-list 1 permit 192.168.10.0 0.0.0.127",
+            "access-list 5 permit 192.168.10.0 0.0.0.63<br>access-list 5 permit 192.168.10.64 0.0.0.63",
+            "access-list 4 permit 192.168.10.0 0.0.0.255",
+            "access-list 2 permit host 192.168.10.9<br>access-list 2 permit host 192.168.10.69"
+        ],
+        "answers": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Reportez-vous à l’illustration. L’administrateur réseau a une adresse IP 192.168.11.10 et a besoin d’un accès pour gérer R1. Quel est le meilleur type et placement ACL à utiliser dans cette situation?",
+        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i386651n1v3.jpg",
+        "choices": [
+            "ACL sortante standard sur R2 S0/0/0",
+            "ACL entrante standard sur l’interface WAN R2 se connectant à l’internet",
+            "ACL entrante standard sur les lignes R1 vty",
+            "ACL étendue entrante sur R2 S0/0/0"
+        ],
+        "answers": [
+            2
+        ]
+    },
+    {
+        "question": "Si un algorithme asymétrique utilise une clé publique pour chiffrer les données, quel outil est utilisé pour la déchiffrer ?",
+        "choices": [
+            "Une clé privée",
+            "DH",
+            "Un certificat numérique",
+            "Une autre clé publique"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Un technicien est chargé d’utiliser les listes ACL pour sécuriser un routeur. Quand le technicien utiliserait-il l’option ou la commande de configuration ip access-group 101 ?",
+        "choices": [
+            "pour appliquer une ACL étendue à une interface",
+            "pour sécuriser l’accès administratif au routeur",
+            "pour afficher tout le trafic restreint",
+            "pour sécuriser le trafic de gestion dans le routeur"
+        ],
+        "answers": [
+            0
+        ]
+    },
+    {
+        "question": "Quel ensemble d’entrées de contrôle d’accès permettrait à tous les utilisateurs du réseau 192.168.10.0/24 d’accéder à un serveur Web situé à l’adresse 172.17.80.1, sans toutefois les autoriser à utiliser le protocole Telnet ?",
+        "choices": [
+            "access-list 103 permit tcp 192.168.10.0 0.0.0.255 host 172.17.80.1 eq 80<br>access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq 23",
+            "access-list 103 permit tcp 192.168.10.0 0.0.0.255 any eq 80<br>access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq 23",
+            "access-list 103 deny tcp host 192.168.10.0 any eq 23<br>access-list 103 permit tcp host 192.168.10.1 eq 80",
+            "access-list 103 permit 192.168.10.0 0.0.0.255 host 172.17.80.1<br>access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq telnet"
+        ],
+        "answers": [
+            0
+        ]
+    }
+]
