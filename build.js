@@ -34,6 +34,9 @@ const ANTIFOUC = `  <script>
     (function(){ try { var t = localStorage.getItem("ccna-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch(e){} })();
   </script>`;
 
+// Mesure d'audience sans cookie (Cloudflare Web Analytics)
+const CF_ANALYTICS = `  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "af27cfff3d654610957d63cd2315cc37"}'></script><!-- End Cloudflare Web Analytics -->`;
+
 function jsonld(obj) {
   return `  <script type="application/ld+json">\n${JSON.stringify(obj, null, 2)}\n  </script>`;
 }
@@ -302,6 +305,7 @@ ${ldBlocks}
 </head>
 <body>
 ${body}
+${CF_ANALYTICS}
 </body>
 </html>
 `;
