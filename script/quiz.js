@@ -71,6 +71,10 @@
     .catch(() => {
       loader.style.display = "none";
       errorBox.style.display = "";
+      if (!meta) {
+        $("error-title").textContent = "Module introuvable";
+        $("error-msg").textContent = "Ce lien ne correspond à aucun module. Choisis-le depuis l’accueil.";
+      }
     });
 
   function shuffle(a) {
@@ -156,7 +160,7 @@
     examLength = Math.min(chosenLength, all.length);
     startQuiz(shuffle(all.slice()).slice(0, examLength));
   });
-  $("btn-change-mode").addEventListener("click", showSetup);
+  $("btn-change-mode").addEventListener("click", () => { showSetup(); $("mode-train").focus(); });
 
   // Chronomètre
   let examTotal = 0;
@@ -197,7 +201,7 @@
 
   function logWrong(q, given) {
     const correct = [...q.answers].sort((a, b) => a - b).map(i => q.choices[i]).join(" · ");
-    wrong.push({ question: q.question, image: q.image || null, choices: q.choices, answers: q.answers, given, correct });
+    wrong.push({ src: q, question: q.question, given, correct });
   }
 
   function startQuiz(set, retry = false) {
@@ -245,7 +249,8 @@
       qMulti.style.display = "none";
     }
 
-    if (q.image) { qImage.src = q.image; qImage.style.display = ""; qImage.alt = "Illustration : " + (q.question || "").replace(/<[^>]*>/g, "").slice(0, 80); }
+    // Taille réservée avant le chargement : sinon les choix descendent sous le doigt.
+    if (q.image) { qImage.width = q.w; qImage.height = q.h; qImage.src = q.image; qImage.style.display = ""; qImage.alt = "Illustration : " + (q.question || "").replace(/<[^>]*>/g, "").slice(0, 80); }
     else { qImage.style.display = "none"; qImage.removeAttribute("src"); }
 
     choicesBox.innerHTML = "";
@@ -254,7 +259,8 @@
       btn.type = "button";
       btn.className = "choice";
       btn.dataset.index = index;
-      btn.innerHTML = `<span class="choice__mark"><span class="mk-letter">${LETTERS[index] || (index + 1)}</span><span class="mk-check">${icon("check")}</span></span><span class="choice__label">${choice}</span>`;
+      btn.innerHTML = `<span class="choice__mark"><span class="mk-letter">${LETTERS[index] || (index + 1)}</span><span class="mk-check">${icon("check")}</span><span class="mk-x">${icon("x")}</span></span><span class="choice__label">${choice}</span>`;
+      if (mode === "exam" || multi) btn.setAttribute("aria-pressed", "false");
       btn.addEventListener("click", () => onChoice(index));
       choicesBox.appendChild(btn);
     });
@@ -284,36 +290,28 @@
     // Relance l'animation d'entrée de la carte.
     $("qcard").classList.remove("fade-in"); void $("qcard").offsetWidth; $("qcard").classList.add("fade-in");
     // Le bouton « Suivant » vient d'être masqué : sans ça, le focus retombe en haut de page.
-    $("qcard").focus();
+    $("qcard").focus({ preventScroll: true });
+    quizEl.querySelector(".quiz-head").scrollIntoView({ block: "nearest" });
   }
 
   function onChoice(index) {
     if (answered) return;
     const q = questions[current];
     const multi = q.answers.length > 1;
-    const btn = choicesBox.querySelector(`[data-index="${index}"]`);
+    if (!multi) selected = [index];
+    else selected = selected.includes(index) ? selected.filter(i => i !== index) : [...selected, index];
 
     // Examen : on sélectionne librement, rien n'est corrigé ni révélé.
-    if (mode === "exam") {
-      if (multi) {
-        if (selected.includes(index)) { selected = selected.filter(i => i !== index); btn.classList.remove("is-selected"); }
-        else { selected.push(index); btn.classList.add("is-selected"); }
-      } else {
-        selected = [index];
-        choicesBox.querySelectorAll(".choice").forEach(b => b.classList.toggle("is-selected", b === btn));
-      }
-      btnExamNext.disabled = selected.length === 0;
+    if (mode === "exam" || multi) {
+      choicesBox.querySelectorAll(".choice").forEach(b => {
+        const on = selected.includes(+b.dataset.index);
+        b.classList.toggle("is-selected", on);
+        b.setAttribute("aria-pressed", on);
+      });
+      (mode === "exam" ? btnExamNext : btnValidate).disabled = selected.length === 0;
       return;
     }
-
-    if (!multi) {
-      selected = [index];
-      check();
-    } else {
-      if (selected.includes(index)) { selected = selected.filter(i => i !== index); btn.classList.remove("is-selected"); }
-      else { selected.push(index); btn.classList.add("is-selected"); }
-      btnValidate.disabled = selected.length === 0;
-    }
+    check();
   }
 
   btnValidate.addEventListener("click", () => { if (!answered && selected.length) check(); });
@@ -339,8 +337,10 @@
       btn.disabled = true;
       const idx = +btn.dataset.index;
       btn.classList.remove("is-selected");
-      if (correct.includes(idx)) btn.classList.add("correct");
-      else if (user.includes(idx)) btn.classList.add("wrong");
+      btn.removeAttribute("aria-pressed");
+      // Le vert et le rouge ne suffisent pas : l'état est aussi dit aux lecteurs d'écran.
+      if (correct.includes(idx)) { btn.classList.add("correct"); btn.insertAdjacentHTML("beforeend", `<span class="sr-only"> — bonne réponse</span>`); }
+      else if (user.includes(idx)) { btn.classList.add("wrong"); btn.insertAdjacentHTML("beforeend", `<span class="sr-only"> — ta réponse, fausse</span>`); }
     });
 
     validateWrap.style.display = "none";
@@ -433,7 +433,8 @@
       mistakesEl.innerHTML = `<div class="empty-good">${icon("check")} Aucune erreur sur ce quiz.</div>`;
       $("btn-retry-wrong").style.display = "none";
     }
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    recapEl.querySelector(".recap__score").focus({ preventScroll: true });
+    window.scrollTo(0, 0); // le défilement doux vient du CSS, coupé si prefers-reduced-motion
   }
 
   // Recommencer : nouveau tirage en examen, module entier en entraînement.
@@ -444,7 +445,7 @@
 
   // Rejouer ses erreurs se fait toujours en entraînement : on veut la correction.
   $("btn-retry-wrong").addEventListener("click", () => {
-    const set = wrong.map(w => ({ question: w.question, choices: w.choices, answers: w.answers, image: w.image }));
+    const set = wrong.map(w => w.src);
     if (!set.length) return;
     mode = "train";
     toast("Révision des " + set.length + " question(s) ratée(s)");

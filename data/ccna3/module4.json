@@ -51,7 +51,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. L’administrateur réseau saisit ces commandes dans le routeur R1<br>R1# copy running-config tftp<br>Address or name of remote host [ ]?<br>Lorsque le routeur demande une adresse ou un nom d’hôte distant, quelle adresse IP l’administrateur doit-il saisir ?",
-        "image": "/img/q/2022-05-2022-05-09_215412.jpg",
+        "image": "/img/q/2022-05-2022-05-09_215412.jpg", "w": 672, "h": 391,
         "choices": [
             "192.168.9.254",
             "192.168.10.1",
@@ -245,7 +245,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur réseau exécute la commande show lldp neighbors sur un commutateur. Quelles sont les deux conclusions qui peuvent être tirées ? (Choisissez deux propositions.)",
-        "image": "/img/q/2022-05-2022-05-09_215916.jpg",
+        "image": "/img/q/2022-05-2022-05-09_215916.jpg", "w": 814, "h": 183,
         "choices": [
             "Dev1 est connecté à l’interface Fa0/5 de S1.",
             "Dev1 est connecté à l’interface Fa0/4 de Dev2.",
@@ -276,7 +276,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quels périphériques sont conservés sur le domaine défaillant lorsque le commutateur S3 n’est plus sous tension ?",
-        "image": "/img/q/2022-05-2022-05-09_220706.jpg",
+        "image": "/img/q/2022-05-2022-05-09_220706.jpg", "w": 831, "h": 500,
         "choices": [
             "S1 et S4",
             "S4 et PC_2",
@@ -326,7 +326,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un utilisateur a configuré une carte réseau sur le PC comme indiqué, mais constate que le PC n’est pas en mesure d’accéder à l’internet. Quel est le problème?",
-        "image": "/img/q/2022-05-2022-05-09_220810.jpg",
+        "image": "/img/q/2022-05-2022-05-09_220810.jpg", "w": 569, "h": 514,
         "choices": [
             "L’adresse DNS préférée est incorrecte.",
             "Les paramètres n’ont pas été validés à la sortie.",
@@ -339,7 +339,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un ingénieur réseau a configuré une liste ACL empêchant l’accès Telnet et HTTP au serveur Web HQ des utilisateurs invités dans le réseau local de filiale. L’adresse du serveur Web est 192.168.1.10 et tous les utilisateurs invités se voient attribuer des adresses dans le réseau 192.168.10.0/24. Après la mise en œuvre de l’ACL, personne ne peut accéder à aucun des serveurs du HQ. Quel est le problème?",
-        "image": "/img/q/2022-05-2022-05-09_220852.jpg",
+        "image": "/img/q/2022-05-2022-05-09_220852.jpg", "w": 576, "h": 304,
         "choices": [
             "L’ACL refuse implicitement l’accès à tous les serveurs.",
             "Les listes ACL nommées nécessitent l’utilisation de numéros de port.",
@@ -352,7 +352,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré OSPFv2 sur les deux routeurs Cisco, comme indiqué. PC1 ne peut pas se connecter à PC2. Que doit faire en premier l’administrateur lorsqu’il résout un problème de mise en œuvre du protocole OSPFv2 ?",
-        "image": "/img/q/2022-05-2022-05-09_220940.jpg",
+        "image": "/img/q/2022-05-2022-05-09_220940.jpg", "w": 766, "h": 367,
         "choices": [
             "Tester la connectivité de couche 3 entre les routeurs directement connectés.",
             "Mettre en œuvre la commande network 192.168.255.0 0.0.0.3 area 0 sur le routeur R1.",
@@ -377,7 +377,7 @@
     },
     {
         "question": "Examinez l’illustration. R1 et R3 sont interconnectés par le biais de l’interface série locale 0/0/0. Pourquoi ne forment-ils pas une contiguïté ?",
-        "image": "/img/q/2022-05-2022-05-09_221020.jpg",
+        "image": "/img/q/2022-05-2022-05-09_221020.jpg", "w": 475, "h": 319,
         "choices": [
             "Ils présentent des processus de routage différents.",
             "Les interfaces de connexion sont configurées comme étant passives.",
@@ -427,7 +427,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Lequel des trois images Cisco IOS affichées va charger dans la RAM?",
-        "image": "/img/q/2022-05-2022-05-10_103702.jpg",
+        "image": "/img/q/2022-05-2022-05-10_103702.jpg", "w": 845, "h": 208,
         "choices": [
             "Le routeur sélectionne la troisième image Cisco IOS car il s’agit de l’image IOS la plus récente.",
             "Le routeur sélectionne une image en fonction de la valeur du registre de configuration.",
@@ -441,7 +441,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quels sont les deux types d’appareils connectés à R1? (Choisissez deux réponses.)",
-        "image": "/img/q/2022-05-2022-05-10_103834.jpg",
+        "image": "/img/q/2022-05-2022-05-10_103834.jpg", "w": 792, "h": 172,
         "choices": [
             "Pont de route source",
             "commutateur",
@@ -577,7 +577,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration.Pourquoi les routeurs R1 et R2 ne peuvent-ils pas établir une contiguïté OSPF ?",
-        "image": "/img/q/2024-12-abi386467n1v4.jpg",
+        "image": "/img/q/2024-12-abi386467n1v4.jpg", "w": 700, "h": 333,
         "choices": [
             "Un routeur dorsal (backbone) ne peut pas établir une contiguïté avec un routeur ABR.",
             "Les valeurs d’ID de routeur ne sont pas les mêmes dans les deux routeurs.",

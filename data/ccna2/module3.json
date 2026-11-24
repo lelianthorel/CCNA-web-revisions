@@ -483,7 +483,7 @@
     },
     {
        "question": "Examinez l’illustration. PC-A ne parvient pas à recevoir une adresse IPv6 à partir du serveur DHCPv6 avec état. Quel est le problème ?",
-       "image": "/img/q/2022-06-2022-06-27_220352.jpg",
+       "image": "/img/q/2022-06-2022-06-27_220352.jpg", "w": 879, "h": 364,
        "choices": [
           "La commande ipv6 nd managed-config-flag doit être ipv6 nd other-config-flag .",
           "La commande ipv6 dhcp relay doit utiliser l’adresse link-local du serveur DHCP.",
@@ -496,7 +496,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Un administrateur réseau implémente le fonctionnement DHCPv6 sans état pour l’entreprise. Les clients configurent les adresses IPv6 comme prévu. Toutefois, les clients ne récupèrent pas les adresses des serveurs de noms de domaine (DNS) et le nom de domaine configuré dans le pool DHCP. Quelle est la cause probable de ce problème ?",
-       "image": "/img/q/2022-06-2022-06-27_220303.jpg",
+       "image": "/img/q/2022-06-2022-06-27_220303.jpg", "w": 666, "h": 410,
        "choices": [
           "Les clients ne peuvent pas communiquer avec le serveur DHCPv6, comme l’indique le fait que le nombre de clients actifs soit 0.",
           "Le routeur est configuré pour un fonctionnement SLAAC",
@@ -509,7 +509,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau configure un routeur pour un fonctionnement DHCPv6. Quelles conclusions pouvez-vous tirer à partir des commandes ?",
-       "image": "/img/q/2022-06-2022-06-27_220213.jpg",
+       "image": "/img/q/2022-06-2022-06-27_220213.jpg", "w": 669, "h": 288,
        "choices": [
           "Le routeur est configuré pour un fonctionnement DHCPv6 sans état.",
           "Les clients doivent configurer les ID d’interface supérieurs à 0010.",
@@ -522,7 +522,7 @@
     },
     {
        "question": "Examinez l’illustration. Quel protocole peut être configuré sur les routeurs de passerelle R1 et R2 pour permettre l’équilibrage de la charge du trafic provenant du LAN interne entre les deux passerelles Internet ?",
-       "image": "/img/q/2022-06-2022-06-27_220131.jpg",
+       "image": "/img/q/2022-06-2022-06-27_220131.jpg", "w": 745, "h": 281,
        "choices": [
           "PVST",
           "PVST+",
@@ -535,7 +535,7 @@
     },
     {
        "question": "Examinez l’illustration. Un ingénieur réseau dépanne la connectivité des hôtes sur un LAN utilisant un protocole de redondance au premier saut. Quelle adresse de passerelle IPv4 doit être configurée sur l’hôte ?",
-       "image": "/img/q/2022-06-2022-06-27_220038.jpg",
+       "image": "/img/q/2022-06-2022-06-27_220038.jpg", "w": 640, "h": 459,
        "choices": [
           "192.168.2.0",
           "192.168.2.1",
@@ -548,7 +548,7 @@
     },
     {
        "question": "Examinez l’illustration. Quelle adresse MAC de destination est utilisée lorsque des trames sont envoyées depuis la station de travail vers la passerelle par défaut ?",
-       "image": "/img/q/2022-06-2022-06-27_220003.jpg",
+       "image": "/img/q/2022-06-2022-06-27_220003.jpg", "w": 733, "h": 502,
        "choices": [
           "L’adresse MAC du routeur de transfert",
           "L’adresse MAC du routeur virtuel",
@@ -561,7 +561,7 @@
     },
     {
        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question.<br>Quel est le mot-clé affiché sur www.netacad.com?",
-       "image": "/img/q/2022-06-2022-06-27_222126.jpg",
+       "image": "/img/q/2022-06-2022-06-27_222126.jpg", "w": 674, "h": 666,
        "choices": [
           "réseau",
           "Routeur",
@@ -576,7 +576,7 @@
     },
     {
        "question": "Examinez l’illustration. D’après le résultat affiché, quel type d’adressage IPv6 est configuré ?",
-       "image": "/img/q/2022-06-2022-07-01_161226.jpg",
+       "image": "/img/q/2022-06-2022-07-01_161226.jpg", "w": 452, "h": 319,
        "choices": [
           "Link-local statique",
           "SLAAC",
@@ -589,7 +589,7 @@
     },
     {
        "question": "Examinez l’illustration. Que faut-il faire pour permettre à PC-A de recevoir une adresse IPv6 depuis le serveur DHCPv6 ?",
-       "image": "/img/q/2022-06-2022-07-01_161318.jpg",
+       "image": "/img/q/2022-06-2022-07-01_161318.jpg", "w": 853, "h": 345,
        "choices": [
           "Ajouter l’adresse IPv6 2001:DB8:1234:5678::10/64 à la configuration d’interface du serveur DHCPv6.",
           "Ajouter la commande ipv6 dhcp relay à l’interface Fa0/0.",
@@ -602,7 +602,7 @@
     },
     {
        "question": "Examinez l’illustration. PC1 est configuré pour obtenir une adresse IP dynamique du serveur DHCP. PC1 a été arrêté pendant deux semaines. Lorsque PC1 démarre et tente de demander une adresse IP disponible, quelle adresse IP de destination PC1 place-t-il dans l’en-tête IP ?",
-       "image": "/img/q/2022-06-2022-07-01_161424.jpg",
+       "image": "/img/q/2022-06-2022-07-01_161424.jpg", "w": 600, "h": 385,
        "choices": [
           "192.168.1.255",
           "192.168.1.1",
@@ -615,7 +615,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Un administrateur réseau configure le routeur comme DHCPv6 sur le serveur. L’administrateur émet une commande show ipv6 dhcp pool pour vérifier la configuration. Quelle instruction explique la raison pour laquelle le nombre de clients actifs est 0?",
-       "image": "/img/q/2022-06-2022-07-02_101403.jpg",
+       "image": "/img/q/2022-06-2022-07-02_101403.jpg", "w": 671, "h": 429,
        "choices": [
           "L’état n’est pas maintenu par le serveur DHCPv6 sous l’opération DHCPv6 sans état.",
           "L’adresse de passerelle par défaut n’est pas fournie dans le pool.",
