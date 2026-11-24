@@ -114,7 +114,7 @@
     },
     {
         "question": "Quelle déclaration décrit un VPN?",
-        "image": "/img/q/2021-12-iqw386473n1v31.png",
+        "image": "/img/q/2021-12-iqw386473n1v31.png", "w": 248, "h": 104,
         "choices": [
             "Les VPN utilisent des connexions physiques dédiées pour transférer des données entre des utilisateurs distants.",
             "Les VPN utilisent des connexions virtuelles pour créer un réseau privé via un réseau public.",
@@ -151,7 +151,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelle séquence de commandes doit être utilisée pour configurer le routeur A pour OSPF?",
-        "image": "/img/q/2022-05-i386046n1v2-1613220070.9736.gif",
+        "image": "/img/q/2022-05-i386046n1v2-1613220070.9736.gif", "w": 452, "h": 269,
         "choices": [
             "router ospf 1<br>network 192.168.10.0 area 0",
             "router ospf 1<br>network 192.168.10.64 255.255.255.192<br>network 192.168.10.192 255.255.255.252",
@@ -190,7 +190,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Si aucun ID de routeur n’a été configuré manuellement, que le routeur R1 utiliserait-il comme ID de routeur OSPF?",
-        "image": "/img/q/2022-05-2020-06-28_210428.jpg",
+        "image": "/img/q/2022-05-2020-06-28_210428.jpg", "w": 475, "h": 289,
         "choices": [
             "209.165.201.1",
             "10.0.0.1",
@@ -284,7 +284,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelles deux configurations seraient utilisées pour créer et appliquer une liste d’accès standard sur R1, de sorte que seuls les périphériques réseau 10.0.70.0/25 sont autorisés à accéder au serveur de base de données interne? Citez-en deux.",
-        "image": "/img/q/2022-05-ccna-5.0-s2-43.jpg",
+        "image": "/img/q/2022-05-ccna-5.0-s2-43.jpg", "w": 397, "h": 233,
         "choices": [
             "R1 (config) # access-list 5 permit 10.0.70.0 0.0.127",
             "R1(config)# access-list 5 permit 10.0.54.0 0.0.1.255",
@@ -358,7 +358,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quel format de données est utilisé pour représenter les données pour les applications d’automatisation de réseau?",
-        "image": "/img/q/2022-05-i349060v2n1_347060.png",
+        "image": "/img/q/2022-05-i349060v2n1_347060.png", "w": 346, "h": 143,
         "choices": [
             "HTML",
             "YAML",
@@ -395,7 +395,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. La société a fourni des téléphones IP aux employés sur le réseau 192.168.10.0/24 et le trafic vocal aura besoin de priorité sur le trafic de données. Quel est le meilleur type et placement ACL à utiliser dans cette situation?",
-        "image": "/img/q/2022-05-i350679v1n1_C3M4-Diagram.jpg",
+        "image": "/img/q/2022-05-i350679v1n1_C3M4-Diagram.jpg", "w": 570, "h": 442,
         "choices": [
             "ACL entrante étendue sur R3 G0/0",
             "ACL entrante standard sur les lignes R1 vty",
@@ -458,7 +458,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré OSPFv2 sur les deux routeurs Cisco, mais PC1 ne parvient pas à se connecter à PC2. Quelle est la cause la plus probable de ce problème ?",
-        "image": "/img/q/2022-05-i285134v1n1_285134.png",
+        "image": "/img/q/2022-05-i285134v1n1_285134.png", "w": 556, "h": 400,
         "choices": [
             "L’interface Fa0/0 est configurée en tant qu’interface passive sur le routeur R2.",
             "L’interface S0/0 est configurée en tant qu’interface passive sur le routeur R2.",
@@ -471,7 +471,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un concepteur web appelle pour signaler que le serveur web web-s1.cisco.com n’est pas joignable via un navigateur web. Le technicien en charge utilise des utilitaires de commandes en ligne pour vérifier le problème et commencer le processus de dépannage. Quelles sont les deux choses qui peuvent être déterminées concernant le problème ? (Choisissez deux réponses.)",
-        "image": "/img/q/2022-05-i286191v1n1_15178.jpg",
+        "image": "/img/q/2022-05-i286191v1n1_15178.jpg", "w": 668, "h": 331,
         "choices": [
             "<br>Le logiciel de serveur Web sur web-s1.cisco.com présente un problème.",
             "Un routeur est en panne entre l’hôte source et le serveur web-s1.cisco.com.",
@@ -545,7 +545,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Les routeurs R1 et R2 sont connectés via une liaison série. Un routeur est configuré en tant que NTP maître et l’autre en tant que NTP client. Quelles informations concernant R2 peuvent être tirées du résultat partiel de la commande show ntp associations detail présenté ? (Choisissez deux réponses.)",
-        "image": "/img/q/2022-05-Q48-CCNA-3-Examen-Final-ENSAv7.jpg",
+        "image": "/img/q/2022-05-Q48-CCNA-3-Examen-Final-ENSAv7.jpg", "w": 462, "h": 94,
         "choices": [
             "L’adresse IP de R2 est 192.168.1.2.",
             "Les deux routeurs sont configurés pour utiliser NTPv2.",
@@ -585,7 +585,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré une liste ACL standard pour autoriser uniquement les deux réseaux LAN connectés à R1 à accéder au réseau qui se connecte à l’interface R2 G0/1, mais pas à l’interface G0/0. Lorsque vous appliquerez les meilleures pratiques, à quel endroit la liste ACL standard devrait-elle être appliquée?",
-        "image": "/img/q/2022-05-i282155v1n2_282152.png",
+        "image": "/img/q/2022-05-i282155v1n2_282152.png", "w": 496, "h": 273,
         "choices": [
             "R2 G0/0 sortant",
             "R1 S0/0/0 entrant",
@@ -635,7 +635,7 @@
     },
     {
         "question": "Examinez l’illustration. Le routeur R1 est configuré avec la NAT statique. L’adressage est correctement configuré sur le routeur et sur le serveur Web, mais il n’y a pas de connectivité entre le serveur Web et les utilisateurs sur Internet. Quelle est la cause probable de cette absence de connectivité ?",
-        "image": "/img/q/2022-05-i212256v1n3_212256.png",
+        "image": "/img/q/2022-05-i212256v1n3_212256.png", "w": 705, "h": 389,
         "choices": [
             "L’adresse globale interne est incorrecte.",
             "La configuration NAT du routeur présente une adresse locale interne incorrecte.",
@@ -648,7 +648,7 @@
     },
     {
         "question": "Examinez l’illustration. Un technicien configure R2 de sorte que la NAT statique permette au client d’accéder au serveur Web. Quelle est la cause probable de l’impossibilité pour le PC client d’accéder au serveur Web ?",
-        "image": "/img/q/2022-05-2017-06-26_224429.jpg",
+        "image": "/img/q/2022-05-2017-06-26_224429.jpg", "w": 655, "h": 274,
         "choices": [
             "L’interface Fa0/1 devrait être identifiée en tant qu’interface NAT externe.",
             "L’interface S0/0/0 devrait être identifiée en tant qu’interface NAT externe.",
@@ -673,7 +673,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelle méthode permet d’activer un routeur OSPF afin d’annoncer une route par défaut aux routeurs OSPF voisins ?",
-        "image": "/img/q/2022-05-p53-1-1.png",
+        "image": "/img/q/2022-05-p53-1-1.png", "w": 437, "h": 296,
         "choices": [
             "Utilisez la commande default-information originate sur R0-A.",
             "Utilisez la commande redistribute static sur le routeur ISP.",
@@ -687,7 +687,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quel est le coût de l’OSPF pour atteindre le réseau LAN Ouest 172.16.2.0/24 depuis l’Est?",
-        "image": "/img/q/2022-05-49.png",
+        "image": "/img/q/2022-05-49.png", "w": 464, "h": 351,
         "choices": [
             "782",
             "74",
@@ -700,7 +700,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelles trois conclusions peut-on tirer de la sortie affichée? (Choisissez trois réponses.)",
-        "image": "/img/q/2022-05-i212860v1n1_212860-1.png",
+        "image": "/img/q/2022-05-i212860v1n1_212860-1.png", "w": 637, "h": 253,
         "choices": [
             "Le BDR a trois voisins.",
             "L’ID du routeur sur le routeur DR est 3.3.3.3",
@@ -729,7 +729,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur réseau souhaite ajouter une entrée ACE à la liste de contrôle d’accès TRAFFIC-CONTROL pour refuser le trafic IP du sous-réseau 172.23.16.0/20. Quelle entrée ACE répond à cette exigence ?",
-        "image": "/img/q/2022-05-Q62-CCNA-3-Examen-Final-ENSAv7.jpg",
+        "image": "/img/q/2022-05-Q62-CCNA-3-Examen-Final-ENSAv7.jpg", "w": 475, "h": 118,
         "choices": [
             "30 deny 172.23.16.0 0.0.15.255",
             "5 deny 172.23.16.0 0.0.255.255",
@@ -769,7 +769,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. L’administrateur réseau a une adresse IP 192.168.11.10 et a besoin d’un accès pour gérer R1. Quel est le meilleur type et placement ACL à utiliser dans cette situation?",
-        "image": "/img/q/2022-05-i350680v1n1_C3M4-Diagram.jpg",
+        "image": "/img/q/2022-05-i350680v1n1_C3M4-Diagram.jpg", "w": 570, "h": 442,
         "choices": [
             "ACL entrante standard sur les lignes R1 vty",
             "ACL étendues entrantes sur R1 G0/0 et G0/1",
@@ -782,7 +782,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré OSPFv2 sur les deux routeurs Cisco. Les routeurs ne peuvent pas former une contiguïté de voisinage. Que faut-il faire pour résoudre le problème sur le routeur R2 ?",
-        "image": "/img/q/2021-12-a2221i386513n1v3.png",
+        "image": "/img/q/2021-12-a2221i386513n1v3.png", "w": 620, "h": 286,
         "choices": [
             "Mettez en œuvre la commande network 192.168.3.1 0.0.0.0 area 0 sur le router R2.",
             "Remplacez l’ID du routeur R2 par 2.2.2.2.",
@@ -942,7 +942,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Si l’administrateur réseau a créé une liste de contrôle d’accès standard qui autorise uniquement les périphériques connectés à l’accès réseau de l’interface G0/0 de R2 à se brancher aux périphériques de l’interface G0/1 de R1, comment la liste de contrôle d’accès doit-elle être appliquée ?",
-        "image": "/img/q/2022-05-i282157v1n1_282156.png",
+        "image": "/img/q/2022-05-i282157v1n1_282156.png", "w": 663, "h": 367,
         "choices": [
             "en sortie sur l’interface G0/1 de R1",
             "en sortie sur l’interface S0/0/1 de R2",
@@ -955,7 +955,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Si le commutateur redémarre et que tous les routeurs doivent rétablir les adjacences OSPF, quels routeurs deviendront les nouveaux DR et BDR ?",
-        "image": "/img/q/2022-05-i255837v1n1_255837.gif",
+        "image": "/img/q/2022-05-i255837v1n1_255837.gif", "w": 523, "h": 399,
         "choices": [
             "Le routeur R4 deviendra le DR et le routeur R3 deviendra le BDR.",
             "Le routeur R2 deviendra le DR et le routeur R1 deviendra le BDR.",
@@ -1004,7 +1004,7 @@
     },
     {
         "question": "Quelle étape du processus de routage d’état de liaison est décrite par un routeur exécutant un algorithme pour déterminer le meilleur chemin vers chaque destination?",
-        "image": "/img/q/2021-12-2022-05-09_165502.jpg",
+        "image": "/img/q/2021-12-2022-05-09_165502.jpg", "w": 696, "h": 308,
         "choices": [
             "exécution de l’algorithme SPF",
             "déclarer un voisin inaccessible",
@@ -1031,7 +1031,7 @@
     },
     {
         "question": "Examinez l’illustration. Un PC à l’adresse 10.1.1.45 ne peut pas accéder à Internet. Quelle est la cause la plus probable du problème ?",
-        "image": "/img/q/2022-05-41.jpg",
+        "image": "/img/q/2022-05-41.jpg", "w": 687, "h": 408,
         "choices": [
             "Le pool NAT est épuisé.",
             "La liste de contrôle d’accès ACL 1 n’a pas été correctement configurée.",
@@ -1044,7 +1044,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelle(s) adresse(s) représente(nt) l’adresse globale interne ?",
-        "image": "/img/q/2022-05-2017-06-26_224149.jpg",
+        "image": "/img/q/2022-05-2017-06-26_224149.jpg", "w": 483, "h": 151,
         "choices": [
             "Toute adresse dans le réseau 10.1.1.0",
             "192.168.0.100",
@@ -1073,7 +1073,7 @@
     },
     {
         "question": "Examinez l’illustration. L’administrateur réseau ayant l’adresse IP 10.0.70.23/25 a besoin d’accéder au serveur FTP de l’entreprise (10.0.54.5/28). Ce serveur FTP est également un serveur Web accessible à tous les employés internes sur des réseaux dans la plage d’adresses 10.x.x.x. Aucun autre trafic ne doit être autorisé sur ce serveur. Quelle liste de contrôle d’accès étendue doit être utilisée pour filtrer ce trafic et comment doit-elle être appliquée ? (Choisissez deux réponses.)",
-        "image": "/img/q/2021-12-asdiasd305772n1v2.png",
+        "image": "/img/q/2021-12-asdiasd305772n1v2.png", "w": 407, "h": 228,
         "choices": [
             "access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20<br>access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21<br>access-list 105 permit tcp 10.0.0.0 0.255.255.255 host 10.0.54.5 eq www<br>access-list 105 deny ip any host 10.0.54.5<br>access-list 105 permit ip any any",
             "R1(config)# interface gi0/0<br>R1(config-if)# ip access-group 105 out",
@@ -1155,7 +1155,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quels périphériques sont conservés sur le domaine défaillant lorsque le commutateur S3 n’est plus sous tension ?",
-        "image": "/img/q/2021-12-12i300534n1v2.png",
+        "image": "/img/q/2021-12-12i300534n1v2.png", "w": 661, "h": 397,
         "choices": [
             "PC_3 et AP_2",
             "S1 et S4",
@@ -1169,7 +1169,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelle est la fonction de la commande marquée d’une flèche dans les informations de configuration partielle d’un routeur à large bande Cisco ?",
-        "image": "/img/q/2021-12-123i292427n1v3.jpg",
+        "image": "/img/q/2021-12-123i292427n1v3.jpg", "w": 387, "h": 296,
         "choices": [
             "Elle définit les adresses attribuées à un pool NAT.",
             "Elle définit les adresses qui peuvent être traduites.",
@@ -1270,7 +1270,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Les employés du 192.168.11.0/24 travaillent sur des informations critiques et ne sont pas autorisés à accéder à l’extérieur de leur réseau. Quel est le meilleur type et placement ACL à utiliser dans cette situation ?",
-        "image": "/img/q/2021-12-11i386750n1v3.jpg",
+        "image": "/img/q/2021-12-11i386750n1v3.jpg", "w": 570, "h": 442,
         "choices": [
             "ACL entrante standard sur R1 G0/1",
             "ACL entrante standard sur les lignes R1 vty",
@@ -1283,7 +1283,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur configure l’ACL suivante afin d’empêcher les périphériques du sous-réseau 192.168.1.0 d’accéder au serveur à 10.1.1.5:<br>access-list 100 deny ip 192.168.1.0 0.0.255 host 10.1.1.5<br>access-list 100 autoriser ip any any<br>Où l’administrateur doit-il placer cette liste ACL pour une utilisation optimale des ressources réseau ?",
-        "image": "/img/q/2021-12-ai386471n1v3.png",
+        "image": "/img/q/2021-12-ai386471n1v3.png", "w": 307, "h": 221,
         "choices": [
             "sortant sur le routeur B Fa0/0",
             "entrant sur le routeur A Fa0/0",
@@ -1334,7 +1334,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Du fait que le trafic est transféré sur une interface de sortie avec un traitement QoS, quelle technique de prévention de la congestion est utilisée ?",
-        "image": "/img/q/2021-12-aa1i305927n1v2.png",
+        "image": "/img/q/2021-12-aa1i305927n1v2.png", "w": 540, "h": 162,
         "choices": [
             "classification et marquage",
             "détection anticipée aléatoire pondérée",
@@ -1371,7 +1371,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Les privilèges d’internet d’un employé ont été révoqués en raison d’abus, mais l’employé a toujours besoin d’avoir accès aux ressources de l’entreprise. Quel est le meilleur type et placement ACL à utiliser dans cette situation ?",
-        "image": "/img/q/2021-12-11i386750n1v3.jpg",
+        "image": "/img/q/2021-12-11i386750n1v3.jpg", "w": 570, "h": 442,
         "choices": [
             "ACL entrante standard sur l’interface WAN R2 se connectant à l’internet",
             "ACL sortante standard sur R1 G0/0",
@@ -1384,7 +1384,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur réseau configure une liste de contrôle d’accès pour restreindre la connexion aux lignes vty de R1 aux seules stations de travail du groupe informatiques dans le réseau 192.168.22.0/28. L’administrateur vérifie que les connexions Telnet aboutissent entre la station de travail dont l’adresse IP est 192.168.22.5 et R1 avant que la liste de contrôle d’accès ne soit appliquée. Cependant, une fois que la liste de contrôle d’accès est appliquée à l’interface Fa0/0, les connexions Telnet sont refusées. Quelle est la cause de l’échec de la connexion ?",
-        "image": "/img/q/2021-12-112i238703n1v2.png",
+        "image": "/img/q/2021-12-112i238703n1v2.png", "w": 699, "h": 363,
         "choices": [
             "L’entrée de contrôle d’accès d’autorisation spécifie un numéro de port incorrect.",
             "Le mot de passe secret actif n’est pas configuré sur R1.",
@@ -1487,7 +1487,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur tente de configurer la PAT sur R1, mais PC-A ne parvient pas à accéder à Internet. Il tente d’envoyer une requête ping à un serveur sur Internet à partir de PC-A et recueille le journal de débogage illustré. D’après ce journal, quelle est la cause la plus probable du problème ?",
-        "image": "/img/q/2021-12-i239075n1v1.png",
+        "image": "/img/q/2021-12-i239075n1v1.png", "w": 580, "h": 271,
         "choices": [
             "La liste d’accès source de la NAT correspond à une plage d’adresses incorrecte.",
             "Les interfaces NAT interne et externe ont été configurées à l’envers.",
@@ -1513,7 +1513,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelle conclusion pouvez-vous tirer de ce réseau à accès multiple OSPF ?",
-        "image": "/img/q/2021-12-i300450n1v2.png",
+        "image": "/img/q/2021-12-i300450n1v2.png", "w": 411, "h": 253,
         "choices": [
             "Lorsqu’un routeur désigné (DR) est choisi, tous les autres routeurs non désignés deviennent des routeurs DROTHER.",
             "Lorsque le DR est sélectionné, le nombre de contiguïtés passe de 6 à 3.",
@@ -1586,7 +1586,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Le CEO de l’entreprise exige la création d’une liste ACL pour permettre le trafic de courrier électronique vers Internet et refuser l’accès FTP. Quel est le meilleur type et placement ACL à utiliser dans cette situation ?",
-        "image": "/img/q/2021-12-11i386750n1v3.jpg",
+        "image": "/img/q/2021-12-11i386750n1v3.jpg", "w": 570, "h": 442,
         "choices": [
             "ACL entrante standard sur R1 G0/0",
             "ACL étendue sortante sur l’interface WAN R2 vers l’internet",
@@ -1609,7 +1609,7 @@
     },
     {
         "question": "Quelle commande serait utilisée dans le cadre de la configuration NAT ou PAT pour définir un pool d’adresses pour la traduction ?",
-        "image": "/img/q/2022-05-i290000v1n1_Trust-Boundary2-1.jpg",
+        "image": "/img/q/2022-05-i290000v1n1_Trust-Boundary2-1.jpg", "w": 600, "h": 317,
         "choices": [
             "ip nat inside source static 172.19.89.13 198.133.219.65",
             "ip nat outside",

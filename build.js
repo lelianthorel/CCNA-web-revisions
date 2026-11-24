@@ -21,6 +21,7 @@ for (const k of Object.keys(C)) {
         if (!a.length || a.some(x => !Number.isInteger(x) || x < 0 || x >= (q.choices || []).length))
           console.warn(`⚠ ${k}/${m.id} question ${i} : réponse hors des choix`, a);
         if (q.image && !fs.existsSync(path.join(ROOT, q.image))) console.warn(`⚠ ${k}/${m.id} question ${i} : image absente`, q.image);
+        if (q.image && !(q.w && q.h)) console.warn(`⚠ ${k}/${m.id} question ${i} : dimensions w/h manquantes`, q.image);
       });
       const n = qs.length;
       if (n !== m.count) { console.warn(`⚠ ${k}/${m.id}: curriculum=${m.count} réel=${n} → corrigé`); m.count = n; }

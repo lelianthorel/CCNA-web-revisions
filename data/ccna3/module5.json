@@ -165,7 +165,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quel format de données est utilisé pour représenter les données pour les applications d’automatisation de réseau?",
-        "image": "/img/q/2022-05-2022-05-09_222948.jpg",
+        "image": "/img/q/2022-05-2022-05-09_222948.jpg", "w": 351, "h": 236,
         "choices": [
             "JSON",
             "YAML",

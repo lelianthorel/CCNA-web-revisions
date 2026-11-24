@@ -793,7 +793,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. L’interface Fa 0/2 du commutateur S1 a été configurée avec la commande switchport port-security mac-address 0023.189d.6456 et une station de travail a été connectée. Quelle pourrait être la raison de l’arrêt de l’interface Fa 0/2 ?",
-       "image": "/img/q/2022-06-2022-06-29_190027.jpg",
+       "image": "/img/q/2022-06-2022-06-29_190027.jpg", "w": 809, "h": 365,
        "choices": [
           "L’adresse MAC de PC1 qui se connecte à l’interface Fa 0/2 n’est pas l’adresse MAC configurée.",
           "PC1 et connecté au S1 à partir d’un câble croisé.",
@@ -806,7 +806,7 @@
     },
     {
        "question": "Examinez l’illustration. Le port Fa0/2 a déjà été configuré correctement. Le téléphone IP et le PC fonctionnent correctement. Quelle configuration du commutateur est la plus appropriée pour le port Fa0/2 si l’administrateur réseau vise les objectifs suivants ?",
-       "image": "/img/q/2022-06-2022-06-29_190501.jpg",
+       "image": "/img/q/2022-06-2022-06-29_190501.jpg", "w": 347, "h": 236,
        "choices": [
           "SWA(config-if)# switchport port-security<br>SWA(config-if)# switchport port-security maximum 2<br>SWA(config-if)# switchport port-security mac-address sticky<br>SWA(config-if)# switchport port-security violation restrict",
           "SWA(config-if)# switchport port-security<br>SWA(config-if)# switchport port-security mac-address sticky",
@@ -819,7 +819,7 @@
     },
     {
        "question": "Examinez l’illustration. Le PC1 et le PC2 doivent pouvoir obtenir des affectations d’adresses IP à partir du serveur DHCP. Combien de ports parmi les commutateurs doivent être affectés comme ports fiables dans le cadre de la configuration de la surveillance DHCP ?",
-       "image": "/img/q/2022-06-2022-06-29_190640.jpg",
+       "image": "/img/q/2022-06-2022-06-29_190640.jpg", "w": 734, "h": 541,
        "choices": [
           "1",
           "3",
@@ -832,7 +832,7 @@
     },
     {
        "question": "Examinez l’illustration. Que peut-on conclure à propos de la sécurité des ports à partir des informations présentées ?",
-       "image": "/img/q/2022-06-2022-06-29_192806.jpg",
+       "image": "/img/q/2022-06-2022-06-29_192806.jpg", "w": 541, "h": 279,
        "choices": [
           "Le port est désactivé.",
           "Le port possède le nombre maximal d’adresses MAC pris en charge par un port de commutateur de couche 2 configuré pour la sécurité des ports.",
@@ -845,7 +845,7 @@
     },
     {
        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question.Que se passe-t-il s’il y a une violation de sécurité de port sur l’interface Fa 0/1 du commutateur S1 ?",
-       "image": "/img/q/2022-06-2022-07-01_233518.jpg",
+       "image": "/img/q/2022-06-2022-07-01_233518.jpg", "w": 583, "h": 488,
        "choices": [
           "Un message syslog est enregistré.",
           "Les paquets dont les adresses source sont inconnues sont abandonnés.",
@@ -858,7 +858,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. La sécurité de port a été configurée sur l’interface Fa 0/12 du commutateur S1. Quelle action se produira lorsque PC1 est connecté au commutateur S1 avec la configuration appliquée?",
-       "image": "/img/q/2022-06-2022-06-29_235206.jpg",
+       "image": "/img/q/2022-06-2022-06-29_235206.jpg", "w": 555, "h": 234,
        "choices": [
           "Les trames de PC1 seront transférées à sa destination, mais aucune entrée de journal ne sera créée.",
           "Les trames de PC1 seront transférées à sa destination et une entrée de journal sera créée.",

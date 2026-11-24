@@ -255,7 +255,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Le serveur B tente de contacter hôte A. Quelles deux instructions identifient correctement l’adressage que Serveur B va générer dans le processus? (Choisissez deux réponses.)",
-        "image": "/img/q/2021-12-2021-12-19_043139.jpg",
+        "image": "/img/q/2021-12-2021-12-19_043139.jpg", "w": 458, "h": 377,
         "choices": [
             "Serveur B va générer un paquet avec l’adresse IP de destination de routeur B.",
             "Serveur B va générer un paquet avec l’adresse IP de destination de l’hôte B.",
@@ -271,7 +271,7 @@
     },
     {
         "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches dans les instructions relatives et puis répondez à la question. | Quelle est l’adresse IP de l’interface virtuelle du commutateur (SVI) sur le Switch0?",
-        "image": "/img/q/2021-12-2022-05-09_120725.jpg",
+        "image": "/img/q/2021-12-2022-05-09_120725.jpg", "w": 727, "h": 418,
         "choices": [
             "192.168.5.10",
             "192.168.10.1",
@@ -284,7 +284,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur tente de configurer le commutateur mais reçoit le message d’erreur affiché sur l’illustration. Quel est le problème ?",
-        "image": "/img/q/2021-12-2021-12-19_043300.jpg",
+        "image": "/img/q/2021-12-2021-12-19_043300.jpg", "w": 394, "h": 78,
         "choices": [
             "L’administrateur doit se connecter via le port de console pour accéder au mode de configuration globale.",
             "La commande complète, configure terminal , doit être utilisée.",
@@ -297,7 +297,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur réseau configure le contrôle d’accès au commutateur SW1. Si l’administrateur utilise une connexion console pour se connecter au commutateur, quel mot de passe est nécessaire pour accéder au mode d’exécution utilisateur ?",
-        "image": "/img/q/2021-12-2021-12-27_160150.png",
+        "image": "/img/q/2021-12-2021-12-27_160150.png", "w": 493, "h": 243,
         "choices": [
             "letmein",
             "secretin",

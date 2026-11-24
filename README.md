@@ -9,7 +9,7 @@ Hébergé via GitHub Pages sur https://ccna-revision.fr
 - `index.html`, `ccna1/`, `ccna2/`, `ccna3/`, `csna/`, `csne/` — pages générées (voir `build.js`)
 - `quiz/` — moteur de quiz (paramètres `?ccna=…&module=…`)
 - `data/` — questions au format JSON, un fichier par module
-- `img/q/` — images des questions (copies locales, référencées par `data/`)
+- `img/q/` — images des questions (copies locales, référencées par `data/` avec leurs dimensions `w`/`h`)
 - `css/style.css` — design system (thème clair/sombre ; polices Inter et JetBrains Mono via Google Fonts)
 - `js/curriculum.js` — source unique des parcours et modules
 - `js/icons.js` — icônes SVG partagées (navigateur + build Node)

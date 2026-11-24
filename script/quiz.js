@@ -201,7 +201,7 @@
 
   function logWrong(q, given) {
     const correct = [...q.answers].sort((a, b) => a - b).map(i => q.choices[i]).join(" · ");
-    wrong.push({ question: q.question, image: q.image || null, choices: q.choices, answers: q.answers, given, correct });
+    wrong.push({ src: q, question: q.question, given, correct });
   }
 
   function startQuiz(set, retry = false) {
@@ -249,7 +249,8 @@
       qMulti.style.display = "none";
     }
 
-    if (q.image) { qImage.src = q.image; qImage.style.display = ""; qImage.alt = "Illustration : " + (q.question || "").replace(/<[^>]*>/g, "").slice(0, 80); }
+    // Taille réservée avant le chargement : sinon les choix descendent sous le doigt.
+    if (q.image) { qImage.width = q.w; qImage.height = q.h; qImage.src = q.image; qImage.style.display = ""; qImage.alt = "Illustration : " + (q.question || "").replace(/<[^>]*>/g, "").slice(0, 80); }
     else { qImage.style.display = "none"; qImage.removeAttribute("src"); }
 
     choicesBox.innerHTML = "";
@@ -444,7 +445,7 @@
 
   // Rejouer ses erreurs se fait toujours en entraînement : on veut la correction.
   $("btn-retry-wrong").addEventListener("click", () => {
-    const set = wrong.map(w => ({ question: w.question, choices: w.choices, answers: w.answers, image: w.image }));
+    const set = wrong.map(w => w.src);
     if (!set.length) return;
     mode = "train";
     toast("Révision des " + set.length + " question(s) ratée(s)");

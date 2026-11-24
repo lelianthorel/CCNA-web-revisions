@@ -321,7 +321,7 @@ svg { width: 1em; height: 1em; vertical-align: middle; flex: none; }
 .qtext code, .qhint code, .mistake code { font-family: var(--mono); font-size: .88em; background: var(--surface-3); padding: 1px 6px; border-radius: 5px; }
 .qhint { color: var(--text-faint); font-size: .84rem; margin: 8px 0 0; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
 .qhint svg { width: 15px; height: 15px; }
-.qimg { margin: 16px auto; display: block; border-radius: var(--radius); border: 1px solid var(--border); }
+.qimg { margin: 16px auto; display: block; height: auto; border-radius: var(--radius); border: 1px solid var(--border); }
 
 .choices { display: grid; gap: 9px; margin-top: 20px; }
 .choice { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; padding: 13px 15px; border-radius: 10px; border: 1.5px solid var(--border); background: var(--surface); color: var(--text); font: inherit; font-size: .96rem; cursor: pointer; transition: border-color .13s, background .13s; }
