@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=mwufugf0">
+  <link rel="stylesheet" href="/css/style.css?v=mwug4lbl">
   <script>
     window.__ROOT__ = "/";
     (function(){ try { var t = localStorage.getItem("ccna-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch(e){} })();
@@ -112,7 +112,7 @@
 
           <div class="qfeedback" id="q-feedback" style="display:none">
             <p class="qfeedback__txt" id="feedback-txt"></p>
-            <button class="btn btn--primary" id="btn-next">Suivant <span class="kbd">Espace</span></button>
+            <button class="btn btn--primary" id="btn-next" aria-describedby="feedback-txt">Suivant <span class="kbd">Espace</span></button>
           </div>
 
           <div class="exam-nav" id="exam-nav" style="display:none">
@@ -123,7 +123,7 @@
       </section>
 
       <section id="recap" style="display:none">
-        <div class="recap__score fade-in">
+        <div class="recap__score fade-in" tabindex="-1">
           <div class="ring" id="score-ring"><span class="ring__val" id="ring-val">0<small>%</small></span></div>
           <p class="recap__msg" id="recap-msg"></p>
           <p class="recap__sub" id="recap-sub"></p>
@@ -142,10 +142,10 @@
 
   <div id="footer-slot"></div>
 
-  <script src="/js/curriculum.js?v=mwufugf0"></script>
-  <script src="/js/icons.js?v=mwufugf0"></script>
-  <script src="/js/app.js?v=mwufugf0"></script>
-  <script src="/script/quiz.js?v=mwufugf0"></script>
+  <script src="/js/curriculum.js?v=mwug4lbl"></script>
+  <script src="/js/icons.js?v=mwug4lbl"></script>
+  <script src="/js/app.js?v=mwug4lbl"></script>
+  <script src="/script/quiz.js?v=mwug4lbl"></script>
   <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "af27cfff3d654610957d63cd2315cc37"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
