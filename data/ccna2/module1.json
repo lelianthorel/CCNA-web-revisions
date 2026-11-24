@@ -563,7 +563,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau vérifie l’affectation des ports et des VLAN sur le commutateur S2 et remarque que les interfaces Gi0/1 et Gi0/2 ne sont pas incluses dans le résultat. Pourquoi ces interfaces n’apparaissent-elles pas dans le résultat affiché ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA-2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-27.jpg",
+       "image": "/img/q/2022-06-CCNA-2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-27.jpg",
        "choices": [
           "Les VLAN natifs ne correspondent pas entre les commutateurs.",
           "Les interfaces sont arrêtées administrativement.",
@@ -576,7 +576,7 @@
     },
     {
        "question": "Examinez l’illustration. Toutes les stations de travail sont correctement configurées sur le VLAN 20. Les stations de travail connectées au commutateur SW1 ne peuvent pas envoyer de trafic vers les stations de travail connectées à SW2. Que faire pour résoudre le problème ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-SRWE-–-Modules-1-–-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-29.png",
+       "image": "/img/q/2022-06-CCNA2-v7-SRWE---Modules-1---4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-29.png",
        "choices": [
           "Autoriser le VLAN 20 sur la liaison agrégée.",
           "Configurer les stations de travail sur SW2 de sorte à les intégrer au VLAN natif.",
@@ -589,7 +589,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Dans quel mode de commutateur le port G0/1 doit-il être attribué selon les bonnes pratiques de Cisco ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-32.png",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-32.png",
        "choices": [
           "trunk",
           "accès",
@@ -602,7 +602,7 @@
     },
     {
        "question": "Examinez l’illustration. Quelle est la cause de l’erreur affichée dans la configuration du routage inter-VLAN sur le routeur CiscoVille ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-39-1.png",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-39-1.png",
        "choices": [
           "L’interface gig0/0 ne prend pas en charge le routage inter-VLAN.",
           "L’adresse IP sur CiscoVille est incorrecte.",
@@ -615,7 +615,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage entre réseaux locaux virtuels. Les utilisateurs se plaignent que des PC se trouvant dans des VLAN différents ne parviennent pas à communiquer. D’après le résultat, quelles sont les erreurs de configuration de l’interface Gi1/1 du commutateur ? (Choisissez deux réponses.)",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-43.png",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-43.png",
        "choices": [
           "La négociation de l’agrégation est activée sur Gi1/1.",
           "L’interface Gi1/1 est configurée en mode d’agrégation.",
@@ -630,7 +630,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage entre réseaux locaux virtuels. Les utilisateurs se plaignent que PC2 ne peut pas communiquer avec PC1. D’après le résultat, quelle est la cause du problème ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
        "choices": [
           "La commande encapsulation dot1Q 5 ne contient pas le bon VLAN.",
           "La commande interface GigabitEthernet0/0.5 n’a pas été saisie correctement.",
@@ -644,7 +644,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau a configuré R1 comme illustré. Lorsque l’administrateur vérifie l’état de l’interface série, celle-ci est indiquée comme étant administrativement désactivée. Quelle commande supplémentaire doit être exécutée sur l’interface série de R1 pour activer l’interface ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-70.jpg",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-70.jpg",
        "choices": [
           "clockrate 128000",
           "end",
@@ -657,7 +657,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. L’administrateur réseau souhaite configurer le commutateur Switch1 pour autoriser les connexions SSH et interdire les connexions Telnet. Comment doit-il modifier la configuration affichée afin d’obtenir le résultat escompté ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-71.jpg",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-71.jpg",
        "choices": [
           "Il doit reconfigurer la clé RSA.",
           "Il doit modifier la commande transport input .",
@@ -670,7 +670,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau configure le routage inter-VLAN sur un réseau. Pour l’instant, un seul VLAN est utilisé, mais d’autres seront ajoutés prochainement. Quel est le rôle du paramètre manquant, indiqué par un point d’interrogation mis en surbrillance dans l’illustration ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-74.png",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-74.png",
        "choices": [
           "Il identifie le numéro du VLAN.",
           "Il identifie la sous-interface.",
@@ -684,7 +684,7 @@
     },
     {
        "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches indiquées dans les instructions d’activité et répondez ensuite à la question.<br>Quel message s’affiche lorsque l’on saisit 10.10.10.1 dans la barre d’adresse du navigateur Web PC1 ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_102335.jpg",
+       "image": "/img/q/2022-06-2022-06-27_102335.jpg",
        "choices": [
           "Serveur local",
           "Serveur de test",
@@ -697,7 +697,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau configure le routeur RT1 pour le routage inter-VLAN. Le commutateur est configuré correctement et fonctionne. Les hôtes Host1, Host2 et Host3 ne parviennent pas à communiquer entre eux. D’après la configuration du routeur, quelle est la cause du problème ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-46.png",
+       "image": "/img/q/2022-06-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-46.png",
        "choices": [
           "Les adresses IP des sous-interfaces ne sont pas correctement associées aux VLAN.",
           "Chaque sous-interface de l’interface Fa0/0 nécessite une commande no shutdown séparée.",
@@ -710,7 +710,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau a configuré le routeur CiscoVille avec les commandes ci-dessus pour assurer le routage entre réseaux locaux virtuels. Quelle commande est requise sur un commutateur connecté à l’interface Gi0/0 du routeur CiscoVille pour autoriser le routage inter-VLAN ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_232613.jpg",
+       "image": "/img/q/2022-06-2022-06-30_232613.jpg",
        "choices": [
           "switchport mode access",
           "no switchport",
@@ -723,7 +723,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau doit configurer le modèle « Router-on-a-Stick » pour les réseaux illustrés. Combien de sous-interfaces doivent être créées sur le routeur si chaque VLAN de l’illustration doit être routé et si chaque VLAN possède sa propre sous-interface ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_232701.jpg",
+       "image": "/img/q/2022-06-2022-06-30_232701.jpg",
        "choices": [
           "1",
           "2",
@@ -737,7 +737,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Combien de domaines de diffusion sont affichés ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_232747.jpg",
+       "image": "/img/q/2022-06-2022-06-30_232747.jpg",
        "choices": [
           "16",
           "1",
@@ -751,7 +751,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. PC1 ne parvient pas à communiquer avec le serveur 1. L’administrateur réseau exécute la commande show trunk interfaces pour commencer le dépannage. Quelle conclusion est-il possible de tirer lorsque l’on analyse le résultat de cette commande ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_232927.jpg",
+       "image": "/img/q/2022-06-2022-06-30_232927.jpg",
        "choices": [
           "L’interface G0/2 n’est pas configurée en tant que port trunk.",
           "Le VLAN 20 n’a pas été créé.",
@@ -764,7 +764,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Un technicien programme le commutateur SW3 pour qu’il traite le trafic voix et de données via le port Fa0/20. Quel problème présente la configuration, le cas échéant ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-30_233019.jpg",
+       "image": "/img/q/2022-06-2022-06-30_233019.jpg",
        "choices": [
           "La commande utilisée pour attribuer le VLAN voix au port de commutation est incorrecte.",
           "La commande mls qos trust cos devrait être associée au VLAN 35.",
@@ -777,7 +777,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur réseau a configuré le routeur CiscoVille avec les commandes ci-dessus pour assurer le routage entre réseaux locaux virtuels. Quel type de port est requis sur un commutateur connecté à Gi0/0 sur le routeur CiscoVille pour permettre le routage inter-VLAN ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_224608.jpg",
+       "image": "/img/q/2022-06-2022-07-01_224608.jpg",
        "choices": [
           "Interface SVI",
           "Port agrégé",
@@ -790,7 +790,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Une configuration router-on-a-stick a été mise en œuvre pour les VLAN 15, 30 et 45, comme l’indique le résultat de la commande show running-config . Les PC du VLAN 45, qui utilisent le réseau 172.16.45.0 /24, ont des difficultés à se connecter aux PC du VLAN 30 du réseau 172.16.30.0 /24. Quelle erreur la plus probable est à l’origine de ce problème ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-07-01_224714.jpg",
+       "image": "/img/q/2022-06-2022-07-01_224714.jpg",
        "choices": [
           "Il manque une adresse IP sur l’interface Gigabit Ethernet 0/0.",
           "Une adresse IP incorrecte est configurée sur l’interface Gigabit Ethernet 0/0.30.",

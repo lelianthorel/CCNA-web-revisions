@@ -15,7 +15,14 @@ for (const k of Object.keys(C)) {
   for (const m of C[k].modules) {
     const p = path.join(ROOT, "data", k, m.id + ".json");
     try {
-      const n = JSON.parse(fs.readFileSync(p, "utf8")).length;
+      const qs = JSON.parse(fs.readFileSync(p, "utf8"));
+      qs.forEach((q, i) => {
+        const a = q.answers || [];
+        if (!a.length || a.some(x => !Number.isInteger(x) || x < 0 || x >= (q.choices || []).length))
+          console.warn(`⚠ ${k}/${m.id} question ${i} : réponse hors des choix`, a);
+        if (q.image && !fs.existsSync(path.join(ROOT, q.image))) console.warn(`⚠ ${k}/${m.id} question ${i} : image absente`, q.image);
+      });
+      const n = qs.length;
       if (n !== m.count) { console.warn(`⚠ ${k}/${m.id}: curriculum=${m.count} réel=${n} → corrigé`); m.count = n; }
     } catch (e) { console.warn("⚠ illisible:", p); }
   }
@@ -41,11 +48,11 @@ function jsonld(obj) {
   return `  <script type="application/ld+json">\n${JSON.stringify(obj, null, 2)}\n  </script>`;
 }
 
-/* ---------------- ICÔNES (mêmes que app.js, pour le rendu statique) ---------------- */
+/* Mêmes icônes que le navigateur (js/icons.js), pour le rendu statique. */
 const ICONS = require("./js/icons.js");
 const icon = n => ICONS[n] || ICONS.book;
 
-/* ---------------- PAGE D'ACCUEIL ---------------- */
+/* Page d'accueil */
 function buildHome() {
   const tracks = Object.keys(C).map(k => {
     const t = C[k], n = t.modules.length, tot = trackTotal(k);
@@ -195,7 +202,7 @@ ${faqs.map(([q, a]) => `        <details class="faq__item">
   });
 }
 
-/* ---------------- PAGE DE PARCOURS ---------------- */
+/* Page de parcours */
 function buildCourse(k) {
   const t = C[k], n = t.modules.length, tot = trackTotal(k);
   const modules = t.modules.map(m => `        <a class="module" href="/quiz/?ccna=${k}&amp;module=${m.id}" data-module="${m.id}">
@@ -271,7 +278,7 @@ ${modules}
   });
 }
 
-/* ---------------- GABARIT ---------------- */
+/* Gabarit */
 function page({ lang, title, desc, canonical, ogUrl, ld, body, noindex }) {
   const ldBlocks = (ld || []).map(jsonld).join("\n");
   return `<!DOCTYPE html>
@@ -311,7 +318,7 @@ ${CF_ANALYTICS}
 `;
 }
 
-/* ---------------- ÉCRITURE ---------------- */
+/* Écriture des fichiers */
 fs.writeFileSync(path.join(ROOT, "index.html"), buildHome());
 console.log("✓ index.html");
 for (const k of Object.keys(C)) {
@@ -319,7 +326,6 @@ for (const k of Object.keys(C)) {
   console.log(`✓ ${k}/index.html`);
 }
 
-// sitemap.xml
 const urls = [SITE + "/", ...Object.keys(C).map(k => `${SITE}/${k}/`)];
 const today = new Date().toISOString().slice(0, 10);
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -330,7 +336,6 @@ ${urls.map(u => `  <url>\n    <loc>${u}</loc>\n    <lastmod>${today}</lastmod>\n
 fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap);
 console.log("✓ sitemap.xml");
 
-// robots.txt
 fs.writeFileSync(path.join(ROOT, "robots.txt"), `User-agent: *
 Allow: /
 Disallow: /quiz/

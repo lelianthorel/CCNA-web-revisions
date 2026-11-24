@@ -488,7 +488,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Quel commutateur sera le pont racine au terme du processus de sélection ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121112.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121112.jpg",
        "choices": [
           "S1",
           "S2",
@@ -501,7 +501,7 @@
     },
     {
        "question": "Examinez l’illustration. D’après le résultat affiché, quelles conclusions pouvez-vous tirer à propos de la liaison EtherChannel ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121214.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121214.jpg",
        "choices": [
           "La liaison EtherChannel est en panne.",
           "La laison EtherChannel fonctionne à la fois sur la couche 2 et sur la couche 3.",
@@ -514,7 +514,7 @@
     },
     {
        "question": "Examinez l’illustration. Un EtherChannel a été configuré entre les commutateurs S1 et S2, mais les interfaces ne forment pas d’EtherChannel. Quel est le problème ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121308.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121308.jpg",
        "choices": [
           "Les ports de commutation n’ont pas été configurés avec le mode vitesse et bidirectionnel.",
           "L’EtherChannel n’a pas été configuré avec la même plage autorisée de VLAN sur chaque interface.",
@@ -527,7 +527,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Un administrateur réseau est en train de configurer une liaison EtherChannel entre deux commutateurs, SW1 et SW2. Quelle instruction décrit l’effet après l’émission des commandes sur SW1 et SW2?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121413.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121413.jpg",
        "choices": [
           "L’EtherChannel est établi sans négociation.",
           "L’EtherChannel est établi après que SW1 initie la requête de liaison.",
@@ -540,7 +540,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Un administrateur réseau est en train de configurer une liaison EtherChannel entre deux commutateurs, SW1 et SW2. Toutefois, la liaison EtherChannel ne parvient pas à établir. Quel changement de configuration corrigerait le problème?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121516.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121516.jpg",
        "choices": [
           "Configurez le mode SW2 EtherChannel sur activé.",
           "Configurez le mode SW2 EtherChannel sur automatique.",
@@ -553,7 +553,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Quels sont les rôles possibles pour les ports A, B, C et D dans ce réseau RSTP ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121604.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121604.jpg",
        "choices": [
           "Alternatif, désigné, racine, racine",
           "Désigné, racine, alternatif, racine",
@@ -566,7 +566,7 @@
     },
     {
        "question": "Examinez l’illustration. Quelle technologie de commutation autorise l’agrégation de chaque liaison de commutateur de couche d’accès afin de fournir davantage de bande passante entre chaque commutateur de couche 2 et le commutateur de couche 3 ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121646.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121646.jpg",
        "choices": [
           "Trunking",
           "HSRP",
@@ -579,7 +579,7 @@
     },
     {
        "question": "Examinez l’illustration. Un administrateur souhaite établir un EtherChannel entre les deux commutateurs en utilisant le protocole PAgP (Port Aggregation Protocol) . Si le commutateur S1 est configuré pour être en mode automatique, quel mode doit être configuré sur S2 pour établir l’EtherChannel ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_121749.jpg",
+       "image": "/img/q/2022-06-2022-06-27_121749.jpg",
        "choices": [
           "off",
           "auto",
@@ -592,7 +592,7 @@
     },
     {
        "question": "Examinez l’illustration. L’administrateur a essayé de créer un EtherChannel entre S1 et les deux autres commutateurs par le biais des commandes illustrées, mais sans succès. Quel est le problème ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_163320.jpg",
+       "image": "/img/q/2022-06-2022-06-27_163320.jpg",
        "choices": [
           "Le trafic ne peut pas être envoyé à deux commutateurs différents, mais uniquement à deux périphériques différents tels qu’un serveur EtherChannel-enabled et un commutateur.​",
           "Le trafic ne peut pas être envoyé à deux commutateurs différents par l’intermédiaire de la même liaison EtherChannel.",
@@ -605,7 +605,7 @@
     },
     {
        "question": "Reportez-vous à l’illustration. Un administrateur réseau a exécuté la commande show etherchannel summary sur le commutateur S1. Quelle conclusion pouvez-vous tirer ?",
-       "image": "https://ccnareponses.com/wp-content/uploads/2022/06/2022-06-27_163438.jpg",
+       "image": "/img/q/2022-06-2022-06-27_163438.jpg",
        "choices": [
           "Les ports FastEthernet Fa0/1, Fa0/2 et Fa0/3 ne rejoignent pas l’EtherChannel.",
           "L’EtherChannel est suspendu.",

@@ -5,7 +5,6 @@ root.CURRICULUM = {
     label: "CCNA 1",
     title: "Introduction aux réseaux",
     desc: "Les fondamentaux : modèles réseau, Ethernet, adressage IP et sécurité de base.",
-    color: ["#4f46e5", "#7c3aed"],
     icon: "network",
     modules: [
       { id: "module1", name: "Modules 1 & 3", topic: "Connectivité des réseaux de base et communications", count: 55, icon: "network" },
@@ -21,7 +20,6 @@ root.CURRICULUM = {
     label: "CCNA 2",
     title: "Commutation, routage et sans-fil",
     desc: "VLAN, routage inter-VLAN, réseaux redondants, sécurité de couche 2 et WLAN.",
-    color: ["#0ea5e9", "#2563eb"],
     icon: "router",
     modules: [
       { id: "module1", name: "Modules 1 & 4", topic: "Concepts de commutation, VLAN et routage inter-VLAN", count: 63, icon: "router" },
@@ -36,7 +34,6 @@ root.CURRICULUM = {
     label: "CCNA 3",
     title: "Réseaux d’entreprise, sécurité et automatisation",
     desc: "OSPF, sécurité des réseaux et ACL, technologies WAN, supervision, dépannage et automatisation.",
-    color: ["#0d9488", "#14b8a6"],
     icon: "route",
     isNew: true,
     modules: [
@@ -52,7 +49,6 @@ root.CURRICULUM = {
     label: "CSNA",
     title: "Certified Stormshield Network Administrator",
     desc: "Administration des firewalls Stormshield Network Security (SNS) : politiques de filtrage et de routage, authentification et réseaux VPN.",
-    color: ["#059669", "#10b981"],
     icon: "shield",
     warning: "Les questions sont proposées uniquement à titre éducatif. Les réponses ne sont pas garanties exactes. Vérifiez toujours avec des sources fiables.",
     modules: [
@@ -63,7 +59,6 @@ root.CURRICULUM = {
     label: "CSNE",
     title: "Certified Stormshield Network Expert",
     desc: "Exploitation avancée des firewalls Stormshield SNS : prévention d’intrusions, PKI, VPN IPSec par certificat et haute disponibilité.",
-    color: ["#d97706", "#f59e0b"],
     icon: "shield-check",
     warning: "Les questions sont proposées uniquement à titre éducatif. Les réponses ne sont pas garanties exactes. Vérifiez toujours avec des sources fiables.",
     modules: [

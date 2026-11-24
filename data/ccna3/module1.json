@@ -25,7 +25,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur réseau a configuré les minuteurs OSPF sur les valeurs illustrées dans le graphique. Quel est le résultat de la configuration manuelle des minuteurs ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_223411.jpg",
+        "image": "/img/q/2021-12-2021-12-02_223411.jpg",
         "choices": [
             "R1 modifie automatiquement ses propres minuteurs pour les faire correspondre aux minuteurs de R2.",
             "Le minuteur Hello sur R2 arrive à expiration toutes les dix secondes.",
@@ -114,7 +114,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Si aucun ID de routeur n’a été configuré manuellement, quel serait l’ID de routeur OSPF utilisé par le routeur Branch1 ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_224602.jpg",
+        "image": "/img/q/2021-12-2021-12-02_224602.jpg",
         "choices": [
             "209.165.201.1",
             "192.168.1.100",
@@ -164,7 +164,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quels trois déclaration décrivent les résultats du processus d’élection OSPF de la topologie qui est présentée dans la pièce? (Choisissez trois réponses.)",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165731.jpg",
+        "image": "/img/q/2021-12-2022-05-09_165731.jpg",
         "choices": [
             "La priorité R4 FastEthernet 0/0 est 128.",
             "L’ID du routeur sur R2 est l’interface de bouclage.",
@@ -181,7 +181,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Supposons que les routeurs B, C et D aient une priorité par défaut et que le routeur A ait la priorité 0. Quelle conclusion pouvez-vous tirer du processus de sélection du DR/BDR ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_224820.jpg",
+        "image": "/img/q/2021-12-2021-12-02_224820.jpg",
         "choices": [
             "Si la priorité du routeur C est remplacée par 255, celui-ci deviendra DR.",
             "Si un nouveau routeur avec une priorité supérieure est ajouté à ce réseau, il deviendra DR.",
@@ -194,7 +194,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Si le commutateur redémarre et que tous les routeurs doivent rétablir les adjacences OSPF, quels routeurs deviendront les nouveaux DR et BDR ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_170151.jpg",
+        "image": "/img/q/2021-12-2022-05-09_170151.jpg",
         "choices": [
             "Le routeur R4 deviendra DR et le routeur R1 deviendra BDR.",
             "Le routeur R1 deviendra DR et le routeur R2 deviendra BDR.",
@@ -219,7 +219,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quel est le coût OSPF pour atteindre le routeur A LAN 172.16.1.0/24 de B ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165945.jpg",
+        "image": "/img/q/2021-12-2022-05-09_165945.jpg",
         "choices": [
             "128",
             "782",
@@ -232,7 +232,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Sur quel(s) routeur(s) une route par défaut serait-elle configurée de manière statique dans un environnement d’entreprise qui utilise le protocole de routage OSPF à zone unique ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_170045.jpg",
+        "image": "/img/q/2021-12-2022-05-09_170045.jpg",
         "choices": [
             "R0-B et R0-C",
             "ISP et R0-A",
@@ -259,7 +259,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelle commande un administrateur a-t-il exécuté pour produire cette sortie?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165617.jpg",
+        "image": "/img/q/2021-12-2022-05-09_165617.jpg",
         "choices": [
             "R1# show ip ospf neighbor",
             "R1# show ip ospf",
@@ -272,7 +272,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré OSPFv2 sur les deux routeurs Cisco, mais PC1 ne parvient pas à se connecter à PC2. Quelle est la cause la plus probable de ce problème ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165835.jpg",
+        "image": "/img/q/2021-12-2022-05-09_165835.jpg",
         "choices": [
             "L’interface S0/0 est configurée en tant qu’interface passive sur le routeur R2.",
             "L’interface Fa0/0 est configurée en tant qu’interface passive sur le routeur R2.",
@@ -297,7 +297,7 @@
     },
     {
         "question": "Quelle étape du processus de routage d’état de liaison est décrite par un routeur exécutant un algorithme pour déterminer le meilleur chemin vers chaque destination?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-09_165502.jpg",
+        "image": "/img/q/2021-12-2022-05-09_165502.jpg",
         "choices": [
             "choisir la meilleure route",
             "Exécution de l’algorithme SPF",
@@ -371,7 +371,7 @@
     },
     {
         "question": "Ouvrez le fichier d’activité Packet Tracer. Effectuez les tâches décrites dans les instructions relatives à l’activité, puis répondez à la question. Quelle tâche doit être effectuée sur Routeur1 pour qu’il établisse une contiguïté OSPF avec Routeur2?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-05-10_090320.jpg",
+        "image": "/img/q/2021-12-2022-05-10_090320.jpg",
         "choices": [
             "Remplacez le masque de sous-réseau de l’interface FastEthernet 0/0 par 255.255.255.0.",
             "Exécutez la commande clear ip ospf process .",

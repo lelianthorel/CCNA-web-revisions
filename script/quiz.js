@@ -1,9 +1,5 @@
-/* ==========================================================================
-   Moteur de quiz — deux modes :
-   • entraînement : toutes les questions, correction immédiate, sans limite ;
-   • examen blanc : tirage aléatoire, chronomètre, corrigé seulement à la fin.
-   Stats live, raccourcis clavier, sauvegarde du score, rejeu des erreurs.
-   ========================================================================== */
+/* Entraînement : tout le module, corrigé à chaque question.
+   Examen blanc : tirage aléatoire chronométré, corrigé seulement à la fin. */
 (function () {
   mountChrome();
 
@@ -16,7 +12,6 @@
   const label = courseMeta ? courseMeta.label : (ccna || "").toUpperCase();
   const moduleName = meta ? meta.name : moduleId;
 
-  // Éléments
   const $ = id => document.getElementById(id);
   const loader = $("loader"), errorBox = $("error-box"), quizEl = $("quiz"), recapEl = $("recap");
   const setupEl = $("setup");
@@ -33,20 +28,19 @@
   const SECONDS_PER_Q = 90;   // ~1 min 30 par question, comme les examens Cisco
   const PASS_MARK = 70;       // seuil de réussite affiché sur le récapitulatif
 
-  // État
   let all = [];        // toutes les questions (jeu complet mélangé)
   let questions = [];  // jeu de travail courant
   let current = 0, score = 0;
   let wrong = [];      // { q, given, correct }
   let selected = [];
   let answered = false;
+  let retrying = false;
 
   // Mode examen
   let mode = "train";       // "train" | "exam"
   let examLength = 0;       // nombre de questions tirées
   let timerId = null, deadline = 0, timeUsed = 0, timedOut = false;
 
-  // Titre / fil d'ariane
   $("quiz-title").textContent = `${label} · ${moduleName}`;
   document.title = `Quiz ${label} — ${moduleName} · CCNA Révisions`;
   const bcCourse = $("bc-course");
@@ -66,8 +60,8 @@
     qcard.parentNode.insertBefore(note, qcard);
   }
 
-  // ---------- Chargement ----------
-  fetch(`/data/${ccna}/${moduleId}.json`)
+  // Un module inconnu n'est jamais chargé : son nom vient de l'URL et finirait dans le HTML.
+  (meta ? fetch(`/data/${ccna}/${moduleId}.json`) : Promise.reject(new Error("module inconnu")))
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(data => {
       all = data.filter(q => q && q.choices && q.answers);
@@ -84,7 +78,7 @@
     return a;
   }
 
-  // ---------- Écran de choix du mode ----------
+  // Écran de choix du mode
   const examLengths = [20, 30, 50];
   let chosenLength = 0;
 
@@ -140,7 +134,7 @@
     });
     updateExamSummary();
     $("mode-exam-desc").textContent =
-      `Questions tirées au sort, chronométré (${SECONDS_PER_Q / 60} min 30 par question), corrigé à la fin.`;
+      `Questions tirées au sort, chronométré (${Math.floor(SECONDS_PER_Q / 60)} min${SECONDS_PER_Q % 60 ? " " + SECONDS_PER_Q % 60 : ""} par question), corrigé à la fin.`;
   }
 
   function updateExamSummary() {
@@ -164,7 +158,7 @@
   });
   $("btn-change-mode").addEventListener("click", showSetup);
 
-  // ---------- Chronomètre ----------
+  // Chronomètre
   let examTotal = 0;
   function startTimer(seconds) {
     stopTimer();
@@ -195,20 +189,19 @@
     for (let i = current; i < questions.length; i++) {
       const q = questions[i];
       if (i === current && answered) continue;
-      wrong.push({
-        question: q.question,
-        image: q.image || null,
-        choices: q.choices,
-        answers: q.answers,
-        given: "(pas de réponse)",
-        correct: [...q.answers].sort((a, b) => a - b).map(i2 => q.choices[i2]).join(" · ")
-      });
+      logWrong(q, "(pas de réponse)");
     }
     current = questions.length;
     showRecap();
   }
 
-  function startQuiz(set) {
+  function logWrong(q, given) {
+    const correct = [...q.answers].sort((a, b) => a - b).map(i => q.choices[i]).join(" · ");
+    wrong.push({ question: q.question, image: q.image || null, choices: q.choices, answers: q.answers, given, correct });
+  }
+
+  function startQuiz(set, retry = false) {
+    retrying = retry;
     questions = shuffle(set.slice());
     current = 0; score = 0; wrong = [];
     timedOut = false; timeUsed = 0;
@@ -284,13 +277,14 @@
         : "Aucune correction avant la fin de l’examen.";
     }
 
-    // Progression
     countEl.textContent = `Question ${current + 1} / ${questions.length}`;
     fill.style.width = (current / questions.length * 100) + "%";
     updateStats();
 
-    // refocus card pour l'accessibilité
+    // Relance l'animation d'entrée de la carte.
     $("qcard").classList.remove("fade-in"); void $("qcard").offsetWidth; $("qcard").classList.add("fade-in");
+    // Le bouton « Suivant » vient d'être masqué : sans ça, le focus retombe en haut de page.
+    $("qcard").focus();
   }
 
   function onChoice(index) {
@@ -331,15 +325,8 @@
     const user = [...selected].sort((a, b) => a - b);
     const ok = JSON.stringify(correct) === JSON.stringify(user);
     if (ok) score++;
-    else wrong.push({
-      question: q.question,
-      image: q.image || null,
-      choices: q.choices,
-      answers: q.answers,
-      given: user.map(i => q.choices[i]).join(" · ") || "(aucune)",
-      correct: correct.map(i => q.choices[i]).join(" · ")
-    });
-    return { ok, correct, user };
+    else logWrong(q, user.map(i => q.choices[i]).join(" · ") || "(aucune)");
+    return ok;
   }
 
   function check() {
@@ -358,7 +345,7 @@
 
     validateWrap.style.display = "none";
 
-    const { ok } = grade();
+    const ok = grade();
     if (ok) {
       feedbackBox.className = "qfeedback ok";
       feedbackTxt.innerHTML = `${icon("check")} Bonne réponse !`;
@@ -390,7 +377,7 @@
     else showRecap();
   }
 
-  // ---------- Récapitulatif ----------
+  // Récapitulatif
   function showRecap() {
     const exam = mode === "exam";
     if (exam) {
@@ -404,8 +391,8 @@
     const total = questions.length;
     const pct = total ? Math.round(score / total * 100) : 0;
 
-    // Sauvegarde du meilleur score (uniquement sur un tour complet du module)
-    if (total === all.length) saveModuleResult(ccna, moduleId, score, total);
+    // Sauvegarde du meilleur score (uniquement sur un tour complet du module, jamais sur un rejeu d'erreurs)
+    if (total === all.length && !retrying) saveModuleResult(ccna, moduleId, score, total);
 
     const ring = $("score-ring");
     const color = exam
@@ -431,7 +418,6 @@
     $("recap-msg").textContent = msg;
     $("recap-sub").textContent = `${score} bonne${score > 1 ? "s" : ""} réponse${score > 1 ? "s" : ""} sur ${total}. ${sub}`;
 
-    // Liste des erreurs
     const mistakesEl = $("mistakes");
     if (wrong.length) {
       mistakesEl.innerHTML =
@@ -462,16 +448,15 @@
     if (!set.length) return;
     mode = "train";
     toast("Révision des " + set.length + " question(s) ratée(s)");
-    startQuiz(set);
+    startQuiz(set, true);
   });
 
-  // ---------- Raccourcis clavier ----------
+  // Raccourcis clavier
   document.addEventListener("keydown", e => {
     if (recapEl.style.display !== "none" || quizEl.style.display === "none") return;
     const tag = (e.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea") return;
-    // Laisse passer les raccourcis du navigateur (Ctrl+C, Cmd+V, AltGr…) :
-    // sans ce garde, Ctrl+C sélectionnerait la réponse C.
+    // Sinon Ctrl+C sélectionnerait la réponse C.
     if (e.ctrlKey || e.metaKey || e.altKey) return;
 
     // Suivant : Espace / Entrée quand la réponse est validée
@@ -485,7 +470,6 @@
     if (mode === "exam") {
       if ((e.key === "Enter" || e.code === "Space") && selected.length) { e.preventDefault(); examNext(); return; }
     } else if (multi && e.key === "Enter" && selected.length) {
-      // Valider (multi) avec Entrée
       e.preventDefault(); check(); return;
     }
 
