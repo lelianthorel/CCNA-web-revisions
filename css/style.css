@@ -13,7 +13,7 @@
 
   --text:          #0f1b2d;
   --text-muted:    #4a5a70;
-  --text-faint:    #7c8aa0;
+  --text-faint:    #5f6e84;
 
   --primary:       #1657c7;
   --primary-hover: #10469f;
@@ -56,7 +56,7 @@
 
     --text:          #e6ecf5;
     --text-muted:    #9fadc2;
-    --text-faint:    #6f7f96;
+    --text-faint:    #8291a8;
 
     --primary:       #5b93f0;
     --primary-hover: #7aa9f5;
@@ -89,7 +89,7 @@
 
   --text:          #e6ecf5;
   --text-muted:    #9fadc2;
-  --text-faint:    #6f7f96;
+  --text-faint:    #8291a8;
 
   --primary:       #5b93f0;
   --primary-hover: #7aa9f5;
@@ -311,7 +311,7 @@ svg { width: 1em; height: 1em; vertical-align: middle; flex: none; }
 .opt-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .opt-chip { padding: 7px 15px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text-muted); font: inherit; font-weight: 650; font-size: .88rem; cursor: pointer; transition: background .14s, color .14s, border-color .14s; }
 .opt-chip:hover { border-color: var(--border-strong); }
-.opt-chip.is-on { background: var(--primary); border-color: var(--primary); color: #fff; }
+.opt-chip.is-on { background: var(--primary); border-color: var(--primary); color: var(--primary-text); }
 
 .exam-nav { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); }
 .exam-nav .qhint { margin: 0; }
@@ -398,6 +398,10 @@ svg { width: 1em; height: 1em; vertical-align: middle; flex: none; }
 }
 
 @media (max-width: 560px) {
-  .nav__links .nav__link { display: none; }
+  /* le logo suffit (aria-label) : la place va aux liens, qui défilent au lieu de disparaître */
+  .brand > span:last-child { display: none; }
+  .nav__spacer { display: none; }
+  .nav__links { flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+  .nav__link { padding: 7px 9px; white-space: nowrap; }
   .qcard { padding: 18px; }
 }
