@@ -170,7 +170,7 @@
     },
     {
         "question": "Quelle valeur, qui se trouve dans un champ d’en-tête IPv4, est diminuée par chaque routeur qui reçoit un paquet ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2025/06/6122384.jpg",
+        "image": "/img/q/2025-06-6122384.jpg",
         "choices": [
             "Décalage du fragment",
             "Time To Live (durée de vie)",
@@ -273,7 +273,7 @@
     },
     {
         "question": "Examinez l’illustration. Quel est le problème avec le raccordement affiché ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/i274300v1n1_209630-300x221-1-1.png",
+        "image": "/img/q/2021-12-i274300v1n1_209630-300x221-1-1.png",
         "choices": [
             "La longueur détorsadée de chaque fil est trop longue.",
             "Les câbles sont trop épais pour le connecteur utilisé.",
@@ -302,7 +302,7 @@
     },
     {
         "question": "Examinez l’illustration. Une société utilise le bloc d’adresses de 128.107.0.0/16 pour son réseau. Quel masque de sous-réseau peut fournir un maximum de sous-réseaux de taille égale tout en fournissant suffisamment d’adresses d’hôte pour chaque sous-réseau dans l’illustration ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-11-11_235555.jpg",
+        "image": "/img/q/2021-12-2021-11-11_235555.jpg",
         "choices": [
             "255.255.255.240",
             "255.255.255.224",
@@ -468,7 +468,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Si PC1 envoie un paquet à PC2 et que le routage a été configuré entre les deux routeurs, que fait R1 de l’en-tête de trame Ethernet intégré par PC1 ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/i271152v1n1_271152-1.png",
+        "image": "/img/q/2021-12-i271152v1n1_271152-1.png",
         "choices": [
             "Rien, puisque le routeur est associé à une route vers le réseau de destination",
             "Ouvrir l’en-tête et l’utiliser pour déterminer si les données sont à envoyer ou non à S0/0/0",
@@ -608,7 +608,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur tente de configurer le commutateur mais reçoit le message d’erreur affiché sur l’illustration. Quel est le problème ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-11-12_000332.jpg",
+        "image": "/img/q/2021-12-2021-11-12_000332.jpg",
         "choices": [
             "L’administrateur doit d’abord passer en mode d’exécution privilégié avant d’exécuter la commande.",
             "L’administrateur doit se connecter via le port de console pour accéder au mode de configuration globale.",
@@ -706,7 +706,7 @@
     },
     {
         "question": "Examinez l’illustration. D’après le résultat de la commande, quelles affirmations sur la connectivité réseau sont correctes ? (Choisissez deux propositions.)",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-11-12_000440.jpg",
+        "image": "/img/q/2021-12-2021-11-12_000440.jpg",
         "choices": [
             "Il existe 4 sauts entre ce périphérique et le périphérique situé à l’adresse 192.168.100.1.",
             "La durée moyenne de transmission entre les deux hôtes est de 2 millisecondes.",
@@ -805,7 +805,7 @@
     },
     {
         "question": "Examinez l’illustration. Quelles deux adresses réseau peuvent être attribuées au réseau accueillant 10 hôtes ? Dans votre réponse, vous devez gaspiller le moins d’adresses possible, ne pas réutiliser des adresses déjà attribuées et rester dans la plage d’adresses 10.18.10.0/24. (Choisissez deux propositions.)",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_214907.jpg",
+        "image": "/img/q/2021-12-2021-12-20_214907.jpg",
         "choices": [
             "10.18.10.224/28",
             "10.18.10.224/27",
@@ -899,7 +899,7 @@
     },
     {
         "question": "Examinez l’illustration. Les commutateurs présentent leur configuration par défaut. L’hôte A doit communiquer avec l’hôte D, mais l’hôte A ne peut avoir l’adresse MAC pour sa passerelle par défaut. Quels hôtes de réseau recevront la requête ARP envoyée par l’hôte A ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_221310.jpg",
+        "image": "/img/q/2021-12-2021-12-20_221310.jpg",
         "choices": [
             "Uniquement les hôtes A, B et C",
             "Uniquement les hôtes B et C",
@@ -1041,7 +1041,7 @@
     },
     {
         "question": "Examinez l’illustration. Si Hôte1 doit transférer un fichier au serveur, quelles couches du modèle TCP/IP faut-il utiliser ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_221916.jpg",
+        "image": "/img/q/2021-12-2021-12-20_221916.jpg",
         "choices": [
             "Uniquement les couches application, Internet et accès réseau",
             "Uniquement les couches application, transport, réseau, liaison de données et physiques",
@@ -1319,7 +1319,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. L’administrateur réseau a attribué au réseau local de LBMISS une plage d’adresses de 192.168.10.0. Cette plage d’adresses a été sous-réseau à l’aide d’un préfixe /29. Afin d’accueillir un nouveau bâtiment, le technicien a décidé d’utiliser le cinquième sous-réseau pour configurer le nouveau réseau (le sous-réseau zéro est le premier sous-réseau). Par les stratégies d’entreprise, l’interface du routeur reçoit toujours la première adresse d’hôte utilisable et le serveur de groupe de travail reçoit la dernière adresse d’hôte utilisable. Quelle configuration doit être entrée dans les propriétés du serveur de groupe de travail pour permettre la connectivité à Internet?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/01/2022-01-10_213429.jpg",
+        "image": "/img/q/2022-01-2022-01-10_213429.jpg",
         "choices": [
             "Adresse IP: 192.168.10.38 masque de sous-réseau: 255.255.255.248, passerelle par défaut: 192.168.10.33",
             "Adresse IP: 192.168.10.65 masque de sous-réseau: 255.255.255.240, passerelle par défaut: 192.168.10.76",
@@ -1371,7 +1371,7 @@
     },
     {
         "question": "Examinez l’illustration. Si l’hôte A envoie un paquet IP à l’hôte B. Quelle est l’adresse de destination de la trame lorsqu’il quitte l’hôte A ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/Q104.2024-10-13_095012.jpg",
+        "image": "/img/q/2021-12-Q104.2024-10-13_095012.jpg",
         "choices": [
             "DD:DD:DD:DD:DD:DD",
             "AA:AA:AA:AA:AA:AA",
@@ -1490,7 +1490,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un ingénieur réseau a reçu l’adresse réseau 192.168.99.0 et un masque de sous-réseau 255.255.255.192 pour le sous-réseau sur les quatre réseaux indiqués. Combien d’adresses hôtes au total sont inutilisées sur les quatre sous-réseaux?",
-        "image": "https://itexamanswers.net/wp-content/uploads/2020/06/i304957v1n1_209418-1591171569.7915.png",
+        "image": "/img/q/2020-06-i304957v1n1_209418-1591171569.7915.png",
         "choices": [
             "72",
             "88",
@@ -1558,7 +1558,7 @@
     },
     {
         "question": "Examinez l’illustration. Quels trois éléments factuels peut-on déduire du résultat de la commande show ip interface brief ? (Choisissez trois propositions.)",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2023-04-10_103833.jpg",
+        "image": "/img/q/2021-12-2023-04-10_103833.jpg",
         "choices": [
             "Le commutateur peut être géré à distance.",
             "Un terminal est connecté à une interface physique.",
@@ -1636,7 +1636,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quel protocole était responsable de la construction de la table qui est illustrée?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2024-10-13_160909.jpg",
+        "image": "/img/q/2021-12-2024-10-13_160909.jpg",
         "choices": [
             "DHCP",
             "ICMP",
@@ -1649,7 +1649,7 @@
     },
     {
         "question": "Examinez l’illustration. Le PC1 envoie une requête ARP car il doit envoyer un paquet au PC2. Dans ce scénario, que se passe-t-il ensuite ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2024-10-13_160331.jpg",
+        "image": "/img/q/2021-12-2024-10-13_160331.jpg",
         "choices": [
             "Le PC2 envoie une réponse ARP contenant son adresse MAC.",
             "Le SW1 envoie une réponse ARP contenant son adresse MAC Fa0/1.",
@@ -1788,7 +1788,7 @@
     },
     {
         "question": "Référez-vous à l’exposition. Les commutateurs ont une configuration par défaut. L’hôte A doit communiquer avec l’hôte D, mais l’hôte A n’a pas l’adresse MAC de la passerelle par défaut. Quels périphériques réseau recevront la requête ARP envoyée par l’hôte A ?",
-        "image": "https://itexamanswers.net/wp-content/uploads/2020/12/i360201v3n1_275353-1608482322.6606.png",
+        "image": "/img/q/2020-12-i360201v3n1_275353-1608482322.6606.png",
         "choices": [
             "uniquement l’hôte D",
             "uniquement les hôtes A, B, C et D",

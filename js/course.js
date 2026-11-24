@@ -26,7 +26,6 @@
     if (stat) stat.innerHTML += ` · <strong style="color:var(--primary)">${done} travaillé${done > 1 ? "s" : ""}</strong>`;
   }
 
-  // Recherche
   const input = document.getElementById("module-search");
   if (input) {
     const icEl = document.getElementById("search-ic");

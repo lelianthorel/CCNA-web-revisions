@@ -457,7 +457,7 @@
     },
     {
         "question": "Examinez l’illustration. L’illustration présente un réseau commuté de petite taille et le contenu de la table d’adresses MAC du commutateur. Le PC1 a envoyé une trame au PC3. Comment le commutateur traite-t-il cette trame ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2024/11/aai281124n1v1.png",
+        "image": "/img/q/2024-11-aai281124n1v1.png",
         "choices": [
             "Le commutateur transfère la trame uniquement aux ports 1 et 3.",
             "Le commutateur transfère la trame uniquement au port 2.",
@@ -471,7 +471,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un PC d’utilisateur a réussi à transmettre des paquets à www.cisco.com. Quelle adresse IP le PC de l’utilisateur cible-t-il afin de transmettre ses données hors du réseau local ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_213409.jpg",
+        "image": "/img/q/2021-12-2021-12-02_213409.jpg",
         "choices": [
             "172.24.1.22",
             "172.20.1.18",
@@ -485,7 +485,7 @@
     },
     {
         "question": "Examinez l’illustration. Examinez la configuration d’adresse IP indiquée à partir du PC1. Parmi les propositions suivante, laquelle correspond à une description de l’adresse de la passerelle par défaut ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-02_213515.jpg",
+        "image": "/img/q/2021-12-2021-12-02_213515.jpg",
         "choices": [
             "Il s’agit de l’adresse IP de l’interface Router1 qui connecte le réseau local du PC1 au Router1.",
             "Il s’agit de l’adresse IP de l’interface Router1 qui connecte l’entreprise à Internet.",
@@ -511,7 +511,7 @@
     },
     {
         "question": "Examinez l’illustration. PC1 tente de se connecter à File_server1 et envoie une requête ARP pour obtenir une adresse MAC de destination. Quelle adresse MAC PC1 reçoit-il dans la réponse ARP ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_055901.jpg",
+        "image": "/img/q/2021-12-2021-12-19_055901.jpg",
         "choices": [
             "L’adresse MAC de File_server1.",
             "L’adresse MAC de S2.",

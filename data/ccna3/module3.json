@@ -1,7 +1,7 @@
 [
     {
         "question": "Examinez l’illustration. Que faut-il faire pour terminer la configuration de la NAT statique sur R1 ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_210753.jpg",
+        "image": "/img/q/2022-05-2022-05-09_210753.jpg",
         "choices": [
             "R1 doit être configuré avec la commande ip nat inside source static 209.165.200.200 192.168.11.11 .",
             "R1 doit être configuré avec la commande ip nat inside source static 209.165.200.1 192.168.11.11 .",
@@ -14,7 +14,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Du point de vue de R1, le routeur NAT, quelle adresse est l’adresse globale interne?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_210903.jpg",
+        "image": "/img/q/2022-05-2022-05-09_210903.jpg",
         "choices": [
             "192.168.0.10",
             "209.165.200.254",
@@ -27,7 +27,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Compte tenu des commandes comme indiqué, combien d’hôtes sur le réseau local interne hors R1 peuvent avoir des traductions NAT simultanées sur R1?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_210950.jpg",
+        "image": "/img/q/2022-05-2022-05-09_210950.jpg",
         "choices": [
             "1",
             "244",
@@ -52,7 +52,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Sur la base de la sortie affichée, quel type de NAT a été implémenté?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211515.jpg",
+        "image": "/img/q/2022-05-2022-05-09_211515.jpg",
         "choices": [
             "NAT statique avec une entrée",
             "NAT dynamique avec un pool de deux adresses IP publiques",
@@ -65,7 +65,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Du point de vue des utilisateurs derrière le routeur NAT, quel type d’adresse NAT est 209.165.201.1?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211550.jpg",
+        "image": "/img/q/2022-05-2022-05-09_211550.jpg",
         "choices": [
             "Globale interne",
             "Locale externe",
@@ -90,7 +90,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Quelle adresse source est utilisée par le routeur R1 pour les paquets transmis sur Internet ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211647.jpg",
+        "image": "/img/q/2022-05-2022-05-09_211647.jpg",
         "choices": [
             "198.51.100.3",
             "209.165.200.225",
@@ -103,7 +103,7 @@
     },
     {
         "question": "Examinez l’illustration. D’après le résultat présenté dans cette illustration, quels énoncés sont exacts ? (Choisissez deux réponses.)",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_211739.jpg",
+        "image": "/img/q/2022-05-2022-05-09_211739.jpg",
         "choices": [
             "L’hôte dont l’adresse est 209.165.200.235 répond aux requêtes en utilisant l’adresse source 192.168.10.10.",
             "L’hôte dont l’adresse est 209.165.200.235 répond aux requêtes en utilisant l’adresse source 209.165.200.235.",
@@ -257,7 +257,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. R1 est configuré pour NAT statique. Quelle adresse IP les hôtes Internet utiliseront-ils pour atteindre PC1 ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_212611.jpg",
+        "image": "/img/q/2022-05-2022-05-09_212611.jpg",
         "choices": [
             "192.168.0.10",
             "192.168.0.1",
@@ -270,7 +270,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. Un administrateur réseau affiche la sortie de la commande show ip nat translations . Quelle instruction décrit correctement la traduction NAT qui se produit sur le routeur RT2?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_212655.jpg",
+        "image": "/img/q/2022-05-2022-05-09_212655.jpg",
         "choices": [
             "Le trafic provenant d’une adresse IPv4 source de 192.168.254.253 est traduit en 192.0.2.88 au moyen d’un NAT statique.",
             "Le trafic provenant d’une adresse publique IPv4 source qui provient du trafic sur Internet pourrait atteindre des adresses IPv4 internes privées.",
@@ -383,7 +383,7 @@
     },
     {
         "question": "xaminez l’illustration. Un administrateur réseau a configuré R2 pour la traduction d’adresses de port (PAT). Pourquoi la configuration est-elle incorrecte ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_100733.jpg",
+        "image": "/img/q/2022-05-2022-05-10_100733.jpg",
         "choices": [
             "Il manque l’entrée NAT statique.",
             "La liste de contrôle d’accès ne définit pas la liste des adresses à traduire.",
@@ -396,7 +396,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. La fonction NAT statique est configurée pour autoriser PC 1 à accéder au serveur Web sur le réseau interne. Quelles adresses doivent remplacer les points A et B pour terminer la configuration de la NAT statique ? (Choisissez deux réponses.)",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_100943.jpg",
+        "image": "/img/q/2022-05-2022-05-10_100943.jpg",
         "choices": [
             "A = 10.1.0.13",
             "A = 209.165.201.2",
@@ -423,7 +423,7 @@
     },
     {
         "question": "Examinez l’illustration. La configuration NAT appliquée au routeur est la suivante :<br>ERtr(config)# access-list 1 permit 10.0.0.0 0.255.255.255<br>ERtr(config)# ip nat pool corp 209.165.201.6 209.165.201.30 netmask 255.255.255.224<br>ERtr(config)# ip nat inside source list 1 pool corp overload<br>ERtr(config)# ip nat inside source static 10.10.10.55 209.165.201.4<br>ERtr(config)# interface gigabitethernet 0/0<br>ERtr(config-if)# ip nat inside<br>ERtr(config-if)# interface serial 0/0/0<br>ERtr(config-if)# ip nat outside<br>D’après la configuration et le résultat affichés, que peut-on dire de l’état de la NAT au sein de l’organisation ?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_101107.jpg",
+        "image": "/img/q/2022-05-2022-05-10_101107.jpg",
         "choices": [
             "La NAT fonctionne.",
             "La NAT statique fonctionne, mais pas la NAT dynamique.",
@@ -572,7 +572,7 @@
     },
     {
         "question": "Reportez-vous à l’illustration. La NAT est configurée sur RT1 et RT2. Le PC envoie une requête au serveur Web. Quelle adresse IPv4 est l’adresse IP source du paquet entre RT2 et le serveur Web?",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i386475n1v3.jpg",
+        "image": "/img/q/2022-05-i386475n1v3.jpg",
         "choices": [
             "209.165.200.245",
             "203.0.113.10",
@@ -587,7 +587,7 @@
     },
     {
         "question": "Examinez l’illustration. Un administrateur réseau vient de configurer la traduction d’adresses et vérifie la configuration. Que peut-il vérifier ? (Choisissez trois réponses.)",
-        "image": "https://ccnareponses.com/wp-content/uploads/2022/05/i239225n1v1.jpg",
+        "image": "/img/q/2022-05-i239225n1v1.jpg",
         "choices": [
             "Que la traduction d’adresses fonctionne.",
             "Qu’une liste de contrôle d’accès standard numérotée 1 est utilisée dans le cadre du processus de configuration.",

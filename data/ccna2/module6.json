@@ -14,7 +14,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Un administrateur tente de configurer une route statique IPv6 sur le routeur R1 pour atteindre le réseau connecté au routeur R2. Après la saisie de la commande de la route statique, la connectivité au réseau est toujours défaillante. Quelle erreur a été effectuée dans la configuration de la route statique ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221514.jpg",
+      "image": "/img/q/2021-12-2021-12-03_221514.jpg",
       "choices": [
          "L’adresse du tronçon suivant est incorrecte.",
          "Le réseau de destination est incorrect.",
@@ -45,7 +45,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. En fonction de la configuration et de la sortie présentées, pourquoi manque-t-il le VLAN 99 ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221532.jpg",
+      "image": "/img/q/2021-12-2021-12-03_221532.jpg",
       "choices": [
          "Parce qu’il y a un problème de câblage sur le VLAN 99",
          "Parce que le VLAN 1 est activé et qu’il ne peut y avoir qu’un VLAN de gestion sur le commutateur",
@@ -88,7 +88,7 @@
    },
    {
       "question": "Examinez l’illustration. Après avoir essayé de saisir la configuration affichée dans le routeur RTA, un administrateur reçoit une erreur et les utilisateurs du VLAN 20 signalent qu’ils ne peuvent pas communiquer avec les utilisateurs du VLAN 30. Quelle est l’origine du problème ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221548.jpg",
+      "image": "/img/q/2021-12-2021-12-03_221548.jpg",
       "choices": [
          "La commande no shutdown aurait dû être exécutée sur Fa0/0.20 et Fa0/0.30.",
          "RTA utilise le même sous-réseau pour le VLAN 20 et le VLAN 30.",
@@ -117,7 +117,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Un administrateur réseau configure R1 pour le routage inter-VLAN entre VLAN 10 et VLAN 20. Toutefois, les périphériques du VLAN 10 et du VLAN 20 ne peuvent pas communiquer. Selon la configuration de l’exposition, quelle est la cause possible du problème?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_221606.jpg",
+      "image": "/img/q/2021-12-2021-12-03_221606.jpg",
       "choices": [
          "L’encapsulation est mal configurée sur une sous-interface.",
          "Une commande no shutdown doit être ajoutée dans chaque configuration de sous-interface.",
@@ -143,7 +143,7 @@
    },
    {
       "question": "Examinez l’illustration. Comment une trame envoyée depuis PCA est-elle transmise à PCC si la table d’adresses MAC du commutateur SW1 est vide ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_222651.jpg",
+      "image": "/img/q/2021-12-2021-12-03_222651.jpg",
       "choices": [
          "SW1 abandonne la trame car il ne connaît pas l’adresse MAC de destination.",
          "SW1 diffuse la trame sur tous les ports de SW1, à l’exception du port d’entrée de la trame dans le commutateur.",
@@ -169,7 +169,7 @@
    },
    {
       "question": "Examinez l’illustration. L’hôte A a envoyé un paquet à l’hôte B. Quelles sont les adresses IP et MAC source sur le paquet lorsqu’il atteint l’hôte B ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-03_222840.jpg",
+      "image": "/img/q/2021-12-2021-12-03_222840.jpg",
       "choices": [
          "MAC source : 00E0.FE10.17A3<br>IP source : 192.168.1.1",
          "MAC source : 00E0.FE10.17A3<br>IP source : 10.1.1.10",
@@ -183,7 +183,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quels sont les rôles possibles pour les ports A, B, C et D dans ce réseau RSTP ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_164220.png",
+      "image": "/img/q/2021-12-2021-12-23_164220.png",
       "choices": [
          "Désigné, racine, alternatif, racine",
          "Désigné, alternatif, racine, racine",
@@ -252,7 +252,7 @@
    },
    {
       "question": "Examinez l’illustration. Un administrateur réseau configure le routage inter-VLAN sur un réseau. Pour l’instant, un seul VLAN est utilisé, mais d’autres seront ajoutés prochainement. Quel est le rôle du paramètre manquant, indiqué par un point d’interrogation mis en surbrillance dans l’illustration ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_223727.jpg",
+      "image": "/img/q/2021-12-2021-12-19_223727.jpg",
       "choices": [
          "Il identifie le numéro du VLAN.",
          "Il identifie la sous-interface.",
@@ -279,7 +279,7 @@
    },
    {
       "question": "Examinez l’illustration. En plus des routes statiques qui dirigent le trafic vers les réseaux 10.10.0.0/16 et 10.20.0.0/16, le routeur HQ est configuré avec la commande suivante :<br>ip route 0.0.0.0 0.0.0.0 serial 0/1/1<br>Quel est l’objectif de cette commande ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_224526.jpg",
+      "image": "/img/q/2021-12-2021-12-19_224526.jpg",
       "choices": [
          "Les paquets dont le réseau de destination n’est ni 10.10.0.0/16 ni 10.20.0.0/16, ou dont le réseau de destination n’est pas connecté directement seront transférés à Internet.",
          "Les paquets reçus depuis Internet seront transférés à l’un des LAN connectés à R1 ou à R2.",
@@ -292,7 +292,7 @@
    },
    {
       "question": "Examinez l’illustration. Quelle adresse MAC de destination est utilisée lorsque des trames sont envoyées depuis la station de travail vers la passerelle par défaut ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_225318.jpg",
+      "image": "/img/q/2021-12-2021-12-19_225318.jpg",
       "choices": [
          "Les adresses MAC du routeur de transfert et du routeur en veille.",
          "L’adresse MAC du routeur de transfert",
@@ -305,7 +305,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Un administrateur réseau a relié deux commutateurs via la technologie EtherChannel. Si le protocole STP fonctionne, quel sera le résultat final ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_225512.jpg",
+      "image": "/img/q/2021-12-2021-12-19_225512.jpg",
       "choices": [
          "Les commutateurs équilibreront la charge et utiliseront les deux EtherChannels pour transférer les paquets.",
          "La boucle générée créera une tempête de diffusion.",
@@ -318,7 +318,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quelle route statique un technicien informatique doit-il saisir pour créer une route de secours vers le réseau 172.16.1.0 qui sera utilisée uniquement en cas de défaillance de la route principale associée à RIP ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_225649.jpg",
+      "image": "/img/q/2021-12-2021-12-19_225649.jpg",
       "choices": [
          "ip route 172.16.1.0 255.255.255.0 s0/0/0 121",
          "ip route 172.16.1.0 255.255.255.0 s0/0/0 111",
@@ -390,7 +390,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. L’administrateur réseau est en train de configurer la fonction de sécurité du port sur le commutateur SWC. L’administrateur a émis la commande show port-security interface fa 0/2 pour vérifier la configuration. Que peut-on conclure de la sortie qui est montrée? (Choisissez trois propositions.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_230812.jpg",
+      "image": "/img/q/2021-12-2021-12-19_230812.jpg",
       "choices": [
          "Le port est configuré en tant que liaison de trunk.",
          "Les violations de sécurité entraîneront l’arrêt immédiat de ce port.",
@@ -472,7 +472,7 @@
    },
    {
       "question": "Examinez l’illustration. Un ingénieur réseau configure le routage IPv6 sur le réseau. Quelle commande exécutée sur le routeur HQ permet de configurer une route par défaut vers Internet en vue de transférer les paquets vers un réseau de destination IPv6 qui n’est pas répertorié dans la table de routage ?​",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_231809.jpg",
+      "image": "/img/q/2021-12-2021-12-19_231809.jpg",
       "choices": [
          "ipv6 route ::/0 serial 0/0/0",
          "ipv6 route ::/0 serial 0/1/1",
@@ -511,7 +511,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quelle commande de route statique peut être entrée sur R1 pour transférer le trafic vers le réseau local connecté à R2?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232325.jpg",
+      "image": "/img/q/2021-12-2021-12-19_232325.jpg",
       "choices": [
          "ipv6 route 2001:db8:12:10::/64 S0/0/0 fe80::2",
          "ipv6 route 2001:db8:12:10::/64 S0/0/1 2001:db8:12:10::1",
@@ -524,7 +524,7 @@
    },
    {
       "question": "Examinez l’illustration. Quelle métrique permet de transférer un paquet de données avec l’adresse de destination IPv6 2001:DB8:ACAD:E:240:BFF:FED4:9DD2 ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232532.jpg",
+      "image": "/img/q/2021-12-2021-12-19_232532.jpg",
       "choices": [
          "90",
          "128",
@@ -539,7 +539,7 @@
    },
    {
       "question": "Examinez l’illustration. Le routeur R1 entretient une relation de voisinage OSPF avec le routeur du FAI sur le réseau 192.168.0.32. La liaison réseau 192.168.0.36 doit servir de liaison de secours si la liaison OSPF tombe en panne. La commande de route statique flottante ip route 0.0.0.0 0.0.0.0 S0/0/1 100 a été exécutée sur R1 et, à présent, le trafic utilise la liaison de secours même lorsque la liaison OSPF est activée et opérationnelle. Quelle modification doit être apportée à la commande de route statique afin que le trafic utilise obligatoirement la liaison OSPF lorsque celle-ci est active ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232636.jpg",
+      "image": "/img/q/2021-12-2021-12-19_232636.jpg",
       "choices": [
          "Configuration du réseau de destination sur 192.168.0.34.",
          "Ajout de l’adresse voisine du tronçon suivant, à savoir 192.168.0.36.",
@@ -552,7 +552,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quelle route a été configurée comme route statique vers un réseau spécifique en utilisant l’adresse du tronçon suivant ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232818.jpg",
+      "image": "/img/q/2021-12-2021-12-19_232818.jpg",
       "choices": [
          "C 10.16.2.0/24 is directly connected, Serial0/0/0",
          "S 0.0.0.0/0 [1/0] via 10.16.2.2",
@@ -565,7 +565,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quel trunk ne transmettra aucun trafic au terme du processus de sélection de pont racine ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_232945.jpg",
+      "image": "/img/q/2021-12-2021-12-19_232945.jpg",
       "choices": [
          "Trunk1",
          "Trunk2",
@@ -608,7 +608,7 @@
    },
    {
       "question": "Examinez l’illustration. Quelles sont les deux conclusions pouvant être tirées du résultat ? (Choisissez deux réponses.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_233605.jpg",
+      "image": "/img/q/2021-12-2021-12-19_233605.jpg",
       "choices": [
          "Le canal de port est un canal de couche 3.",
          "La méthode d’équilibrage de charge utilisée est le port source vers le port de destination.",
@@ -636,7 +636,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Un administrateur réseau a ajouté un nouveau sous-réseau au réseau et veut que les hôtes du sous-réseau reçoivent des adresses IPv4 du serveur DHCPv4.Quelles commandes permettent aux hôtes du nouveau sous-réseau de recevoir des adresses du serveur DHCPv4 ? (Choisissez deux réponses.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_235737.jpg",
+      "image": "/img/q/2021-12-2021-12-19_235737.jpg",
       "choices": [
          "R1(config)# interface G0/0",
          "R1(config)# interface G0/1",
@@ -665,7 +665,7 @@
    },
    {
       "question": "Examinez l’illustration. Si les adresses IP du routeur de passerelle par défaut et du serveur de noms de domaine (DNS) sont correctes, quel est le problème de cette configuration ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-19_235457.jpg",
+      "image": "/img/q/2021-12-2021-12-19_235457.jpg",
       "choices": [
          "Les commandes default-router et dns-server doivent être configurées avec des masques de sous-réseau.",
          "L’adresse IP du serveur de noms de domaine (DNS) ne figure pas dans la liste d’adresses exclues.",
@@ -776,7 +776,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. L’administrateur réseau configure les deux commutateurs comme illustré. Cependant, l’hôte C ne peut envoyer de requête ping à l’hôte D et l’hôte E ne peut envoyer de requête ping à l’hôte F. Quelle action l’administrateur doit-il effectuer pour activer cette communication ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_095045.jpg",
+      "image": "/img/q/2021-12-2021-12-20_095045.jpg",
       "choices": [
          "Inclure un routeur dans la topologie.",
          "Associer les hôtes A et B avec le VLAN 10 au lieu du VLAN 1.",
@@ -790,7 +790,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Supposons que le courant vient juste d’être rétabli. PC3 émet une requête de diffusion DHCP IPv4. À quel port SW1 transmet-il cette requête ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_095409.jpg",
+      "image": "/img/q/2021-12-2021-12-20_095409.jpg",
       "choices": [
          "À Fa0/1, à Fa0/2 et à Fa0/3 uniquement",
          "À Fa0/1, à Fa0/2 et à Fa0/4 uniquement",
@@ -830,7 +830,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Que peut-on conclure de la configuration affichée sur R1?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_102708.jpg",
+      "image": "/img/q/2021-12-2021-12-20_102708.jpg",
       "choices": [
          "R1 fonctionne comme un serveur DHCPv4.",
          "R1 enverra un message à un client DHCPv4 local pour contacter un serveur DHCPv4 au 10.10.8.",
@@ -895,7 +895,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Un administrateur réseau a configuré les routeurs R1 et R2 comme faisant partie du groupe HSRP 1. Après le rechargement des routeurs, un utilisateur associé à l’hôte 1 s’est plaint d’une mauvaise connectivité à Internet. L’administrateur réseau a donc exécuté la commande show standby brief sur les deux routeurs pour vérifier le fonctionnement du protocole HSRP. En outre, l’administrateur a observé le tableau ARP sur Host1. Quelle entrée doit apparaître dans le tableau ARP sur Host1 pour acquérir la connectivité à Internet?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_102911.jpg",
+      "image": "/img/q/2021-12-2021-12-20_102911.jpg",
       "choices": [
          "L’adresse IP virtuelle et l’adresse MAC virtuelle du groupe HSRP 1",
          "L’adresse IP virtuelle du groupe HSRP 1 et l’adresse MAC de R1",
@@ -947,7 +947,7 @@
    },
    {
       "question": "Quels sont les deux paramètres définis par défaut sur un routeur sans fil pouvant affecter la sécurité du réseau ? (Choisissez deux propositions.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103041.jpg",
+      "image": "/img/q/2021-12-2021-12-20_103041.jpg",
       "choices": [
          "Le SSID est diffusé.",
          "Le filtrage des adresses MAC est activé.",
@@ -975,7 +975,7 @@
    },
    {
       "question": "Quelle commande permet de créer une route statique sur R2 pour atteindre PC B ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103139.jpg",
+      "image": "/img/q/2021-12-2021-12-20_103139.jpg",
       "choices": [
          "R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.2.254",
          "R2(config)# ip route 172.16.2.1 255.255.255.0 172.16.3.1",
@@ -988,7 +988,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. R1 a été configuré avec la commande de route statique ip route 209.165.200.224 255.255.255.224 S0/0/0 et, par conséquent, les utilisateurs du réseau 172.16.0.0/16 ne peuvent pas accéder aux ressources sur Internet. Comment cette route statique doit-elle être modifiée pour permettre au trafic utilisateur du LAN d’accéder à Internet ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103216.jpg",
+      "image": "/img/q/2021-12-2021-12-20_103216.jpg",
       "choices": [
          "En ajoutant une distance administrative de 254.",
          "En configurant le réseau et le masque de destination sur 0.0.0.0 0.0.0.0.",
@@ -1040,7 +1040,7 @@
    },
    {
       "question": "Examinez l’illustration. Tous les commutateurs affichés sont des modèles Cisco 2960 dont la priorité par défaut est identique et fonctionnant à la même bande passante. Quels sont les trois ports qui seront désignés pour STP ? (Choisissez trois réponses.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-20_103809.jpg",
+      "image": "/img/q/2021-12-2021-12-20_103809.jpg",
       "choices": [
          "Fa0/9",
          "Fa0/10",
@@ -1085,7 +1085,7 @@
    },
    {
       "question": "Examinez l’illustration. R1 a été configuré comme illustré. Cependant, PC1 ne parvient pas à recevoir d’adresse IPv4. Quel est le problème ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163055.png",
+      "image": "/img/q/2021-12-2021-12-23_163055.png",
       "choices": [
          "La commande ip address dhcp n’a pas été exécutée sur l’interface Gi0/1.",
          "R1 n’est pas configuré comme serveur DHCPv4.",
@@ -1124,7 +1124,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Actuellement, le routeur R1 utilise une route EIGRP enregistrée via Branch2 pour atteindre le réseau 10.10.0.0/16. Quelle route statique flottante crée une route de secours vers le réseau 10.10.0.0/16 au cas où la liaison entre R1 et Branch2 serait interrompue ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163253.png",
+      "image": "/img/q/2021-12-2021-12-23_163253.png",
       "choices": [
          "ip route 10.10.0.0 255.255.0.0 Serial 0/0/0 100",
          "ip route 10.10.0.0 255.255.0.0 209.165.200.226 100",
@@ -1154,7 +1154,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quelle opération effectue le routeur R1 sur un paquet associé à une adresse IPv6 de destination 2001:db8:cafe:5::1 ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163433.png",
+      "image": "/img/q/2021-12-2021-12-23_163433.png",
       "choices": [
          "supprimer le paquet",
          "transmettre le paquet en sortie sur Serial0/0/0",
@@ -1193,7 +1193,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Un administrateur réseau configure le routeur R1 pour l’attribution d’adresse IPv6. Sur la base de la configuration partielle, quel système d’attribution d’adresses IPv6 global monodiffusion l’administrateur a-t-il l’intention de mettre en œuvre ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163717.png",
+      "image": "/img/q/2021-12-2021-12-23_163717.png",
       "choices": [
          "configuration manuelle",
          "SLAAC",
@@ -1206,7 +1206,7 @@
    },
    {
       "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du commutateur S1. Quel protocole a été implémenté pour regrouper plusieurs ports physiques en une liaison logique ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2021-12-23_163739.png",
+      "image": "/img/q/2021-12-2021-12-23_163739.png",
       "choices": [
          "DTP",
          "STP",
@@ -1245,7 +1245,7 @@
    },
    {
       "question": "Examinez l’illustration. Un commutateur de couche 3 se charge du routage pour trois VLAN et se connecte à un routeur pour la connectivité Internet. Comment le commutateur doit-il être configuré ? (Choisissez deux réponses.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/2022-01-13_090443.jpg",
+      "image": "/img/q/2021-12-2022-01-13_090443.jpg",
       "choices": [
          "(config)# interface vlan 1<br>(config-if)# ip address 192.168.1.2 255.255.255.0<br>(config-if)# no shutdown",
          "(config)# ip routing",
@@ -1351,7 +1351,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quels sont les trois hôtes qui recevront des requêtes ARP de l’hôte A, dans l’hypothèse où le port Fa0/4 sur les deux commutateurs est configuré pour transporter du trafic pour plusieurs VLAN ? (Choisissez trois réponses.)",
-      "image": "https://ccnareponses.com/wp-content/uploads/2022/01/2022-01-26_112504.jpg",
+      "image": "/img/q/2022-01-2022-01-26_112504.jpg",
       "choices": [
          "hôte D",
          "hôte C",
@@ -1422,7 +1422,7 @@
    },
    {
       "question": "Examinez l’illustration. Un administrateur réseau configure un routeur comme serveur DHCPv6. L’administrateur exécute une commande show ipv6 dhcp pool pour vérifier la configuration. Parmi les propositions suivantes, laquelle décrit la raison pour laquelle le nombre de clients actifs est 0 ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/i210895v1n1_210895.jpg",
+      "image": "/img/q/2022-06-i210895v1n1_210895.jpg",
       "choices": [
          "Aucune plage d’adresses IPv6 n’est spécifiée pour la configuration du pool DHCP IPv6.",
          "Aucun client n’a encore communiqué avec le serveur DHCPv6.",
@@ -1560,7 +1560,7 @@
    },
    {
       "question": "Reportez-vous à l’illustration. Quelle instruction indiquée dans le résultat permet au routeur R1 de répondre aux demandes DHCPv6 sans état ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/CCNA-2-v7-exam-answers-56.png",
+      "image": "/img/q/2022-06-CCNA-2-v7-exam-answers-56.png",
       "choices": [
          "prefix-delegation 2001:DB8:8::/48 00030001000E84244E70",
          "ipv6 unicast-routing",
@@ -1804,7 +1804,7 @@
    },
    {
       "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage inter-VLAN. Les utilisateurs se plaignent que PC2 ne peut pas communiquer avec PC1. Sur la base de la sortie, quelle est la cause possible du problème ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
+      "image": "/img/q/2021-12-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
       "choices": [
          "Gi0/0 n’est pas configuré comme port de jonction.",
          "L’interface de commande GigabitEthernet0/0.5 a été saisie de manière incorrecte.",
@@ -1973,7 +1973,7 @@
    },
    {
       "question": "Examinez l’illustration. PC-A et PC-B sont tous deux dans le VLAN 60. PC-A est incapable de communiquer avec PC-B. Quel est le problème ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2022/06/i211586v1n1_Question-5.png",
+      "image": "/img/q/2022-06-i211586v1n1_Question-5.png",
       "choices": [
          "Le VLAN natif doit être le VLAN 60.",
          "Le VLAN natif est supprimé du lien.",
@@ -2272,7 +2272,7 @@
    },
    {
       "question": "Examinez l’illustration. Un administrateur réseau vérifie la configuration du routage inter-VLAN. Les utilisateurs se plaignent que PC2 ne peut pas communiquer avec PC1. Sur la base de la sortie, quelle est la cause possible du problème ?",
-      "image": "https://ccnareponses.com/wp-content/uploads/2021/12/CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
+      "image": "/img/q/2021-12-CCNA2-v7-Modules-1-4-Switching-Concepts-VLANs-and-InterVLAN-Routing-Exam-Answers-44.png",
       "choices": [
          "Gi0/0 n’est pas configuré comme port de jonction.",
          "L’interface de commande GigabitEthernet0/0.5 a été saisie de manière incorrecte.",

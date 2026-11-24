@@ -1,10 +1,8 @@
-/* ==========================================================================
-   Utilitaires partagés : thème, icônes SVG, progression (localStorage), navbar
-   ========================================================================== */
+/* Partagé par toutes les pages : thème, progression (localStorage), navbar, footer, toast. */
 
 /* Les icônes et la fonction icon() proviennent de js/icons.js (chargé avant app.js). */
 
-/* ---------- Thème ---------- */
+/* Thème */
 const THEME_KEY = "ccna-theme";
 function currentTheme() {
   try { return localStorage.getItem(THEME_KEY); } catch (e) { return null; }
@@ -26,7 +24,7 @@ function toggleTheme() {
   applyTheme(next);
 }
 
-/* ---------- Progression (localStorage) ---------- */
+/* Progression (localStorage) */
 const PROG_KEY = "ccna-progress";
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(PROG_KEY)) || {}; } catch (e) { return {}; }
@@ -47,7 +45,7 @@ function getModuleProgress(ccna, module) {
   return p[ccna + "/" + module] || null;
 }
 
-/* ---------- Navbar + footer partagés ---------- */
+/* Navbar + footer partagés */
 function buildNav(active) {
   const links = [
     { href: "ccna1/", label: "CCNA 1", key: "ccna1" },
@@ -103,11 +101,13 @@ function mountChrome(active) {
   const footSlot = document.getElementById("footer-slot");
   if (navSlot) navSlot.innerHTML = buildNav(active);
   if (footSlot) footSlot.innerHTML = buildFooter();
+  // Sur mobile les liens défilent : amène le parcours courant dans la zone visible.
+  document.querySelector(".nav__link.is-active")?.scrollIntoView({ inline: "center", block: "nearest" });
   const tt = document.getElementById("themeToggle");
   if (tt) tt.addEventListener("click", toggleTheme);
 }
 
-/* ---------- Toast ---------- */
+/* Toast */
 function toast(msg) {
   let el = document.querySelector(".toast");
   if (!el) { el = document.createElement("div"); el.className = "toast"; document.body.appendChild(el); }
